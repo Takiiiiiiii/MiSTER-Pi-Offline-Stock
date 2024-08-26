@@ -1,0 +1,68 @@
+<misterromdescription>
+	<name>Transformer</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Sega System E</platform>
+	<series></series>
+	<year>1986</year>
+	<manufacturer>Sega</manufacturer>
+	<category>Shooter</category>
+
+	<setname>transfrm</setname>
+	<parent>transfrm</parent>
+	<mameversion>0235</mameversion>
+	<rbf>SMS</rbf>
+	<about></about>
+	
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2</players>
+	<joystick>8-way</joystick>
+	<buttons names="Fire/Button1,Transform/Button2,-,-,-,-,Coin,Start,Pause" default="A,B,R,Start,Select" count="1"/>
+	
+	<switches base="24" default="FF,FF,FF">
+		<!-- SWA -->
+		<dip name="Coin A" bits="0,3" ids="1/1,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1"/>
+		<dip name="Coin B" bits="4,7" ids="1/1,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1"/>
+		<!-- SWB -->
+		<dip name="1 Player Only" bits="8" ids="Off,On"/>
+		<dip name="Demo Sounds" bits="9" ids="Off,On"/>
+		<dip name="Lives" bits="10,11" ids="Infinite (Cheat),5,4,3"/>
+		<dip name="Bonus_Life" bits="12,13" ids="50k, 150k and 250k,30k, 80k, 130k and 180k,10k, 30k, 50k and 70k,20k, 60k, 100k and 140k"/>
+		<dip name="Difficulty" bits="14,15" ids="Hardest,Easy,Hard,Medium"/>
+		<!-- SWC -->
+		<dip name="Service Toggle" bits="18" ids="On,Off"/>
+		<dip name="Service Mode" bits="19" ids="On,Off"/>
+	</switches>
+	
+	<rom index="0" zip="transfrm.zip" type="merged" md5="2bc658193e8e93f4d7991694547a875f">
+		<!-- banks, size: 0x40000 -->
+		<part crc="DF0F639F" name="epr-7347.ic5"/>
+		<part crc="0F38EA96" name="epr-7348.ic4"/>
+		<part crc="9D485DF6" name="epr-7606.ic3"/>
+		<part crc="0052165D" name="epr-7350.ic2"/>
+		<part crc="DF0F639F" name="epr-7347.ic5"/>
+		<part crc="0F38EA96" name="epr-7348.ic4"/>
+		<part crc="9D485DF6" name="epr-7606.ic3"/>
+		<part crc="0052165D" name="epr-7350.ic2"/>
+
+		<!-- maincpu, size: 0x8000 -->
+		<part crc="CCF1D123" name="epr-7605.ic7"/>
+	</rom>
+	<rom index="4">
+		<part>40</part>
+	</rom>
+<!--
+	<nvram index="4" size="3"/>
+-->
+
+	<remark></remark>
+
+	<mratimestamp>20210904000000</mratimestamp>
+
+</misterromdescription>

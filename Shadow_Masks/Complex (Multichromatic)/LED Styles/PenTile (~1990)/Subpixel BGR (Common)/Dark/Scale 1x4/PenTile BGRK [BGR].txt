@@ -1,0 +1,19 @@
+####
+# Name: PenTile BGRK
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: BGR
+####
+
+Resolution=0
+v2
+4,8
+02a,12a,22a,42a
+02a,12a,22a,42a
+02a,12a,22a,42a
+02a,12a,22a,42a
+22a,42a,02a,12a
+22a,42a,02a,12a
+22a,42a,02a,12a
+22a,42a,02a,12a

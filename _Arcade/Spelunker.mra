@@ -1,0 +1,126 @@
+<misterromdescription>
+	<name>Spelunker</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Irem M62</platform>
+	<series></series>
+	<year>1985</year>
+	<manufacturer>Irem</manufacturer>
+	<manufacturer2>Broderbund</manufacturer2>
+	<category>Platform - Climb</category>
+
+	<setname>spelunkr</setname>
+	<parent>spelunkr</parent>
+	<mameversion>0221</mameversion>
+	<rbf>iremm62</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R,L" names="Fire,Jump,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,F5">
+		<dip bits="0,1" name="Energy Decrease" ids="Fastest,Fast,Medium,Slow"></dip>
+		<dip bits="2,3" name="Lives" ids="5,4,2,3"></dip>
+                <dip bits="4,7" name="Coinage" ids="Free Play,1C/1P" values="0,15"></dip>
+		<dip bits="8" name="Flip Screen" ids="On,Off"></dip>
+		<dip bits="9" name="Cabinet" ids="Upright,Cocktail"></dip>
+		<dip bits="10" name="Coin Mode" ids="Mode 2,Mode 1"></dip>
+		<dip bits="11" name="Allow Continue" ids="Yes,No"></dip>
+		<dip bits="12" name="Teleport (Cheat)" ids="On,Off"></dip>
+		<dip bits="13" name="Freeze (Cheat)" ids="On,Off"></dip>
+		<dip bits="14" name="Invulnerability (Cheat)" ids="On,Off"></dip>
+		<dip bits="15" name="Service Mode" ids="On,Off"></dip>
+	</switches>
+
+	<rom index="1">
+		<part>09</part>
+	</rom>
+	<rom index="0" zip="spelunkr.zip" md5="daecfccd71e2b995a4dcca956d62e2e0">
+		<part crc="cf811201" name="spra.4e"/>
+		<part crc="bb4faa4f" name="spra.4d"/>
+		<part repeat="0x8000">FF</part>
+		<part crc="fb6197e2" name="sprm.7c"/>
+		<part crc="26bb25a4" name="sprm.7b"/>
+		<part repeat="0x8000">FF</part>
+		<part repeat="0x8000">FF</part>
+		<part crc="4110363c" name="spra.3d"/>
+		<part crc="67a9d2e6" name="spra.3f"/>
+		<interleave output="32">
+			<part crc="4ef7ae89" name="sprm.1d" map="0001"/>
+			<part crc="b4008e6a" name="sprm.3c" map="0010"/>
+			<part crc="58b21c76" name="sprm.1c" map="0100"/>
+			<part crc="58b21c76" name="sprm.1c" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="a3755180" name="sprm.1e" map="0001"/>
+			<part crc="f61cf012" name="sprm.3b" map="0010"/>
+			<part crc="a95cb3e5" name="sprm.1b" map="0100"/>
+			<part crc="a95cb3e5" name="sprm.1b" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="e7f0e861" name="sprb.4k" map="0001"/>
+			<part crc="8fbaf373" name="sprb.3p" map="0010"/>
+			<part crc="cfe46a88" name="sprb.4c" map="0100"/>
+			<part crc="cfe46a88" name="sprb.4c" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="32663097" name="sprb.4f" map="0001"/>
+			<part crc="37069b76" name="sprb.4p" map="0010"/>
+			<part crc="11c48979" name="sprb.4e" map="0100"/>
+			<part crc="11c48979" name="sprb.4e" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="e7f0e861" name="sprb.4k" map="0001"/>
+			<part crc="8fbaf373" name="sprb.3p" map="0010"/>
+			<part crc="cfe46a88" name="sprb.4c" map="0100"/>
+			<part crc="cfe46a88" name="sprb.4c" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="32663097" name="sprb.4f" map="0001"/>
+			<part crc="37069b76" name="sprb.4p" map="0010"/>
+			<part crc="11c48979" name="sprb.4e" map="0100"/>
+			<part crc="11c48979" name="sprb.4e" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="d6d07d70" name="sprm.4m" map="0001"/>
+			<part crc="239f2cd4" name="sprm.4l" map="0010"/>
+			<part crc="4dfe2e63" name="sprm.4p" map="0100"/>
+			<part crc="4dfe2e63" name="sprm.4p" map="1000"/>
+		</interleave>
+		<part crc="8d8cccad" name="sprb.1m"/>
+		<part crc="c40e1cb2" name="sprb.1n"/>
+		<part crc="3ec46248" name="sprb.1l"/>
+		<part crc="fd8fa991" name="sprm.2k"/>
+		<part crc="0e3890b4" name="sprm.2j"/>
+		<part crc="0478082b" name="sprm.2h"/>
+		<part crc="fd8fa991" name="sprm.2k"/>
+		<part crc="0e3890b4" name="sprm.2j"/>
+		<part crc="0478082b" name="sprm.2h"/>
+		<part crc="746c6238" name="sprb.5p"/>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 00 FF FF 00 3F 00 02 00 02 00 01 00 FF 02 00
+		00 00 E0 52 00 64 39 3F
+		00 00 E0 3B 00 02 39 08
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="102"/>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,59 @@
+<misterromdescription>
+	<name>Dig Dug II</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Old Ver</version>
+	<alternative>Dig Dug II</alternative>
+	<platform></platform>
+	<series>Dig Dug</series>
+	<year>1985</year>
+	<manufacturer>Namco</manufacturer>
+	<category>Maze</category>
+
+	<setname>digdug2o</setname>
+	<parent>digdug2</parent>
+	<mameversion>0218</mameversion>
+	<rbf>druaga</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R" names="Pump,Drill,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches></switches>
+
+	<rom index="1">
+		<part>03</part>
+		</rom>
+	<rom index="0" md5="58c7ee6f2311602d342644bd577b41ca" zip="digdug2.zip|digdug2o.zip">
+		<part crc="be7ec80b" name="d21_3.1d"></part>
+		<part crc="5c77c0d4" name="d21_1.1b"></part>
+		<part crc="df1f4ad8" name="d21_6.3m"></part>
+		<part crc="ccadb3ea" name="d21_7.3n"></part>
+		<part crc="737443b1" name="d21_4.1k"></part>
+		<part crc="afcb4509" name="d21_5.3b"></part>
+		<part crc="1525a4d1" name="d2x-7.5k"></part>
+		<part crc="1525a4d1" name="d2x-7.5k"></part>
+		<part crc="1525a4d1" name="d2x-7.5k"></part>
+		<part crc="1525a4d1" name="d2x-7.5k"></part>
+		<part crc="55a88695" name="d21-6.4c"></part>
+		<part crc="e0074ee2" name="d21-3.3m"></part>
+		<part crc="9b169db5" name="d21-5.5b"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

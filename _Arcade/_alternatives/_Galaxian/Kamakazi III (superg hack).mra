@@ -1,0 +1,64 @@
+<misterromdescription>
+	<name>Kamakazi III</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>Superg</version>
+	<alternative>Scramble</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1979</year>
+	<manufacturer>hack</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>kamakazi3</setname>
+	<parent></parent>
+	<mameversion>0218</mameversion>
+	<rbf>galaxian</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches default="1F,1F,00">
+		<dip bits="7" ids="Off,On" name="Service"></dip>
+		<dip bits="6" ids="Off,On" name="Test"></dip>
+		<dip bits="5" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="14,15" ids="1c/1cr,1c/2cr,2c/1cr,Free Play" name="Coinage" values="0,2,1,3"></dip>
+		<dip bits="16,17" ids="None,4000,5000,7000" name="Bonus Life After"></dip>
+		<dip bits="18" ids="3,5" name="Lives"></dip>
+		</switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="81834f35751e8e1f8daab61f0b969409" zip="galaxian.zip|kamakazi3.zip">
+		<part crc="e8f3aa67" name="f_r_a.bin"></part>
+		<part crc="f58283e3" name="f_a.bin"></part>
+		<part crc="ddeabdae" name="f_b.bin"></part>
+		<part crc="c8530a88" name="f_r_c.bin"></part>
+		<part crc="da2d77e0" name="f_r_d.bin"></part>
+		<part crc="da2d77e0" name="f_r_d.bin"></part>
+		<part crc="da2d77e0" name="f_r_d.bin"></part>
+		<part crc="da2d77e0" name="f_r_d.bin"></part>
+		<part crc="977e37cf" name="r_b.bin"></part>
+		<part crc="977e37cf" name="r_b.bin"></part>
+		<part crc="d0ba22c9" name="r_a.bin"></part>
+		<part crc="d0ba22c9" name="r_a.bin"></part>
+		<part crc="c3ac9467" name="6l.bpr"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,78 @@
+<misterromdescription>
+	<name>Gemini Wing</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Tecmo</platform>
+	<series></series>
+	<year>1987</year>
+	<manufacturer>Tecmo</manufacturer>
+	<category>Shooter - Vertical</category>
+
+	<setname>gemini</setname>
+	<parent>gemini</parent>
+	<mameversion>0220</mameversion>
+	<rbf>tecmo</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (simultaneous)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,R,L,Start" names="Fire 1,Fire 2,-,Start,Coin,Pause"></buttons>
+
+	<switches default="00,00">
+		<dip bits="0,1,2" ids="1c/1cr,1c/2cr,1c/3cr,1c/4cr" name="Coinage"></dip>
+		<dip bits="3" ids="6,7" name="Last Round Continue"></dip>
+		<dip bits="7" ids="No,Yes" name="Buy Last Round"></dip>
+		<dip bits="8,9" ids="2,3,4,5" name="Lives" values="3,0,1,2"></dip>
+		<dip bits="10,11" ids="Easy,Normal,Hard,Hardest" name="Difficulty"></dip>
+		<dip bits="12,13" ids="50K 200K,50K 300K,100K 500K,50K" name="Bonus Life"></dip>
+		<dip bits="15" ids="No,Yes" name="Demo Sounds" values="1,0"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>1</part>
+		</rom>
+	<rom index="0" md5="37cfc7fe7d99555b19ff1f8d65e1e9cb" zip="gemini.zip">
+		<!-- main cpu -->
+		<part crc="ce71e27a" length="0xc000" name="4-5s"></part>
+		<part crc="216784a9" name="5-6s"></part>
+		<!-- sound cpu -->
+		<part crc="9bc79596" name="gw03-5h.rom"></part>
+		<!-- char -->
+		<part crc="7acc8d35" name="gw02-3h.rom"></part>
+		<!-- sprite -->
+		<part crc="4ea51631" name="gw06-1c.rom"></part>
+		<part crc="da42637e" name="gw07-1d.rom"></part>
+		<part crc="0b4e8d70" name="gw08-1f.rom"></part>
+		<part crc="b65c5e4c" name="gw09-1h.rom"></part>
+		<!-- fg -->
+		<part crc="5e84cd4f" name="gw10-1n.rom"></part>
+		<part crc="08b458e1" name="gw11-2na.rom"></part>
+		<part crc="229c9714" name="gw12-2nb.rom"></part>
+		<part crc="c5dfaf47" name="gw13-3n.rom"></part>
+		<!-- bg -->
+		<part crc="9c10e5b5" name="gw14-1r.rom"></part>
+		<part crc="4cd18cfa" name="gw15-2ra.rom"></part>
+		<part crc="f911c7be" name="gw16-2rb.rom"></part>
+		<part crc="79a9ce25" name="gw17-3r.rom"></part>
+		<!-- pcm -->
+		<part crc="d78afa05" name="gw01-6a.rom"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

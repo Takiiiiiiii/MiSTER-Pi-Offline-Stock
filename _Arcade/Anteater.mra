@@ -1,0 +1,70 @@
+<misterromdescription>
+	<name>Anteater</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Tago Electronics</manufacturer>
+	<category>Maze</category>
+
+	<setname>anteater</setname>
+	<parent>anteater</parent>
+	<mameversion>0216</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>1</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R,L" names="Retract,-,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FD,FB">
+		<dip bits="8" ids="5,3" name="Lives"></dip>
+		<dip bits="9" ids="On,Off" name="Demo Sounds"></dip>
+		<dip bits="17,18" ids="1c/2cr,1c/1cr,1c/3cr,1c/4cr" name="Coinage"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0A</part>
+		</rom>
+	<rom index="0" md5="d2a81675f550dc7a17fde92b89b53c3c" type="merged|nonmerged" zip="anteater.zip">
+		<part crc="58bc9393" name="ra1-2c"></part>
+		<part crc="574fc6f6" name="ra1-2e"></part>
+		<part crc="2f7c1fe5" name="ra1-2f"></part>
+		<part crc="ae8a5da3" name="ra1-2h"></part>
+		<part crc="58bc9393" name="ra1-2c"></part>
+		<part crc="574fc6f6" name="ra1-2e"></part>
+		<part crc="2f7c1fe5" name="ra1-2f"></part>
+		<part crc="ae8a5da3" name="ra1-2h"></part>
+		<part crc="87300b4f" name="ra4-5c"></part>
+		<part crc="af4e5ffe" name="ra4-5d"></part>
+		<part crc="87300b4f" name="ra4-5c"></part>
+		<part crc="af4e5ffe" name="ra4-5d"></part>
+		<part crc="b30c7c9f" name="ra6-5h" repeat="4"></part>
+		<part crc="4c3f8a08" name="ra6-5f" repeat="4"></part>
+		<part crc="fce333c7" name="colr6f.cpu"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 07 FF FF 00 FF 00 02 00 02 00 01 00 FF 02 00
+		00 00 80 EF 00 3C 01 4C
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="60"></nvram>
+
+	<remark>\n		prg    0000-7FFF\n		aud    8000-9FFF\n		obj0   A000-BFFF\n		obj1   C000-DFFF\n		col    E000-E01F\n</remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,66 @@
+<misterromdescription>
+	<name>Gingateikoku no Gyakushu</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Set 2</version>
+	<alternative>UniWar S</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>bootleg</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>gteikokub2</setname>
+	<parent>gteikoku</parent>
+	<mameversion>0218</mameversion>
+	<rbf>galaxian</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="1F,1F,00">
+		<dip bits="7" ids="Off,On" name="Service"></dip>
+		<dip bits="6" ids="Off,On" name="Test"></dip>
+		<dip bits="5" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="14,15" ids="1c/1cr,1c/2cr,2c/1cr,Free Play" name="Coinage" values="0,2,1,3"></dip>
+		<dip bits="16,17" ids="None,4000,5000,7000" name="Bonus Life After"></dip>
+		<dip bits="18" ids="3,5" name="Lives"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0C</part>
+		</rom>
+	<rom index="0" md5="48b0424f842ab65e66725a1ea62edf37" zip="uniwars.zip|gteikokub2.zip">
+		<part crc="67ec3235" name="94gnog.bin"></part>
+		<part crc="813c41f2" name="92gnog.bin"></part>
+		<part crc="945f4160" name="k07_3a.bin"></part>
+		<part crc="49ff9658" name="1gnog.bin"></part>
+		<part crc="36fe6e67" name="5.bin"></part>
+		<part crc="d915a389" name="e08p_6a.bin"></part>
+		<part crc="c9245346" name="m08p_7a.bin"></part>
+		<part crc="e9d4ad3c" name="98gnog.bin"></part>
+		<part crc="8313c959" name="h01_1.bin"></part>
+		<part crc="c26132af" name="h01_2.bin"></part>
+		<part crc="c9d4537e" name="k01_1.bin"></part>
+		<part crc="dcc2b33b" name="k01_2.bin"></part>
+		<part crc="6a0c7d87" name="l06_prom.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

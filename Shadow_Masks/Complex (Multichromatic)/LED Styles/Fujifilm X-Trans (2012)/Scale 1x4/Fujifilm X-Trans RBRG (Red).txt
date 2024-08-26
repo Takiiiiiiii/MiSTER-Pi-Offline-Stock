@@ -1,0 +1,22 @@
+####
+# Name: Fujifilm X-Trans RBRG (Red)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+3,12
+40d,12a,40d
+40d,12a,40d
+40d,12a,40d
+40d,12a,40d
+22a,40d,22a
+22a,40d,22a
+22a,40d,22a
+22a,40d,22a
+40d,12a,40d
+40d,12a,40d
+40d,12a,40d
+40d,12a,40d

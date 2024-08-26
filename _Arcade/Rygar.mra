@@ -1,0 +1,83 @@
+<misterromdescription>
+	<name>Rygar</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Tecmo</platform>
+	<series></series>
+	<year>1986</year>
+	<manufacturer>Tecmo</manufacturer>
+	<category>Platform</category>
+
+	<setname>rygar</setname>
+	<parent>rygar</parent>
+	<mameversion>0220</mameversion>
+	<rbf>tecmo</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,R,L,Start" names="Fire,Jump,-,Start,Coin,Pause"></buttons>
+
+	<switches default="40,80">
+		<dip bits="0,1" ids="2c/1cr,1c/1cr,1c/2cr,1c/3cr" name="Coinage" values="1,0,2,3"></dip>
+		<dip bits="4,5" ids="2,3,4,5" name="Lives" values="3,0,1,2"></dip>
+		<dip bits="8,9" ids="50K 200K 500K,100K 300K 600K,200K 500K,100K" name="Bonus Life"></dip>
+		<dip bits="12,13" ids="Easy,Normal,Hard,Hardest" name="Difficulty"></dip>
+		<dip bits="14" ids="No,Yes" name="2P Start Anytime"></dip>
+		<dip bits="15" ids="No,Yes" name="Allow Continue"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0</part>
+		</rom>
+	<rom index="0" md5="ad06673302402f5523e1b5ac45166aa9" zip="rygar.zip">
+		<!-- main cpu -->
+		<part crc="062cd55d" name="5.5p"></part>
+		<part crc="7ac5191b" name="cpu_5m.bin"></part>
+		<part crc="ed76d606" name="cpu_5j.bin"></part>
+		<part repeat="0x8000">00</part>
+		<!-- sound cpu -->
+		<part crc="e4a2fa87" name="cpu_4h.bin"></part>
+		<part repeat="0x6000">00</part>
+		<!-- char -->
+		<part crc="4d482fb6" name="cpu_8k.bin"></part>
+		<!-- sprite -->
+		<part crc="aba6db9e" name="vid_6k.bin"></part>
+		<part crc="ae1f2ed6" name="vid_6j.bin"></part>
+		<part crc="46d9e7df" name="vid_6h.bin"></part>
+		<part crc="45839c9a" name="vid_6g.bin"></part>
+		<part repeat="0x20000">00</part>
+		<!-- fg -->
+		<part crc="9eae5f8e" name="vid_6p.bin"></part>
+		<part crc="5a10a396" name="vid_6o.bin"></part>
+		<part crc="7b12cf3f" name="vid_6n.bin"></part>
+		<part crc="3cea7eaa" name="vid_6l.bin"></part>
+		<part repeat="0x20000">00</part>
+		<!-- bg -->
+		<part crc="9840edd8" name="vid_6f.bin"></part>
+		<part crc="ff65e074" name="vid_6e.bin"></part>
+		<part crc="89868c85" name="vid_6c.bin"></part>
+		<part crc="35389a7b" name="vid_6b.bin"></part>
+		<part repeat="0x20000">00</part>
+		<!-- pcm -->
+		<part crc="3cc98c5a" name="cpu_1f.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

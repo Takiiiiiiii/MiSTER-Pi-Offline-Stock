@@ -1,0 +1,53 @@
+<misterromdescription>
+	<name>Meteor</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Asteroids, Proel</version>
+	<alternative>Asteroids</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1979</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>meteorite</setname>
+	<parent>Asteroids</parent>
+	<mameversion>0218</mameversion>
+	<rbf>asteroids</rbf>
+	<about></about>
+
+	<resolution>31kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>3</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="9418b4ceffb2ccccf8d0ccdbe76ae6c9" zip="asteroid.zip|meteorite.zip">
+		<part crc="cdf720c6" name="2"></part>
+		<part crc="ee58bdf0" name="3"></part>
+		<part crc="8d3e421e" name="4"></part>
+		<part crc="d2ce7672" name="5"></part>
+		<part crc="379072ed" name="6"></part>
+		<part crc="75a39768" name="7"></part>
+		<part crc="7a3ff3ac" name="0"></part>
+		<part crc="d62b2887" name="1"></part>
+		<part crc="97953db8" name="meteorites_bprom.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

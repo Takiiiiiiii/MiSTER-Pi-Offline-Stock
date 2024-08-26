@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Vautour</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Phoenix, Z80 CPU, Single PROM</version>
+	<alternative>Phoenix</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Tehkan</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>vautourza</setname>
+	<parent>phoenix</parent>
+	<mameversion>0218</mameversion>
+	<rbf>phoenix</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="815e735e2e40aa27facfbb64641ab1fc" zip="phoenix.zip|vautourza.zip">
+		<part crc="cd2807ee" name="1.e1"></part>
+		<part crc="3699b11a" name="2.f1"></part>
+		<part crc="cbbb8839" name="3.h1"></part>
+		<part crc="106262eb" name="4.j1"></part>
+		<part crc="1a1ce0d0" name="5.k1"></part>
+		<part crc="1fcac707" name="6.h1"></part>
+		<part crc="805ec2e8" name="7.m1"></part>
+		<part crc="1edebb45" name="8.n1"></part>
+		<part crc="3c7e623f" name="10.h2"></part>
+		<part crc="59916d3b" name="9.j2"></part>
+		<part crc="8eff75c9" name="12.h4"></part>
+		<part crc="369e7476" name="11.j4"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

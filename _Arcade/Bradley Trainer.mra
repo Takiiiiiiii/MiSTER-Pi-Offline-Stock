@@ -1,0 +1,39 @@
+<misterromdescription>
+	<name>Bradley Trainer</name>
+	<mameversion>0226</mameversion>
+	<setname>bradley</setname>
+	<mratimestamp>20201224151249</mratimestamp>
+	<year>1980</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Army / Tank 3D</category>
+	<rbf>BattleZone</rbf>
+	<mameinfo parent="0" cpp="bzone" input="bradley"/>
+	<display type="vector" rotate="0"/>
+	<switches default="15,03">
+		<dip bits="0,1" name="Lives" ids="2,3,4,5"></dip>
+		<dip bits="2,3" name="Missile appears at" ids="5000,10000,20000,30000"></dip>
+		<dip bits="4,5" name="Bonus Life" ids="None,15k and 100k,25k and 100k,50k and 100k"></dip>
+		<dip bits="6,7" name="Language" ids="English,German,French,Spanish"></dip>
+		<dip bits="8,9" name="Coinage" ids="Free Play,1c/2cr,1c/1cr,2c/1cr"></dip>
+		<dip bits="10,11" name="Coin B" ids="	1,	4,	5,	6"></dip>
+		<dip bits="12" name="Coin A" ids="	1,	2"></dip>
+		<dip bits="13,15" name="Bonus Coins" ids="None,3 credits/2 coins,5 credits/4 coins,6 credits/4 coins,6 credits/5 coins"></dip>
+	</switches>
+	<buttons names="fire,Start 1P,Start 2P,Coin" default="A,Start,Select,R"/>
+	<rom index="0" zip="bradley.zip" md5="none">
+		<part crc="0bb8e049" name="btc1.bin"/>
+		<part crc="9e0566d4" name="btd1.bin"/>
+		<part crc="64ee6a42" name="bte1.bin"/>
+		<part crc="baab67be" name="bth1.bin"/>
+		<part crc="036adde4" name="btj1.bin"/>
+		<part crc="f5c2904e" name="btk1.bin"/>
+		<part crc="7d0313bf" name="btlm.bin"/>
+		<part crc="182c8c64" name="btn1.bin"/>
+		<part crc="88206304" name="btb3.bin"/>
+		<part crc="d669d796" name="bta3.bin"/>
+		<part crc="8b04f921" name="036174-01.b1"/>
+	</rom>
+	<rom index="1">
+		<part>1</part>
+	</rom>
+</misterromdescription>

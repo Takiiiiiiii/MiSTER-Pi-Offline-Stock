@@ -1,0 +1,54 @@
+<misterromdescription>
+	<name>Pooyan</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Stern</version>
+	<alternative>Pooyan</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>pooyans</setname>
+	<parent>pooyan</parent>
+	<mameversion>0218</mameversion>
+	<rbf>pooyan</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way vertical</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="038f17001fe59303a36e23dd37a9bf61" zip="pooyan.zip|pooyans.zip">
+		<part crc="916ae7d7" name="ic22_a4.cpu"></part>
+		<part crc="8fe38c61" name="ic23_a5.cpu"></part>
+		<part crc="2660218a" name="ic24_a6.cpu"></part>
+		<part crc="3d2a10ad" name="ic25_a7.cpu"></part>
+		<part crc="7433aea9" name="ic13_g10.cpu"></part>
+		<part crc="87c1789e" name="ic14_g9.cpu"></part>
+		<part crc="b2d8c121" name="6.9a"></part>
+		<part crc="1097c2b6" name="5.8a"></part>
+		<part crc="fbe2b368" name="xx.7a"></part>
+		<part crc="e1795b3d" name="xx.8a"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

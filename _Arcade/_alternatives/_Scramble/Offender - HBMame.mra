@@ -1,0 +1,73 @@
+<misterromdescription>
+	<name>Offender</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Scramble</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1998</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Shooter - Horizontal</category>
+
+	<setname>offender</setname>
+	<parent></parent>
+	<mameversion>0217</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R" names="Shoot,Bomb,-,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="FF,FC,F1">
+		<dip bits="8,9" ids="3,4,5,255(Cheat)" name="Lives"></dip>
+		<dip bits="17,18" ids="1c/1cr,1c/2cr,1c/3cr,1c/4cr" name="Coinage"></dip>
+		<dip bits="19" ids="Upright,Cocktail" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>00</part>
+		</rom>
+	<rom index="0" md5="9c2d4b5eca01e48483b26d7dd31282b2" zip="/hbmame/scramble.zip">
+		<part crc="bb09d91e" name="offender/off-2d"></part>
+		<part crc="e9b4b9eb" name="offender/2e"></part>
+		<part crc="a1f14f4c" name="offender/2f"></part>
+		<part crc="591bc0d9" name="offender/2h"></part>
+		<part crc="22f11b6b" name="offender/2j"></part>
+		<part crc="705ffe49" name="offender/2l"></part>
+		<part crc="ea26c35c" name="offender/2m"></part>
+		<part crc="94d8f5e3" name="offender/2p"></part>
+		<part crc="bb09d91e" name="offender/off-2d"></part>
+		<part crc="e9b4b9eb" name="offender/2e"></part>
+		<part crc="a1f14f4c" name="offender/2f"></part>
+		<part crc="591bc0d9" name="offender/2h"></part>
+		<part crc="22f11b6b" name="offender/2j"></part>
+		<part crc="705ffe49" name="offender/2l"></part>
+		<part crc="ea26c35c" name="offender/2m"></part>
+		<part crc="94d8f5e3" name="offender/2p"></part>
+		<part crc="bcd297f0" name="ot1.5c"></part>
+		<part crc="de7912da" name="ot2.5d"></part>
+		<part crc="ba2fa933" name="ot3.5e"></part>
+		<part crc="ba2fa933" name="ot3.5e"></part>
+		<part crc="a36ac0fa" name="offender/off-5h" repeat="4"></part>
+		<part crc="7015a2e1" name="offender/off-5f" repeat="4"></part>
+		<part crc="4e3caeab" name="c01s.6e"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

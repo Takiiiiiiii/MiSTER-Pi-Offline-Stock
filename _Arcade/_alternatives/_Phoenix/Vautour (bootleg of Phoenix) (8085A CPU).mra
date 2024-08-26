@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Vautour</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Phoenix, 8085A CPU</version>
+	<alternative>Phoenix</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Tehkan</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>vautour</setname>
+	<parent>phoenix</parent>
+	<mameversion>0218</mameversion>
+	<rbf>phoenix</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="0d58bd2453f62d4d44a91227677db6aa" zip="phoenix.zip|vautour.zip">
+		<part crc="cd2807ee" name="vautor01.1e"></part>
+		<part crc="dbc942fa" name="phoenix.46"></part>
+		<part crc="cbbb8839" name="phoenix.47"></part>
+		<part crc="106262eb" name="vautor04.1j"></part>
+		<part crc="1a1ce0d0" name="phoenixc.49"></part>
+		<part crc="c90e3287" name="vautor06.1h"></part>
+		<part crc="079ac364" name="vautor07.1m"></part>
+		<part crc="1dbd937a" name="vautor08.1n"></part>
+		<part crc="3c7e623f" name="ic23.3d"></part>
+		<part crc="59916d3b" name="ic24.4d"></part>
+		<part crc="8eff75c9" name="vautor12.2h"></part>
+		<part crc="369e7476" name="vautor11.2j"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

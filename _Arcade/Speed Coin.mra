@@ -1,0 +1,72 @@
+<misterromdescription>
+	<name>Speed Coin</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1984</year>
+	<manufacturer>Stern</manufacturer>
+	<category>Puzzle</category>
+
+	<setname>spdcoin</setname>
+	<parent>spdcoin</parent>
+	<mameversion>0216</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>1</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>0</num_buttons>
+	<buttons default="Start,Select,R,L" names="-,-,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FC,FB">
+		<dip bits="8" ids="Off,On" name="Freeze"></dip>
+		<dip bits="9" ids="Off,On" name="Free Play"></dip>
+		<dip bits="18" ids="Easy,Hard" name="Difficulty"></dip>
+		<dip bits="19" ids="5,3" name="Lives"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>07</part>
+		</rom>
+	<rom index="0" md5="e891aac7470fccbcf673dc079a8694b5" type="merged|nonmerged" zip="spdcoin.zip">
+		<part crc="65cf1e49" name="spdcoin.2c"></part>
+		<part crc="1ee59232" name="spdcoin.2e"></part>
+		<part crc="65cf1e49" name="spdcoin.2c"></part>
+		<part crc="1ee59232" name="spdcoin.2e"></part>
+		<part crc="65cf1e49" name="spdcoin.2c"></part>
+		<part crc="1ee59232" name="spdcoin.2e"></part>
+		<part crc="65cf1e49" name="spdcoin.2c"></part>
+		<part crc="1ee59232" name="spdcoin.2e"></part>
+		<part crc="b4cf64b7" name="spdcoin.5c"></part>
+		<part crc="92304df0" name="spdcoin.5d"></part>
+		<part crc="b4cf64b7" name="spdcoin.5c"></part>
+		<part crc="92304df0" name="spdcoin.5d"></part>
+		<part crc="ab1fe81b" name="spdcoin.5h" repeat="4"></part>
+		<part crc="dd5f1dbc" name="spdcoin.5f" repeat="4"></part>
+		<part crc="1a2ccc56" name="spdcoin.clr"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark>
+		prg    0000-7FFF
+		aud    8000-9FFF
+		obj0   A000-BFFF
+		obj1   C000-DFFF
+		col    E000-E01F
+	</remark>
+	
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

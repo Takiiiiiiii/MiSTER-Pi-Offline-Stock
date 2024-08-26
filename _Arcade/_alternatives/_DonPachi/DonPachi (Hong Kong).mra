@@ -1,0 +1,50 @@
+<misterromdescription>
+  <name>DonPachi (Hong Kong)</name>
+  <mameversion>0226</mameversion>
+  <setname>donpachihk</setname>
+  <year>1995</year>
+  <manufacturer>CAVE</manufacturer>
+  <category>Shooter</category>
+  <rotation>vertical (ccw)</rotation>
+  <rbf>cave</rbf>
+
+  <!-- ROM data -->
+  <rom index="0" zip="donpachi.zip" md5="none" address="0x30000000">
+    <!-- prog ROM -->
+    <interleave output="16">
+      <part name="37.u29" crc="71f39f30" map="12" />
+    </interleave>
+
+    <!-- EEPROM -->
+    <part name="eeprom-donpachi.u10" crc="315fb546" />
+
+    <!-- sound ROM 0 -->
+    <part name="atdp.u33" crc="d749de00" />
+
+    <!-- sound ROM 1 -->
+    <part name="atdp.u32" crc="0d89fcca" />
+
+    <!-- layer 0 -->
+    <part name="atdp.u54" crc="6bda6b66" />
+
+    <!-- layer 1 -->
+    <part name="atdp.u57" crc="0a0e72b9" />
+
+    <!-- layer 2 -->
+    <part name="text.u58" crc="5dba06e7" />
+
+    <!-- sprites -->
+    <part name="atdp.u44" crc="7189e953" />
+    <part name="atdp.u45" crc="6984173f" />
+  </rom>
+
+  <!-- select game -->
+  <rom index="1">
+    <part>02</part>
+  </rom>
+
+  <!-- NVRAM -->
+  <nvram index="2" size="128" />
+
+  <buttons names="Shots/Laser,Spread/Laser Bomber,Full-Auto,-,Start,Coin,Pause" default="A,B,X,R,L,Start" />
+</misterromdescription>

@@ -1,0 +1,76 @@
+<misterromdescription>
+	<name>Pac-Man &amp; Chomp Chomp</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series>Pac-Man</series>
+	<year>1983</year>
+	<manufacturer>Namco</manufacturer>
+	<category>Maze</category>
+
+	<setname>pacnchmp</setname>
+	<parent>pacnpal</parent>
+	<mameversion>0220</mameversion>
+	<rbf>druaga</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>0</num_buttons>
+	<button_names></button_names>
+
+	<switches default="00,00,88">
+		<dip bits="2,3" ids="A,B,C,D" name="Rank"></dip>
+		<dip bits="16,18" ids="1 Coin  1 Credit ,1 Coin  2 Credits,1 Coin  3 Credits,1 Coin  6 Credits,1 Coin  7 Credits,2 Coins 1 Credit ,2 Coins 3 Credits,3 Coins 1 Credit " name="Coin A"></dip>
+		<dip bits="0,1" ids="1 Coin  1 Credit ,1 Coin 2 Credits,2 Coins 1 Credit ,2 Coins 3 Credits" name="Coin B"></dip>
+		<dip bits="22,23" ids="1,2,3,5" name="Lives"></dip>
+		<dip bits="19,21" ids="No Bonus,20k/70k/ev.70k,30k/80k/ev.80k,20k/70k,30k/70k,30k/80k,30k/100k" name="Bonus Life"></dip>
+		<dip bits="15" ids="Off,On" name="Service Mode"></dip>
+		<!-- dip bits="14" name="Cabinet" ids="Upright,Cocktail"></dip -->
+		</switches>
+
+	<rom index="1">
+		<part>05</part>
+		</rom>
+	<rom index="0" md5="none" zip="pacnpal.zip">
+		<!-- main CPU -->
+		<part repeat="0x2000"> FF </part>
+		<part crc="20a07d3d" name="pacnchmp/pap3-3.1d"></part>
+		<part crc="505bae56" name="pacnchmp/pap3-2.1c"></part>
+		<part crc="3cac401c" name="pap3-1.1b"></part>
+		<!-- GFX2 -->
+		<part crc="39f44aa4" name="pacnchmp/pap2-5.3f"></part>
+		<part crc="39f44aa4" name="pacnchmp/pap2-5.3f"></part>
+		<part crc="39f44aa4" name="pacnchmp/pap2-5.3f"></part>
+		<part crc="39f44aa4" name="pacnchmp/pap2-5.3f"></part>
+		<!-- sound CPU -->
+		<part repeat="0x1000"> FF </part>
+		<part crc="330e20de" name="pap1-4.1k"></part>
+		<!-- GFX1 -->
+		<part crc="93d15c30" name="pacnchmp/pap2-6.3c"></part>
+		<part crc="23701566" name="pacnchmp/pap2-4.3l"></part>
+		<part crc="23701566" name="pacnchmp/pap2-4.3l"></part>
+		<part crc="23701566" name="pacnchmp/pap2-4.3l"></part>
+		<part crc="23701566" name="pacnchmp/pap2-4.3l"></part>
+		<part crc="875b49bb" name="pacnchmp/pap2-5.4e"></part>
+		<part crc="94782db5" name="pap1-3.3m"></part>
+		<part crc="18c3db79" name="pacnchmp/pap2-6.4c"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,59 @@
+<misterromdescription>
+	<name>Pleiades</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Niemer S.A.</version>
+	<alternative>Pleiades</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Tehkan</manufacturer>
+	<manufacturer>Niemer SA</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>pleiadsn</setname>
+	<parent>pleiads</parent>
+	<mameversion>0218</mameversion>
+	<rbf>pleiads</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="693eb43e71ef90ecc44033895b763c00" zip="pleiads.zip|pleiadsn.zip">
+		<part crc="c013515f" name="1.bin"></part>
+		<part crc="b254217c" name="2.bin"></part>
+		<part crc="3b29aec5" name="3.bin"></part>
+		<part crc="1fbde4d7" name="4.bin"></part>
+		<part crc="9dc73e63" name="5.bin"></part>
+		<part crc="f1a8a00d" name="6.bin"></part>
+		<part crc="b5f07fbc" name="7.bin"></part>
+		<part crc="b3db08c2" name="8.bin"></part>
+		<part crc="4e30f9e7" name="11.bin"></part>
+		<part crc="72d511fc" name="12.bin"></part>
+		<part crc="85866607" name="9.bin"></part>
+		<part crc="a841d511" name="10.bin"></part>
+		<part crc="7a1bcb1e" name="mb7052.ic41"></part>
+		<part crc="e38eeb83" name="hm3-7611.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

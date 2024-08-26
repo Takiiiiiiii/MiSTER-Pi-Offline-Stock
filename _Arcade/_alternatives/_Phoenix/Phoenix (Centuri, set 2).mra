@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Phoenix</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Centuri, Set 2</version>
+	<alternative>Phoenix</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Amstar</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>phoenixb</setname>
+	<parent>phoenix</parent>
+	<mameversion>0218</mameversion>
+	<rbf>phoenix</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="2b359d4440644274403ad35c02c49b07" zip="phoenix.zip|phoenixb.zip">
+		<part crc="c7a9b499" name="1-ic45.1a"></part>
+		<part crc="d0e6ae1b" name="2-ic46.2a"></part>
+		<part crc="64bf463a" name="3-ic47.3a"></part>
+		<part crc="1b20fe62" name="4-ic48.4a"></part>
+		<part crc="1a1ce0d0" name="phoenixc.49"></part>
+		<part crc="ac5e9ec1" name="h6-ic50.6a"></part>
+		<part crc="2eab35b4" name="h7-ic51.7a"></part>
+		<part crc="aff8e9c5" name="h8-ic52.8a"></part>
+		<part crc="3c7e623f" name="ic23.3d"></part>
+		<part crc="59916d3b" name="ic24.4d"></part>
+		<part crc="bb0525ed" name="phoenixc.39"></part>
+		<part crc="4178aa4f" name="phoenixc.40"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

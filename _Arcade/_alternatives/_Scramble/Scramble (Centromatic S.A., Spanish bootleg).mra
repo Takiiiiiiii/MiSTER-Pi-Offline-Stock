@@ -1,0 +1,73 @@
+<misterromdescription>
+	<name>Scramble</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Spanish, Centromatic S.A.</version>
+	<alternative>Scramble</alternative>
+	<platform></platform>
+	<series>Scramble</series>
+	<year>1981</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Shooter - Horizontal</category>
+
+	<setname>scramce</setname>
+	<parent>scramble</parent>
+	<mameversion>0218</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R" names="Shoot,Bomb,-,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="FF,FC,F1">
+		<dip bits="8,9" ids="3,4,5,255(Cheat)" name="Lives"></dip>
+		<dip bits="17,18" ids="1c/1cr,1c/2cr,1c/3cr,1c/4cr" name="Coinage"></dip>
+		<dip bits="19" ids="Upright,Cocktail" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>00</part>
+		</rom>
+	<rom index="0" md5="dc002b05ad26f3193f0a7085f4a1d68e" zip="scramble.zip|scramce.zip">
+		<part crc="726fb19e" name="es1.2c"></part>
+		<part crc="66ebc070" name="es2.2e"></part>
+		<part crc="317548fd" name="es3.2f"></part>
+		<part crc="dd380a22" name="es4.2h"></part>
+		<part crc="fa4f1a70" name="es5.2j"></part>
+		<part crc="9fd96374" name="es6.2l"></part>
+		<part crc="88ac07a0" name="es7.2m"></part>
+		<part crc="d20088ee" name="es8.2p"></part>
+		<part crc="726fb19e" name="es1.2c"></part>
+		<part crc="66ebc070" name="es2.2e"></part>
+		<part crc="317548fd" name="es3.2f"></part>
+		<part crc="dd380a22" name="es4.2h"></part>
+		<part crc="fa4f1a70" name="es5.2j"></part>
+		<part crc="9fd96374" name="es6.2l"></part>
+		<part crc="88ac07a0" name="es7.2m"></part>
+		<part crc="d20088ee" name="es8.2p"></part>
+		<part crc="be037cf6" name="11.5c"></part>
+		<part crc="de7912da" name="12.5d"></part>
+		<part crc="ba2fa933" name="13.5e"></part>
+		<part crc="ba2fa933" name="13.5e"></part>
+		<part crc="11fd2887" name="10.5h" repeat="4"></part>
+		<part crc="4708845b" name="9.5f" repeat="4"></part>
+		<part crc="4e3caeab" name="prom7051.6e"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

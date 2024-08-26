@@ -1,0 +1,59 @@
+<misterromdescription>
+	<name>Pleiades</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Irecsa</version>
+	<alternative>Pleiades</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Tehkan</manufacturer>
+	<manufacturer>Irecsa</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>pleiadsi</setname>
+	<parent>pleiads</parent>
+	<mameversion>0218</mameversion>
+	<rbf>pleiads</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="30a208f979be88b3e79386d489009cba" zip="pleiads.zip|pleiadsi.zip">
+		<part crc="9bbef607" name="1 2716.bin"></part>
+		<part crc="e2b5b8cd" name="2 2716.bin"></part>
+		<part crc="87e700bb" name="3 2716.bin"></part>
+		<part crc="ca14fe4a" name="4 2716.bin"></part>
+		<part crc="9dc73e63" name="5 2716.bin"></part>
+		<part crc="f1a8a00d" name="6 2716.bin"></part>
+		<part crc="6f56f317" name="7 2716.bin"></part>
+		<part crc="ca264c7c" name="8 2716.bin"></part>
+		<part crc="8dbd3785" name="11 2716.bin"></part>
+		<part crc="0db3e436" name="12 2716.bin"></part>
+		<part crc="85866607" name="9 2716.bin"></part>
+		<part crc="a841d511" name="10 2716.bin"></part>
+		<part crc="e38eeb83" name="7611-5.33"></part>
+		<part crc="7a1bcb1e" name="7611-5.26"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,72 @@
+<misterromdescription>
+	<name>Botanic</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>English, Spanish, Set 1</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1983</year>
+	<manufacturer>Itisa</manufacturer>
+	<category>Maze</category>
+
+	<setname>botanic</setname>
+	<parent>botanic</parent>
+	<mameversion>0220</mameversion>
+	<rbf>bagman</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<buttons names="Invulnerability,-,Start 1P,Start 2P,Coin,Pause" default="A,Start,Select,R,L"/>
+
+	<switches default="EB">
+		<dip bits="0,1" ids="2,5,4,3" name="Lives"></dip>
+		<dip bits="2" ids="1c/1cr,2c/1cr" name="Coinage"></dip>
+		<dip bits="3,4" ids="2,3" name="Invulnerability Fruits"></dip>
+		<dip bits="5" ids="Spanish/Fruits Off,English/Fruits On" name="Language"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>04</part>
+		</rom>
+	<rom index="0" md5="3d834121fe171b5be594900bbf98194c" zip="botanic.zip">
+		<part crc="907f01c7" name="5.9e"></part>
+		<part crc="ff2533fb" name="06.9f"></part>
+		<part crc="b7c544ef" name="07.9j"></part>
+		<part crc="2df22793" name="08.9k"></part>
+		<part crc="f7d908ec" name="09.9m"></part>
+		<part crc="7ce9fbc8" name="10.9n"></part>
+		<part repeat="40960">00</part>
+		<part crc="bea449a6" name="2.1e"></part>
+		<part crc="a1148d89" name="1.1c"></part>
+		<part crc="a5deb8ed" name="4.1j"></part>
+		<part crc="70be5565" name="3.1f"></part>
+		<part repeat="8192">00</part>
+		<part crc="a8a2ddd2" name="prom.3p"></part>
+		<part crc="edf88f34" name="prom.3r"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<rom index="5" md5="none">
+	     	<part>
+			00 00 FF FF 00 FF 00 02 00 02 00 01 00 FF 02 00
+			00 00 72 0A 00 46 18 10
+			00 00 70 0A 00 1E 00 00
+			00 00 72 33 00 01 23 23
+ 		</part>
+ 	</rom>
+	<nvram index="6" size="101"/>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

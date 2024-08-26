@@ -1,0 +1,53 @@
+<misterromdescription>
+	<name>Billiard</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>TIAMC1</platform>
+	<series></series>
+	<year>1988</year>
+	<manufacturer>Terminal</manufacturer>
+	<category>Sports</category>
+
+	<setname>bilyard</setname>
+	<parent>bilyard</parent>
+	<mameversion>0229</mameversion>
+	<rbf>tiamc1</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,B,Y" names="Button 1,Button 2,Coin/Start"></buttons>
+
+	<switches></switches>
+
+	<rom index="1">
+		<part>04</part>
+		</rom>
+	<rom index="0" md5="50e6d8abc43f2deb2de4b84a6cfd0478" zip="bilyard.zip">
+		<part crc="6F72E043" name="00.2a"></part>
+		<part crc="DADDBBB5" name="01.3a"></part>
+		<part crc="3D744D33" name="02.5a"></part>
+		<part crc="8BFC0B15" name="03.6a"></part>
+		<part crc="A44F913D" name="04.1g"></part>
+		<part crc="6E41219F" name="05.2g"></part>
+		<part crc="173ADB85" name="10.7g"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

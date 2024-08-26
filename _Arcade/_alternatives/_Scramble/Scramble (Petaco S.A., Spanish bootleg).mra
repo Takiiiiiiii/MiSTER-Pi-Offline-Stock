@@ -1,0 +1,73 @@
+<misterromdescription>
+	<name>Scramble</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Spanish, Petaco, S.A.</version>
+	<alternative>Scramble</alternative>
+	<platform></platform>
+	<series>Scramble</series>
+	<year>1981</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Shooter - Horizontal</category>
+
+	<setname>scrampt</setname>
+	<parent>scramble</parent>
+	<mameversion>0218</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R" names="Shoot,Bomb,-,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="FF,FC,F1">
+		<dip bits="8,9" ids="3,4,5,255(Cheat)" name="Lives"></dip>
+		<dip bits="17,18" ids="1c/1cr,1c/2cr,1c/3cr,1c/4cr" name="Coinage"></dip>
+		<dip bits="19" ids="Upright,Cocktail" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>00</part>
+		</rom>
+	<rom index="0" md5="e9d94f15a855547d7b122fdf0d03a1df" zip="scramble.zip|scrampt.zip">
+		<part crc="12b97cc6" name="cx8-2716.cpu"></part>
+		<part crc="66ebc070" name="cx4-2716.cpu"></part>
+		<part crc="317548fd" name="cx9-2716.cpu"></part>
+		<part crc="dd380a22" name="cx5-2716.cpu"></part>
+		<part crc="fa4f1a70" name="cx10-2716.cpu"></part>
+		<part crc="9fd96374" name="cx6-2716.cpu"></part>
+		<part crc="88ac07a0" name="cx11-2716.cpu"></part>
+		<part crc="c9a6c489" name="cx7-2716.cpu"></part>
+		<part crc="12b97cc6" name="cx8-2716.cpu"></part>
+		<part crc="66ebc070" name="cx4-2716.cpu"></part>
+		<part crc="317548fd" name="cx9-2716.cpu"></part>
+		<part crc="dd380a22" name="cx5-2716.cpu"></part>
+		<part crc="fa4f1a70" name="cx10-2716.cpu"></part>
+		<part crc="9fd96374" name="cx6-2716.cpu"></part>
+		<part crc="88ac07a0" name="cx11-2716.cpu"></part>
+		<part crc="c9a6c489" name="cx7-2716.cpu"></part>
+		<part crc="be037cf6" name="cx3-2716.cpu"></part>
+		<part crc="de7912da" name="cx2-2716.cpu"></part>
+		<part crc="ba2fa933" name="cx1-2716.cpu"></part>
+		<part crc="ba2fa933" name="cx1-2716.cpu"></part>
+		<part crc="11fd2887" name="cx13-2716.cpu" repeat="4"></part>
+		<part crc="4708845b" name="cx12-2716.cpu" repeat="4"></part>
+		<part crc="4e3caeab" name="c01s.6e"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

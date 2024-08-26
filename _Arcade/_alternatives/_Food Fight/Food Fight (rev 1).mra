@@ -1,0 +1,57 @@
+<misterromdescription>
+	<name>Food Fight</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Rev 1</version>
+	<alternative>Food Fight</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>General Computer Corporation</manufacturer>
+	<manufacturer>Atari</manufacturer>
+	<category>Arena</category>
+
+	<setname>foodf1</setname>
+	<parent>foodf</parent>
+	<mameversion>0218</mameversion>
+	<rbf>foodfight</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-FoodFight_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="a1fa44e16242647a0196882d017e96ad" zip="foodf.zip|foodf1.zip">
+		<part crc="06d0ede0" name="136020-101.8c"></part>
+		<part crc="ca6390a4" name="136020-102.9c"></part>
+		<part crc="36e89e89" name="136020-103.8d"></part>
+		<part crc="f667374c" name="136020-104.9d"></part>
+		<part crc="a8c22e50" name="136020-105.8e"></part>
+		<part crc="13e013c4" name="136020-106.9e"></part>
+		<part crc="8a3f7ca4" name="136020-107.8f"></part>
+		<part crc="d4244e12" name="136020-108.9f"></part>
+		<part crc="c13c90eb" name="136020-109.6lm"></part>
+		<part crc="8870e3d6" name="136020-110.4e"></part>
+		<part crc="84372edf" name="136020-111.4d"></part>
+		<part crc="a4186b13" name="foodf.nv"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

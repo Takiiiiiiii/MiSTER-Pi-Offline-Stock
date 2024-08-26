@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Moon Ranger</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Moon Patrol</version>
+	<alternative>Moon Patrol</alternative>
+	<platform>Irem M52</platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Irem</manufacturer>
+	<category>Shooter - Horizontal</category>
+
+	<setname>mranger</setname>
+	<parent>mpatrol</parent>
+	<mameversion>0218</mameversion>
+	<rbf>moonpatrol</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="738ce687f4681fe1d32e4ba74db38e91" zip="mpatrol.zip|mranger.zip">
+		<part crc="5873a860" name="mpa-1.3m"></part>
+		<part crc="217dd431" name="mra-2.3l"></part>
+		<part crc="9f0af7b2" name="mra-3.3k"></part>
+		<part crc="7fe8e2cd" name="mra-4.3j"></part>
+		<part crc="e3ee7f75" name="mpe-5.3e"></part>
+		<part crc="cca6d023" name="mpe-4.3f"></part>
+		<part crc="707ace5e" name="mpb-2.3m"></part>
+		<part crc="9b72133a" name="mpb-1.3n"></part>
+		<part crc="a0919392" name="mpe-3.3h"></part>
+		<part crc="c7aa1fb0" name="mpe-2.3k"></part>
+		<part crc="c46a7f72" name="mpe-1.3l"></part>
+		<part crc="561d3108" name="mp-s1.1a"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

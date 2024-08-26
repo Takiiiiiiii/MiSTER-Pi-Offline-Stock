@@ -1,0 +1,67 @@
+<misterromdescription>
+	<name>Apocaljpse now</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Rescue</version>
+	<alternative>Rescue</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>bootleg</manufacturer>
+	<category>Shooter - Horizontal</category>
+
+	<setname>aponow</setname>
+	<parent>rescue</parent>
+	<mameversion>0218</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls>twin stick</special_controls>
+	<num_buttons>4</num_buttons>
+	<buttons default="A,B,X,Y,Start,Select,R" names="Shoot Right,Shoot Down,Shoot Up,Shoot Left,Start 1P/Bomb,Start 2P,Coin"></buttons>
+
+	<switches default="FF,FD,F3">
+		<dip bits="1" ids="3,1" name="Starting Level"></dip>
+		<dip bits="8" ids="5,3" name="Lives"></dip>
+		<dip bits="9" ids="On,Off" name="Demo Sounds"></dip>
+		<dip bits="17,18" ids="1c/2cr,1c/1cr,1c/3cr,1/4cr" name="Coinage"></dip>
+		<dip bits="19" ids="Easy,Hard" name="Difficulty"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>11</part>
+		</rom>
+	<rom index="0" md5="24c0c7e1dd5138754a6c1a5c3aa081b7" zip="rescue.zip|aponow.zip">
+		<part crc="33011579" name="aponow01.rom"></part>
+		<part crc="d477573e" name="aponow02.rom"></part>
+		<part crc="46c41898" name="aponow03.rom"></part>
+		<part crc="d6505742" name="rb15dcpu.bin"></part>
+		<part crc="604df3a4" name="rb15ecpu.bin"></part>
+		<part crc="604df3a4" name="rb15ecpu.bin"></part>
+		<part crc="604df3a4" name="rb15ecpu.bin"></part>
+		<part crc="604df3a4" name="rb15ecpu.bin"></part>
+		<part crc="8b24bf17" name="rb15csnd.bin"></part>
+		<part crc="d96e4fb3" name="rb15dsnd.bin"></part>
+		<part crc="8b24bf17" name="rb15csnd.bin"></part>
+		<part crc="d96e4fb3" name="rb15dsnd.bin"></part>
+		<part crc="5512c547" name="rb15hcpu.bin" repeat="4"></part>
+		<part crc="4489d20c" name="rb15fcpu.bin" repeat="4"></part>
+		<part crc="40c6bcbd" name="rescue.clr"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

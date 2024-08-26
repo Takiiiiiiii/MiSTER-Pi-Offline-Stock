@@ -1,0 +1,10 @@
+####
+# Name: Aperture Grille [Realistic]
+# Author: TrashUncle
+# Type: CRT
+# Genre: Realistic
+# Sub-Pixel Layout: RGB
+####
+v2
+4,1
+44c,24c,14c,04c

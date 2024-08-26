@@ -1,0 +1,33 @@
+#Version
+v1
+
+#Original Filename
+#Arcade LPF 8khz 2nd.txt
+
+#Filter Description
+#LPF 8khz 2nd Order
+
+#Sampling Frequency
+7056000
+
+#Base gain
+0.00007018646608858092
+
+#gain scale for X0
+2
+
+#gain scale for X1
+1
+
+#gain scale for X2
+0
+
+#gain scale for Y0
+-1.98992552008492529225
+
+#gain scale for Y1
+0.98997601394542067421
+
+#gain scale for Y2
+0
+

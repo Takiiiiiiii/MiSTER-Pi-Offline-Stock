@@ -1,0 +1,16 @@
+####
+# Name: Kodak RGBW-3 MYCMW (Magenta)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+4,6
+51d,71d,62a,71d
+51d,71d,62a,71d
+51d,71d,62a,71d
+32a,71d,51d,71d
+32a,71d,51d,71d
+32a,71d,51d,71d

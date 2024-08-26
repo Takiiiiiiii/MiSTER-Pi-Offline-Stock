@@ -1,0 +1,20 @@
+<misterromdescription>
+	<name>Crystal Castles</name>
+	<mameversion>0245</mameversion>
+	<setname>ccastles</setname>
+	<mratimestamp>202211191300</mratimestamp>
+	<year>1983</year>
+	<rotation>horizontal</rotation>
+	<manufacturer>Atari</manufacturer>
+	<category>Action / Labyrinth</category>
+	<rbf>CrystalCastles</rbf>
+	<rom index="0" md5="none" zip="ccastles.zip">
+		<part crc="E2E17236" name="136022-101.1f"/>
+		<part crc="F6CCFBD4" name="136022-102.1h"/>
+		<part crc="9D1D89FC" name="136022-106.8d"/>
+		<part crc="39960B7D" name="136022-107.8b"/>
+		<part crc="81471AE5" name="136022-403.1k"/>
+		<part crc="820DAF29" name="136022-404.1l"/>
+		<part crc="4BEFC296" name="136022-405.1n"/>
+	</rom>
+</misterromdescription>

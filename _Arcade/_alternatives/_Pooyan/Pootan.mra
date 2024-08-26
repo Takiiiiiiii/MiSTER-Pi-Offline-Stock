@@ -1,0 +1,54 @@
+<misterromdescription>
+	<name>Pootan</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version></version>
+	<alternative>Pooyan</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>pootan</setname>
+	<parent>pooyan</parent>
+	<mameversion>0218</mameversion>
+	<rbf>pooyan</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way vertical</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="112d8ff41daf9902522f1ce217ae498f" zip="pooyan.zip|pootan.zip">
+		<part crc="41b23a24" name="poo_ic22.bin"></part>
+		<part crc="c9d94661" name="poo_ic23.bin"></part>
+		<part crc="fe1a9e08" name="3.6a"></part>
+		<part crc="8ae459ef" name="poo_ic25.bin"></part>
+		<part crc="0be802e4" name="poo_ic13.bin"></part>
+		<part crc="cba29096" name="poo_ic14.bin"></part>
+		<part crc="b2d8c121" name="6.9a"></part>
+		<part crc="1097c2b6" name="5.8a"></part>
+		<part crc="fbe2b368" name="xx.7a"></part>
+		<part crc="e1795b3d" name="xx.8a"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

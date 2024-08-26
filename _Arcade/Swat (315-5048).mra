@@ -1,0 +1,84 @@
+<misterromdescription>
+	<name>Swat</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>315-5048</version>
+	<alternative></alternative>
+	<platform>Sega System 1</platform>
+	<series></series>
+	<year>1984</year>
+	<manufacturer>Sega</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>swat</setname>
+	<parent>swat</parent>
+	<mameversion>0217</mameversion>
+	<rbf>segasys1</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R,C" names="Bomb,Fire,-,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches base="8" default="FF,7E">
+		<dip bits="9,10" ids="Infinite,5,4,3" name="Lives"></dip>
+		<dip bits="11,13" ids="Never,90k,80k,70k,60k,50k,40k,30k" name="Bonus at"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>06</part>
+		</rom>
+	<rom index="0" md5="63402cddf57d92dcfdcecbce7d1d9b83" type="merged|nonmerged|split" zip="swat.zip">
+		<part crc="93db9c9f" name="epr5807b.129"></part>
+		<part crc="67116665" name="epr-5808.130"></part>
+		<part crc="fd792fc9" name="epr-5809.131"></part>
+		<part crc="dc2b279d" name="epr-5810.132"></part>
+		<part crc="093e3ab1" name="epr-5811.133"></part>
+		<part crc="5bfd692f" name="epr-5812.134"></part>
+		<part crc="f6afd0fd" name="epr-5819.3"></part>
+		<part crc="f6afd0fd" name="epr-5819.3"></part>
+		<part crc="5a732865" name="epr-5805.86"></part>
+		<part crc="26ac258c" name="epr-5806.93"></part>
+		<part crc="5a732865" name="epr-5805.86"></part>
+		<part crc="26ac258c" name="epr-5806.93"></part>
+		<part crc="b22033d9" name="epr-5818.82"></part>
+		<part crc="4384376d" name="epr-5816.81"></part>
+		<part crc="be721c99" name="epr-5814.80"></part>
+		<part crc="fd942797" name="epr-5817.65"></part>
+		<part crc="16ad046c" name="epr-5815.64"></part>
+		<part crc="0d42c27e" name="epr-5813.63"></part>
+		<part crc="648350b8" name="pr-5317.106"></part>
+		<part>
+88 08 80 00 a0 a8 80 88 88 08 80 00 88 a8 80 a0
+a0 80 20 00 88 08 80 00 a0 a8 80 88 88 08 80 00
+28 20 a8 a0 a0 a8 80 88 88 a8 80 a0 28 20 a8 a0
+a0 80 20 00 a0 a8 80 88 28 20 a8 a0 a0 a8 80 88
+a0 80 20 00 a0 80 20 00 a0 20 80 00 88 a8 80 a0
+a0 20 80 00 a0 20 80 00 a0 20 80 00 a0 20 80 00
+a0 80 20 00 a0 80 20 00 88 a8 80 a0 28 20 a8 a0
+a0 a8 80 88 a0 80 20 00 28 20 a8 a0 a0 a8 80 88
+		</part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 00 00 00 00 FF 00 02 00 02 00 01 00 FF 00 00
+		00 00 D3 00 00 3C 00 49
+		00 00 C0 14 00 03 00 02
+		</part>
+		</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="63"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,63 @@
+<misterromdescription>
+	<name>Strong X</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Strategy X</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>bootleg</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>strongx</setname>
+	<parent></parent>
+	<mameversion>0218</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>3</num_buttons>
+	<buttons default="A,L,R,Start,Select,Y" names="Fire,Turn Left,Turn Right,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="FF,FC,F1,FF">
+		<dip bits="8,9" ids="3,4,5,255(Cheat)" name="Lives"></dip>
+		<dip bits="17,18" ids="1c/1cr,1c/2cr,1c/3cr,1c/4cr" name="Coinage"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0E</part>
+		</rom>
+	<rom index="0" md5="a057c6ceaf7365d99366e0440f037f5e" zip="stratgyx.zip|strongx.zip">
+		<part crc="c2f7268c" name="strongx.2d"></part>
+		<part crc="91059422" name="strongx.2e"></part>
+		<part crc="849e2504" name="2f_3.bin"></part>
+		<part crc="8a64069b" name="2h_4.bin"></part>
+		<part crc="78b9b898" name="2j_5.bin"></part>
+		<part crc="20bae414" name="2l_6.bin"></part>
+		<part crc="20bae414" name="2l_6.bin"></part>
+		<part crc="20bae414" name="2l_6.bin"></part>
+		<part crc="713a5db8" name="s1.bin"></part>
+		<part crc="46079411" name="s2.bin"></part>
+		<part crc="d105ad91" name="5h_c1.bin" repeat="4"></part>
+		<part crc="7121b679" name="5f_c2.bin" repeat="4"></part>
+		<part crc="51a629e1" name="strategy.6e"></part>
+		<part crc="d95c0318" name="strategy.10k"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

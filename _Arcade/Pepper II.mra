@@ -1,0 +1,49 @@
+<misterromdescription>
+	<name>Pepper II</name>
+	<mameversion>0245</mameversion>
+	<setname>pepper2</setname>
+	<parent>pepper2</parent>
+	<mratimestamp>202312091000</mratimestamp>
+	<year>1980</year>
+	<manufacturer>Exidy</manufacturer>
+	<category>Maze</category>
+	<rbf>Exidy2</rbf>
+	<rotation>horizontal</rotation>
+	<joystick>4-way</joystick>
+	<switches default="00,80,FF,00,00,00,00,00">
+		<dip bits="9,10" name="Bonus Life" ids="90000 and 180000,70000 and 140000,50000 and 100000,40000 and 80000"/>
+		<dip bits="11,12" name="Coinage" ids="1 COIN 4 CREDITS,1 COIN 2 CREDITS,2 COINS 1 CREDIT,1 COIN 1 CREDIT"/>
+		<dip bits="13,14" name="Lives" ids="5,4,3,2"/>
+	</switches>
+	<rom index="0" md5="none" zip="pepper2.zip|targ.zip|fax.zip" type="merged|nonmerged">
+		<part repeat="0x9000"> 00 </part>
+		<part crc="33db4737" name="p2l-8_12a.12a"/>
+		<part crc="a1f43b1f" name="p2l-8_11a.11a"/>
+		<part crc="4d7d7786" name="p2l-8_10a.10a"/>
+		<part crc="b3362298" name="p2l-8_9a.9a"/>
+		<part crc="64d106ed" name="p2l-8_8a.8a"/>
+		<part crc="b1c6f07c" name="p2l-8_7a.7a"/>
+		<part crc="515b1046" name="p2l-8_6a.6a"/>
+		<part repeat="0x2800"> 00 </part>
+		<part crc="90e3c781" name="audio_5a"/>
+		<part crc="dd343e34" name="audio_6a"/>
+		<part crc="e02b4356" name="audio_7a"/>
+		<part crc="b25160cd" name="p2l-1_11d.11d"/>
+		<part crc="e1e867ae" name="fxl-6b"/>
+		<part crc="0da1bdf9" name="fxl-8b"/>
+		<part crc="f76b4fcf" name="hrl14h-1.h14"/>
+	</rom>	
+	<rom index="1">
+		<part>30</part>
+	</rom>	
+	<rom index="2">
+		<part>37</part>
+	</rom>	
+	<rom index="3" md5="none">
+		<part>
+			66 00 00 00 00 FF 00 02 00 02 00 01 00 FF 02 00
+			00 00 03 60 00 23 00 11
+		</part>
+	</rom>
+	<nvram index="4" size="35"/>
+</misterromdescription>

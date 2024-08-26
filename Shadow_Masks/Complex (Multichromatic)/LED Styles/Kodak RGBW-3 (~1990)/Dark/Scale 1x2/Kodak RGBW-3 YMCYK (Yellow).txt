@@ -1,0 +1,14 @@
+####
+# Name: Kodak RGBW-3 YMCYK (Yellow)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+4,4
+61d,01d,52a,01d
+61d,01d,52a,01d
+32a,01d,61d,01d
+32a,01d,61d,01d

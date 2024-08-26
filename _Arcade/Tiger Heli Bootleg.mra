@@ -1,0 +1,57 @@
+<misterromdescription>
+	<name>Tiger Heli (Bootleg)</name>
+	<mameversion>0245</mameversion>
+	<setname>tigerhb1</setname>
+	<parent>Tigerh</parent>
+	<mratimestamp>202211250534</mratimestamp>
+	<year>1985</year>
+	<manufacturer>Toaplan</manufacturer>
+	<category>Shooter</category>
+	<rbf>SlapFight</rbf>
+	<rotation>vertical (ccw)</rotation>
+	<joystick>8-way</joystick>
+	<switches default="FF,FF,FF">
+		<dip bits="15" name="Heli Speed" ids="Fast,Normal"/>
+		<dip bits="14" name="Dip Switch Test" ids="ON,OFF"/>
+		<dip bits="13" name="Screen" ids="Inverted,Normal"/>
+		<dip bits="12" name="Game Style" ids="Upright,Table"/>
+		<dip bits="11" name="Attract Sound" ids="OFF,ON"/>
+		<dip bits="8,10" name="Coinage" ids="Freeplay,3 Coins/2 Credits,3 Coins/1 Credit,2 Coins/3 Credits,2 Coin/1 Credit,1 Coin/3 Credit,1 Coin/2 Credit,1 Coin/1 Credit"/>
+		<dip bits="21,23" name="Not Used" ids="7,6,5,4,3,2,1,0"/>
+		<dip bits="20" name="Bonus Levels" ids="50000 - 120000,20000-80000"/>
+		<dip bits="18,19" name="Difficulty" ids="Difficult,Normal,Easy"/>
+		<dip bits="16,17" name="Number of Tiger Helis" ids="2,1,5,3"/>
+	</switches>		
+	<rom index="0" md5="none" zip="tigerh.zip|tigerhb2.zip" type="merged|nonmerged">
+		<part crc="ef738c68" name="rom00_09.bin"/>
+		<part crc="65DF2152" name="a47_01.8n"/>
+		<part crc="36e250b9" name="rom02_07.bin"/>
+		<part repeat="0x4000"> FF </part>
+		<part crc="D105260F" name="a47_03.12d"/>
+		<part crc="CD59628E" name="a47_04.6g"/>
+		<part crc="C5325B49" name="a47_05.6f"/>
+		<part repeat="0x2000"> FF </part>
+		<part crc="11FBCC8C" name="a47_06.6p"/>
+		<part repeat="0x4000"> FF </part>
+		<part crc="02FDD429" name="a47_07.6n"/>
+		<part repeat="0x4000"> FF </part>
+		<part crc="E539AF2B" name="a47_08.6m"/>		
+		<part repeat="0x4000"> FF </part>
+		<part crc="31FAE8A8" name="a47_09.4m"/>
+		<part repeat="0x4000"> FF </part>
+		<part crc="E1CF844E" name="a47_10.6h"/>
+		<part repeat="0x4000"> FF </part>
+		<part crc="744FAE9B" name="a47_11.8h"/>
+		<part repeat="0x4000"> FF </part>
+		<part crc="C064ECDB" name="a47_12.6j"/>	
+		<part repeat="0x4000"> FF </part>
+		<part crc="739A7E7E" name="a47_13.8j"/>			
+		<part repeat="0x4000"> FF </part>
+		<part crc="2c69350d" name="82s129.12q"/>
+		<part crc="25f273f2" name="82s129.12n"/>
+		<part crc="7142e972" name="82s129.12m"/>		
+	</rom>
+	<rom index="1">
+		<part>1</part>
+	</rom>		
+</misterromdescription>

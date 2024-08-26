@@ -1,0 +1,53 @@
+<misterromdescription>
+	<name>Venture</name>
+	<mameversion>0245</mameversion>
+	<setname>venture</setname>
+	<parent>venture</parent>
+	<mratimestamp>202312091000</mratimestamp>
+	<year>1980</year>
+	<manufacturer>Exidy</manufacturer>
+	<category>Adventure</category>
+	<rbf>Exidy2</rbf>
+	<rotation>horizontal</rotation>
+	<joystick>4-way</joystick>
+	<switches default="00,80,FF,00,00,00,00,00">
+		<dip bits="9,10" name="Extra Bow" ids="20000,30000,40000,50000"/>
+		<dip bits="11,12" name="Coinage" ids="1 COIN 1 CREDIT,2 COINS 1 CREDIT,1 COIN 2 CREDITS,1 COIN 4 CREDITS"/>
+		<dip bits="13,14" name="Lives" ids="2,3,4,5"/>
+	</switches>
+	<rom index="0" md5="none" zip="venture.zip" type="merged|nonmerged">
+		<part repeat="0x8000"> 00 </part>
+		<part crc="f4e4d991" name="13a-cpu"/>
+		<part crc="c6d8cb04" name="12a-cpu"/>
+		<part crc="3bdb01f4" name="11a-cpu"/>
+		<part crc="0da769e9" name="10a-cpu"/>
+		<part crc="0ae05855" name="9a-cpu"/>
+		<part crc="4ae59676" name="8a-cpu"/>
+		<part crc="48d66220" name="7a-cpu"/>
+		<part crc="7b78cf49" name="6a-cpu"/>	
+		<part repeat="0x1800"> FF </part>
+		<part crc="4ea1c3d9" name="3a-ac"/>
+		<part crc="5154c39e" name="4a-ac"/>
+		<part crc="1e1e3916" name="5a-ac"/>
+		<part crc="80f3357a" name="6a-ac"/>
+		<part crc="466addc7" name="7a-ac"/>
+		<part crc="ea6fd981" name="vel_11d-2.11d"/>
+		<part crc="43b35bb7" name="vel5c 1.c5"/>
+		<part crc="e26f9053" name="hrl6d 1.d6"/>
+		<part crc="f76b4fcf" name="hrl14h 1.h14"/>
+		<part repeat="0x20"> 00 </part>
+	</rom>	
+	<rom index="1">
+		<part>10</part>
+	</rom>	
+	<rom index="2">
+		<part>37</part>
+	</rom>	
+	<rom index="3" md5="none">
+		<part>
+			4D 80 00 00 00 FF 00 02 00 02 00 01 00 FF 02 00
+			00 00 03 80 00 23 00 53
+		</part>
+	</rom>
+	<nvram index="4" size="35"/>		
+</misterromdescription>

@@ -1,0 +1,74 @@
+<misterromdescription>
+	<name>The End</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Stern</version>
+	<alternative>The End</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Konami</manufacturer>
+	<manufacturer>Stern</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>theends</setname>
+	<parent>theend</parent>
+	<mameversion>0218</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R" names="Fire,-,-,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="FF,FC,F1">
+		<dip bits="8,9" ids="3,4,5,256(Cheat)" name="Lives"></dip>
+		<dip bits="17,18" ids="1c/1cr,2c/1cr,3c/1cr,1c/2cr" name="Coinage"></dip>
+		<dip bits="19" ids="Upright,Cocktail" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0C</part>
+		</rom>
+	<rom index="0" md5="027030081a918db07597d55510d6af33" zip="theend.zip|theends.zip">
+		<part crc="90e5ab14" name="the_end_ra3_13.ic13"></part>
+		<part crc="950f0a07" name="the_end_ra3_14.ic14"></part>
+		<part crc="6786bcf5" name="the_end_ra3_15.ic15"></part>
+		<part crc="380a0017" name="the_end_ra3_16.ic16"></part>
+		<part crc="af067b7f" name="the_end_ra3_17.ic17"></part>
+		<part crc="a0411b93" name="the_end_ra3_18.ic18"></part>
+		<part crc="a0411b93" name="the_end_ra3_18.ic18"></part>
+		<part crc="a0411b93" name="the_end_ra3_18.ic18"></part>
+		<part crc="90e5ab14" name="the_end_ra3_13.ic13"></part>
+		<part crc="950f0a07" name="the_end_ra3_14.ic14"></part>
+		<part crc="6786bcf5" name="the_end_ra3_15.ic15"></part>
+		<part crc="380a0017" name="the_end_ra3_16.ic16"></part>
+		<part crc="af067b7f" name="the_end_ra3_17.ic17"></part>
+		<part crc="a0411b93" name="the_end_ra3_18.ic18"></part>
+		<part crc="a0411b93" name="the_end_ra3_18.ic18"></part>
+		<part crc="a0411b93" name="the_end_ra3_18.ic18"></part>
+		<part crc="3b2c2f70" name="the_end_ra3_56.ic56"></part>
+		<part crc="e0429e50" name="the_end_ra2_55.ic55"></part>
+		<part crc="3b2c2f70" name="the_end_ra3_56.ic56"></part>
+		<part crc="e0429e50" name="the_end_ra2_55.ic55"></part>
+		<part crc="af6d09b6" name="the_end_ra3_31.ic31" repeat="4"></part>
+		<part crc="527fd384" name="the_end_ra3_30.ic30" repeat="4"></part>
+		<part crc="24652bc4" name="6331-1j.86"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

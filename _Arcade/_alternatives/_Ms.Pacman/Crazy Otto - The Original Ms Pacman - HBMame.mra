@@ -1,0 +1,68 @@
+<misterromdescription>
+	<name>Crazy Otto - The Original Ms Pacman - HBMame</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Ms. Pac-Man</alternative>
+	<platform></platform>
+	<series>Pac-Man</series>
+	<year>2018</year>
+	<manufacturer></manufacturer>
+	<category>Maze</category>
+
+	<setname>ottopza</setname>
+	<parent>mspacman</parent>
+	<mameversion>0230</mameversion>
+	<rbf>pacman</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>0</num_buttons>
+	<button_names></button_names>
+
+	<switches default="FF,FF,C9">
+		<dip bits="15" ids="Cocktail,Upright" name="Cabinet"></dip>
+		<dip bits="16,17" ids="2c/1cr,1c/1cr,1c/2cr,Free Play" name="Coinage" values="3,1,2,0"></dip>
+		<dip bits="18,19" ids="1,2,3,5" name="Lives"></dip>
+		<dip bits="20,21" ids="10000,15000,20000,None" name="Bonus Life After"></dip>
+		<dip bits="22" ids="Hard,Normal" name="Difficulty"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>05</part>
+		</rom>
+	<rom index="0" zip="/hbmame/mspacman.zip" type="merged">
+		<part crc="35B94585" name="ottopz/ottopz.1"></part>
+		<part crc="890FC087" name="ottopza/ottopza.2"></part>
+		<part crc="6F0C25BD" name="ottopz/ottopz.3"></part>
+		<part crc="6DD61478" name="ottopza/ottopza.4"></part>
+		<part crc="098C2A09" name="ottopz/ottopz.5"></part>
+		<part crc="367E5C05" name="ottopz/ottopz.6"></part>
+		<part crc="c82cd714" name="u7"></part>
+		<part crc="c82cd714" name="u7"></part>
+		<part crc="046D76FB" name="ottopz/ottopz.5e"></part>
+		<part crc="402E194D" name="ottopz/ottopz.5f"></part>
+		<part crc="402E194D" name="ottopz/ottopz.5f"></part>
+		<part crc="402E194D" name="ottopz/ottopz.5f"></part>
+		<part crc="a9cc86bf" name="82s126.1m"></part>
+		<part crc="3eb3a8e4" name="82s126.4a"></part>
+		<part crc="77245b66" name="82s126.3m"></part>
+		<part crc="2fc650bd" name="82s123.7f"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,70 @@
+<misterromdescription>
+	<name>Jump Shot</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Engineering Sample</version>
+	<alternative>Jump Shot</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1985</year>
+	<manufacturer>Bally</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Sports</category>
+
+	<setname>jumpshotp</setname>
+	<parent>jumpshot</parent>
+	<mameversion>0218</mameversion>
+	<rbf>pacman</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (simultaneous)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="FF,FF,FB">
+		<dip bits="15" ids="Cocktail,Upright" name="Cabinet"></dip>
+		<dip bits="16,17" ids="1:00,1:30,2:00,2:30" name="Time" values="0,2,3,1"></dip>
+		<dip bits="18" ids="Darker,Lighter" name="Skin Tone P1"></dip>
+		<dip bits="19" ids="Darker,Lighter" name="Skin Tone P2"></dip>
+		<dip bits="20" ids="Off,On" name="Free Play"></dip>
+		<dip bits="21" ids="1 Credit,2 Credit" name="2 Players Game"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>10</part>
+		</rom>
+	<rom index="0" md5="5be60081b8ba372780b5d21d028f5826" zip="jumpshot.zip|jumpshotp.zip">
+		<part crc="acc5e15e" name="js6e.bin"></part>
+		<part crc="62b48ba4" name="js6f.bin"></part>
+		<part crc="7c9b5e30" name="js6h.bin"></part>
+		<part crc="9f0c39f6" name="js6j.bin"></part>
+		<part crc="acc5e15e" name="js6e.bin"></part>
+		<part crc="62b48ba4" name="js6f.bin"></part>
+		<part crc="7c9b5e30" name="js6h.bin"></part>
+		<part crc="9f0c39f6" name="js6j.bin"></part>
+		<part crc="d9fa90f5" name="5e"></part>
+		<part crc="2ec711c1" name="5f"></part>
+		<part crc="d9fa90f5" name="5e"></part>
+		<part crc="2ec711c1" name="5f"></part>
+		<part crc="a9cc86bf" name="82s126.1m"></part>
+		<part crc="0399f39f" name="prom.4a"></part>
+		<part crc="77245b66" name="82s126.3m"></part>
+		<part crc="872b42f3" name="prom.7f"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

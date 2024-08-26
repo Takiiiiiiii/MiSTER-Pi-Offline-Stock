@@ -1,0 +1,33 @@
+#Version
+v1
+
+#Original Filename
+#LPF 20khz 2nd BW.txt
+
+#Filter Description
+#LPF 20khz 2nd Order Butterworth
+
+#Sampling Frequency
+7056000
+
+#Base gain
+0.00043538271324810695
+
+#gain scale for X0
+2
+
+#gain scale for X1
+1
+
+#gain scale for X2
+0
+
+#gain scale for Y0
+-1.97481489535630871934
+
+#gain scale for Y1
+0.97512812032986850852
+
+#gain scale for Y2
+0
+

@@ -1,0 +1,52 @@
+<misterromdescription>
+	<name>Lunar Lander </name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1979</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Lander</category>
+
+	<setname>llander</setname>
+	<parent>llander</parent>
+	<mameversion>0220</mameversion>
+	<rbf>lunarlander</rbf>
+	<about></about>
+
+	<resolution>31kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick></joystick>
+	<special_controls>tilt</special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="5b2971c7a10d7b454892374ea3f48515" zip="llander.zip">
+		<part crc="b8763eea" name="034572-02.f1"></part>
+		<part crc="77da4b2f" name="034571-02.de1"></part>
+		<part crc="2724e591" name="034570-01.c1"></part>
+		<part crc="72837a4e" name="034569-02.b1"></part>
+		<part crc="355a9371" name="034599-01.r3"></part>
+		<part crc="9c4ffa68" name="034598-01.np3"></part>
+		<part crc="ebb744f2" name="034597-01.m3"></part>
+		<part crc="355a9371" name="034599-01.r3"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

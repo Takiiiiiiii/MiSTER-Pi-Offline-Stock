@@ -1,0 +1,14 @@
+####
+# Name: Kodak Foveon X3 YCMW (Yellow)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+4,4
+61d,71d,32a,71d
+71d,61d,71d,32a
+52a,71d,61d,71d
+71d,52a,71d,61d

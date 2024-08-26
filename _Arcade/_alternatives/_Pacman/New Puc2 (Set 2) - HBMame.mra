@@ -1,0 +1,60 @@
+<misterromdescription>
+	<name>New Puck 2</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>Set 2</version>
+	<alternative>Pac-Man</alternative>
+	<platform></platform>
+	<series>Pac-Man</series>
+	<year>1980</year>
+	<manufacturer>Linear Elect</manufacturer>
+	<category>Maze</category>
+
+	<setname>nwpuc2b</setname>
+	<parent>puckman</parent>
+	<mameversion>0217</mameversion>
+	<rbf>pacman</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>0</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="2df9a068d62b978a35467ba936ae3795" zip="/hbmame/puckman.zip">
+		<part crc="532bd09f" name="nwpuc2b/nwpuc2b.6e"></part>
+		<part crc="b9062f57" name="nwpuc2b/nwpuc2b.6f"></part>
+		<part crc="519b3c57" name="nwpuc2b/nwpuc2b.6h"></part>
+		<part crc="154cc118" name="nwpuc2b/nwpuc2b.6j"></part>
+		<part crc="532bd09f" name="nwpuc2b/nwpuc2b.6e"></part>
+		<part crc="b9062f57" name="nwpuc2b/nwpuc2b.6f"></part>
+		<part crc="519b3c57" name="nwpuc2b/nwpuc2b.6h"></part>
+		<part crc="154cc118" name="nwpuc2b/nwpuc2b.6j"></part>
+		<part crc="58357313" name="nwpuc2b/nwpuc2b.5e"></part>
+		<part crc="4b044c87" name="nwpuc2b/nwpuc2b.5f"></part>
+		<part crc="4b044c87" name="nwpuc2b/nwpuc2b.5f"></part>
+		<part crc="4b044c87" name="nwpuc2b/nwpuc2b.5f"></part>
+		<part crc="a9cc86bf" name="82s126.1m"></part>
+		<part crc="3eb3a8e4" name="82s126.4a"></part>
+		<part crc="77245b66" name="82s126.3m"></part>
+		<part crc="2fc650bd" name="82s123.7f"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

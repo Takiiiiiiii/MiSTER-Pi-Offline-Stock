@@ -1,0 +1,15 @@
+####
+# Name: PenTile CYMK
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: BGR
+####
+
+Resolution=0
+v2
+4,4
+02a,32a,62a,52a
+02a,32a,62a,52a
+62a,52a,02a,32a
+62a,52a,02a,32a

@@ -1,0 +1,84 @@
+<misterromdescription>
+	<name>Spatter</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>315-5xxx</version>
+	<alternative></alternative>
+	<platform>Sega System 1</platform>
+	<series></series>
+	<year>1984</year>
+	<manufacturer>Sega</manufacturer>
+	<category>Maze</category>
+
+	<setname>spatter</setname>
+	<parent>spatter</parent>
+	<mameversion>0217</mameversion>
+	<rbf>segasys1</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,Start,Select,R,C" names="Jump,-,-,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,7E">
+		<dip bits="9" ids="On,Off" name="Demo Sound"></dip>
+		<dip bits="10,11" ids="Infinite,4,2,3" name="Lives"></dip>
+		<dip bits="12,13" ids="None,100k only,50k 200k,40k 120k 480k" name="Extend"></dip>
+		<dip bits="14" ids="Yes,No" name="Reset Timer and Objects"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>04</part>
+		</rom>
+	<rom index="0" md5="6b549b8239507ca465e152766831f35c" type="merged|nonmerged|split" zip="spatter.zip">
+		<part crc="329b4506" name="epr-6392.116"></part>
+		<part crc="3b56e25f" name="epr-6393.109"></part>
+		<part crc="647c1301" name="epr-6394.96"></part>
+		<part crc="1df95511" name="epr-6316.120"></part>
+		<part crc="1df95511" name="epr-6316.120"></part>
+		<part crc="e871e132" name="epr-6306.04"></part>
+		<part crc="99c2d90e" name="epr-6308.117"></part>
+		<part crc="0a5ad543" name="epr-6307.05"></part>
+		<part crc="7423ad98" name="epr-6309.110"></part>
+		<part crc="a2bf2832" name="epr-6328.62"></part>
+		<part crc="269fbb4c" name="epr-6326.64"></part>
+		<part crc="8ab3b563" name="epr-6324.66"></part>
+		<part crc="c60d4471" name="epr-6397.61"></part>
+		<part crc="c15ccf3b" name="epr-6396.63"></part>
+		<part crc="3f083065" name="epr-6395.65"></part>
+		<part crc="648350b8" name="pr-5317.106"></part>
+		<part>
+88 08 80 00 00 08 20 28 28 a8 08 88 28 a8 08 88
+28 20 a8 a0 28 20 a8 a0 88 08 80 00 88 08 80 00
+00 08 20 28 88 08 80 00 a0 80 20 00 80 88 00 08
+88 08 80 00 a0 80 20 00 88 08 80 00 28 20 a8 a0
+28 a8 08 88 80 88 00 08 80 88 00 08 00 08 20 28
+28 20 a8 a0 28 a8 08 88 00 08 20 28 80 a0 88 a8
+80 88 00 08 a0 80 20 00 80 a0 88 a8 a0 80 20 00
+a0 80 20 00 80 a0 88 a8 28 20 a8 a0 00 08 20 28
+		</part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 00 00 00 00 FF 00 02 00 02 00 01 00 FF 00 00
+		00 00 EF 00 00 31 00 52
+		00 00 C0 0B 00 03 00 00
+		00 00 C0 0C 00 01 10 10
+		</part>
+		</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="53"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

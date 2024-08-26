@@ -1,0 +1,14 @@
+####
+# Name: Bayer BRGB (Blue)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+4,4
+11d,42a,22a,11d
+11d,42a,22a,11d
+22a,11d,11d,42a
+22a,11d,11d,42a

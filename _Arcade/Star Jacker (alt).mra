@@ -1,0 +1,87 @@
+<misterromdescription>
+	<name>Star Jacker</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Alt</version>
+	<alternative>Star Jacker</alternative>
+	<platform>Sega System 1</platform>
+	<series></series>
+	<year>1983</year>
+	<manufacturer>Sega</manufacturer>
+	<manufacturer2>Stern</manufacturer2>
+	<category>Shooter - Vertical</category>
+
+	<setname>starjacks</setname>
+	<parent>starjack</parent>
+	<mameversion>0216</mameversion>
+	<rbf>segasys1</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="B,A,Start,Select,R,C" names="Fire 1,Fire 2,-,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,BE">
+		<dip bits="9,10" ids="Infinite,5,4,3" name="Lives"></dip>
+		<dip bits="11" ids="Multi,Single" name="Ship"></dip>
+		<dip bits="12,13" ids="60k +every 70k,50k +every 60k,40k +every 50k,30k +every 40k" name="Bonus at"></dip>
+		<dip bits="14,15" ids="Hardest,Hard,Medium,Easy" name="Difficulty"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>06</part>
+		</rom>
+	<rom index="0" md5="5ada4b1ccbff2b2606af0e37b6b4948c" type="merged|nonmerged|split" zip="starjack.zip">
+		<part crc="59a22a1f" name="starjacks/star_jacker_a1_ic29.129"></part>
+		<part crc="7f4597dc" name="starjacks/star_jacker_a1_ic30.130"></part>
+		<part crc="6074c046" name="starjacks/star_jacker_a1_ic31.131"></part>
+		<part crc="1c48a3fa" name="starjacks/star_jacker_a1_ic32.132"></part>
+		<part crc="7598bd51" name="starjacks/star_jacker_a1_ic33.133"></part>
+		<part crc="f66fa604" name="starjacks/star_jacker_a1_ic34.134"></part>
+		<part crc="7a72ab3d" name="epr-5332.3"></part>
+		<part crc="7a72ab3d" name="epr-5332.3"></part>
+		<part crc="6f2e1fd3" name="epr-5318.86"></part>
+		<part crc="07987244" name="starjacks/epr-5446.93"></part>
+		<part crc="6f2e1fd3" name="epr-5318.86"></part>
+		<part crc="07987244" name="starjacks/epr-5446.93"></part>
+		<part crc="251d898f" name="epr-5331.82"></part>
+		<part crc="3e8bcaed" name="epr-5329.81"></part>
+		<part crc="79e92cb1" name="epr-5327.80"></part>
+		<part crc="0ab1893c" name="starjacks/star_jacker_a1_ic65.65"></part>
+		<part crc="7f628ae6" name="starjacks/epr-5455.64"></part>
+		<part crc="5bcb253e" name="starjacks/epr-5453.63"></part>
+		<part crc="648350b8" name="pr-5317.106"></part>
+		<part>
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+		</part>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		01 0F FF FF 00 FF 00 02 00 02 00 01 00 FF 00 00
+		00 00 C1 02 00 23 00 52
+		00 00 C0 FB 00 04 00 00
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

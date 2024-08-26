@@ -1,0 +1,51 @@
+<misterromdescription>
+	<name>Water Ski</name>
+	<mameversion>0245</mameversion>
+	<setname>waterski</setname>
+	<parent>waterski</parent>
+	<mratimestamp>202304140600</mratimestamp>
+	<year>1983</year>
+	<manufacturer>Taito</manufacturer>
+	<category>Sports</category>
+	<rbf>TaitoSJ</rbf>
+	<rotation>Vertical</rotation>
+	<joystick>8-way</joystick>
+        <buttons default="A,B,Start,Select,L,R,X,Y" names="A,B,Start,Select,Coin,Coin,Service,Pause"/>
+	<switches default="00,00,FF,00,00,00,00,00">
+		<dip bits="10" name="Free Play" ids="Off,On"/>
+		<dip bits="11,12" name="Game Time" ids="2:30,2:20,2:10,2:00"/>
+		<dip bits="14" name="Flip Screen" ids="Off, On"/>
+		<dip bits="15" name="Cabinet" ids="Upright, Cocktail"/>
+		<dip bits="16,19" name="Coin A" ids="9C1C,8C1C,7C1C,6C1C,5C1C,4C1C,3C1C,2C1C,1C8C,1C7C,1C6C,1C5C,1C4C,1C3C,1C2C,1C1C"/>
+		<dip bits="20,23" name="Coin B" ids="9C1C,8C1C,7C1C,6C1C,5C1C,4C1C,3C1C,2C1C,1C8C,1C7C,1C6C,1C5C,1C4C,1C3C,1C2C,1C1C"/>		
+		<dip bits="36" name="Coinage Display" ids="Coins/Credits,Insert Coin"/>		
+		<dip bits="37" name="Year Display" ids="Yes,No"/>		
+		<dip bits="38" name="Hit Detection" ids="Normal Game,No Hit"/>		
+		<dip bits="39" name="Coin Slots" ids="A and B,A only"/>		
+	</switches>		
+	<rom index="0" md5="none" zip="waterski.zip" type="merged|nonmerged">
+		<part crc="322c4c2c" name="a03-01"/>
+		<part crc="8df176d1" name="a03-02"/>
+		<part crc="420bd04f" name="a03-03"/>
+		<part crc="5c081a94" name="a03-04"/>
+		<part crc="1fae90d2" name="a03-05"/>
+		<part crc="55b7c151" name="a03-06"/>
+		<part crc="8abc7522" name="a03-07"/>
+		<part repeat="0x1000"> 00 </part>
+		<part repeat="0x8000"> 00 </part>
+		<part crc="c206d870" name="a03-08"/>
+		<part crc="48ac912a" name="a03-09"/>
+		<part crc="a056defb" name="a03-10"/>
+		<part crc="f06cddd6" name="a03-11"/>
+		<part crc="27dfd8c2" name="a03-12"/>		
+		<part repeat="0x3000"> 00 </part>
+		<part crc="78c7d37f" name="a03-13"/>
+		<part crc="31f991ca" name="a03-14"/>		
+		<part repeat="0x2000"> 00 </part> 		
+		<part crc="b833b5ea" name="eb16.22"/>
+		<part repeat="0x0F00"> 00 </part>
+    </rom>	
+	<rom index="1">
+		<part>0</part>
+	</rom>		
+</misterromdescription>

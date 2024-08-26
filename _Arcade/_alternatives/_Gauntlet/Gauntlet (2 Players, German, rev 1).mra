@@ -1,0 +1,77 @@
+<misterromdescription>
+	<name>Gauntlet</name>
+	<region>Germany</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>2 Player, Rev 1</version>
+	<alternative>Gauntlet</alternative>
+	<platform></platform>
+	<series>Gauntlet</series>
+	<year>1985</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>gauntlet2pg1</setname>
+	<parent>gauntlet</parent>
+	<mameversion>0225</mameversion>
+	<rbf>gauntlet</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>4</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="B,A,R" names="Magic/Start,Fire,-,-,Coin,-"></buttons>
+
+	<switches></switches>
+
+	<rom index="1">
+		<part>6B</part>
+	</rom>
+	<rom index="0" zip="gauntlet.zip|gauntlet2pg1.zip" md5="none">
+		<interleave output="32">
+			<part crc="29a5db41" name="136037-117.2l" map="0001"/>
+			<part crc="9510b898" name="136037-115.2a" map="0010"/>
+			<part crc="d497d0a8" name="136037-113.1l" map="0100"/>
+			<part crc="91700f33" name="136037-111.1a" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="8bf3b263" name="136037-118.2mn" map="0001"/>
+			<part crc="11e0ac5b" name="136037-116.2b"  map="0010"/>
+			<part crc="29ef9882" name="136037-114.1mn" map="0100"/>
+			<part crc="869330be" name="136037-112.1b"  map="1000"/>
+		</interleave>
+		<part repeat="0x80000">00</part>
+		<interleave output="16">
+			<part crc="3faf74d8" name="136041-107.9a" map="01"/>
+			<part crc="f1e6d815" name="136041-108.9b" map="10"/>
+		</interleave>
+		<part repeat="0x20000">00</part>
+		<interleave output="16">
+			<part crc="6d99ed51" name="136037-205.10a" map="01"/>
+			<part crc="545ead91" name="136037-206.10b" map="10"/>
+		</interleave>
+		<part repeat="0x8000">00</part>
+		<interleave output="16">
+			<part crc="56d0c5b8" name="136041-109.7a" map="01"/>
+			<part crc="3b9ae397" name="136041-110.7b" map="10"/>
+		</interleave>
+		<part repeat="0x30000">00</part>
+		<part crc="fa19861f" name="136037-119.16s"/>
+		<part crc="6ee7f3cc" name="136037-120.16r"/>
+		<part crc="6c276a1d" name="136037-104.6p"/>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

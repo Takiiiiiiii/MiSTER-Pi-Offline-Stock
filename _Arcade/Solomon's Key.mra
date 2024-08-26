@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Solomon's Key </name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1986</year>
+	<manufacturer>Tecmo</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>solomon</setname>
+	<parent>solomon</parent>
+	<mameversion>0220</mameversion>
+	<rbf>solomonskey</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-SolomonsKey_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R" names="Block,Magic,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="75ac218ad31ae027184c2d0185ea969f" zip="solomon.zip">
+		<part crc="80fa2be3" name="2.5lm"></part>
+		<part crc="236106b4" name="3.6lm"></part>
+		<part crc="088fe5d9" name="4.7lm"></part>
+		<part crc="8366232a" name="5.8lm"></part>
+		<part crc="b371291c" name="12.3t"></part>
+		<part crc="6f94d2af" name="11.3r"></part>
+		<part crc="8310c2a1" name="10.3p"></part>
+		<part crc="ab7e6c42" name="9.3m"></part>
+		<part crc="fa6e562e" name="1.3jk"></part>
+		<part crc="645eb0f3" name="6.3f"></part>
+		<part crc="1bf5c482" name="7.3h"></part>
+		<part crc="0a6cdefc" length="4096" name="8.3jk" offset="0"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

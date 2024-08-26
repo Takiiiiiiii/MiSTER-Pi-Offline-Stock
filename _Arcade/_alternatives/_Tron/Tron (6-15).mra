@@ -1,0 +1,68 @@
+<misterromdescription>
+	<name>Tron</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Ver 6-15</version>
+	<alternative>Tron</alternative>
+	<platform>Midway MCR</platform>
+	<series>Tron</series>
+	<year>1982</year>
+	<manufacturer>Bally</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Arena</category>
+
+	<setname>tron4</setname>
+	<parent>tron</parent>
+	<mameversion>0218</mameversion>
+	<rbf>mcr2</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,R,L,Start,Select,Y" names="Fire,-,-,-,Rotate Right,Rotate Left,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="F8,00">
+		<dip bits="0" ids="2,1" name="Coin Meters"></dip>
+		<dip bits="1" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="2" ids="Yes,No" name="Allow_Continue"></dip>
+		<dip bits="8" ids="Off,On" name="Service"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>1</part>
+		</rom>
+	<rom index="0" md5="1c0622a10fd8e442a1dfbc8f6fd163a9" zip="tron.zip|tron4.zip">
+		<part crc="09d7a95a" name="pga-615.d2"></part>
+		<part crc="b454337d" name="pgb-615.d3"></part>
+		<part crc="ac1836ff" name="pgc-615.d4"></part>
+		<part crc="1a7bec6d" name="pgd-615.d5"></part>
+		<part crc="ea198fa8" name="pge-615.d6"></part>
+		<part crc="790ee743" name="pgf-615.d7"></part>
+		<part crc="2cbb332b" name="ssi_oa.a7"></part>
+		<part crc="1355b7e6" name="ssi_ob.a8"></part>
+		<part crc="6dd4b7c9" name="ssi_oc.a9"></part>
+		<part repeat="4096">00</part>
+		<part crc="1a9ed2f5" name="scpu_bgg.g3"></part>
+		<part crc="3220f974" name="scpu_bgh.g4"></part>
+		<part crc="bc036d1d" name="vga.e1"></part>
+		<part crc="58ee14d3" name="vgb.dc1"></part>
+		<part crc="3329f9d4" name="vgc.cb1"></part>
+		<part crc="9743f873" name="vga.a1"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,15 @@
+10bit
+# 4 Phase Filters
+# Single Set of Coefficients
+
+# The original filename is:
+# lanczos2_4p_256.txt
+
+# Coefficients
+   0, 256,   0,   0
+ -21, 222,  60,	 -5
+ -16, 144, 144,	-16
+  -5,  60, 222,	-21
+
+
+

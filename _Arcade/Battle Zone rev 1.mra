@@ -1,0 +1,42 @@
+<misterromdescription>
+	<name>Battle Zone (rev 1)</name>
+	<mameversion>0226</mameversion>
+	<setname>bzonea</setname>
+	<mratimestamp>20201224151551</mratimestamp>
+	<year>1980</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Army / Tank 3D</category>
+	<rbf>BattleZone</rbf>
+	<mameinfo parent="bzone" cpp="bzone" input="bzone"/>
+	<display type="vector" rotate="0"/>
+	<switches default="15,03">
+		<dip bits="0,1" name="Lives" ids="2,3,4,5"></dip>
+		<dip bits="2,3" name="Missile appears at" ids="5000,10000,20000,30000"></dip>
+		<dip bits="4,5" name="Bonus Life" ids="None,15k and 100k,25k and 100k,50k and 100k"></dip>
+		<dip bits="6,7" name="Language" ids="English,German,French,Spanish"></dip>
+		<dip bits="8,9" name="Coinage" ids="Free Play,1c/2cr,1c/1cr,2c/1cr"></dip>
+		<dip bits="10,11" name="Coin B" ids="	1,	4,	5,	6"></dip>
+		<dip bits="12" name="Coin A" ids="	1,	2"></dip>
+		<dip bits="13,15" name="Bonus Coins" ids="None,3 credits/2 coins,5 credits/4 coins,6 credits/4 coins,6 credits/5 coins"></dip>
+	</switches>
+	<buttons names="fire,Start 1P,Start 2P,Coin" default="A,Start,Select,R"/>
+	<rom index="0" zip="bzone.zip|bzonea.zip" md5="none">
+		<part repeat="2048">0</part>
+		<part repeat="2048">0</part>
+		<part crc="efbc3fa0" name="036414-01.e1"/>
+		<part crc="5d9d9111" name="036413-01.h1"/>
+		<part crc="ab55cbd2" name="036412-01.j1"/>
+		<part crc="ad281297" name="036411-01.k1"/>
+		<part crc="0b7bfaa4" name="036410-01.lm1"/>
+		<part crc="1e14e919" name="036409-01.n1"/>
+		<part crc="7414177b" name="036422-01.bc3"/>
+		<part crc="8ea8f939" name="036421-01.a3"/>
+		<part crc="5903af03" name="036408-01.k7"/>
+	</rom>
+	<rom index="1">
+		<part>0</part>
+	</rom>
+	<rom index="2">
+		<part>0</part>
+	</rom>
+</misterromdescription>

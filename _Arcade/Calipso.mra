@@ -1,0 +1,70 @@
+<misterromdescription>
+	<name>Calipso</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Tago Electronics</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>calipso</setname>
+	<parent>calipso</parent>
+	<mameversion>0216</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (simultaneous)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R,L" names="Fire,-,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FD,FB">
+		<dip bits="8" ids="5,3" name="Lives"></dip>
+		<dip bits="9" ids="On,Off" name="Demo Sounds"></dip>
+		<dip bits="17,18" ids="1c/2cr,1c/1cr,1c/3cr,1c/4cr" name="Coinage"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>08</part>
+		</rom>
+	<rom index="0" md5="d9453cfeb923cd919335c6366605ce5f" type="merged|nonmerged" zip="calipso.zip">
+		<part crc="0fcb703c" name="calipso.2c"></part>
+		<part crc="c6622f14" name="calipso.2e"></part>
+		<part crc="7bacbaba" name="calipso.2f"></part>
+		<part crc="a3a8111b" name="calipso.2h"></part>
+		<part crc="fcbd7b9e" name="calipso.2j"></part>
+		<part crc="f7630cab" name="calipso.2l"></part>
+		<part crc="0fcb703c" name="calipso.2c"></part>
+		<part crc="c6622f14" name="calipso.2e"></part>
+		<part crc="9cbc65ab" name="calipso.5c"></part>
+		<part crc="a225ee3b" name="calipso.5d"></part>
+		<part crc="9cbc65ab" name="calipso.5c"></part>
+		<part crc="a225ee3b" name="calipso.5d"></part>
+		<part crc="1663a73a" name="calipso.5h"></part>
+		<part crc="fd4252e9" name="calipso.5f"></part>
+		<part crc="01165832" name="calipso.clr"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 07 FF FF 00 FF 00 02 00 02 00 01 00 FF 02 00
+		00 00 81 CB 00 3C 01 45
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="60"></nvram>
+
+	<remark>\n		prg    0000-7FFF\n		aud    8000-9FFF\n		obj0   A000-BFFF\n		obj1   C000-DFFF\n		col    E000-E01F\n</remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

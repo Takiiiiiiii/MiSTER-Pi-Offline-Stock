@@ -1,0 +1,31 @@
+####
+# Name: MG Wave
+# Author: TrashUncle
+# Type: Other
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+2,2
+54c,24c
+24c,54c
+
+Resolution=1080
+v2
+4,5
+54c,24c,24c,54c
+24c,54c,24c,24c
+24c,24c,54c,24c
+54c,24c,24c,54c
+24c,54c,24c,24c
+
+Resolution=1440
+v2
+5,6
+54c,24c,24c,54c,54c
+54c,54c,24c,24c,54c
+24c,24c,54c,24c,24c
+54c,24c,24c,54c,24c
+54c,54c,24c,24c,54c
+24c,54c,54c,24c,54c

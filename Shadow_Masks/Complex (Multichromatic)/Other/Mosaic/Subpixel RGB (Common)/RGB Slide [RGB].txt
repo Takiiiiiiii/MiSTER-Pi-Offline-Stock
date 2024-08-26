@@ -1,0 +1,30 @@
+####
+# Name: RGB Slide
+# Author: TrashUncle
+# Type: Other
+# Sub-Pixel Layout: RGB
+####
+v2
+4,3
+14c,44c,00c,00c
+00c,44c,24c,00c
+00c,00c,24c,14c
+
+Resolution=1080
+v2
+6,5
+14c,44c,44c,00c,00c,00c
+14c,44c,44c,00c,00c,00c
+00c,44c,44c,24c,24c,00c
+00c,00c,00c,24c,24c,14c
+00c,00c,00c,24c,24c,14c
+
+Resolution=1440
+v2
+8,6
+14c,14c,44c,44c,00c,00c,00c,00c
+14c,14c,44c,44c,00c,00c,00c,00c
+00c,00c,44c,44c,24c,00c,00c,00c
+00c,00c,00c,44c,24c,24c,00c,00c
+00c,00c,00c,00c,24c,24c,14c,14c
+00c,00c,00c,00c,24c,24c,14c,14c

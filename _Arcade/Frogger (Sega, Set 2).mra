@@ -1,0 +1,71 @@
+<misterromdescription>
+	<name>Frogger</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Sega, Set 2</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>froggers2</setname>
+	<parent>frogger</parent>
+	<mameversion>0216</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>0</num_buttons>
+	<buttons default="A,Start,Select,R,L" names="Jump,-,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FC,F1">
+		<dip bits="8,9" ids="3,4,5,256(Cheat)" name="Lives"></dip>
+		<dip bits="17,18" ids="1c/1cr,2c/1cr" name="Coinage"></dip>
+		<dip bits="19" ids="Upright,Cocktail" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>02</part>
+		</rom>
+	<rom index="0" md5="87fc07ab23175ad0f265d89f09a09003" type="merged|nonmerged" zip="frogger.zip|froggers2.zip">
+		<part crc="efab0c79" name="epr-1012.ic5"></part>
+		<part crc="aeca9c13" name="epr-1013a.ic6"></part>
+		<part crc="dd251066" name="epr-1014.ic7"></part>
+		<part crc="bf293a02" name="epr-1015.ic8"></part>
+		<part crc="efab0c79" name="epr-1012.ic5"></part>
+		<part crc="aeca9c13" name="epr-1013a.ic6"></part>
+		<part crc="dd251066" name="epr-1014.ic7"></part>
+		<part crc="bf293a02" name="epr-1015.ic8"></part>
+		<part crc="e8ab0256" name="epr-608.ic32"></part>
+		<part crc="7380a48f" name="epr-609.ic33"></part>
+		<part crc="31d7eb27" name="epr-610.ic34"></part>
+		<part crc="31d7eb27" name="epr-610.ic34"></part>
+		<part crc="f524ee30" name="epr-606.ic102" repeat="4"></part>
+		<part crc="05f7d883" name="epr-607.ic101" repeat="4"></part>
+		<part crc="413703bf" name="pr-91.6l"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 07 FF FF 00 FF 00 02 00 02 00 01 00 FF 02 00
+		00 00 83 F1 00 0A 63 01
+		00 00 83 EF 00 02 63 04
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="12"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

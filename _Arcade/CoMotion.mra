@@ -1,0 +1,34 @@
+<misterromdescription>
+	<name>CoMotion</name>
+	<year>1976</year>
+	<manufacturer>Gremlin</manufacturer>
+	<rotation>horizontal</rotation>
+	<setname>comotion</setname>
+	<mameversion>0229</mameversion>
+	<rbf>blockade</rbf>
+
+	<buttons default="Start,R,L" names="-,Start,Coin,Pause"></buttons>
+	<switches default="00">
+		<dip bits="0" ids="3,4" name="Lives" values="1,0"></dip>
+		<dip bits="1,2" ids="Green,White,Yellow,Red" name="Overlay Colour" values="0,1,2,3"></dip>
+		<dip bits="3" ids="On,Off" name="Boom Switch" values="0,1"></dip>
+	</switches>
+
+	<rom index="1"><part>01</part></rom>
+	<rom index="0" md5="none" zip="comotion.zip">
+		<!-- GAME ROMS -->
+		<part crc="none" name="316-0007.u2"/>
+		<part crc="none" name="316-0008.u3"/>
+		<part crc="none" name="316-0009.u4"/>
+		<part crc="none" name="316-0010.u5"/>
+		<!-- GFX PROMS -->
+		<part crc="none" name="316-0006.u43" repeat="2" />
+		<part crc="none" name="316-0005.u29" repeat="2" />
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+</misterromdescription>

@@ -1,0 +1,80 @@
+<misterromdescription>
+	<name>Pleiads</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Tehkan</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>pleiads</setname>
+	<parent>pleiads</parent>
+	<mameversion>0220</mameversion>
+	<rbf>pleiads</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="648468f93204c48ff27f39018828cb28" zip="pleiads.zip">
+		<part crc="960212c8" name="ic47.r1"></part>
+		<part crc="b254217c" name="ic48.r2"></part>
+		<part crc="87e700bb" name="ic47.bin"></part>
+		<part crc="2d5198d0" name="ic48.bin"></part>
+		<part crc="49c629bc" name="ic51.r5"></part>
+		<part crc="f1a8a00d" name="ic50.bin"></part>
+		<part crc="b5f07fbc" name="ic53.r7"></part>
+		<part crc="b1b5a8a6" name="ic52.bin"></part>
+		<part crc="4e30f9e7" name="ic23.bin"></part>
+		<part crc="5188fc29" name="ic24.bin"></part>
+		<part crc="85866607" name="ic39.bin"></part>
+		<part crc="a841d511" name="ic40.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3">
+		<part>
+		 00 00 43 89 03 00 00 00 
+		 00 00 41 E1 01 20 20 00 
+		 00 00 41 C1 01 20 20 00 
+		 00 00 41 A1 01 20 20 00 
+		 00 00 41 81 01 20 20 00 
+		 00 00 41 61 01 20 20 00 
+		 00 00 41 41 01 20 20 00 
+		 00 00 43 81 03 00 00 00 
+		 00 00 43 01 01 20 20 00 
+		 00 00 42 E1 01 20 20 00 
+		 00 00 42 C1 01 20 20 00 
+		 00 00 42 A1 01 20 20 00 
+		 00 00 42 81 01 20 20 00 
+		 00 00 42 61 01 20 20 00 
+		 00 00 43 85 03 00 00 00 
+		 00 00 40 C1 01 20 20 00 
+		 00 00 40 A1 01 20 20 00 
+		 00 00 40 81 01 20 20 00 
+		 00 00 40 61 01 20 20 00 
+		 00 00 40 41 01 20 20 00 
+		 00 00 40 21 01 20 20 00 
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Fenix</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Niemer</version>
+	<alternative>Phoenix</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Niemer</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>fenixn</setname>
+	<parent>phoenix</parent>
+	<mameversion>0218</mameversion>
+	<rbf>phoenix</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="d074284dbc43bcb912dfafe4a6bab897" zip="phoenix.zip|fenixn.zip">
+		<part crc="2afa8e2c" name="2201.bin"></part>
+		<part crc="6527395e" name="1202.bin"></part>
+		<part crc="868e69ba" name="1203.bin"></part>
+		<part crc="85d96d7c" name="1204.bin"></part>
+		<part crc="a105e4e7" name="1205.bin"></part>
+		<part crc="249a6f21" name="1206.bin"></part>
+		<part crc="2eab35b4" name="1207.bin"></part>
+		<part crc="b90efc28" name="1208.bin"></part>
+		<part crc="3c7e623f" name="1211.bin"></part>
+		<part crc="59916d3b" name="1212.bin"></part>
+		<part crc="bb0525ed" name="1209.bin"></part>
+		<part crc="0be2ba91" name="1210.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

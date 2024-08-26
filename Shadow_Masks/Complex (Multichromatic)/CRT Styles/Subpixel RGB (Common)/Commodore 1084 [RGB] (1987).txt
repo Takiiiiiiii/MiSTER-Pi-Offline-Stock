@@ -1,0 +1,31 @@
+####
+# Name: Commodore 1084
+# Author: TrashUncle
+# Type: CRT
+# Genre: Realistic
+# Sub-Pixel Layout: RGB
+####
+v2
+6,3
+44c,24c,14c,41f,21f,11f
+41f,21f,11f,44c,24c,14c
+44c,24c,14c,44c,24c,14c
+
+Resolution=1080
+v2
+8,5
+708,04c,04c,04c,708,41f,21f,11f
+04c,44c,24c,14c,04c,44c,24c,14c
+708,41f,21f,11f,708,04c,04c,04c
+04c,44c,24c,14c,04c,04c,04c,04c
+04c,04c,04c,04c,04c,44c,24c,14c
+
+Resolution=1440
+v2
+8,6
+00c,00c,00c,708,41f,21f,11f,708
+44c,24c,14c,00c,44c,24c,14c,00c
+41f,21f,11f,708,00c,00c,00c,00c
+41f,21f,11f,708,00c,00c,00c,00c
+44c,24c,14c,00c,44c,24c,14c,00c
+00c,00c,00c,708,41f,21f,11f,708

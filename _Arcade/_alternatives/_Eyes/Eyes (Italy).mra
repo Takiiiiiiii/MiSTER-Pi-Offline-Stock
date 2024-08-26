@@ -1,0 +1,68 @@
+<misterromdescription>
+	<name>Eyes</name>
+	<region>Italy</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Eyes</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Tehstar</manufacturer>
+	<manufacturer>Rock-Ola</manufacturer>
+	<category>Maze</category>
+
+	<setname>eyeszac</setname>
+	<parent>eyes</parent>
+	<mameversion>0218</mameversion>
+	<rbf>pacman</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="FF,FF,FB">
+		<dip bits="22" ids="Cocktail,Upright" name="Cabinet"></dip>
+		<dip bits="16,17" ids="2c/1cr,1c/1cr,1c/2cr,Free Play" name="Coinage" values="1,3,2,0"></dip>
+		<dip bits="18,19" ids="5,4,3,2" name="Lives"></dip>
+		<dip bits="20,21" ids="125K,100K,75K,50K" name="Bonus Life after"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>07</part>
+		</rom>
+	<rom index="0" md5="95c1de90a91e2db4504ad5aea8276500" zip="eyes.zip|eyeszac.zip">
+		<part crc="e555b265" name="1.7e"></part>
+		<part crc="d6d73eb5" name="2.7f"></part>
+		<part crc="604c940c" name="3.7h"></part>
+		<part crc="acc9cd8b" name="4.7i"></part>
+		<part crc="e555b265" name="1.7e"></part>
+		<part crc="d6d73eb5" name="2.7f"></part>
+		<part crc="604c940c" name="3.7h"></part>
+		<part crc="acc9cd8b" name="4.7i"></part>
+		<part crc="d6af0030" name="5.5d"></part>
+		<part crc="a42b5201" name="6.5f"></part>
+		<part crc="a42b5201" name="6.5f"></part>
+		<part crc="a42b5201" name="6.5f"></part>
+		<part crc="a9cc86bf" name="82s126.1m"></part>
+		<part crc="d8d78829" name="82s129.4a"></part>
+		<part crc="77245b66" name="82s126.3m"></part>
+		<part crc="2fc650bd" name="82s123.7f"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

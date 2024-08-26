@@ -1,0 +1,63 @@
+<misterromdescription>
+	<name>Pirate Pete</name>
+	<mameversion>0245</mameversion>
+	<setname>piratpet</setname>
+	<parent>piratpet</parent>
+	<mratimestamp>202304140600</mratimestamp>
+	<year>1982</year>
+	<manufacturer>Taito</manufacturer>
+	<category>Action</category>
+	<rbf>TaitoSJ</rbf>
+	<rotation>Horizontal</rotation>
+	<joystick>8-way</joystick>
+        <buttons default="A,B,Start,Select,L,R,X,Y" names="A,B,Start,Select,Coin,Coin,Service,Pause"/>
+	<switches default="00,80,FF,00,00,00,00,00">
+		<dip bits="8,9" name="Clearing Bonus" ids="No Bonus,Time X 1,Time X 2,Time X 3"/>
+		<dip bits="11,12" name="Lives" ids="3,4,5,6"/>
+		<dip bits="13" name="Test Mode" ids="Off, On"/>
+		<dip bits="14" name="Flip Screen" ids="Off, On"/>
+		<dip bits="15" name="Cabinet" ids="Cocktail, Upright"/>
+		<dip bits="16,19" name="Coin A" ids="9C1C,8C1C,7C1C,6C1C,5C1C,4C1C,3C1C,2C1C,1C8C,1C7C,1C6C,1C5C,1C4C,1C3C,1C2C,1C1C"/>
+		<dip bits="20,23" name="Coin B" ids="9C1C,8C1C,7C1C,6C1C,5C1C,4C1C,3C1C,2C1C,1C8C,1C7C,1C6C,1C5C,1C4C,1C3C,1C2C,1C1C"/>		
+		<dip bits="32,33" name="Bonus Pete" ids="None,10000,20000,50000"/>
+		<dip bits="34,36" name="Difficulty" ids="Easiest, Easier, Easy, Normal, Medium, Hard, Harder, Hardest"/>
+
+		<dip bits="37" name="Year Display" ids="Yes,No"/>		
+		<dip bits="38" name="Free Game" ids="Normal Game,Free Game"/>		
+		<dip bits="39" name="Coin Slots" ids="A and B,A only"/>			
+	</switches>		
+	<rom index="0" md5="none" zip="piratpet.zip|junglek.zip" type="merged|nonmerged">
+		<part crc="8287dbc2" name="pp0p_ic.69"/>
+		<part crc="27a90850" name="pp1p_ic.68"/>
+		<part crc="d224fa85" name="pp2p_ic.67"/>
+		<part crc="2c900874" name="pp3p_ic.66"/>
+		<part crc="1aed98d9" name="pp4p_ic.65"/>
+		<part crc="09c3aacd" name="pp5p_ic.64"/>
+		<part crc="bdeed702" name="pp6p_ic.55"/>
+		<part crc="5f36d082" name="pp7p_ic.54"/>
+		<part crc="8287dbc2" name="pp0p_ic.69"/>
+		<part crc="27a90850" name="pp1p_ic.68"/>
+		<part crc="d224fa85" name="pp2p_ic.67"/>
+		<part crc="2c900874" name="pp3p_ic.66"/>
+		<part crc="1aed98d9" name="pp4p_ic.65"/>
+		<part crc="09c3aacd" name="pp5p_ic.64"/>
+		<part crc="bdeed702" name="pp6p_ic.55"/>
+		<part crc="bbc38b03" name="pp7b_ic.52"/>
+		<part crc="aceaf79b" name="pp0e_ic.1"/>
+		<part crc="ac148214" name="pp1e_ic.2"/>
+		<part crc="108194d2" name="pp2e_ic.3"/>
+		<part crc="621b0da1" name="pp3e_ic.4"/>
+		<part crc="e9826d90" name="pp4e_ic.5"/>
+		<part crc="fe0d38c6" name="pp5e_ic.6"/>
+		<part crc="2cfd127b" name="pp6e_ic.7"/>
+		<part crc="9857533f" name="pp7e_ic.8"/>
+		<part crc="dcb5eb9d" name="pp05_ic.70"/>
+		<part crc="3123dbe1" name="pp15_ic.71"/>
+		<part repeat="0x2000"> 00 </part>		
+		<part crc="b833b5ea" name="eb16.22"/>		
+		<part repeat="0x0F00"> 00 </part>
+	</rom>	
+	<rom index="1">
+		<part>1</part>
+	</rom>		
+</misterromdescription>

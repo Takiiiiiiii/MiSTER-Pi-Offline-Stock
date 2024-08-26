@@ -1,0 +1,68 @@
+<misterromdescription>
+	<name>Pest Place</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1983</year>
+	<manufacturer>Bootleg</manufacturer>
+	<category>Puzzle - Platform</category>
+
+	<setname>pestplce</setname>
+	<parent>mario</parent>
+	<mameversion>0227</mameversion>
+	<rbf>DonkeyKong</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (simultaneous)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R,L" names="Jump,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches base="8" default="80">
+		<dip bits="0,1" ids="3,4,5,6" name="Lives"></dip>
+		<dip bits="2,3" ids="10k,15k,20k,25k" name="Bonus"></dip>
+		<dip bits="4,6" ids="1C1P,2C1P,1C1P,3C1P,1C1P,4C1P,1C1P,5C1P,1C1P" name="Coins"></dip>
+		<dip bits="7" ids="Cocktail,Upright" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1"><part>04</part></rom>
+	<rom index="0" md5="48576fcf2767241441d662768cc53899" type="merged|nonmerged" zip="mario.zip|pestplce.zip">
+		<!-- Main CPU 32k-->
+		<part crc="80d50721" name="pest.1p"></part>
+		<part crc="9c3681cc" name="pest.2p"></part>
+		<part crc="49853922" name="pest.3p"></part>
+		<part crc="28952b56" name="pest.0" repeat="2"></part>
+		<!-- GFX1 8k-->
+		<part crc="03939ece" name="pest.o"></part>
+		<part crc="2acacedf" name="pest.k"></part>
+		<!-- GFX2 16k-->
+		<part crc="e760073e" name="pest.b"></part>
+		<part crc="1958346e" name="pest.a"></part>
+		<part crc="3a993c17" name="pest.d"></part>
+		<part crc="bf08f2a3" name="pest.c"></part>
+		<!-- Sound CPU 4k-->
+		<part crc="715da5f8" name="pest.4"></part>
+		<!-- LUTs -->
+		<part crc="0330f35f" name="n82s129a.bin" repeat="2"></part>
+		<part crc="ba88311b" name="n82s129b.bin" repeat="2"></part>
+		<part repeat="3072">00</part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

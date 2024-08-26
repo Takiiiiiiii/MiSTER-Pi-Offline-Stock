@@ -1,0 +1,54 @@
+<misterromdescription>
+	<name>Lady Bug</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Set 1</version>
+	<alternative>Lady Bug</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Universal</manufacturer>
+	<category>Maze</category>
+
+	<setname>ladybugb</setname>
+	<parent>ladybug</parent>
+	<mameversion>0218</mameversion>
+	<rbf>ladybug</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>0</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" zip="ladybug.zip|ladybugb.zip" md5="8422c93bd1d479f0a032e4052b69a072">
+		<part crc="ec135e54" name="lb1a.cpu"/>
+		<part crc="3049c5c6" name="lb2a.cpu"/>
+		<part crc="b0fef837" name="lb3a.cpu"/>
+		<part crc="ffc424d7" name="l4.h4"/>
+		<part crc="ad6af809" name="l5.j4"/>
+		<part crc="88c8002a" name="lb6a.cpu"/>
+		<part crc="8b99910b" name="l8.l7"/>
+		<part crc="86a5b448" name="l7.m7"/>
+		<part crc="77b1da1e" name="l9.f7"/>
+		<part crc="aa82e00b" name="l0.h7"/>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

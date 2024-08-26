@@ -1,0 +1,111 @@
+<misterromdescription>
+	<name>Vindicators Part II</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Rev 3</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series>Vindicators</series>
+	<year>1985</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>vindctr2</setname>
+	<parent>vindctr2</parent>
+	<mameversion>0225</mameversion>
+	<rbf>gauntlet</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (simultaneous)</players>
+	<joystick>2-way vertical</joystick>
+	<special_controls>twin stick</special_controls>
+	<num_buttons>4</num_buttons>
+	<buttons default="L,R,Y,A,Select,Start" names="LTrig,RTrig,LThumb,RThumb,Coin,Start"></buttons>
+
+	<switches></switches>
+
+	<rom index="1">
+		<part>76</part>
+	</rom>
+	<rom index="0" zip="vindctr2.zip" md5="none">
+		<interleave output="32">
+			<part crc="9484ba65" name="136059-1165.2l" map="0001"/>
+			<part crc="50e76162" name="136059-1164.2a" map="0010"/>
+			<part crc="d505b04a" name="136059-1163.1l" map="0100"/>
+			<part crc="dd3833ad" name="136059-1162.1a" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="132d3337" name="136059-1169.2mn" map="0001"/>
+			<part crc="35c78469" name="136059-1168.2b"  map="0010"/>
+			<part crc="1869c76d" name="136059-1167.1mn" map="0100"/>
+			<part crc="e2db50a0" name="136059-1166.1b"  map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="98de2426" name="136059-1173.2p" map="0001"/>
+			<part crc="314ac268" name="136059-1172.2c" map="0010"/>
+			<part crc="1b229c2b" name="136059-1171.1p" map="0100"/>
+			<part crc="f050ab43" name="136059-1170.1c" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="9d0824f8" name="136059-1177.2r" map="0001"/>
+			<part crc="061d79db" name="136059-1176.2d" map="0010"/>
+			<part crc="73c41aca" name="136059-1175.1r" map="0100"/>
+			<part crc="b6704bd1" name="136059-1174.1d" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="9e62b27c" name="136059-1181.2st" map="0001"/>
+			<part crc="89c1fe16" name="136059-1180.2ef" map="0010"/>
+			<part crc="9b7cb0ef" name="136059-1179.1st" map="0100"/>
+			<part crc="d3006f05" name="136059-1178.1ef" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="9d62f6b7" name="136059-1185.2u" map="0001"/>
+			<part crc="3636EF83" name="136059-1184.des.2j" map="0010"/>
+			<part crc="393bba42" name="136059-1183.1u" map="0100"/>
+			<part crc="9046e985" name="136059-1182.1j" map="1000"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="af138263" name="136059-1186.9a" map="01"/>
+			<part crc="44baff64" name="136059-1187.9b" map="10"/>
+		</interleave>
+		<part repeat="0x20000">00</part>
+		<interleave output="16">
+			<part crc="c92bf6dd" name="136059-1196.10a" map="01"/>
+			<part crc="d7ace347" name="136059-1197.10b" map="10"/>
+		</interleave>
+		<part repeat="0x8000">00</part>
+		<interleave output="16">
+			<part crc="10f558d2" name="136059-3188.7a" map="01"/>
+			<part crc="302e24b6" name="136059-3189.7b" map="10"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="e7dc2b74" name="136059-2190.6a" map="01"/>
+			<part crc="ed8ed86e" name="136059-2191.6b" map="10"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="eec2c93d" name="136059-2192.5a" map="01"/>
+			<part crc="3fbee9aa" name="136059-2193.5b" map="10"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="e6bcf458" name="136059-1194.3a" map="01"/>
+			<part crc="b9bf245d" name="136059-1195.3b" map="10"/>
+		</interleave>
+		<part crc="68c74337" name="136059-1161.16r"/>
+		<part crc="eef0a003" name="136059-1160.16s"/>
+		<part crc="f99b631a" name="136059-1198.6p"/>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

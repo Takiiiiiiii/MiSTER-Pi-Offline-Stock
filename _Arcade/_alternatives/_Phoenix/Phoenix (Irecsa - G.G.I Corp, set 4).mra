@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Phoenix</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Irecsa - G.G.I Corp, Set 4</version>
+	<alternative>Phoenix</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Amstar</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>phoenixc4</setname>
+	<parent>phoenix</parent>
+	<mameversion>0218</mameversion>
+	<rbf>phoenix</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="8ddb40c659a09dc846a81636f01f7c69" zip="phoenix.zip|phoenixc4.zip">
+		<part crc="5b8c55a8" name="phoenix.45"></part>
+		<part crc="dbc942fa" name="phoenix.46"></part>
+		<part crc="cbbb8839" name="phoenix.47"></part>
+		<part crc="6e51f009" name="phoenixd.48"></part>
+		<part crc="1a1ce0d0" name="phoenixc.49"></part>
+		<part crc="8c83bff7" name="cond06c.bin"></part>
+		<part crc="079ac364" name="vautor07.1m"></part>
+		<part crc="8424d7c4" name="phoenixc.52"></part>
+		<part crc="3c7e623f" name="ic23.3d"></part>
+		<part crc="59916d3b" name="ic24.4d"></part>
+		<part crc="31c06c22" name="phoenixd.3b"></part>
+		<part crc="4178aa4f" name="phoenixc.40"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

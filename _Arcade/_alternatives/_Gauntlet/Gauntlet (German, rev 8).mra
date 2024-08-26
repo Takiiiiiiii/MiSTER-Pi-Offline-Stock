@@ -1,0 +1,51 @@
+<misterromdescription>
+	<name>Gauntlet (German, rev 8)</name>
+	<mameversion>0225</mameversion>
+	<setname>gauntletgr8</setname>
+	<mratimestamp>20201112131415</mratimestamp>
+	<year>1985</year>
+	<manufacturer>Atari Games</manufacturer>
+	<category>Adventure / Fantasy</category>
+	<category>Maze / Extra</category>
+	<rotation>horizontal</rotation>
+	<rbf>gauntlet</rbf>
+	<mameinfo parent="gauntlet" cpp="gauntlet" input="gauntlet"/>
+	<display type="raster" rotate="0"/>
+	<buttons names="Magic/Start,Fire,-,-,Coin,-" default="B,A,R"/>
+	<rom index="1">
+		<part>68</part>
+	</rom>
+	<rom index="0" zip="gauntlet.zip|gauntletgr8.zip" md5="none">
+		<interleave output="32">
+			<part crc="29a5db41" name="136037-117.2l" map="0001"/>
+			<part crc="9510b898" name="136037-115.2a" map="0010"/>
+			<part crc="d497d0a8" name="136037-113.1l" map="0100"/>
+			<part crc="91700f33" name="136037-111.1a" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="8bf3b263" name="136037-118.2mn" map="0001"/>
+			<part crc="11e0ac5b" name="136037-116.2b"  map="0010"/>
+			<part crc="29ef9882" name="136037-114.1mn" map="0100"/>
+			<part crc="869330be" name="136037-112.1b"  map="1000"/>
+		</interleave>
+		<part repeat="0x80000">00</part>
+		<interleave output="16">
+			<part crc="671c0bc2" name="136037-807.9a" map="01"/>
+			<part crc="f2842af4" name="136037-808.9b" map="10"/>
+		</interleave>
+		<part repeat="0x20000">00</part>
+		<interleave output="16">
+			<part crc="4642cd95" name="136037-105.10a" map="01"/>
+			<part crc="c8df945e" name="136037-106.10b" map="10"/>
+		</interleave>
+		<part repeat="0x8000">00</part>
+		<interleave output="16">
+			<part crc="05642d60" name="136037-809.7a" map="01"/>
+			<part crc="36d295e3" name="136037-810.7b" map="10"/>
+		</interleave>
+		<part repeat="0x30000">00</part>
+		<part crc="fa19861f" name="136037-119.16s"/>
+		<part crc="6ee7f3cc" name="136037-120.16r"/>
+		<part crc="6c276a1d" name="136037-104.6p"/>
+	</rom>
+</misterromdescription>

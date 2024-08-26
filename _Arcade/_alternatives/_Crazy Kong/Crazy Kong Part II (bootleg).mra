@@ -1,0 +1,70 @@
+<misterromdescription>
+	<name>Crazy Kong Part II</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version></version>
+	<alternative>Crazy Kong</alternative>
+	<platform></platform>
+	<series>Donkey Kong</series>
+	<year>1981</year>
+	<manufacturer>Falcon</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>ckongpt2b2</setname>
+	<parent>ckongpt2</parent>
+	<mameversion>0218</mameversion>
+	<rbf>crazykong</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="892bae532feebe75ec336e8dcc16e052" zip="ckongpt2.zip|ckongpt2b2.zip">
+		<part crc="1c21386f" name="0.bin"></part>
+		<part crc="5dc1aaba" name="1.bin"></part>
+		<part crc="c9054c94" name="2.bin"></part>
+		<part crc="84903b9d" name="3.bin"></part>
+		<part crc="ae159192" name="4.bin"></part>
+		<part crc="966bc9ab" name="5.bin"></part>
+		<part crc="966bc9ab" name="5.bin"></part>
+		<part crc="966bc9ab" name="5.bin"></part>
+		<part crc="966bc9ab" name="5.bin"></part>
+		<part crc="966bc9ab" name="5.bin"></part>
+		<part crc="966bc9ab" name="5.bin"></part>
+		<part crc="966bc9ab" name="5.bin"></part>
+		<part crc="966bc9ab" name="5.bin"></part>
+		<part crc="966bc9ab" name="5.bin"></part>
+		<part crc="966bc9ab" name="5.bin"></part>
+		<part crc="966bc9ab" name="5.bin"></part>
+		<part crc="2dcedd12" name="d.bin"></part>
+		<part crc="fa7cbd91" name="c.bin"></part>
+		<part crc="3375b3bd" name="b.bin"></part>
+		<part crc="5655cc11" name="a.bin"></part>
+		<part crc="d1352c31" name="9.bin"></part>
+		<part crc="a7a2fdbd" name="8.bin"></part>
+		<part crc="d1352c31" name="9.bin"></part>
+		<part crc="a7a2fdbd" name="8.bin"></part>
+		<part crc="5f0bcdfb" name="7.bin"></part>
+		<part crc="9003ffbd" name="6.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark>No GFX</remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

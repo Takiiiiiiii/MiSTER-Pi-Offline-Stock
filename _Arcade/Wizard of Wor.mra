@@ -1,0 +1,66 @@
+<misterromdescription>
+	<name>Wizard of Wor</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Dave Nutting Associate</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>wow</setname>
+	<parent>wow</parent>
+	<mameversion>0219</mameversion>
+	<rbf>astrocade</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (simultaneous)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches default="00,00,07,FF">
+		<dip bits="0" ids="Digital,Analogue" name="Controls P1"></dip>
+		<dip bits="1" ids="Digital,Analogue" name="Controls P2"></dip>
+		<dip bits="16" ids="Cocktail,Upright" name="Cabinet"></dip>
+		<dip bits="17" ids="On,Off" name="Service"></dip>
+		<dip bits="18" ids="Yes,No" name="Flip Screen"></dip>
+		<dip bits="25,26" ids="1c/5cr,1c/3cr,2c/1cr,1c/1cr" name="Coinage"></dip>
+		<dip bits="27" ids="Foreign,English" name="Language"></dip>
+		<dip bits="28" ids="3-1cr/7-2cr,2-1cr/5-2cr" name="lives"></dip>
+		<dip bits="29" ids="4th level,3rd level" name="Bonus"></dip>
+		<dip bits="30" ids="On,Off" name="Freeplay"></dip>
+		<dip bits="31" ids="When touched,Always on" name="Demo Sound"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>05</part>
+		</rom>
+	<rom index="0" md5="c73cdd11969706f744c2b4dac2c54cb2" zip="wow.zip">
+		<part crc="c1295786" name="wow.x1"></part>
+		<part crc="9be93215" name="wow.x2"></part>
+		<part crc="75e5a22e" name="wow.x3"></part>
+		<part crc="ef28eb84" name="wow.x4"></part>
+		<part crc="16912c2b" name="wow.x5"></part>
+		<part crc="35797f82" name="wow.x6"></part>
+		<part crc="ce404305" name="wow.x7"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

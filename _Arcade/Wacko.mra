@@ -1,0 +1,66 @@
+<misterromdescription>
+	<name>Wacko</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Midway MCR2</platform>
+	<series></series>
+	<year>1983</year>
+	<manufacturer>Bally</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>wacko</setname>
+	<parent>wacko</parent>
+	<mameversion>0216</mameversion>
+	<rbf>mcr2</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick></joystick>
+	<special_controls>trackball, twin stick</special_controls>
+	<num_buttons>4</num_buttons>
+	<buttons default="A,B,X,Y,Start,Select,R" names="Zap Right,Zap Down,Zap Up,Zap Left,-,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="FF 00">
+		<dip bits="6" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="7" ids="1,2" name="Coin Meters"></dip>
+		<dip bits="8" ids="Off,On" name="Service"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>3</part>
+		</rom>
+	<rom index="0" md5="157209d82b536114e346517818a89184" type="merged|nonmerged" zip="wacko.zip">
+		<part crc="c98e29b6" name="wackocpu.2d"></part>
+		<part crc="90b89774" name="wackocpu.3d"></part>
+		<part crc="515edff7" name="wackocpu.4d"></part>
+		<part crc="9b01bf32" name="wackocpu.5d"></part>
+		<part repeat="16384">00</part>
+		<part crc="1a58763f" name="wackosnd.7a"></part>
+		<part crc="a4e3c771" name="wackosnd.8a"></part>
+		<part crc="155ba3dd" name="wackosnd.9a"></part>
+		<part repeat="4096">00</part>
+		<part crc="33160eb1" name="wackocpu.3g"></part>
+		<part crc="daf37d7c" name="wackocpu.4g"></part>
+		<part crc="dca59be7" name="wackovid.1e"></part>
+		<part crc="a02f1672" name="wackovid.1d"></part>
+		<part crc="7d899790" name="wackovid.1b"></part>
+		<part crc="080be3ad" name="wackovid.1a"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="2048"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

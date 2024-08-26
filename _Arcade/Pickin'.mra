@@ -1,0 +1,72 @@
+<misterromdescription>
+	<name>Pickin'</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1983</year>
+	<manufacturer>Valadon Automation</manufacturer>
+	<category>Maze</category>
+
+	<setname>pickin</setname>
+	<parent>pickin</parent>
+	<mameversion>0220</mameversion>
+	<rbf>bagman</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="FD">
+		<dip bits="0" ids="2c/1cr,1c/1cr" name="Coinage"></dip>
+		<dip bits="1,2" ids="5,4,3,2" name="Lives"></dip>
+		<dip bits="3" ids="On,Off" name="Free Play"></dip>
+		<dip bits="5" ids="40000,30000" name="Bonus"></dip>
+		<dip bits="6" ids="French,English" name="Language"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>02</part>
+		</rom>
+	<rom index="0" md5="e7a595a7f13b0f9034c0308b8b44b796" zip="pickin.zip">
+		<part crc="efd0bd43" name="9e"></part>
+		<part crc="b5785a23" name="9f"></part>
+		<part crc="65ee9fd4" name="9j"></part>
+		<part crc="7b23350e" name="9k"></part>
+		<part crc="935a7248" name="9m"></part>
+		<part crc="52485d1d" name="9n"></part>
+		<part repeat="40960">00</part>
+		<part crc="c5e96ac6" name="1f"></part>
+		<part crc="c5e96ac6" name="1f"></part>
+		<part crc="41c4ac1c" name="1j"></part>
+		<part crc="41c4ac1c" name="1j"></part>
+		<part repeat="8192">00</part>
+		<part crc="fac81668" name="6331-1.3p"></part>
+		<part crc="14ee1603" name="6331-1.3r"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<rom index="5" md5="none">
+	     	<part>
+			00 00 FF FF 00 FF 00 02 00 02 00 01 00 FF 02 00
+			00 00 71 9A 00 50 00 10
+ 		</part>
+ 	</rom>
+	<nvram index="6" size="80"/>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

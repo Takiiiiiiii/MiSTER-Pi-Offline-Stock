@@ -1,0 +1,81 @@
+<misterromdescription>
+	<name>Galaga Ghost</name>
+	<region/>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>Set 2</version>
+	<alternative>Galaga</alternative>
+	<platform/>
+	<series>Galaxian</series>
+	<year>1981</year>
+	<manufacturer>Namco</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>galagosb</setname>
+	<parent>galaga</parent>
+	<mameversion>0217</mameversion>
+	<rbf>galaga</rbf>
+	<about/>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls/>
+	<num_buttons>1</num_buttons>
+	<button_names/>
+
+	<switches default="08,68" base="8">
+		<dip bits="0"     name="2 credits"   ids="2P game,1P game"/>
+		<dip bits="1,2"   name="Difficulty"  ids="Easy (Rank A),Medium (Rank B),Hard (Rank C),Hardest (Rank D)" values="0,3,2,1"/>
+		<dip bits="3"     name="Demo Sounds" ids="Off,On"/>
+		<dip bits="4"     name="Freeze"      ids="Off,On"/>
+		<dip bits="5"     name="Rack Test"   ids="Off,On"/>
+		<dip bits="7"     name="Cabinet"     ids="Upright,Cocktail"/>
+		<dip bits="8,10"  name="Coinage"     ids="1 Coin  1 Credit ,2 Coins 1 Credit ,1 Coin  3 Credits,4 Coins 1 Credit ,1 Coin  2 Credits,3 Coins 1 Credit ,2 Coins 3 Credits,Free Play"/>
+		<dip bits="11,13" name="Bonus"	     ids="30k 80k,20k 80k every 80k,30k 120k every 120k,20k 60k every 60k,20k 60k,20k 70k every 70k,30k 100k every 100k,Nothing"/>
+		<dip bits="14,15" name="Lives"       ids="5,3,4,2"/>
+	</switches>
+
+	<rom index="1"/>
+	<rom index="0" md5="be769fedfffbe696759cd556b10926af" zip="/hbmame/galaga.zip|namco51.zip|namco54.zip">
+		<!-- main cpu -->
+		<part crc="3ef0b053" name="galagads/3200a.bin"/>
+		<part crc="1b280831" name="galagads/3300b.bin"/>
+		<part crc="16233d33" name="galagads/3400c.bin"/>
+		<part crc="0aaf5c23" name="galagads/3500d.bin"/>
+
+		<!-- cpu 2 -->
+		<part crc="23d586e5" name="galagads/3600fast.bin"/>
+
+		<!-- cpu 3 -->
+		<part crc="b07f0aa4" name="galagads/3700g.bin"/>
+
+		<!-- gfx2 -->
+		<part crc="0758b90f" name="galagosb/gost_07e_g10.bin"/>
+		<part crc="0339291c" name="galagosb/gosb_07h_g09.bin"/>
+
+		<!-- gfx1 -->
+		<part crc="c7588555" name="galagosb/gost_07m_g08.bin"/>
+		<part crc="c7588555" name="galagosb/gost_07m_g08.bin"/>
+
+		<!-- namco mcus -->
+		<part crc="c2f57ef8" name="51xx.bin"/>
+		<part crc="ee7357e0" name="54xx.bin"/>
+	</rom>
+	<rom index="2"/>
+	<rom index="3" md5="none">
+		<part>
+			11 00 00 00 00 FF 00 02 00 02 00 01 00 FF 02 00
+			00 00 8A 20 00 2D 00 18
+			00 00 83 ED 00 06 00 24
+		</part>
+	</rom>
+	<rom index="4"/>
+	<nvram index="4" size="51"/>
+
+	<mratimestamp>20210730103026</mratimestamp>
+</misterromdescription>

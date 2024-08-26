@@ -1,0 +1,61 @@
+<misterromdescription>
+	<name>Max RPM</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>v2</version>
+	<alternative></alternative>
+	<platform>Midway MCR3</platform>
+	<series></series>
+	<year>1986</year>
+	<manufacturer>Bally</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Racing</category>
+
+	<setname>maxrpm</setname>
+	<parent>maxrpm</parent>
+	<mameversion>0217</mameversion>
+	<rbf>mcr3mono</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (simultaneous)</players>
+	<joystick>2-way vertical</joystick>
+	<special_controls>paddle / pedal</special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="X,B,Start,R" names="Gear Up,Gear Down,-,-,Start,Coin"></buttons>
+
+	<switches default="FF,00">
+		<dip bits="3" ids="On,Off" name="Free Play"></dip>
+		<dip bits="4,5" ids="1c/2cr,2c/1cr,1c/1cr" name="Coinage" values="1,2,3"></dip>
+		<dip bits="8" ids="Off,On" name="Service"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>03</part>
+		</rom>
+	<rom index="0" md5="7479a399b89fb067686ca8983a4eabb9" type="merged|nonmerged" zip="maxrpm.zip">
+		<part crc="3f9ec35f" name="pro.0"></part>
+		<part crc="f628bb30" name="pro.1"></part>
+		<part crc="1d1435c1" name="fg-0"></part>
+		<part crc="e54b7f2a" name="fg-1"></part>
+		<part crc="38be8505" name="fg-2"></part>
+		<part crc="9ae3eb52" name="fg-3"></part>
+		<part crc="e3fb693a" name="bg-0" repeat="2"></part>
+		<part crc="50d1db6c" name="bg-1" repeat="2"></part>
+		<part crc="55c3b759" name="turbskwk.u5"></part>
+		<part crc="31a2da2e" name="turbskwk.u4"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="2048"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

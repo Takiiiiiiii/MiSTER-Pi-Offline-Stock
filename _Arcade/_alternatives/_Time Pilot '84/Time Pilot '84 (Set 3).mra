@@ -1,0 +1,73 @@
+<misterromdescription>
+	<name>Time Pilot '84</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Set 3</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series>Time Pilot</series>
+	<year>1984</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>tp84b</setname>
+	<parent>tp84</parent>
+	<mameversion>0224</mameversion>
+	<rbf>TimePilot84</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="B,A,Start,R,Select,L" names="Shot,Missile,Start P1,Coin,Start P2,Pause"></buttons>
+
+	<switches default="00,25">
+		<dip bits="0,3" ids="1c/1cr,1c/2cr,1c/3cr,1c/4cr,1c/5cr,1c/7cr,1c/6cr,2c/1cr,2c/3cr,3c/1cr,2c/5cr,3c/2cr,3c/4cr,4c/3cr,4c/1cr,Free Play" name="Credits A"></dip>
+		<dip bits="4,7" ids="1c/1cr,1c/2cr,1c/3cr,1c/4cr,1c/5cr,1c/6cr,1c/7cr,2c/1cr,2c/3cr,2c/5cr,3c/1cr,3c/2cr,3c/4cr,4c/1cr,4c/3cr,Free Play" name="Credits B"></dip>
+		<dip bits="8,9" ids="2,3,5,7" name="Lives"></dip>
+		<dip bits="10" ids="Cocktail,Upright" name="Cabinet type"></dip>
+		<dip bits="11,12" ids="10K/50K+,20K/60K+,30K/70K+,40K/80K+" name="Bonus"></dip>
+		<dip bits="13,14" ids="Easy,Normal,Hard,Hardest" name="Difficulty"></dip>
+		<dip bits="15" ids="Off,On" name="Attract mode sound"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>01</part>
+		</rom>
+	<rom index="0" md5="none" zip="tp84.zip|tp84b.zip">
+		<part crc="a59e2fda" name="388j05.8j"></part>
+		<part crc="d25d18e6" name="388j07.10j"></part>
+		<part crc="2aea6b42" name="388j08.10d"></part>
+		<part crc="c44414da" name="388j13.6a"></part>
+		<part crc="e1225f53" name="388j02.2j"></part>
+		<part crc="aec90936" name="388j09.12a"></part>
+		<part crc="29257f03" name="388j11.14a"></part>
+		<part crc="d737eaba" name="388j14.2c"></part>
+		<part crc="2f6a9a2a" name="388j15.2d"></part>
+		<part crc="2e21329b" name="388j16.1e"></part>
+		<part crc="61d2d398" name="388j18.1f"></part>
+		<part crc="13c4e198" name="388j17.16c"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		13 00 00 00 00 FF 00 02
+		00 02 00 01 00 FF 02 00
+		00 00 57 A0 00 1E 00 54
+		00 00 57 36 00 03 00 00
+		</part>
+		</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="33"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

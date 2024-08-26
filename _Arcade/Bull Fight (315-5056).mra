@@ -1,0 +1,81 @@
+<misterromdescription>
+	<name>Bull Fight</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>315-5056</version>
+	<alternative></alternative>
+	<platform>Sega System 1</platform>
+	<series></series>
+	<year>1984</year>
+	<manufacturer>Sega</manufacturer>
+	<category>Arena</category>
+
+	<setname>bullfgt</setname>
+	<parent>bullfgt</parent>
+	<mameversion>0217</mameversion>
+	<rbf>segasys1</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R,C" names="Sword,Wave Cape,-,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches base="8" default="FF,7E">
+		<dip bits="9" ids="On,Off" name="Demo Sound"></dip>
+		<dip bits="10,11" ids="Infinite,5,4,3" name="Lives"></dip>
+		<dip bits="12,13" ids="None,70000,50000,30000" name="Extend"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>00</part>
+		</rom>
+	<rom index="0" md5="a3274944c3685071a47ca40e5f5de8a8" type="merged|nonmerged|split" zip="bullfgt.zip">
+		<part crc="29f19156" name="epr-.129"></part>
+		<part crc="e37d2b95" name="epr-.130"></part>
+		<part crc="eaf5773d" name="epr-.131"></part>
+		<part crc="72c3c712" name="epr-.132"></part>
+		<part crc="7d9fa4cd" name="epr-.133"></part>
+		<part crc="061f2797" name="epr-.134"></part>
+		<part crc="02a37602" name="epr-6077.120"></part>
+		<part crc="02a37602" name="epr-6077.120"></part>
+		<part crc="fe691e41" name="epr-6069.86"></part>
+		<part crc="34f080df" name="epr-6070.93"></part>
+		<part crc="fe691e41" name="epr-6069.86"></part>
+		<part crc="34f080df" name="epr-6070.93"></part>
+		<part crc="b71c349f" name="epr-.82"></part>
+		<part crc="2677742c" name="epr-6087.81"></part>
+		<part crc="9c3ddc62" name="epr-6085.80"></part>
+		<part crc="86deafa8" name="epr-.65"></part>
+		<part crc="6f0a62be" name="epr-.64"></part>
+		<part crc="c0fce57c" name="epr-.63"></part>
+		<part crc="648350b8" name="pr-5317.106"></part>
+		<part>
+a0 a8 20 28 80 a0 00 20 20 28 00 08 20 28 00 08
+a0 a8 20 28 08 28 00 20 88 08 a8 28 88 08 a8 28
+a0 a8 20 28 20 28 00 08 28 a8 20 a0 20 28 00 08
+a0 a8 20 28 08 28 00 20 88 08 a8 28 88 08 a8 28
+28 a8 20 a0 a0 a8 20 28 88 08 a8 28 80 a0 00 20
+28 a8 20 a0 08 28 00 20 28 a8 20 a0 80 a0 00 20
+20 28 00 08 20 28 00 08 88 08 a8 28 20 28 00 08
+08 28 00 20 80 a0 00 20 08 28 00 20 88 08 a8 28
+		</part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		
+		</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="63"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

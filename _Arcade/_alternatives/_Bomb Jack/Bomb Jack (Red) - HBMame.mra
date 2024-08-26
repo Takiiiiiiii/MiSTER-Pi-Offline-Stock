@@ -1,0 +1,64 @@
+<misterromdescription>
+	<name>Bomb Jack</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>Red</version>
+	<alternative>Bomb Jack</alternative>
+	<platform></platform>
+	<series></series>
+	<year>2008</year>
+	<manufacturer>Tehkan</manufacturer>
+	<category>Puzzle - Platform</category>
+
+	<setname>bombjred</setname>
+	<parent>bombjack</parent>
+	<mameversion>0217</mameversion>
+	<rbf>bombjack</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="b0394f72abec4adef0069a8194f3bd98" zip="/hbmame/bombjack.zip">
+		<part crc="8407917d" name="01_h03t.bin"></part>
+		<part crc="398d4a02" name="02_p04t.bin"></part>
+		<part crc="398d4a02" name="02_p04t.bin"></part>
+		<part crc="8732fa2b" name="bombjred/bombjred.03"></part>
+		<part crc="8732fa2b" name="bombjred/bombjred.03"></part>
+		<part crc="dc392a25" name="bombjred/bombjred.04"></part>
+		<part crc="dc392a25" name="bombjred/bombjred.04"></part>
+		<part crc="ad9d7a8c" name="bombjred/bombjred.05"></part>
+		<part crc="ad9d7a8c" name="bombjred/bombjred.05"></part>
+		<part crc="51eebd89" name="06_l08t.bin"></part>
+		<part crc="9dd98e9d" name="07_n08t.bin"></part>
+		<part crc="3155ee7d" name="08_r08t.bin"></part>
+		<part crc="c668dc30" name="09_j01b.bin"></part>
+		<part crc="52a1e5fb" name="10_l01b.bin"></part>
+		<part crc="b68a062a" name="11_m01b.bin"></part>
+		<part crc="1d3ecee5" name="12_n01b.bin"></part>
+		<part crc="70e0244d" name="13.1r"></part>
+		<part crc="498513fe" name="bombjred/bombjred.14"></part>
+		<part crc="a213f039" name="bombjred/bombjred.15"></part>
+		<part crc="bdabd682" name="bombjred/bombjred.16"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

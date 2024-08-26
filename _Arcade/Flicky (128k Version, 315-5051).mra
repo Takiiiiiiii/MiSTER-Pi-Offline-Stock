@@ -1,0 +1,82 @@
+<misterromdescription>
+	<name>Flicky</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>128k Version, 315-5051</version>
+	<alternative></alternative>
+	<platform>Sega System 1</platform>
+	<series></series>
+	<year>1984</year>
+	<manufacturer>Sega</manufacturer>
+	<category>Platform</category>
+
+	<setname>flicky</setname>
+	<parent>flicky</parent>
+	<mameversion>0217</mameversion>
+	<rbf>segasys1</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R,C" names="Flap,-,-,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,7C">
+		<dip bits="10,11" ids="Infinite,5,4,3" name="Lives"></dip>
+		<dip bits="12,13" ids="40k 140k 280k,40k 120k 240k,30k 100k 200k,30k 80k 160k" name="Extend"></dip>
+		<dip bits="14" ids="Hard,Easy" name="Difficulty"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>00</part>
+		</rom>
+	<rom index="0" zip="flicky.zip" md5="39cd01b4c2ab927c06985eceb74c0dbd" type="merged|nonmerged|split">
+		<part crc="296f1492" name="epr-5978a.116"/>
+		<part crc="64b03ef9" name="epr-5979a.109"/>
+		<part crc="64b03ef9" name="epr-5979a.109"/>
+		<part crc="6d220d4e" name="epr-5869.120"/>
+		<part crc="6d220d4e" name="epr-5869.120"/>
+		<part crc="b5f894a1" name="epr-5855.117"/>
+		<part crc="266af78f" name="epr-5856.110"/>
+		<part crc="b5f894a1" name="epr-5855.117"/>
+		<part crc="266af78f" name="epr-5856.110"/>
+		<part crc="7402256b" name="epr-5868.62"/>
+		<part crc="967f1d9a" name="epr-5866.64"/>
+		<part crc="e659f358" name="epr-5864.66"/>
+		<part crc="2f5ce930" name="epr-5867.61"/>
+		<part crc="03d9a34c" name="epr-5865.63"/>
+		<part crc="a496ca15" name="epr-5863.65"/>
+		<part crc="648350b8" name="pr-5317.76"/>
+		<part>
+08 88 00 80 a0 80 a8 88 80 00 a0 20 88 80 08 00 
+a0 80 a8 88 28 08 20 00 28 08 20 00 a0 80 a8 88 
+08 88 00 80 80 00 a0 20 80 00 a0 20 88 80 08 00 
+28 08 20 00 28 08 20 00 28 08 20 00 88 80 08 00 
+08 88 00 80 a8 88 28 08 a8 88 28 08 80 00 a0 20 
+28 08 20 00 88 80 08 00 a8 88 28 08 88 80 08 00 
+08 88 00 80 80 00 a0 20 a8 88 28 08 80 00 a0 20 
+28 08 20 00 28 08 20 00 08 88 00 80 88 80 08 00 
+		</part>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 8F FF FF 00 FF 00 02 00 02 00 01 00 FF 00 00
+		00 00 E7 00 00 31 00 41
+		00 00 C0 D5 00 03 00 00
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="52"/>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

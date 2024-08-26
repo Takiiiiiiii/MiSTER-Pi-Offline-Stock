@@ -1,0 +1,58 @@
+<misterromdescription>
+	<name>Pengo</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>Vector</version>
+	<alternative>Pengo</alternative>
+	<platform></platform>
+	<series></series>
+	<year>2000</year>
+	<manufacturer>T-Bone</manufacturer>
+	<category>Maze</category>
+
+	<setname>vecpengo</setname>
+	<parent>pengo</parent>
+	<mameversion>0217</mameversion>
+	<rbf>pengo</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="0f87bde58b1aec4ab5e4f71aeb249dc4" zip="/hbmame/pengo.zip">
+		<part crc="f37066a8" name="ep1689c.8"></part>
+		<part crc="baf48143" name="ep1690b.7"></part>
+		<part crc="adf0eba0" name="ep1691b.15"></part>
+		<part crc="a086d60f" name="ep1692b.14"></part>
+		<part crc="b72084ec" name="ep1693b.21"></part>
+		<part crc="94194a89" name="ep1694b.20"></part>
+		<part crc="af7b12c4" name="ep5118b.32"></part>
+		<part crc="933950fe" name="ep5119c.31"></part>
+		<part crc="57c5e53c" name="vecpengo/vecp_ic92"></part>
+		<part crc="b93588b0" name="vecpengo/vecp_ic105"></part>
+		<part crc="766b139b" name="pr1634.88"></part>
+		<part crc="c29dea27" name="pr1635.51"></part>
+		<part crc="77245b66" name="pr1636.70"></part>
+		<part crc="3a5844ec" name="pr1633.78"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

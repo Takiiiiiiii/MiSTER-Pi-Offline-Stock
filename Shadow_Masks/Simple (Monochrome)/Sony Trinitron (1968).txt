@@ -1,0 +1,35 @@
+####
+# Name: Sony Trinitron
+# Author: TrashUncle
+# Type: CRT
+# Genre: Realistic
+# Sub-Pixel Layout: Monochrome
+####
+v2
+1,1
+70f 
+
+Resolution=720
+v2
+3,2
+70f,70f,00c
+72a,00c,00c
+
+Resolution=1080
+v2
+3,5
+70f,70f,00c
+70f,70f,00c
+70f,70f,00c
+70f,72a,00c
+72a,00c,00c
+
+Resolution=1440
+v2
+3,6
+70f,70f,00c
+70f,70f,00c
+70f,70f,00c
+70f,70f,00c
+70f,72a,00c
+72a,00c,00c

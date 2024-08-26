@@ -1,0 +1,75 @@
+<misterromdescription>
+	<name>Shot Rider</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>B-Board 89624B-1</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1983</year>
+	<manufacturer>Capcom</manufacturer>
+	<category>Racing</category>
+
+	<setname>shtrider</setname>
+	<parent>shtrider</parent>
+	<mameversion>0216</mameversion>
+	<rbf>traverseusa</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<buttons>3</buttons>
+	<buttons default="A,B,Start,Select,R" names="Gas,Brake,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="FF,FE,00">
+		<dip bits="0,2" ids="5 Coins/1 Credit,1c/5cr,3c/1cr,1c/2cr,4 Coins/1 Credit,1c/3cr,2c/1cr,1c/1cr" name="Coin A"></dip>
+		<dip bits="3,4" ids="3c/1cr,1c/2cr,2c/1cr,1c/1cr" name="Coin B"></dip>
+		<dip bits="5" ids="On,Off" name="Unknown"></dip>
+		<dip bits="6" ids="On,Off" name="Unknown"></dip>
+		<dip bits="7" ids="On,Off" name="Unknown"></dip>
+		<dip bits="8" ids="On,Off" name="Flip Screen"></dip>
+		<dip bits="9" ids="mph,km/h" name="Speed Display"></dip>
+		<dip bits="10" ids="On,Off" name="Unknown"></dip>
+		<dip bits="11" ids="Cocktail,Upright" name="Cabinet"></dip>
+		<dip bits="12" ids="On,Off" name="Unknown"></dip>
+		<dip bits="13" ids="On,Off" name="Unknown"></dip>
+		<dip bits="14" ids="On,Off" name="Unknown"></dip>
+		<dip bits="15" ids="On,Off" name="Unknown"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>1</part>
+		</rom>
+	<rom index="0" md5="none" type="merged|nonmerged" zip="shtrider.zip">
+		<part crc="de76d537" name="sr01a.bin"></part>
+		<part crc="cd1e1bfc" name="sr02a.bin"></part>
+		<part crc="3ade11b9" name="sr03a.bin"></part>
+		<part crc="02b96eaa" name="sr04a.bin"></part>
+		<part crc="a8396b76" name="sr11a.bin"></part>
+		<part crc="34449f79" name="sr05a.bin"></part>
+		<part crc="de43653d" name="sr06a.bin"></part>
+		<part crc="3445b81c" name="sr07a.bin"></part>
+		<part crc="4072b096" name="sr08a.bin"></part>
+		<part crc="fd4cc7e6" name="sr09a.bin"></part>
+		<part crc="0a117925" name="sr10b.bin"></part>
+		<part crc="e9e258e5" name="1.bpr"></part>
+		<part crc="6cf4591c" name="2.bpr"></part>
+		<part crc="5db47092" name="3.bpr"></part>
+		<part crc="ee97c581" name="4.bpr"></part>
+		</rom>
+	<rom_2></rom_2>
+	<rom_3></rom_3>
+	<rom_4></rom_4>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

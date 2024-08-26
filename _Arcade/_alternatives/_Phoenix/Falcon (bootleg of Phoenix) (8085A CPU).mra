@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Falcon</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>8085A CPU</version>
+	<alternative>Phoenix</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>bootleg</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>falcon</setname>
+	<parent>phoenix</parent>
+	<mameversion>0218</mameversion>
+	<rbf>phoenix</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="a2c0d6982d2034bb59f20f06fbaad860" zip="phoenix.zip|falcon.zip">
+		<part crc="80382b6c" name="falcon.45"></part>
+		<part crc="6a13193b" name="falcon.46"></part>
+		<part crc="cbbb8839" name="phoenix.47"></part>
+		<part crc="084e9766" name="falcon.48"></part>
+		<part crc="1a1ce0d0" name="phoenixc.49"></part>
+		<part crc="ac5e9ec1" name="h6-ic50.6a"></part>
+		<part crc="6e82e400" name="falcon.51"></part>
+		<part crc="aff8e9c5" name="h8-ic52.8a"></part>
+		<part crc="3c7e623f" name="ic23.3d"></part>
+		<part crc="59916d3b" name="ic24.4d"></part>
+		<part crc="53413e8f" name="b1-ic39.3b"></part>
+		<part crc="0be2ba91" name="b2-ic40.4b"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

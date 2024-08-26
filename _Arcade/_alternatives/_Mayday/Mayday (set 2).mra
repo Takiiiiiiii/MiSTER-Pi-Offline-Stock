@@ -1,0 +1,127 @@
+<misterromdescription>
+	<name>Mayday</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Set 2</version>
+	<alternative>Mayday</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Hoei</manufacturer>
+	<category>Shooter - Horizontal</category>
+
+	<setname>maydaya</setname>
+	<parent>mayday</parent>
+	<mameversion>0218</mameversion>
+	<rbf>defender</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>3</num_buttons>
+	<buttons names="Fire,Back Fire,Mayday,-,-,Start 1P,Start 2P,Coin,Advance,Auto Up,Test Credit,Pause" default="A,B,X,Start,Select,R,-,-,-,L"/>
+
+	<switches>
+		<dip bits="0" ids="Off,On" name="Auto up"></dip>
+		<dip bits="1" ids="Off,On" name="Advance"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>2</part>
+		</rom>
+	<rom index="0" md5="68608512531ec3817413130b9236ac92" zip="mayday.zip|maydaya.zip">
+		<part crc="872a2f2d" name="mayday.c"></part>
+		<part crc="c4ab5e22" name="mayday.b"></part>
+		<part crc="329a1318" name="mayday.a"></part>
+		<part crc="c2ae4716" name="mayday.d"></part>
+		<part crc="41225666" name="mayday.e"></part>
+		<part crc="c39be3c0" name="mayday.f"></part>
+		<part crc="2bd0f106" name="mayday.g"></part>
+		<part>
+00408001418102428203438304448405
+45850646860747870848880949890a4a
+8a0b4b8b0c4c8c0d4d8d0e4e8e0f4f8f
+10509011519112529213539314549415
+55951656961757971858981959991a5a
+9a1b5b9b1c5c9c1d5d9d1e5e9e1f5f9f
+2060a02161a12262a22363a32464a425
+65a52666a62767a72868a82969a92a6a
+aa2b6bab2c6cac2d6dad2e6eae2f6faf
+3070b03171b13272b23373b33474b435
+75b53676b63777b73878b83979b93a7a
+ba3b7bbb3c7cbc3d7dbd3e7ebe3f7fbf
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+00408001417232b17131b07030af6f2f
+ae6e2ead6d2dac6c2cab6b2baa6a2aa9
+6929a86828a76727a66626a56525a464
+24a36323a26222a16121a060209f5f1f
+9e5e1e9d5d1d9c5c1c9b5b1b9a5a1a99
+59199858189757179656169555159454
+149353139252129151119050108f4f0f
+8e4e0e8d4d0d8c4c0c8b4b0b8a4a0a89
+49098848088747078646068545058444
+0483430382420281b23373b33474b435
+75b53676b63777b73878b83979b93a7a
+ba3b7bbb3c7cbc3d7dbd3e7ebe3f7fbf
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+		</part>
+		<part>
+000102030405060708090a0b0c0d0e0f
+101112131415161718191a1b1c1d1e1f
+202122232425262728292a2b2c2d2e2f
+303132333435363738393a3b3c3d3e3f
+404142434445464748494a4b4c4d4e4f
+505152535455565758595a5b5c5d5e5f
+606162636465666768696a6b6c6d6e6f
+707172737475767778797a7b7c7d7e7f
+808182838485868788898a8b8c8d8e8f
+909192939495969798999a9b9c9d9e9f
+a0a1a2a3a4a5a6a7a8a9aaabacadaeaf
+b0b1b2b3b4b5b6b7b8b9babbbcbdbebf
+c0c1c2c3c4c5c6c7c8c9cacbcccdcecf
+d0d1d2d3d4d5d6d7d8d9dadbdcdddedf
+e0e1e2e3e4e5e6e7e8e9eaebecedeeef
+f0f1f2f3f4f5f6f7f8f9fafbfcfdfeff
+fbfaf9f8f7f6f5f4f3f2f1f0efeeedec
+ebeae9e8e7e6e5e4e3e2e1e0dfdedddc
+dbdad9d8d7d6d5d4d3d2d1d0cfcecdcc
+cbcac9c8c7c6c5c4c3c2c1c0bfbebdbc
+bbbab9b8b7b6b5b4b3b2b1b0afaeadac
+abaaa9a8a7a6a5a4a3a2a1a09f9e9d9c
+9b9a999897969594939291908f8e8d8c
+8b8a898887868584838281807f7e7d7c
+7b7a797877767574737271706f6e6d6c
+6b6a696867666564636261605f5e5d5c
+5b5a595857565554535251504f4e4d4c
+4b4a494847464544434241403f3e3d3c
+3b3a393837363534333231302f2e2d2c
+2b2a292827262524232221201f1e1d1c
+1b1a191817161514131211100f0e0d0c
+0b0a09080706050403020100fcfdfeff
+		</part>
+		<part repeat="3072">00</part>
+		<part crc="fefd5b48" name="ic28-8.bin"></part>
+		<part crc="fefd5b48" name="ic28-8.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

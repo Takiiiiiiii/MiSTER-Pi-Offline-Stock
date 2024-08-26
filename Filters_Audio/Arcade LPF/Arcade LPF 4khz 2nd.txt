@@ -1,0 +1,33 @@
+#Version
+v1
+
+#Original Filename
+#Arcade LPF 4khz 2nd.txt
+
+#Filter Description
+#LPF 4khz 2nd Order
+
+#Sampling Frequency
+7056000
+
+#Base gain
+0.00001759075426534196
+
+#gain scale for X0
+2
+
+#gain scale for X1
+1
+
+#gain scale for X2
+0
+
+#gain scale for Y0
+-1.99496272836846633147
+
+#gain scale for Y1
+0.99497538358736226094
+
+#gain scale for Y2
+0
+

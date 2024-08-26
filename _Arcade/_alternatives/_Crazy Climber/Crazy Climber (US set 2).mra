@@ -1,0 +1,57 @@
+<misterromdescription>
+	<name>Crazy Climber</name>
+	<region>USA</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Set 2</version>
+	<alternative>Crazy Climber</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Nichibutsu</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>cclimbera</setname>
+	<parent>cclimber</parent>
+	<mameversion>0218</mameversion>
+	<rbf>crazyclimber</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls>twin stick</special_controls>
+	<num_buttons>4</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="76c0010090975d37ff47d7ebd4a596a9" zip="cclimber.zip|cclimbera.zip">
+		<part crc="217ec4ff" name="cc11"></part>
+		<part crc="983d0bab" name="10"></part>
+		<part crc="6db0879c" name="cc9"></part>
+		<part crc="f48c5fe3" name="cc8"></part>
+		<part crc="c2e06606" name="7"></part>
+		<part crc="481b64cc" name="cc6"></part>
+		<part crc="2c33b760" name="cc5"></part>
+		<part crc="332347cb" name="cc4"></part>
+		<part crc="4e4b3658" name="cc3"></part>
+		<part crc="14f3ecc9" name="cc2"></part>
+		<part crc="21c0f9fb" name="cc1"></part>
+		<part crc="e0042f75" name="cc13"></part>
+		<part crc="5da13aaa" name="cc12"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

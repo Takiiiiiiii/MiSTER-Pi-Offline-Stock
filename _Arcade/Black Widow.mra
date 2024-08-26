@@ -1,0 +1,79 @@
+<misterromdescription>
+	<name>Black Widow</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Shooter - Tube</category>
+
+	<setname>bwidow</setname>
+	<parent>bwidow</parent>
+	<mameversion>0218</mameversion>
+	<rbf>blackwidow</rbf>
+	<about></about>
+
+	<resolution>31kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>8-way</joystick>
+	<special_controls>twin stick</special_controls>
+	<num_buttons>4</num_buttons>
+	<buttons default="A,Y,X,B,Start,Select,R,L" names="Fire Right,Fire Left,Fire Up,Fire Down,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FF,00">
+		<dip bits="1,2" ids="1C_1C,2C_1C,Free_Play,1C_2C" name="Coinage"></dip>
+		<dip bits="3,4" ids="1,4,5,6" name="Coin_B"></dip>
+		<dip bits="5" ids="1,2" name="Coin_A"></dip>
+		<dip bits="6,7,8" ids="None,1 each 2,1 each 4,2 each 4,1 each 5,1 each 3" name="Bonus Coins"></dip>
+		<dip bits="9,10" ids="Lev 13,Lev 21,Lev 37,Lev 53" name="Max Start"></dip>
+		<dip bits="11,12" ids="3,4,5,6" name="Lives"></dip>
+		<dip bits="13,14" ids="Easy,Medium,Hard,Demo" name="Difficulty"></dip>
+		<dip bits="15,16" ids="20000,30000,40000,None" name="Bonus_Life"></dip>
+		<dip bits="17" ids="Off,On" name="Service"></dip>
+		<dip bits="18" ids="Off,On" name="Service2"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0</part>
+		</rom>
+	<rom index="0" md5="f5e230dc31a5d8fb2c877322a9b41355" type="merged|nonmerged" zip="bwidow.zip">
+		<part crc="fe3febb7" name="136017-101.d1"></part>
+		<part crc="10ad0376" name="136017-102.ef1"></part>
+		<part crc="8a1430ee" name="136017-103.h1"></part>
+		<part crc="44f9943f" name="136017-104.j1"></part>
+		<part crc="1fdf801c" name="136017-105.kl1"></part>
+		<part crc="ccc9b26c" name="136017-106.m1"></part>
+		<part crc="97f6000c" name="136017-107.l7"></part>
+		<part crc="97f6000c" name="136017-107.l7"></part>
+		<part crc="3da354ed" name="136017-108.mn7"></part>
+		<part crc="2fc4ce79" name="136017-109.np7"></part>
+		<part crc="0dd52987" name="136017-110.r7"></part>
+		<part crc="5903af03" name="136002-125.n4"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 FF FF FF 00 FF 00 02 00 02 00 01 00 FF 02 20
+		F0 FF FF FF FF FF FF FF
+		FF FF FF FF FF FF FF FF
+		FF FF FF FF FF FF FF FF
+		FF FF FF FF FF FF FF FF
+		00 00 03 02 00 24 20 DB
+		00 00 03 26 00 76 1B 11
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="154"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

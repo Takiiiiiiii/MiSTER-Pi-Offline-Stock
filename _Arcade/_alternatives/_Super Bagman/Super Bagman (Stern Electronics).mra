@@ -1,0 +1,78 @@
+<misterromdescription>
+	<name>Super Bagman</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Stern</version>
+	<alternative>Super Bagman</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1984</year>
+	<manufacturer>Valadon Automation</manufacturer>
+	<manufacturer>Stern</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>sbagmans</setname>
+	<parent>sbagman</parent>
+	<mameversion>0218</mameversion>
+	<rbf>bagman</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="F6">
+		<dip bits="0,1" ids="5,4,3,2" name="Lives"></dip>
+		<dip bits="2" ids="2c/1cr,1c/1cr" name="Coinage"></dip>
+		<dip bits="3,4" ids="Hardest,Hard,Medium,Easy" name="Difficulty"></dip>
+		<dip bits="5" ids="French,English" name="Language"></dip>
+		<dip bits="6" ids="40000,30000" name="Bonus"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>01</part>
+		</rom>
+	<rom index="0" md5="01cb69059088adfda4a198abaf4d3555" zip="sbagman.zip|sbagmans.zip">
+		<part crc="c19696f2" name="sbag_9e.bin"></part>
+		<part crc="ac49cb82" name="6.9f"></part>
+		<part crc="9a1c778d" name="7.9j"></part>
+		<part crc="b94fbb73" name="8.9k"></part>
+		<part crc="b21e246e" name="sbag_9m.bin"></part>
+		<part crc="5f750918" name="10.9n"></part>
+		<part repeat="24576">00</part>
+		<part crc="944a4453" length="3584" name="13.8d"></part>
+		<part crc="b77eb1f5" length="512" name="16.8k" offset="3584"></part>
+		<part crc="0f3e6de4" length="1024" name="sbag_f8.bin"></part>
+		<part crc="fe924879" length="512" name="15.8j" offset="1024"></part>
+		<part crc="0f3e6de4" length="2560" name="sbag_f8.bin" offset="1536"></part>
+		<part crc="fe924879" length="1024" name="15.8j"></part>
+		<part crc="0f3e6de4" length="512" name="sbag_f8.bin" offset="1024"></part>
+		<part crc="fe924879" length="2560" name="15.8j" offset="1536"></part>
+		<part crc="b77eb1f5" length="3584" name="16.8k"></part>
+		<part crc="944a4453" length="512" name="13.8d" offset="3584"></part>
+		<part crc="f4d3d4e6" name="2.1e"></part>
+		<part crc="262f870a" name="sbag_1c.bin"></part>
+		<part crc="2c6a510d" name="4.1j"></part>
+		<part crc="350ed0fb" name="sbag_1f.bin"></part>
+		<part crc="2e0057ff" name="11.9r"></part>
+		<part crc="b2120edd" name="12.9t"></part>
+		<part crc="2a855523" name="p3.bin"></part>
+		<part crc="ae6f1019" name="r3.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

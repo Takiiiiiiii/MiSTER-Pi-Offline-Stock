@@ -1,0 +1,32 @@
+####
+# Name: Sony PVM-2530
+# Author: TrashUncle
+# Type: CRT
+# Genre: Realistic
+# Sub-Pixel Layout: BGR
+####
+v2
+3,4
+14c,00e,00e
+12a,20c,00e
+14c,22a,40c
+00e,20c,42a
+
+Resolution=1080
+v2
+6,5
+12a,14c,00e,00e,00e,00e
+12a,14c,22a,24c,00e,00e
+12a,14c,22a,24c,42a,44c
+00e,00e,22a,24c,42a,44c
+00e,00e,00e,00e,42a,42a
+
+Resolution=1440
+v2
+6,6
+12a,14c,00e,00e,00e,00e
+12a,14c,22a,24c,00e,00e
+12a,14c,22a,24c,42a,44c
+12a,14c,22a,24c,42a,44c
+00e,00e,22a,24c,42a,42a
+00e,00e,00e,00e,00e,00e

@@ -1,0 +1,17 @@
+####
+# Name: JVC 002 (Generic)
+# Author: TrashUncle
+# Type: CRT
+# Genre: Realistic
+# Sub-Pixel Layout: Monochrome
+####
+
+Resolution=0
+v2
+6,6
+72e,71f,70f,03d,03d,03d
+72e,71f,70f,03d,03d,03d
+72e,71f,70f,72e,71f,70f
+72e,71f,70f,72e,71f,70f
+03d,03d,03d,72e,71f,70f
+03d,03d,03d,72e,71f,70f

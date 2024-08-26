@@ -1,0 +1,85 @@
+<misterromdescription>
+	<name>Radar Scope (rev. C)</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>rev. C</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Nintendo</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>radarscpc</setname>
+	<parent>radarscp</parent>
+	<mameversion>0227</mameversion>
+	<rbf>donkeykong</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>broken</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R,L" names="Shoot,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches base="8" default="80">
+		<dip bits="0,1" ids="3,4,5,6" name="Lives"></dip>
+		<dip bits="2,3" ids="7K,10K,15K,20K" name="Bonus Life"></dip>
+		<dip bits="4,6" ids="1C1P,2C1P,1C1P,3C1P,1C1P,4C1P,1C1P,5C1P,1C1P" name="Coins"></dip>
+		<dip bits="7" ids="Cocktail,Upright" name="Cabinet"></dip>
+	</switches>
+
+	<rom index="1">
+		<part>03</part>
+	</rom>
+	<rom index="0" md5="4b295564ddde03ac8b9f98475a36caf8" zip="radarscp.zip">
+		<part crc="40949e0d" name="trs2c5fc"></part>
+		<part crc="afa8c49f" name="trs2c5gc"></part>
+		<part crc="51b8263d" name="trs2c5hc"></part>
+		<part crc="1f0101f7" name="trs2c5kc"></part>
+		<part crc="40949e0d" name="trs2c5fc"></part>
+		<part crc="afa8c49f" name="trs2c5gc"></part>
+		<part crc="51b8263d" name="trs2c5hc"></part>
+		<part crc="1f0101f7" name="trs2c5kc"></part>
+		<part crc="f095330e" name="trs2v3gc" repeat="2"></part>
+		<part crc="15a316f0" name="trs2v3hc" repeat="2"></part>
+		<part crc="e0bb0db9" name="trs2v3dc" repeat="2"></part>
+		<part crc="6c4e7dad" name="trs2v3cc" repeat="2"></part>
+		<part crc="6fdd63f1" name="trs2v3bc" repeat="2"></part>
+		<part crc="bbf62755" name="trs2v3ac" repeat="2"></part>
+		<part crc="78034f14" name="trs2s3i" repeat="2"></part>
+		<part crc="54609d61" name="rs2-x.xxx" repeat="2"></part>
+		<part crc="79a7d831" name="rs2-c.xxx" repeat="2"></part>
+		<part crc="1b828315" name="rs2-v.1hc"></part>
+		<part repeat="768">00</part>
+		<part crc="0eca8d6b" name="trs2v3ec"></part>
+		<part repeat="40960">00</part>
+	</rom>
+	<rom index="2"></rom>
+
+	<rom index="3" md5="none">
+		<part>
+		00 00 00 00 00 FF 00 02 00 02 00 01 00 FF 02 00
+		00 00 63 07 00 A2 00 FC
+		00 00 60 A8 00 03 50 00
+		00 00 76 41 00 01 00 00
+		00 00 76 21 00 01 00 00
+		00 00 76 01 00 01 07 07
+		00 00 75 E1 00 01 06 06
+		00 00 75 C1 00 01 05 05
+		00 00 75 A1 00 01 00 00
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="171"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,78 @@
+<misterromdescription>
+	<name>Time Pilot '84</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Set 2</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series>Time Pilot</series>
+	<year>1984</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>tp84a</setname>
+	<parent>tp84</parent>
+	<mameversion>0224</mameversion>
+	<rbf>TimePilot84</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="B,A,Start,R,Select,L" names="Shot,Missile,Start P1,Coin,Start P2,Pause"></buttons>
+
+	<switches default="00,24">
+		<dip bits="0,3" ids="1c/1cr,1c/2cr,1c/3cr,1c/4cr,1c/5cr,1c/7cr,1c/6cr,2c/1cr,2c/3cr,3c/1cr,2c/5cr,3c/2cr,3c/4cr,4c/3cr,4c/1cr,Free Play" name="Credits A"></dip>
+		<dip bits="4,7" ids="1c/1cr,1c/2cr,1c/3cr,1c/4cr,1c/5cr,1c/6cr,1c/7cr,2c/1cr,2c/3cr,2c/5cr,3c/1cr,3c/2cr,3c/4cr,4c/1cr,4c/3cr,Free Play" name="Credits B"></dip>
+		<dip bits="8,9" ids="3,4,5,7" name="Lives"></dip>
+		<dip bits="10" ids="Cocktail,Upright" name="Cabinet type"></dip>
+		<dip bits="11,12" ids="10K/50K+,20K/60K+,30K/70K+,40K/80K+" name="Bonus"></dip>
+		<dip bits="13,14" ids="Easy,Normal,Hard,Hardest" name="Difficulty"></dip>
+		<dip bits="15" ids="Off,On" name="Attract mode sound"></dip>
+	</switches>
+
+	<rom index="1">
+		<part>00</part>
+	</rom>
+	<rom index="0" md5="none" zip="tp84.zip|tp84a.zip">
+		<part crc="605f61c7" name="388_f04.7j"></part>
+		<part crc="e97d5093" name="388_f05.8j"></part>
+		<part crc="dbd5333b" name="388_f06.9j"></part>
+		<part crc="8fbdb4ef" name="388_f07.10j"></part>
+		<part crc="36462ff1" name="388_f08.10d"></part>
+		<part crc="c44414da" name="388j13.6a"></part>
+		<part crc="05c7508f" name="388_h02.2j"></part>
+		<part crc="498d90b7" name="388_d01.1j"></part>
+		<part crc="cd682f30" name="388_e09.12a"></part>
+		<part crc="888d4bd6" name="388_e10.13a"></part>
+		<part crc="9a220b39" name="388_e11.14a"></part>
+		<part crc="fac98397" name="388_e12.15a"></part>
+		<part crc="d737eaba" name="388d14.2c"></part>
+		<part crc="2f6a9a2a" name="388d15.2d"></part>
+		<part crc="2e21329b" name="388d16.1e"></part>
+		<part crc="61d2d398" name="388d18.1f"></part>
+		<part crc="af8f839c" name="388d17.16c"></part>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+			13 00 00 00 00 FF 00 02
+			00 02 00 01 00 FF 02 00
+			00 00 57 A0 00 1E 00 54
+			00 00 57 36 00 03 00 00
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="33"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

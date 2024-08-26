@@ -1,0 +1,38 @@
+<misterromdescription>
+	<name>Pacman Plus After Dark - HBMame</name>
+	<mameversion>0217</mameversion>
+	<setname>pplusad</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>2000</year>
+	<manufacturer>[Bally Midway]</manufacturer>
+	<category>Maze / Pac-Man</category>
+	<rbf>pacman</rbf>
+	<switches default="FF,FF,C9">
+		<dip bits="15"    name="Cabinet" ids="Cocktail,Upright"/>
+		<dip bits="16,17" name="Coinage" ids="2c/1cr,1c/1cr,1c/2cr,Free Play" values="3,1,2,0"/>
+		<dip bits="18,19" name="Lives" ids="1,2,3,5"/>
+		<dip bits="20,21" name="Bonus Life After" ids="10000,15000,20000,None"/>
+		<dip bits="22"    name="Difficulty" ids="Hard,Normal"/>
+	</switches>
+	<rom index="1">
+		<part>01</part>
+	</rom>
+	<rom index="0" zip="/hbmame/puckman.zip" md5="3945b15c6baa3ae7654583cc0bd485af">
+		<part crc="d611ef68" name="pm4000p/pacplus.6e"/>
+		<part crc="c7207556" name="pm4000p/pacplus.6f"/>
+		<part crc="ae379430" name="pm4000p/pacplus.6h"/>
+		<part crc="5a6dff7b" name="pm4000p/pacplus.6j"/>
+		<part crc="d611ef68" name="pm4000p/pacplus.6e"/>
+		<part crc="c7207556" name="pm4000p/pacplus.6f"/>
+		<part crc="ae379430" name="pm4000p/pacplus.6h"/>
+		<part crc="5a6dff7b" name="pm4000p/pacplus.6j"/>
+		<part crc="ce684d85" name="pplusad/pplusad.5e"/>
+		<part crc="0b86d002" name="pplusad/pplusad.5f"/>
+		<part crc="ce684d85" name="pplusad/pplusad.5e"/>
+		<part crc="0b86d002" name="pplusad/pplusad.5f"/>
+		<part crc="a9cc86bf" name="82s126.1m"/>
+		<part crc="e271a166" name="hmba7000/pacplus.4a"/>
+		<part crc="77245b66" name="82s126.3m"/>
+		<part crc="063dd53a" name="hmba7000/pacplus.7f"/>
+	</rom>
+</misterromdescription>

@@ -1,0 +1,71 @@
+<misterromdescription>
+	<name>Armored Car</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Stern</manufacturer>
+	<category>Maze</category>
+
+	<setname>armorcar</setname>
+	<parent>armorcar</parent>
+	<mameversion>0216</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R,L" names="Shoot,Bomb,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FD,FB">
+		<dip bits="8" ids="5,3" name="Lives"></dip>
+		<dip bits="9" ids="On,Off" name="Demo Sounds"></dip>
+		<dip bits="17,18" ids="1c/2cr,1c/1cr,1c/3cr,1c/4cr" name="Coinage"></dip>
+		<dip bits="19" ids="Cocktail,Upright" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>05</part>
+		</rom>
+	<rom index="0" md5="91978b62c4569dcdf0aed9c7adab4316" type="merged|nonmerged" zip="armorcar.zip">
+		<part crc="0d7bfdfb" name="cpu.2c"></part>
+		<part crc="76463213" name="cpu.2e"></part>
+		<part crc="2cc6d5f0" name="cpu.2f"></part>
+		<part crc="61278dbb" name="cpu.2h"></part>
+		<part crc="fb158d8c" name="cpu.2j"></part>
+		<part crc="0d7bfdfb" name="cpu.2c"></part>
+		<part crc="76463213" name="cpu.2e"></part>
+		<part crc="2cc6d5f0" name="cpu.2f"></part>
+		<part crc="54ee7753" name="sound.5c"></part>
+		<part crc="5218fec0" name="sound.5d"></part>
+		<part crc="54ee7753" name="sound.5c"></part>
+		<part crc="5218fec0" name="sound.5d"></part>
+		<part crc="85bdb113" name="cpu.5h" repeat="4"></part>
+		<part crc="8a3da4d1" name="cpu.5f" repeat="4"></part>
+		<part crc="9b87f90d" name="82s123.6e"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 05 00 00 00 FF 00 02 00 02 00 01 00 FF 04 00
+		00 00 81 13 00 3C 02 50
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="60"></nvram>
+
+	<remark>\n		prg    0000-7FFF\n		aud    8000-9FFF\n		obj0   A000-BFFF\n		obj1   C000-DFFF\n		col    E000-E01F\n</remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

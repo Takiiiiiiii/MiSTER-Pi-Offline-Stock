@@ -1,0 +1,80 @@
+<misterromdescription>
+	<name>Fighting Golf</name>
+	<mameversion>0193</mameversion>
+	<setname>fitegolf</setname>
+	<mratimestamp>20220810</mratimestamp>
+	<year>1988</year>
+	<manufacturer>SNK</manufacturer>
+	<category>Sport Golf</category>
+	<rbf>Athena</rbf>
+	<about author="RndMnkIII" twitter="@RndMnkIII"></about>
+	<resolution>16.1785kHz</resolution>
+	<rotation>horizontal</rotation>
+	<players>2</players>
+	<joystick>8-way</joystick>
+	<num_buttons>2</num_buttons>
+	
+
+    <!-- DSW1=9C, DSW2=F7 byte mas significativo a la derecha de la cadena -->
+	<!-- 1101_0111 1001_1100 -->
+	<switches default="3D,FB" base="16">
+		<!-- DSW1 -->
+		<dip bits="0"	  name="Language" ids="English, Japanese" values="1,0"/>
+		<dip bits="1"     name="Flip Screen" ids="Off,On" values="1,0"/>
+		<dip bits="2"     name="Cabinet" ids="Upright,Cocktail" values="1,0"/>
+		<dip bits="3"     name="Gameplay" ids="Basic Player,Avid Golfer" values="0,1"/>
+		<dip bits="4,5"   name="Coin A" ids="4Co/1Cr,3Co/1Cr,2Co/1Cr,1Co/1Cr" values="0,1,2,3"/>
+		<dip bits="6,7"   name="Coin B" ids="1Co/2Cr,1Co/3Cr,1Co/4Cr,1Co/6Cr" values="0,2,1,3"/>
+		<dip bits="8"     name="Shot Time" ids="Short (10 sec),Long (12 sec)" values="0,1"/>
+		<dip bits="9"     name="Bonus Holes" ids="More (Par 1,Birdie 2,Eagle 3),Less (Par 0,Birdie 1,Eagle 2)" values="1,0"/>
+		<dip bits="10,11" name="Game Mode" ids="Demo Sounds Off,Demo Sounds On,Freeze,Infinite Holes (Cheat)" values="1,3,0,2"/>
+		<dip bits="12,13" name="Play Holes" ids="2,3,4,5" values="3,2,1,0"/>
+		<dip bits="14"    name="Allow Continue" ids="No,Yes" values="0,1"/>
+		<dip bits="15"    name="Service" ids="Off,On" values="1,0"/>
+		<!-- Bonus Life VIRTUAL DIP SWITCHES 14,13,12 MUST BE TRASLATED TO DIP1:{bit0,bit1,bit12,bit3,bit4,bit5,bit6,bit7}, DIP2:{bit8,bit9,bit10,bit11,bit14,bit13,1,bit15} -->
+	</switches>
+
+	<rom index='0' md5="None" type='nonmerged' zip='fitegolf.zip'>	
+		<!-- main cpu    0x00000-0x0bfff -->
+		<part crc="19be7ad6" name="gu2.4p"/>
+		<part crc="bc32568f" name="gu1.4m"/>
+		<part repeat="0x4000">FF</part>
+		<!-- sub cpu     0x10000-0x1bfff -->
+		<part crc="2b9978c5" name="gu6.8p"/> 
+		<part crc="ea3d138c" name="gu5.8m"/>
+		<part repeat="0x4000">FF</part>
+		<!-- audio cpu   0x20000-0x2bfff -->
+		<part crc="811b87d7" name="gu3.6g"/>
+		<part crc="2d998e2b" name="gu4.6k"/>
+		<part repeat="0x4000">FF</part>
+		<!-- TX tiles    0x30000-0x33fff -->
+		<part crc="f1628dcf" name="gu8.2d"/>
+		<part repeat="0xC000">FF</part>
+		<!-- BG tiles    0x40000-0x47fff -->
+		<part crc="4655f94e" name="gu7.2b"/>
+		<part repeat="0x8000">FF</part>
+
+		<!-- SP16 tiles  0x50000-0x57fff -->
+		<part crc="d4957ec5" name="gu9.2p"/>
+        <part repeat="0x8000">FF</part>
+
+        <!-- SP16 tiles  0x60000-0x67fff -->
+		<part crc="b3acdac2" name="gu10.2rs"/>
+        <part repeat="0x8000">FF</part>
+
+        <!-- SP16 tiles  0x70000-0x77fff -->
+		<part crc="b99cf73b" name="gu11.2t"/>
+        <part repeat="0x8000">FF</part>
+
+		<!-- PROMs       0x80000-0x80bff -->
+		<part crc="6e4c7836" name="3.2c"/>
+		<part crc="29e7986f" name="1.1b"/>
+		<part crc="27ba9ff9" name="2.1c"/>
+
+	</rom>
+	<rom index="1">
+		<part>04</part>
+	</rom>
+	
+<buttons default="A,B,Start,Select,X,Y" names="PUSH1,PUSH2,Start1,Coin,Pause,Service"></buttons>
+</misterromdescription>

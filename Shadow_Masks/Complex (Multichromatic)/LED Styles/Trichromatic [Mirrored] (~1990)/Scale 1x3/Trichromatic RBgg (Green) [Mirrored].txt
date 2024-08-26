@@ -1,0 +1,16 @@
+####
+# Name: Trichromatic RBgg (Green) [Mirrored]
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+2,6
+42a,21d
+42a,21d
+42a,21d
+12a,21d
+12a,21d
+12a,21d

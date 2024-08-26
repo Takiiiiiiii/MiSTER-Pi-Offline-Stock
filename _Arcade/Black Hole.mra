@@ -1,0 +1,68 @@
+<misterromdescription>
+	<name>Black Hole</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>TDS &amp; MINTS</manufacturer>
+	<category>Shooter - Vertical</category>
+
+	<setname>blkhole</setname>
+	<parent>blkhole</parent>
+	<mameversion>0220</mameversion>
+	<rbf>galaxian</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<buttons default="A,Start,Select,R,L" names="Fire,Start 1P,Start 2P,Coin,-,Pause"></buttons>
+
+	<switches default="FF,1F,02">
+		<dip bits="14,15" ids="1c/1cr,1c/3cr,1c/2cr,2c/1cr" name="Coinage" values="0,2,1,3"></dip>
+		<dip bits="16" ids="5000,10000" name="Bonus Life After"></dip>
+		<dip bits="17" ids="Cocktail,Upright" name="Cabinet"></dip>
+	</switches>
+
+	<rom index="1">
+		<part>03</part>
+	</rom>
+	<rom index="0" md5="c4a5705706f6ff4fbf6e921b26ce78e4" zip="blkhole.zip">
+		<part crc="64998819" name="bh1"></part>
+		<part crc="26f26ce4" name="bh2"></part>
+		<part crc="3418bc45" name="bh3"></part>
+		<part crc="735ff481" name="bh4"></part>
+		<part crc="3f657be9" name="bh5"></part>
+		<part crc="a057ab35" name="bh6"></part>
+		<part crc="a057ab35" name="bh6"></part>
+		<part crc="a057ab35" name="bh6"></part>
+		<part crc="975ba821" name="bh7"></part>
+		<part crc="975ba821" name="bh7"></part>
+		<part crc="03d11020" name="bh8"></part>
+		<part crc="03d11020" name="bh8"></part>
+		<part crc="c3ac9467" name="6l.bpr"></part>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 00 00 48 00 00 00 02 00 02 00 08 00 FF 02 00
+		00 00 41 40 00 09 58 00
+		</part>
+	</rom>
+	<nvram index="4" size="9"/>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

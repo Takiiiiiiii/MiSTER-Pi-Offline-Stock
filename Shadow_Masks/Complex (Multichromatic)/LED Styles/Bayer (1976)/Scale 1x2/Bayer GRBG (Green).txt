@@ -1,0 +1,14 @@
+####
+# Name: Bayer GRBG (Green)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+4,4
+21d,42a,12a,21d
+21d,42a,12a,21d
+12a,21d,21d,42a
+12a,21d,21d,42a

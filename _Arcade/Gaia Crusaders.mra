@@ -1,0 +1,65 @@
+<misterromdescription>
+  <name>Gaia Crusaders</name>
+  <mameversion>0226</mameversion>
+  <setname>gaia</setname>
+  <year>1999</year>
+  <manufacturer>CAVE</manufacturer>
+  <category>Fighting</category>
+  <rbf>cave</rbf>
+
+  <!-- ROM data -->
+  <rom index="0" zip="gaia.zip" md5="none" address="0x30000000">
+    <!-- prog ROM -->
+    <interleave output="16">
+      <part name="prg1.127" crc="47b904b2" map="01" />
+      <part name="prg2.128" crc="469b7794" map="10" />
+    </interleave>
+
+    <!-- sound ROM -->
+    <part name="snd1.447" crc="92770a52" />
+    <part name="snd2.454" crc="329ae1cf" />
+    <part name="snd3.455" crc="4048d64e" />
+
+    <!-- layer 0 -->
+    <part name="bg1.989" crc="013a693d" />
+
+    <!-- layer 1 -->
+    <part name="bg2.995" crc="783cc62f" />
+
+    <!-- layer 2 -->
+    <part name="bg3.998" crc="bcd61d1c" />
+
+    <!-- sprites -->
+    <part name="obj1.736" crc="f4f84e5d" />
+    <part name="obj2.738" crc="15c2a9ce" />
+  </rom>
+
+  <!-- select game -->
+  <rom index="1">
+    <part>06</part>
+  </rom>
+
+  <!-- NVRAM -->
+  <nvram index="2" size="128" />
+
+  <!-- video timing -->
+  <rom index="3">
+    <part>0140 00e0 0024 0018 0014 0002 0000 0000</part>
+  </rom>
+
+  <buttons names="Punch,Kick,Jump,Magic,Start,Coin,Pause" default="A,B,X,Y,R,L,Start" />
+
+  <!-- DIPs -->
+  <switches default="ff,ff">
+    <dip name="Flip Screen" bits="0" ids="On,Off"/>
+    <dip name="Demo Sounds" bits="1" ids="Off,On"/>
+    <dip name="Language" bits="2" ids="English,Japanese"/>
+    <dip name="Coinage" bits="3,5" ids="2/1,4/1,3/1,2/3,2/1,1/3,1/2,1/1"/>
+    <dip name="Free Play" bits="6" ids="On,Off"/>
+    <dip name="Allow Continue" bits="7" ids="Off,On"/>
+    <dip name="Lives" bits="8,9" ids="2,1,4,3"/>
+    <dip name="Bonus Life" bits="10" ids="Off,150k/300k,150k/350k,150k/350k,150k/400k,150k/400k,150k/400k,200k/500k,200k/500k"/>
+    <dip name="Damage" bits="11,12" ids="+3,+2,+1,+0"/>
+    <dip name="Difficulty" bits="13,15" ids="Hardest,Hard 2,Very Hard,Medium Hard,Hard 1,Easy,Very Easy,Medium"/>
+  </switches>
+</misterromdescription>

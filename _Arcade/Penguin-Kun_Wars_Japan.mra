@@ -1,0 +1,28 @@
+<misterromdescription>
+	<name>Penguin-Kun Wars (Japan)</name>
+	<mameversion>0221</mameversion>
+	<setname>pkunwarj</setname>
+	<mratimestamp>20200527165703</mratimestamp>
+	<year>1985</year>
+	<manufacturer>UPL</manufacturer>
+	<category>Maze / Penguin</category>
+	<category>Sports / Speed Ball</category>
+	<rotation>horizontal</rotation>
+	<rbf>PenguinKunWars</rbf>
+	<switches default="FB">
+		<dip bits="0,1" name="Coinage" ids="3 Coins/1 Credit,1 Coin/2 Credits,2 Coins/1 Credit,1 Coin/1 Credit"></dip>
+		<dip bits="3" name="Demo Sounds" ids="Off,On"></dip>
+		<dip bits="4,5" name="Difficulty" ids="Hardest,Easy,Hard,Medium"></dip>
+		<dip bits="7" name="Free Play" ids="On,Off"></dip>
+	</switches>
+	<rom index="0" zip="pkunwar.zip|pkunwarj.zip" md5="64a2baf524708b4b835a36271355ca53">
+		<part crc="428d3b92" name="pkwar.01y"/>
+		<part crc="ce1da7bc" name="pkwar.02y"/>
+		<part crc="a2a43443" name="pgunwar.2"/>
+		<part crc="061dfca8" name="pkwar.04y"/>
+		<part crc="357f3ef3" name="pgunwar.6"/>
+		<part crc="0092e49e" name="pgunwar.5"/>
+		<part crc="56faebea" name="pkwar.03r"/>
+		<part crc="af0fc5e2" name="pkwar.col"/>
+	</rom>
+</misterromdescription>

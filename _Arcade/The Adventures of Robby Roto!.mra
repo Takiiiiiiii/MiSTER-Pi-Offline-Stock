@@ -1,0 +1,65 @@
+<misterromdescription>
+	<name>The Adventures of Robby Roto!</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Dave Nutting Associates</manufacturer>
+	<manufacturer>Bally</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Maze</category>
+
+	<setname>robby</setname>
+	<parent>robby</parent>
+	<mameversion>0219</mameversion>
+	<rbf>astrocade</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="00,00,02,8F">
+		<dip bits="17" ids="On,Off" name="Service"></dip>
+		<dip bits="24" ids="No,Yes" name="Use NVRAM"></dip>
+		<dip bits="25" ids="Reset,Yes" name="Use Settings"></dip>
+		<dip bits="26" ids="On,Off" name="Freeplay"></dip>
+		<dip bits="27" ids="Cocktail,Upright" name="Cabinet"></dip>
+		<dip bits="31" ids="Off,On" name="Demo sound"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>06</part>
+		</rom>
+	<rom index="0" md5="cfca14dd263106bf552e376d9b91b95a" zip="robby.zip">
+		<part crc="a431b85a" name="rotox1.bin"></part>
+		<part crc="33cdda83" name="rotox2.bin"></part>
+		<part crc="dbf97491" name="rotox3.bin"></part>
+		<part crc="a3b90ac8" name="rotox4.bin"></part>
+		<part crc="46ae8a94" name="rotox5.bin"></part>
+		<part crc="7916b730" name="rotox6.bin"></part>
+		<part crc="276dc4a5" name="rotox7.bin"></part>
+		<part crc="1ef13457" name="rotox8.bin"></part>
+		<part crc="370352bf" name="rotox9.bin"></part>
+		<part crc="e762cbda" name="rotox10.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

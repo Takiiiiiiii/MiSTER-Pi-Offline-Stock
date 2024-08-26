@@ -1,0 +1,79 @@
+<misterromdescription>
+	<name>Scramble</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Stern, Set 1</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series>Scramble</series>
+	<year>1981</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Shooter - Horizontal</category>
+
+	<setname>scramble</setname>
+	<parent>scramble</parent>
+	<mameversion>0216</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R,L" names="Shoot,Bomb,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FC,F1">
+		<dip bits="8,9" ids="3,4,5,255(Cheat)" name="Lives"></dip>
+		<dip bits="17,18" ids="1c/1cr,1c/2cr,1c/3cr,1c/4cr" name="Coinage"></dip>
+		<dip bits="19" ids="Upright,Cocktail" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>00</part>
+		</rom>
+	<rom index="0" md5="686d9523f69d6be4af6fd17c2bf63ef8" type="merged|nonmerged" zip="scramble.zip|scrambles.zip">
+		<part crc="b89207a1" name="2d"></part>
+		<part crc="e9b4b9eb" name="2e"></part>
+		<part crc="a1f14f4c" name="2f"></part>
+		<part crc="591bc0d9" name="2h"></part>
+		<part crc="22f11b6b" name="2j"></part>
+		<part crc="705ffe49" name="2l"></part>
+		<part crc="ea26c35c" name="2m"></part>
+		<part crc="94d8f5e3" name="2p"></part>
+		<part crc="b89207a1" name="2d"></part>
+		<part crc="e9b4b9eb" name="2e"></part>
+		<part crc="a1f14f4c" name="2f"></part>
+		<part crc="591bc0d9" name="2h"></part>
+		<part crc="22f11b6b" name="2j"></part>
+		<part crc="705ffe49" name="2l"></part>
+		<part crc="ea26c35c" name="2m"></part>
+		<part crc="94d8f5e3" name="2p"></part>
+		<part crc="bcd297f0" name="ot1.5c"></part>
+		<part crc="de7912da" name="ot2.5d"></part>
+		<part crc="ba2fa933" name="ot3.5e"></part>
+		<part crc="ba2fa933" name="ot3.5e"></part>
+		<part crc="516e029e" name="5h" repeat="4"></part>
+		<part crc="5f30311a" name="5f" repeat="4"></part>
+		<part crc="4e3caeab" name="c01s.6e"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 07 FF FF 00 FF 00 02 00 02 00 01 00 FF 02 00
+		00 00 42 00 00 1E 00 01
+		00 00 40 A8 00 03 00 01
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="33"></nvram>
+
+	<remark>\n		prg    0000-7FFF\n		aud    8000-9FFF\n		obj0   A000-BFFF\n		obj1   C000-DFFF\n		col    E000-E01F\n</remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

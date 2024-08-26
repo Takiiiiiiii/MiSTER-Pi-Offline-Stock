@@ -1,0 +1,18 @@
+# 8 Phase Filters
+# Single Set of Coefficients
+
+# The original filename is:
+# lanczos2_8p_128.txt
+
+# Coefficients
+   0, 128,   0,   0
+  -8, 124,  13,	 -1
+ -11, 111,  30,	 -2
+ -10,  93,  50,	 -5
+  -8,  72,  72,	 -8
+  -5,  50,  93,	-10
+  -2,  30, 111,	-11
+  -1,  13, 124,	 -8
+
+
+

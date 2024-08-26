@@ -1,0 +1,83 @@
+<misterromdescription>
+	<name>Sega Ninja</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>315-5102</version>
+	<alternative></alternative>
+	<platform>Sega System 1</platform>
+	<series></series>
+	<year>1985</year>
+	<manufacturer>Sega</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>seganinj</setname>
+	<parent>seganinj</parent>
+	<mameversion>0217</mameversion>
+	<rbf>segasys1</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>3</num_buttons>
+	<buttons default="A,B,X,Start,Select,R,C" names="Fire 1,Fire 2,Hide,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,7E">
+		<dip bits="9" ids="On,Off" name="Demo Sound"></dip>
+		<dip bits="10,11" ids="240,4,2,3" name="Lives"></dip>
+		<dip bits="12" ids="50k 100k 150k 200k,20k 70k 120k 170k" name="Extend"></dip>
+		<dip bits="13" ids="No,Yes" name="Allow Continue"></dip>
+		<dip bits="14" ids="Hard,Easy" name="Difficulty"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>00</part>
+		</rom>
+	<rom index="0" md5="501c51f17b8ce86c56c0b5af04448612" type="merged|nonmerged|split" zip="seganinj.zip">
+		<part crc="a5d0c9d0" name="epr-6594a.116"></part>
+		<part crc="b9e6775c" name="epr-6595a.109"></part>
+		<part crc="f2eeb0d8" name="epr-6596a.96"></part>
+		<part crc="5a1570ee" name="epr-6559.120"></part>
+		<part crc="5a1570ee" name="epr-6559.120"></part>
+		<part crc="a4785692" name="epr-6546.117"></part>
+		<part crc="bdf278c1" name="epr-6548.04"></part>
+		<part crc="34451b08" name="epr-6547.110"></part>
+		<part crc="7c51488c" name="epr-6549a.05"></part>
+		<part crc="2af9eaeb" name="epr-6558.62"></part>
+		<part crc="79fd26f7" name="epr-6556.64"></part>
+		<part crc="5ac9d205" name="epr-6554.66"></part>
+		<part crc="7804db86" name="epr-6592.61"></part>
+		<part crc="bf858cad" name="epr-6590.63"></part>
+		<part crc="dc931dbb" name="epr-6588.65"></part>
+		<part crc="648350b8" name="pr-5317.76"></part>
+		<part>
+88 a8 80 a0 88 08 80 00 28 a8 08 88 a0 a8 80 88 
+a8 a0 28 20 a8 a0 28 20 28 a8 08 88 a0 a8 80 88 
+28 08 a8 88 28 08 a8 88 28 a8 08 88 88 08 80 00 
+28 08 a8 88 28 08 a8 88 28 a8 08 88 a8 a0 28 20 
+88 08 80 00 88 a8 80 a0 a0 a8 80 88 28 a8 08 88 
+a8 a0 28 20 88 a8 80 a0 a8 a0 28 20 28 a8 08 88 
+28 08 a8 88 88 a8 80 a0 28 08 a8 88 28 08 a8 88 
+88 a8 80 a0 88 a8 80 a0 a8 a0 28 20 28 08 a8 88 
+		</part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+				00 00 00 00 00 FF 00 02 00 02 00 01 00 FF 00 00
+				00 00 EF 00 00 31 00 43
+				</part>
+		</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="49"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

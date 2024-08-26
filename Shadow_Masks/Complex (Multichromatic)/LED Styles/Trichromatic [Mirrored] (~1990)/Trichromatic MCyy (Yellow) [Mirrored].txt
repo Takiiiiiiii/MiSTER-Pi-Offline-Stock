@@ -1,0 +1,12 @@
+####
+# Name: Trichromatic MCyy (Yellow) [Mirrored]
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+2,2
+52a,61d
+32a,61d

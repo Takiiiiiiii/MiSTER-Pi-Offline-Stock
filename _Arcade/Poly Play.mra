@@ -1,0 +1,82 @@
+<misterromdescription>
+	<name>Poly Play</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1985</year>
+	<manufacturer>VEB Polytechnik</manufacturer>
+	<category>Mixed</category>
+
+	<setname>polyplay</setname>
+	<parent>polyplay</parent>
+	<mameversion>0229</mameversion>
+	<rbf>polyplay</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,B" names="Button 1,Coin"></buttons>
+
+	<switches></switches>
+
+	<rom index="1">
+		<part>00</part>
+		</rom>
+	<rom index="0" md5="e1fd6666eb78b1e6cfaf0e9ef6da5836" zip="polyplay.zip">
+		<part crc="5242DD6B" name="char.1"></part>
+		<part crc="87884C5F" name="cpu_0000.37"></part>
+		<part crc="D5C84829" name="cpu_0400.36"></part>
+		<part crc="5F36D08E" name="cpu_0800.35"></part>
+		<part crc="950DFCDB" name="2_-_1000.14"></part>
+		<part crc="829F74CA" name="2_-_1400.10"></part>
+		<part crc="B69306F5" name="2_-_1800.6"></part>
+		<part crc="AEDE2280" name="2_-_1c00.2"></part>
+		<part crc="6C7AD0D8" name="2_-_2000.15"></part>
+		<part crc="BC7462F0" name="2_-_2400.11"></part>
+		<part crc="9CCF1958" name="2_-_2800.7"></part>
+		<part crc="21827930" name="2_-_2c00.3"></part>
+		<part crc="B3B3C0EC" name="2_-_3000.16"></part>
+		<part crc="BD416CD0" name="2_-_3400.12"></part>
+		<part crc="1C470B7C" name="2_-_3800.8"></part>
+		<part crc="B8354A19" name="2_-_3c00.4"></part>
+		<part crc="1E01041E" name="2_-_4000.17"></part>
+		<part crc="FE4D8959" name="2_-_4400.13"></part>
+		<part crc="C45F1D9D" name="2_-_4800.9"></part>
+		<part crc="26950AD6" name="2_-_4c00.5"></part>
+		<part crc="9F5E2BA1" name="1_-_5000.30"></part>
+		<part crc="B5F9A780" name="1_-_5400.26"></part>
+		<part crc="D973AD12" name="1_-_5800.22"></part>
+		<part crc="9C22EA79" name="1_-_5c00.18"></part>
+		<part crc="245C49CA" name="1_-_6000.31"></part>
+		<part crc="181E427E" name="1_-_6400.27"></part>
+		<part crc="8A6C1F97" name="1_-_6800.23"></part>
+		<part crc="77901DC9" name="1_-_6c00.19"></part>
+		<part crc="83FFBE57" name="1_-_7000.32"></part>
+		<part crc="E2A66531" name="1_-_7400.28"></part>
+		<part crc="1D0803EF" name="1_-_7800.24"></part>
+		<part crc="17DFA7E4" name="1_-_7c00.20"></part>
+		<part crc="6EE02375" name="1_-_8000.33"></part>
+		<part crc="9DB09598" name="1_-_8400.29"></part>
+		<part crc="CA2F963F" name="1_-_8800.25"></part>
+		<part crc="0C7DEC2D" name="1_-_8c00.21"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

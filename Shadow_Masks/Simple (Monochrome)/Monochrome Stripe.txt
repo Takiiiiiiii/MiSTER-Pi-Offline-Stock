@@ -1,0 +1,12 @@
+####
+# Name: Monochrome Stripe
+# Author: Soltan_G42
+# Type: Other
+# Genre: Stripe
+# Sub-Pixel Layout: Monochrome
+####
+
+Resolution=0
+v2
+3,1
+72a,72a,02a

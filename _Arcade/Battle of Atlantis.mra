@@ -1,0 +1,78 @@
+<misterromdescription>
+	<name>Battle of Atlantis</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Comsoft</manufacturer>
+	<category>Shooter - Horizontal</category>
+
+	<setname>atlantis2</setname>
+	<parent>atlantis</parent>
+	<mameversion>0217</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R,L" names="Shoot,Bomb,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FE,F3">
+		<dip bits="8" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="9" ids="5,3" name="Lives"></dip>
+		<dip bits="17,19" ids="1c/6cr,1c/3cr,1c/4cr" name="Coinage"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>00</part>
+		</rom>
+	<rom index="0" md5="1d8a2fa44f0d00e80d1272f2cab74467" type="merged|split" zip="atlantis.zip|atlantis2.zip">
+		<part crc="ad348089" name="atlantis2/boa_1.2c"></part>
+		<part crc="caa705d1" name="atlantis2/boa_2.2e"></part>
+		<part crc="ac5e9ec1" name="atlantis2/boa_3.2f"></part>
+		<part crc="04792d90" name="atlantis2/boa_4.2h"></part>
+		<part crc="45f7cf34" name="2j"></part>
+		<part crc="b297bd4b" name="atlantis2/boa_6.2l"></part>
+		<part crc="a50bf8d5" name="atlantis2/boa_7.2m"></part>
+		<part crc="d2c5c984" name="atlantis2/boa_8.2p"></part>
+		<part crc="ad348089" name="atlantis2/boa_1.2c"></part>
+		<part crc="caa705d1" name="atlantis2/boa_2.2e"></part>
+		<part crc="ac5e9ec1" name="atlantis2/boa_3.2f"></part>
+		<part crc="04792d90" name="atlantis2/boa_4.2h"></part>
+		<part crc="45f7cf34" name="2j"></part>
+		<part crc="b297bd4b" name="atlantis2/boa_6.2l"></part>
+		<part crc="a50bf8d5" name="atlantis2/boa_7.2m"></part>
+		<part crc="d2c5c984" name="atlantis2/boa_8.2p"></part>
+		<part crc="be037cf6" name="atlantis2/boa_11.5c"></part>
+		<part crc="de7912da" name="ot2.5d"></part>
+		<part crc="ba2fa933" name="ot3.5e"></part>
+		<part crc="ba2fa933" name="ot3.5e"></part>
+		<part crc="72e773b8" name="atlantis2/boa_10.5h" repeat="4"></part>
+		<part crc="55cd5acd" name="atlantis2/boa_9.5f" repeat="4"></part>
+		<part crc="4e3caeab" name="c01s.6e"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 07 FF FF 00 FF 00 02 00 02 00 01 00 FF 02 00
+		00 00 40 3D 00 2C 00 00
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="44"></nvram>
+
+	<remark>\n		prg    0000-7FFF\n		aud    8000-9FFF\n		obj0   A000-BFFF\n		obj1   C000-DFFF\n		col    E000-E01F\n</remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

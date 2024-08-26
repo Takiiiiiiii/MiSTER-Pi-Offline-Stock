@@ -1,0 +1,64 @@
+<misterromdescription>
+	<name>Swarm</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version></version>
+	<alternative>Galaxian</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1979</year>
+	<manufacturer>Subelectro</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>swarm</setname>
+	<parent>swarm</parent>
+	<mameversion>0218</mameversion>
+	<rbf>galaxian</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="1F,1F,04">
+		<dip bits="7" ids="Off,On" name="Service"></dip>
+		<dip bits="6" ids="Off,On" name="Test"></dip>
+		<dip bits="5" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="14,15" ids="1c/1cr,1c/2cr,2c/1cr,Free Play" name="Coinage" values="0,2,1,3"></dip>
+		<dip bits="16,17" ids="7000,10000,12000,20000" name="Bonus Life After"></dip>
+		<dip bits="18" ids="2,3" name="Lives"></dip>
+		</switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="ced9aaae89d05145389c75009b3ce075" zip="galaxian.zip|swarm.zip">
+		<part crc="21eba3d0" name="swarm1.bin"></part>
+		<part crc="f3a436cd" name="swarm2.bin"></part>
+		<part crc="2915e38b" name="swarm3.bin"></part>
+		<part crc="8bbbf486" name="swarm4.bin"></part>
+		<part crc="f1b1987e" name="swarm5.bin"></part>
+		<part crc="f1b1987e" name="swarm5.bin"></part>
+		<part crc="f1b1987e" name="swarm5.bin"></part>
+		<part crc="f1b1987e" name="swarm5.bin"></part>
+		<part crc="ef8657bb" name="swarma.bin"></part>
+		<part crc="ef8657bb" name="swarma.bin"></part>
+		<part crc="60c4bd31" name="swarmb.bin"></part>
+		<part crc="60c4bd31" name="swarmb.bin"></part>
+		<part crc="c3ac9467" name="6l.bpr"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

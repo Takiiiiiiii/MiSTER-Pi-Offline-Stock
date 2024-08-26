@@ -1,0 +1,27 @@
+####
+# Name: Mosaic KCMY
+# Author: Tonurics
+# Type: Other
+# Genre: Mosaic
+# Sub-Pixel Layout: BGR
+####
+
+Resolution=0
+v2
+4,16
+00d,52a,32a,62a
+00d,52a,32a,62a
+00d,52a,32a,62a
+00d,52a,32a,62a
+32a,62a,00d,32a
+32a,62a,00d,32a
+32a,62a,00d,32a
+32a,62a,00d,32a
+52a,00d,62a,52a
+52a,00d,62a,52a
+52a,00d,62a,52a
+52a,00d,62a,52a
+62a,52a,32a,00d
+62a,52a,32a,00d
+62a,52a,32a,00d
+62a,52a,32a,00d

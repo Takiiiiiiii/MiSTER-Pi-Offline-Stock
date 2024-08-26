@@ -1,0 +1,213 @@
+<misterromdescription>
+	<name>Road Blasters (upright, rev 4)</name>
+	<mameversion>0254</mameversion>
+	<setname>roadblst</setname>
+	<mratimestamp>20230303000000</mratimestamp>
+	<year>1987</year>
+	<manufacturer>Atari Games</manufacturer>
+	<category>Arcade</category>
+	<rbf>atarisys1</rbf>
+	<mameinfo parent="atarisy1" cpp="atarisy1" input="atarisy1"/>
+	<display type="raster" rotate="0"/>
+	<buttons names="Start,Fire,-,-,Coin,-" default="B,A,R"/>
+
+	<!-- Slapstic type -->
+	<rom index="1">
+		<part>6E</part>
+	</rom>
+
+	<rom index="0" zip="roadblst.zip" md5="none">
+		<!-- Filler 64Kx64 to offset ROMs by 1 Bank -->
+		<part repeat="524288">FF</part>
+
+		<!-- TILE ROMs Bank 1 Plane 7, 6, 5, 4, 3, 2, 1, 0 (0x070000, 0x060000, 0x050000, 0x040000, 0x030000, 0x020000, 0x010000, 0x000000) 64Kx64 -->
+		<interleave output="64">
+			<part crc="fe342d27" map="00000001" name="none"/>
+			<part crc="17c7e780" map="00000010" name="none"/>
+			<part crc="39688e01" map="00000100" name="none"/>
+			<part crc="c8f9bd8e" map="00001000" name="none"/>
+			<part crc="c69e439e" map="00010000" name="none"/>
+			<part crc="4ee55796" map="00100000" name="none"/>
+			<part repeat="32768" map="01000000">FF</part>
+			<part repeat="32768" map="10000000">FF</part>
+		</interleave>
+		<part repeat="262144">FF</part>
+
+		<!-- TILE ROMs Bank 2 Plane 7, 6, 5, 4, 3, 2, 1, 0 (0x0F0000, 0x0E0000, 0x0D0000, 0x0C0000, 0x0B0000, 0x0A0000, 0x090000, 0x080000) 64Kx64 -->
+		<interleave output="64">
+			<part crc="02117c58" map="00000001" name="none" offset="0x0000" length="0x8000"/>
+			<part crc="1e148525" map="00000010" name="none" offset="0x0000" length="0x8000"/>
+			<part crc="110ce07e" map="00000100" name="none" offset="0x0000" length="0x8000"/>
+			<part crc="c00aa0f4" map="00001000" name="none" offset="0x0000" length="0x8000"/>
+			<part repeat="32768" map="00010000">FF</part>
+			<part repeat="32768" map="00100000">FF</part>
+			<part repeat="32768" map="01000000">FF</part>
+			<part repeat="32768" map="10000000">FF</part>
+		</interleave>
+		<part repeat="262144">FF</part>
+
+		<!-- TILE ROMs Bank 3 Plane 7, 6, 5, 4, 3, 2, 1, 0 (0x170000, 0x160000, 0x150000, 0x140000, 0x130000, 0x120000, 0x110000, 0x100000) 64Kx64 -->
+		<interleave output="64">
+			<part crc="02117c58" map="00000001" name="none" offset="0x8000" length="0x8000"/>
+			<part crc="1e148525" map="00000010" name="none" offset="0x8000" length="0x8000"/>
+			<part crc="110ce07e" map="00000100" name="none" offset="0x8000" length="0x8000"/>
+			<part crc="c00aa0f4" map="00001000" name="none" offset="0x8000" length="0x8000"/>
+			<part repeat="32768" map="00010000">FF</part>
+			<part repeat="32768" map="00100000">FF</part>
+			<part repeat="32768" map="01000000">FF</part>
+			<part repeat="32768" map="10000000">FF</part>
+		</interleave>
+		<part repeat="262144">FF</part>
+
+		<!-- TILE ROMs Bank 4 Plane 7, 6, 5, 4, 3, 2, 1, 0 (0x1F0000, 0x1E0000, 0x1D0000, 0x1C0000, 0x1B0000, 0x1A0000, 0x190000, 0x180000) 64Kx64 -->
+		<interleave output="64">
+			<part crc="c951d014" map="00000001" name="none" offset="0x0000" length="0x8000"/>
+			<part crc="95c5a006" map="00000010" name="none" offset="0x0000" length="0x8000"/>
+			<part crc="f61f2370" map="00000100" name="none" offset="0x0000" length="0x8000"/>
+			<part crc="774a36a8" map="00001000" name="none" offset="0x0000" length="0x8000"/>
+			<part repeat="32768" map="00010000">FF</part>
+			<part repeat="32768" map="00100000">FF</part>
+			<part repeat="32768" map="01000000">FF</part>
+			<part repeat="32768" map="10000000">FF</part>
+		</interleave>
+		<part repeat="262144">FF</part>
+
+		<!-- TILE ROMs Bank 5 Plane 7, 6, 5, 4, 3, 2, 1, 0 (0x270000, 0x260000, 0x250000, 0x240000, 0x230000, 0x220000, 0x210000, 0x200000) 64Kx64 -->
+		<interleave output="64">
+			<part crc="c951d014" map="00000001" name="none" offset="0x8000" length="0x8000"/>
+			<part crc="95c5a006" map="00000010" name="none" offset="0x8000" length="0x8000"/>
+			<part crc="f61f2370" map="00000100" name="none" offset="0x8000" length="0x8000"/>
+			<part crc="774a36a8" map="00001000" name="none" offset="0x8000" length="0x8000"/>
+			<part repeat="32768" map="00010000">FF</part>
+			<part repeat="32768" map="00100000">FF</part>
+			<part repeat="32768" map="01000000">FF</part>
+			<part repeat="32768" map="10000000">FF</part>
+		</interleave>
+		<part repeat="262144">FF</part>
+
+		<!-- TILE ROMs Bank 6 Plane 7, 6, 5, 4, 3, 2, 1, 0 (0x2F0000, 0x2E0000, 0x2D0000, 0x2C0000, 0x2B0000, 0x2A0000, 0x290000, 0x280000) 64Kx64 -->
+		<interleave output="64">
+			<part crc="a47bc79d" map="00000001" name="none" offset="0x8000" length="0x8000"/>
+			<part crc="b8a5c215" map="00000010" name="none" offset="0x8000" length="0x8000"/>
+			<part crc="2d1c1f64" map="00000100" name="none" offset="0x8000" length="0x8000"/>
+			<part crc="be879b8e" map="00001000" name="none" offset="0x8000" length="0x8000"/>
+			<part repeat="32768" map="00010000">FF</part>
+			<part repeat="32768" map="00100000">FF</part>
+			<part repeat="32768" map="01000000">FF</part>
+			<part repeat="32768" map="10000000">FF</part>
+		</interleave>
+		<part repeat="262144">FF</part>
+
+		<!-- TILE ROMs Bank 7 Plane 7, 6, 5, 4, 3, 2, 1, 0 (0x370000, 0x360000, 0x350000, 0x340000, 0x330000, 0x320000, 0x310000, 0x300000) 64Kx64 -->
+		<interleave output="64">
+			<part crc="a47bc79d" map="00000001" name="none" offset="0x0000" length="0x8000"/>
+			<part crc="b8a5c215" map="00000010" name="none" offset="0x0000" length="0x8000"/>
+			<part crc="2d1c1f64" map="00000100" name="none" offset="0x0000" length="0x8000"/>
+			<part crc="be879b8e" map="00001000" name="none" offset="0x0000" length="0x8000"/>
+			<part repeat="32768" map="00010000">FF</part>
+			<part repeat="32768" map="00100000">FF</part>
+			<part repeat="32768" map="01000000">FF</part>
+			<part repeat="32768" map="10000000">FF</part>
+		</interleave>
+		<part repeat="262144">FF</part>
+
+		<!-- 0x00000 - 0x0FFFF BIOS ROMs 32Kx16 -->
+		<interleave output="16">
+			<part crc="195c54ad" map="01" name="none" zip="atarisy1.zip"/>
+			<part repeat="16384" map="01">FF</part>
+			<part crc="7275b4dc" map="10" name="none" zip="atarisy1.zip"/>
+			<part repeat="16384" map="10">FF</part>
+		</interleave>
+
+		<!-- 0x10000 - 0x1FFFF MAINCPU ROMs 32Kx16 -->
+		<interleave output="16">
+			<part crc="6d9ad91e" map="01" name="none"/>
+			<part crc="7d4cf151" map="10" name="none"/>
+		</interleave>
+
+		<!-- 0x20000 - 0x2FFFF MAINCPU ROMs 32Kx16 -->
+		<interleave output="16">
+			<part crc="921c0e34" map="01" name="none"/>
+			<part crc="8bf22f7d" map="10" name="none"/>
+		</interleave>
+
+		<!-- 0x30000 - 0x3FFFF Filler 32Kx16 -->
+		<part repeat="65536">FF</part>
+
+		<!-- 0x40000 - 0x4FFFF Filler 32Kx16 -->
+		<part repeat="65536">FF</part>
+
+		<!-- 0x50000 - 0x5FFFF MAINCPU ROMs 32Kx16 -->
+		<interleave output="16">
+			<part crc="054273b2" map="01" name="none"/>
+			<part crc="49181bec" map="10" name="none"/>
+		</interleave>
+
+		<!-- 0x60000 - 0x6FFFF MAINCPU ROMs 32Kx16 -->
+		<interleave output="16">
+			<part crc="f63dc29a" map="01" name="none"/>
+			<part crc="b1fc5955" map="10" name="none"/>
+		</interleave>
+
+		<!-- 0x70000 - 7FFFF MAINCPU ROMs 32Kx16 -->
+		<interleave output="16">
+			<part crc="c6d30d6f" map="01" name="none"/>
+			<part crc="16951020" map="10" name="none"/>
+		</interleave>
+
+		<!-- 0x80000 - 0x87FFF SLAPSTIC ROMs 16Kx16 -->
+		<interleave output="16">
+			<part crc="5c1adf67" map="01" name="none"/>
+			<part crc="d9ac8966" map="10" name="none"/>
+		</interleave>
+
+		<!-- AUDIOCPU ROM 0x4000 - 0x7FFF 16Kx8 -->
+		<part crc="2e54f95e" name="none"/>
+		<!-- AUDIOCPU ROM 0x8000 - 0xBFFF 16Kx8 -->
+		<part crc="ee318052" name="none"/>
+		<!-- AUDIOCPU ROM 0xC000 - 0xFFFF 16Kx8 -->
+		<part crc="75dfec33" name="none"/>
+
+		<!-- PROMs -->
+		<part crc="7a29dc07" name="none" zip="atarisy1.zip"/>
+		<part repeat="8192">FF</part>
+		<part crc="c80574af" name="none"/>
+		<part crc="db4a4d53" name="none"/>
+
+		<!-- NVRAM -->
+		<part>
+FF 00 10 00 10 00 00 00 10 00 00 00 00 00 10 00 
+8D 77 00 88 FF 00 72 05 00 00 00 00 00 05 FF 00 
+10 00 10 00 00 00 10 00 00 00 00 00 10 00 8D 77 
+00 88 FF 00 72 05 00 00 00 00 00 05 FF 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 FF 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 FF 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 FF 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 FF 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 FF 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 FF 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 FF 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 FF 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 FF 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 FF 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 
+FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+		</part>
+	</rom>
+</misterromdescription>

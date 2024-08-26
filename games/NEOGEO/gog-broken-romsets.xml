@@ -1,0 +1,237 @@
+<!--
+
+Same as gog-romsets.xml, but these are the games which are not working with MiSTer NeoGeo core.
+
+This file is to keep track of what is not working.
+
+"Not working" may mean:
+- uncertain/unknown rom index to use in this file
+- lack of decryption support in the core
+
+You may get a solid white screen, garbled BIOS/intro, an error message, ...
+
+-->
+
+<romsets>
+	<!-- ROMs working with 32MB SDRAM -->
+
+	<!-- ROMs requiring 64MB SDRAM -->
+	<romset name="mslugx" pcm="1" altname="Metal Slug X - Super Vehicle-001" publisher="SNK" year="1999" ram="1">
+		<file name="250-p1.p1" index="4"/>
+		<file name="250-p2.ep1" index="6"/>
+		<file name="250-s1.s1" index="8"/>
+		<file name="250-c1.c1" index="64"/>
+		<file name="250-c2.c2" index="65"/>
+		<file name="250-c3.c3" index="96"/>
+		<file name="250-c4.c4" index="97"/>
+		<file name="250-c5.c5" index="128"/>
+		<file name="250-c6.c6" index="129"/>
+		<file name="250-m1.m1" index="9"/>
+		<file name="250-v1.v1" index="16"/>
+		<file name="250-v2.v2" index="24"/>
+		<file name="250-v3.v3" index="32"/>
+	</romset>
+	<romset name="sengoku3" pcm="1" altname="Sengoku 3" altnamej="Sengoku Densho 2001" publisher="Noise Factory / SNK" year="2001" ram="1">
+		<file name="261-ph1.p1" index="4" offset="0x100000" length="0x100000"/>
+		<file name="261-ph1.p1" index="6" offset="0x000000" length="0x100000"/>
+		<file name="261-c1.c1" index="64"/>
+		<file name="261-c2.c2" index="65"/>
+		<file name="261-c3.c3" index="96"/>
+		<file name="261-c4.c4" index="97"/>
+		<file name="261-m1.m1" index="9"/>
+		<file name="261-v1.v1" index="16"/>
+		<file name="261-v2.v2" index="24"/>
+		<file name="261-v3.v3" index="32"/>
+		<file name="261-v4.v4" index="40"/>
+	</romset>
+	<!-- ROMs requiring 96MB SDRAM (32MB+64MB) -->
+	<romset name="garou" cmc="1" sma="2" pcm="1" altname="Garou - Mark of the Wolves (Set 1)" year="1999" ram="2">
+		<file name="253-ep1.p1" index="4"/>
+		<file name="253-ep2.p2" index=""/>
+		<file name="253-ep3.p3" index=""/>
+		<file name="253-ep4.p4" index=""/>
+		<file name="kf.neo-sma" index=""/>
+		<file name="253-c1.c1" index="64"/>
+		<file name="253-c2.c2" index="65"/>
+		<file name="253-c3.c3" index="96"/>
+		<file name="253-c4.c4" index="97"/>
+		<file name="253-c5.c5" index="128"/>
+		<file name="253-c6.c6" index="129"/>
+		<file name="253-c7.c7" index="160"/>
+		<file name="253-c8.c8" index="161"/>
+		<file name="253-m1.m1" index="9"/>
+		<file name="253-v1.v1" index="16"/>
+		<file name="253-v2.v2" index="24"/>
+		<file name="253-v3.v3" index="32"/>
+		<file name="253-v4.v4" index="40"/>
+	</romset>
+	<romset name="garouh" cmc="1" sma="3" pcm="1" altname="Garou - Mark of the Wolves (garouh)" year="1999" ram="2">
+		<file name="../garou/253-p1.p1" index="4"/>
+		<file name="../garou/253-p2.p2" index=""/>
+		<file name="../garou/ke.neo-sma" index=""/>
+		<file name="../garou/253-c1.c1" index="64"/>
+		<file name="../garou/253-c2.c2" index="65"/>
+		<file name="../garou/253-c3.c3" index="96"/>
+		<file name="../garou/253-c4.c4" index="97"/>
+		<file name="../garou/253-c5.c5" index="128"/>
+		<file name="../garou/253-c6.c6" index="129"/>
+		<file name="../garou/253-c7.c7" index="160"/>
+		<file name="../garou/253-c8.c8" index="161"/>
+		<file name="../garou/253-m1.m1" index="9"/>
+		<file name="../garou/253-v1.v1" index="16"/>
+		<file name="../garou/253-v2.v2" index="24"/>
+		<file name="../garou/253-v3.v3" index="32"/>
+		<file name="../garou/253-v4.v4" index="40"/>
+	</romset>
+	<romset name="kof2000" cmc="2" sma="5" pcm="1" altname="King of Fighters 2000, The" publisher="SNK" year="2002">
+		<file name="257-p1.p1" index="4"/>
+		<file name="257-p2.p2" index=""/>
+		<file name="neo-sma" index=""/>
+		<file name="257-c1.c1" index="64"/>
+		<file name="257-c2.c2" index="65"/>
+		<file name="257-c3.c3" index="96"/>
+		<file name="257-c4.c4" index="97"/>
+		<file name="257-c5.c5" index="128"/>
+		<file name="257-c6.c6" index="129"/>
+		<file name="257-c7.c7" index="160"/>
+		<file name="257-c8.c8" index="161"/>
+		<file name="257-m1.m1" index="9"/>
+		<file name="257-v1.v1" index="16"/>
+		<file name="257-v2.v2" index="24"/>
+		<file name="257-v3.v3" index="32"/>
+		<file name="257-v4.v4" index="40"/>
+	</romset>
+	<romset name="kof2000n" cmc="2" sma="5" pcm="1" altname="King of Fighters 2000, The (Non encrypted P)" publisher="SNK" year="2002">
+		<file name="../kof2000/257-pg1.p1" index="4"/>
+		<file name="../kof2000/257-pg2.sp2" index=""/>
+		<file name="../kof2000/257-c1.c1" index="64"/>
+		<file name="../kof2000/257-c2.c2" index="65"/>
+		<file name="../kof2000/257-c3.c3" index="96"/>
+		<file name="../kof2000/257-c4.c4" index="97"/>
+		<file name="../kof2000/257-c5.c5" index="128"/>
+		<file name="../kof2000/257-c6.c6" index="129"/>
+		<file name="../kof2000/257-c7.c7" index="160"/>
+		<file name="../kof2000/257-c8.c8" index="161"/>
+		<file name="../kof2000/257-m1.m1" index="9"/>
+		<file name="257-m1_decrypted.bin" index="9"/>
+		<file name="../kof2000/257-v1.v1" index="16"/>
+		<file name="../kof2000/257-v2.v2" index="24"/>
+		<file name="../kof2000/257-v3.v3" index="32"/>
+		<file name="../kof2000/257-v4.v4" index="40"/>
+	</romset>
+	<romset name="kof2002" pcm="1" altname="King of Fighters 2002, The" publisher="SNK" year="2002" ram="2">
+		<file name="265-p1.p1" index="4"/>
+		<file name="265-p2.sp2" index="6"/>
+		<file name="265-c1.c1" index="64"/>
+		<file name="265-c2.c2" index="65"/>
+		<file name="265-c3.c3" index="96"/>
+		<file name="265-c4.c4" index="97"/>
+		<file name="265-c5.c5" index="128"/>
+		<file name="265-c6.c6" index="129"/>
+		<file name="265-c7.c7" index="160"/>
+		<file name="265-c8.c8" index="161"/>
+		<file name="265-m1.m1" index="9"/>
+		<file name="265-v1.v1" index="16"/>
+		<file name="265-v2.v2" index="32"/>
+	</romset>
+	<romset name="kof2k2nd" pcm="1" altname="King of Fighters 2002, The (Decrypted C)" publisher="SNK" year="2002" ram="2">
+		<file name="../kof2002/265-p1.p1" index="4"/>
+		<file name="../kof2002/265-p2.sp2" index="6"/>
+		<file name="265-s1_decrypted.bin" index="8"/>
+		<file name="265-c1_decrypted.bin" index="64"/>
+		<file name="265-c2_decrypted.bin" index="65"/>
+		<file name="265-c3_decrypted.bin" index="96"/>
+		<file name="265-c4_decrypted.bin" index="97"/>
+		<file name="265-c5_decrypted.bin" index="128"/>
+		<file name="265-c6_decrypted.bin" index="129"/>
+		<file name="265-c7_decrypted.bin" index="160"/>
+		<file name="265-c8_decrypted.bin" index="161"/>
+		<file name="265-m1_decrypted.bin" index="9"/>
+		<file name="../kof2002/265-v1.v1" index="16"/>
+		<file name="../kof2002/265-v2.v2" index="32"/>
+	</romset>
+	<romset name="mslug3" cmc="1" sma="4" pcm="1" altname="Metal Slug 3" publisher="Nazca" year="2000" ram="2">
+		<file name="256-pg1.p1" index="4"/>
+		<file name="256-pg2.p2" index=""/>
+		<file name="neo-sma" index=""/>
+		<file name="256-c1.c1" index="64"/>
+		<file name="256-c2.c2" index="65"/>
+		<file name="256-c3.c3" index="96"/>
+		<file name="256-c4.c4" index="97"/>
+		<file name="256-c5.c5" index="128"/>
+		<file name="256-c6.c6" index="129"/>
+		<file name="256-c7.c7" index="160"/>
+		<file name="256-c8.c8" index="161"/>
+		<file name="256-m1.m1" index="9"/>
+		<file name="256-v1.v1" index="16"/>
+		<file name="256-v2.v2" index="24"/>
+		<file name="256-v3.v3" index="32"/>
+		<file name="256-v4.v4" index="40"/>
+	</romset>
+	<romset name="samsh5sp" pcm="1" altname="Samurai Shodown V Special (Uncensored)" publisher="SNK" year="2002" ram="2">
+		<file name="272-p1.p1" index="4"/>
+		<file name="272-p2.sp2" index=""/>
+		<file name="272-c1.c1" index="64"/>
+		<file name="272-c2.c2" index="65"/>
+		<file name="272-c3.c3" index="96"/>
+		<file name="272-c4.c4" index="97"/>
+		<file name="272-c5.c5" index="128"/>
+		<file name="272-c6.c6" index="129"/>
+		<file name="272-c7.c7" index="160"/>
+		<file name="272-c8.c8" index="161"/>
+		<file name="272-m1.m1" index="9"/>
+		<file name="../ss5shnd/272-m1_decrypted.bin" index="9"/>
+		<file name="272-v1.v1" index="16"/>
+		<file name="272-v2.v2" index="32"/>
+	</romset>
+	<romset name="samsh5sph" pcm="1" altname="Samurai Shodown V Special (2nd release, less censored)" publisher="SNK" year="2002" ram="2">
+		<file name="../samsh5sp/272-p1ca.p1" index="4"/>
+		<file name="../samsh5sp/272-p2ca.sp2" index=""/>
+		<file name="../samsh5sp/272-c1.c1" index="64"/>
+		<file name="../samsh5sp/272-c2.c2" index="65"/>
+		<file name="../samsh5sp/272-c3.c3" index="96"/>
+		<file name="../samsh5sp/272-c4.c4" index="97"/>
+		<file name="../samsh5sp/272-c5.c5" index="128"/>
+		<file name="../samsh5sp/272-c6.c6" index="129"/>
+		<file name="../samsh5sp/272-c7.c7" index="160"/>
+		<file name="../samsh5sp/272-c8.c8" index="161"/>
+		<file name="../samsh5sp/272-m1.m1" index="9"/>
+		<file name="../ss5shnd/272-m1_decrypted.bin" index="9"/>
+		<file name="../samsh5sp/272-v1.v1" index="16"/>
+		<file name="../samsh5sp/272-v2.v2" index="32"/>
+	</romset>
+	<romset name="samsh5spho" pcm="1" altname="Samurai Shodown V Special (1st release, censored)" publisher="SNK" year="2002" ram="2">
+		<file name="../samsh5sp/272-p1c.p1" index="4"/>
+		<file name="../samsh5sp/272-p2c.sp2" index=""/>
+		<file name="../samsh5sp/272-c1.c1" index="64"/>
+		<file name="../samsh5sp/272-c2.c2" index="65"/>
+		<file name="../samsh5sp/272-c3.c3" index="96"/>
+		<file name="../samsh5sp/272-c4.c4" index="97"/>
+		<file name="../samsh5sp/272-c5.c5" index="128"/>
+		<file name="../samsh5sp/272-c6.c6" index="129"/>
+		<file name="../samsh5sp/272-c7.c7" index="160"/>
+		<file name="../samsh5sp/272-c8.c8" index="161"/>
+		<file name="../samsh5sp/272-m1.m1" index="9"/>
+		<file name="../ss5shnd/272-m1_decrypted.bin" index="9"/>
+		<file name="../samsh5sp/272-v1.v1" index="16"/>
+		<file name="../samsh5sp/272-v2.v2" index="32"/>
+	</romset>
+	<romset name="ss5shnd" pcm="1" altname="Samurai Shodown V Special (Decrypted C)" publisher="SNK" year="2002" ram="2">
+		<file name="../samsh5sp/272-p1.p1" index="4"/>
+		<file name="../samsh5sp/272-p2.sp2" index=""/>
+		<file name="272-s1_decrypted.bin" index="8"/>
+		<file name="272-c1_decrypted.bin" index="64"/>
+		<file name="272-c2_decrypted.bin" index="65"/>
+		<file name="272-c3_decrypted.bin" index="96"/>
+		<file name="272-c4_decrypted.bin" index="97"/>
+		<file name="272-c5_decrypted.bin" index="128"/>
+		<file name="272-c6_decrypted.bin" index="129"/>
+		<file name="272-c7_decrypted.bin" index="160"/>
+		<file name="272-c8_decrypted.bin" index="161"/>
+		<file name="../samsh5sp/272-m1.m1" index="9"/>
+		<file name="272-m1_decrypted.bin" index="9"/>
+		<file name="../samsh5sp/272-v1.v1" index="16"/>
+		<file name="../samsh5sp/272-v2.v2" index="32"/>
+	</romset>
+	<!-- ROMs requiring 128MB SDRAM (2x64MB) -->
+</romsets>

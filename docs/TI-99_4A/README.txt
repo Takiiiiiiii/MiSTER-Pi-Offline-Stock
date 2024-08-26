@@ -1,0 +1,33 @@
+---------------------------------------------------------------------------------
+--
+-- ColecoVision port to MiSTer by Sorgelig
+-- 05 November 2017
+--
+---------------------------------------------------------------------------------
+--
+-- Original core https://github.com/wsoltys/mist-cores/tree/master/fpga_colecovision
+--
+---------------------------------------------------------------------------------
+--
+--   Put *.col/*.bin files into Coleco folder
+--
+--
+--   Phone pad map:
+--      1  2  3
+--      Q  W  E
+--      A  S  D
+--      Z  X  C 
+--
+--   Alternative numbers input: keys 0-9
+--
+--   Purple Trigger - GUI
+--   Blue Trigger   - ALT
+--
+--   Fire 1         - Ctrl
+--   Fire 2         - Shift
+--   Directions     - cursor keys
+--
+--   Joystick support.
+--
+---------------------------------------------------------------------------------
+ 

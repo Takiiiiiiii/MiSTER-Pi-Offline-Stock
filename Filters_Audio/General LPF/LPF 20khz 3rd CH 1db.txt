@@ -1,0 +1,33 @@
+#Version
+v1
+
+#Original Filename
+#LPF 20khz 3rd CH 1db.txt
+
+#Filter Description
+#LPF 20khz 3rd Order Chebyshev 1db Ripple
+
+#Sampling Frequency
+7056000
+
+#Base gain
+0.00000382391111700908
+
+#gain scale for X0
+3
+
+#gain scale for X1
+3
+
+#gain scale for X2
+1
+
+#gain scale for Y0
+-2.98216154846618231034
+
+#gain scale for Y1
+2.96471657482510719817
+
+#gain scale for Y2
+-0.98255227534373279497
+

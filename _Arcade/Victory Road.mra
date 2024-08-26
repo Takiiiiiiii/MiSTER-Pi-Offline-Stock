@@ -1,0 +1,89 @@
+<misterromdescription>
+	<name>Victory Road</name>
+	<mameversion>0193</mameversion>
+	<setname>victroad</setname>
+	<mratimestamp>20240615</mratimestamp>
+	<year>1986</year>
+	<manufacturer>SNK</manufacturer>
+	<category>Action</category>
+	<rbf>IkariWarriors</rbf>
+	<about author="RndMnkIII" twitter="@RndMnkIII"></about>
+	<resolution>16.1785kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<players>2</players>
+	<joystick>8-way</joystick>
+	<special_controls>Rotary</special_controls>
+	<num_buttons>2</num_buttons>
+	
+
+    <!-- DSW1=9C, DSW2=F7 byte mas significativo a la derecha de la cadena -->
+	<!-- 1101_0111 1001_1100 -->
+	<switches default="FF,FF" base="16">
+		<!-- DSW1 -->
+		<dip bits="0"     name="Allow killing each other" ids="No,Yes" values="1,0"/>
+		<dip bits="1"     name="P1 and P2 Fire Buttons"   ids="Separate,Common" values="1,0"/>
+		<dip bits="3"     name="Lives"   ids="3,5" values="1,0"/>
+		 
+		<dip bits="4,5"   name="Coin A" ids="4Co/1Cr,3Co/1Cr,2Co/1Cr,1Co/1Cr" values="0,1,2,3"/>
+		<dip bits="6,7"   name="Coin B" ids="1Co/2Cr,1Co/3Cr,1Co/4Cr,1Co/6Cr" values="0,2,1,3"/>
+ 
+		<dip bits="8,9"   name="Difficulty"                 ids="Easy,Normal,Hard,Hardest" values="3,2,1,0"/>
+		<dip bits="10,11" name="Game Mode"                ids="Demo Sounds Off,Demo Sounds On,Freeze, Infinite Lives (Cheat)" values="3,2,1,0"/>
+
+		<!-- Bonus Life VIRTUAL DIP SWITCHES 14,13,12 MUST BE TRASLATED TO DIP1:{bit0,bit1,bit12,bit3,bit4,bit5,bit6,bit7}, DIP2:{bit8,bit9,bit10,bit11,bit13,bit14,1,bit15} -->
+	    <dip bits="12,14" name="Bonus Life"                 ids="50K 100K 100K+,60K 120K 120K+,100K 200K 200K+,50K 100K,60K 120K,100K 200K,None,None" values="7,5,3,6,4,2,1,0"/>    
+	    <dip bits="15"    name="Allow Continue"                     ids="No,Yes" values="1,0"/>
+	</switches>
+
+	<rom index='0' md5="None" type='nonmerged' zip='victroad.zip'>	
+		<!-- main cpu    0x00000-0x0ffff 64Kb -->
+		<part crc="e334acef" name="p1.4p"/>
+
+		<!-- sub cpu     0x10000-0x1ffff 64Kb -->
+		<part crc="907fac83" name="p2.8p"/>
+
+		<!-- audio cpu   0x20000-0x2ffff 64Kb -->
+		<part crc="bac745f6" name="p3.7k"/>
+
+		<!-- TX tiles    0x30000-0x33fff 16Kb -->
+		<part crc="2b6ed95b" name="p7.3b"/>
+		<part repeat="0xC000">FF</part>
+
+		<!-- BG tiles    0x40000-0x5ffff 128Kb -->
+		<part crc="19d4518c" name="p17.4c"/>
+		<part crc="d818be43" name="p18.2c"/>
+		<part crc="d64e0f89" name="p19.4b"/>
+		<part crc="edba0f31" name="p20.2b"/>
+
+		<!-- SP16 tiles  0x60000-0x67fff 32Kbx3 -->
+		<part crc="df7f252a" name="p8.3d"/>
+        <part repeat="0x8000">FF</part>
+
+        <!-- SP16 tiles  0x70000-0x77fff -->
+		<part crc="9897bc05" name="p9.3f"/>
+        <part repeat="0x8000">FF</part>
+
+        <!-- SP16 tiles  0x80000-0x87fff -->
+		<part crc="ecd3c0ea" name="p10.3h"/>
+        <part repeat="0x8000">FF</part>
+
+		<!-- SP32 tiles  0x90000-0xcffff 64Kbx3 -->
+		<part crc="668b25a4" name="p11.4m"/>
+		<part crc="a7031d4a" name="p14.2m"/>
+		<part crc="f44e95fa" name="p12.4p"/>
+		<part crc="120d2450" name="p15.2p"/>
+		<part crc="980ca3d8" name="p13.4r"/>
+		<part crc="9f820e8a" name="p16.2r"/>
+		<part repeat="0x10000">FF</part>
+
+		<!-- PROMs       0xd0000-0xd0bff  R 1.1h, G 2.2j, B 3.1j  1Kbx3 -->
+		<part crc="491ab831" name="c1.1k"/>
+		<part crc="8feca424" name="c2.2l"/>
+		<part crc="220076ca" name="c3.1l"/>
+	</rom>
+	<rom index="1">
+		<part>10</part>
+	</rom>
+	
+<buttons default="A,B,Start,Select,L,R,X,Y" names="Shot,Grenade,Start1,Coin1,Rotate Left,Rotate Right,Pause,Service"></buttons>
+</misterromdescription>

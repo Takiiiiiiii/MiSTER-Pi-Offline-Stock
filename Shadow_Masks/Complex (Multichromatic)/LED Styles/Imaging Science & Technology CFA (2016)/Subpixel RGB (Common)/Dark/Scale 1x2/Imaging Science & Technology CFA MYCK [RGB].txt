@@ -1,0 +1,21 @@
+####
+# Name: Imaging Science & Technology CFA MYCK
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: RGB
+####
+
+Resolution=0
+v2
+5,10
+02a,52a,32a,02a,62a
+02a,52a,32a,02a,62a
+02a,62a,02a,52a,32a
+02a,62a,02a,52a,32a
+52a,32a,02a,62a,02a
+52a,32a,02a,62a,02a
+62a,02a,52a,32a,02a
+62a,02a,52a,32a,02a
+32a,02a,62a,02a,52a
+32a,02a,62a,02a,52a

@@ -1,0 +1,10 @@
+####
+# Name: Slot
+# Author: Mike Chi (Converted by TrashUncle)
+# Type: CRT
+# Sub-Pixel Layout: Monochrome
+####
+v2
+4,2
+70f,78f,70f,00c
+70f,00c,70f,78f

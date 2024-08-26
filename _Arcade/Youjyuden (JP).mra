@@ -1,0 +1,118 @@
+<misterromdescription>
+	<name>Youjyuden</name>
+	<region>Japan</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Irem M62</platform>
+	<series></series>
+	<year>1986</year>
+	<manufacturer>Irem</manufacturer>
+	<category>Shooter - Vertical</category>
+
+	<setname>youjyudn</setname>
+	<parent>youjyudn</parent>
+	<mameversion>0221</mameversion>
+	<rbf>iremm62</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>broken</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R,L" names="Fire,Fire Big,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FD">
+		<dip bits="0,1" name="Lives" ids="5,4,2,3"></dip>
+		<dip bits="2" name="Unknown" ids="On,Off"></dip>
+		<dip bits="3" name="Unknown" ids="On,Off"></dip>
+                <dip bits="4,7" name="Coinage" ids="Free Play,1C/1C" values="0,15"></dip>
+		<dip bits="8" name="Flip Screen" ids="On,Off"></dip>
+		<dip bits="9" name="Cabinet" ids="Upright,Cocktail"></dip>
+		<dip bits="10" name="Coin Mode" ids="Mode 2,Mode 1"></dip>
+		<dip bits="11" name="Bonus Life" ids="40000 80000,20000 60000"></dip>
+		<dip bits="12" name="Demo Sounds" ids="Off,On"></dip>
+		<dip bits="13" name="Freeze (Cheat)" ids="On,Off"></dip>
+		<dip bits="14" name="Invulnerability (Cheat)" ids="On,Off"></dip>
+		<dip bits="15" name="Service Mode" ids="On,Off"></dip>
+	</switches>
+
+	<rom index="1">
+		<part>0B</part>
+	</rom>
+	<rom index="0" zip="youjyudn.zip" md5="37873f2ab65dd62d44fcf02d4b1e7803">
+		<part crc="0d356bdc" name="yju_a4eb.bin"/>
+		<part crc="c169be13" name="yju_a4db.bin"/>
+		<part repeat="0x8000">FF</part>
+		<part crc="60baf3b1" name="yju_p4cb.0"/>
+		<part crc="8d0521f8" name="yju_p4eb.1"/>
+		<part repeat="0x8000">FF</part>
+		<part repeat="0xC000">FF</part>
+		<part crc="e15c8030" name="yju_a3fb.bin"/>
+		<interleave output="32">
+			<part crc="c017913c" name="yju_p3bb.0" map="0001"/>
+			<part crc="94627523" name="yju_p1bb.1" map="0010"/>
+			<part crc="6a378c56" name="yju_p1cb.2" map="0100"/>
+			<part crc="6a378c56" name="yju_p1cb.2" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="1bbb864a" name="yju_b4ka.00" map="0001"/>
+			<part crc="68879321" name="yju_b3na.10" map="0010"/>
+			<part crc="ab365829" name="yju_b4ca.20" map="0100"/>
+			<part crc="ab365829" name="yju_b4ca.20" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="14b4dd24" name="yju_b4fa.01" map="0001"/>
+			<part crc="2860a68b" name="yju_b4na.11" map="0010"/>
+			<part crc="b36c31e4" name="yju_b4ea.21" map="0100"/>
+			<part crc="b36c31e4" name="yju_b4ea.21" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="1bbb864a" name="yju_b4ka.00" map="0001"/>
+			<part crc="68879321" name="yju_b3na.10" map="0010"/>
+			<part crc="ab365829" name="yju_b4ca.20" map="0100"/>
+			<part crc="ab365829" name="yju_b4ca.20" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="14b4dd24" name="yju_b4fa.01" map="0001"/>
+			<part crc="2860a68b" name="yju_b4na.11" map="0010"/>
+			<part crc="b36c31e4" name="yju_b4ea.21" map="0100"/>
+			<part crc="b36c31e4" name="yju_b4ea.21" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="b4ab520b" name="yju_p4pb.0" map="0001"/>
+			<part crc="1e1a0d09" name="yju_p4mb.1" map="0010"/>
+			<part crc="87878d9b" name="yju_p4lb.2" map="0100"/>
+			<part crc="87878d9b" name="yju_p4lb.2" map="1000"/>
+		</interleave>
+		<part crc="a8340e13" name="yju_b1ma.r"/>
+		<part crc="f5b4bc41" name="yju_b1na.g"/>
+		<part crc="45e10491" name="yju_b1la.b"/>
+		<part crc="a4483631" name="yju_p2jb.bpr"/>
+		<part crc="85481103" name="yju_p2kb.bpr"/>
+		<part crc="a6fd355c" name="yju_p2hb.bpr"/>
+		<part crc="a4483631" name="yju_p2jb.bpr"/>
+		<part crc="85481103" name="yju_p2kb.bpr"/>
+		<part crc="a6fd355c" name="yju_p2hb.bpr"/>
+		<part crc="2095e6a3" name="yju_b-5p.bpr"/>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 00 FF FF 00 3F 00 02 00 02 00 01 00 FF 02 00
+		00 00 E5 65 00 37 70 4E
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="55"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

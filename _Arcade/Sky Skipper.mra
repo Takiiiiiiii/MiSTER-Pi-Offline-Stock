@@ -1,0 +1,74 @@
+<misterromdescription>
+	<name>Sky Skipper</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Nintendo</manufacturer>
+	<category>Arena</category>
+
+	<setname>skyskipr</setname>
+	<parent>skyskipr</parent>
+	<mameversion>0219</mameversion>
+	<rbf>popeye</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="L,A,Start,Select,R" names="Fast,Bomb,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="00,82 00">
+		<dip bits="0,3" ids="1c/1cr,1c/2cr,1c/3cr,Free Play" name="Coinage" values="0,9,5,15"></dip>
+		<dip bits="8,9" ids="1,2,3,4" name="Live"></dip>
+		<dip bits="13" ids="15.000,30.000" name="Bonus"></dip>
+		<dip bits="14" ids="No,Yes" name="Service1"></dip>
+		<dip bits="16" ids="No,Yes" name="Service2"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>01</part>
+		</rom>
+	<rom index="0" md5="0411560f16f98281badc810b6d8376f9" zip="skyskipr.zip">
+		<part crc="bdc7f218" name="tnx1-c.2a"></part>
+		<part crc="cbe601a8" name="tnx1-c.2b"></part>
+		<part crc="5ca79abf" name="tnx1-c.2c"></part>
+		<part crc="6b7a7071" name="tnx1-c.2d"></part>
+		<part crc="6b0c0525" name="tnx1-c.2e"></part>
+		<part crc="d1712424" name="tnx1-c.2f"></part>
+		<part crc="8b33c4cf" name="tnx1-c.2g"></part>
+		<part repeat="0x1000">FF</part>
+		<part crc="01c1120e" name="tnx1-t.1e"></part>
+		<part crc="01c1120e" name="tnx1-t.1e"></part>
+		<part crc="70292a71" name="tnx1-t.2e"></part>
+		<part crc="70292a71" name="tnx1-t.2e"></part>
+		<part crc="92b6a0e8" name="tnx1-t.3e"></part>
+		<part crc="92b6a0e8" name="tnx1-t.3e"></part>
+		<part crc="cc5f0ac3" name="tnx1-t.5e"></part>
+		<part crc="cc5f0ac3" name="tnx1-t.5e"></part>
+		<part crc="ecb6a046" name="tnx1-v.3h"></part>
+		<part crc="ecb6a046" name="tnx1-v.3h"></part>
+		<part crc="8abf9de4" name="tnx1-t.3a"></part>
+		<part crc="aa7ff322" name="tnx1-t.2a"></part>
+		<part crc="c2bca435" name="tnx1-t.1a"></part>
+		<part crc="98846924" name="tnx1-t.4a"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

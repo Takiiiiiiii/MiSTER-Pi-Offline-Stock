@@ -1,0 +1,38 @@
+<misterromdescription>
+	<name>Pacman Plus - HBMame</name>
+	<mameversion>0217</mameversion>
+	<setname>pacplus</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1982</year>
+	<manufacturer>[Namco] (Midway license)</manufacturer>
+	<category>Maze / Pac-Man</category>
+	<rbf>pacman</rbf>
+	<switches default="FF,FF,C9">
+		<dip bits="15"    name="Cabinet" ids="Cocktail,Upright"/>
+		<dip bits="16,17" name="Coinage" ids="2c/1cr,1c/1cr,1c/2cr,Free Play" values="3,1,2,0"/>
+		<dip bits="18,19" name="Lives" ids="1,2,3,5"/>
+		<dip bits="20,21" name="Bonus Life After" ids="10000,15000,20000,None"/>
+		<dip bits="22"    name="Difficulty" ids="Hard,Normal"/>
+	</switches>
+	<rom index="1">
+		<part>01</part>
+	</rom>
+	<rom index="0" zip="/hbmame/puckman.zip" md5="52bf3257fe2f8ef6f3366565ac2d1740">
+		<part crc="d611ef68" name="pm4000p/pacplus.6e"/>
+		<part crc="c7207556" name="pm4000p/pacplus.6f"/>
+		<part crc="ae379430" name="pm4000p/pacplus.6h"/>
+		<part crc="5a6dff7b" name="pm4000p/pacplus.6j"/>
+		<part crc="d611ef68" name="pm4000p/pacplus.6e"/>
+		<part crc="c7207556" name="pm4000p/pacplus.6f"/>
+		<part crc="ae379430" name="pm4000p/pacplus.6h"/>
+		<part crc="5a6dff7b" name="pm4000p/pacplus.6j"/>
+		<part crc="022c35da" name="hmplus/pacplus.5e"/>
+		<part crc="4de65cdd" name="pacplusc/pacplus.5f"/>
+		<part crc="022c35da" name="hmplus/pacplus.5e"/>
+		<part crc="4de65cdd" name="pacplusc/pacplus.5f"/>
+		<part crc="a9cc86bf" name="82s126.1m"/>
+		<part crc="e271a166" name="hmba7000/pacplus.4a"/>
+		<part crc="77245b66" name="82s126.3m"/>
+		<part crc="063dd53a" name="hmba7000/pacplus.7f"/>
+	</rom>
+</misterromdescription>

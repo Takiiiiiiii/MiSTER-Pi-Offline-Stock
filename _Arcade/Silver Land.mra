@@ -1,0 +1,58 @@
+<misterromdescription>
+	<name>Silver Land</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Falcon</manufacturer>
+	<category>Sports</category>
+
+	<setname>silvland</setname>
+	<parent>rpatrol</parent>
+	<mameversion>0220</mameversion>
+	<rbf>silverland</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="b38a0b23d464a5dcf6a3335edfaab000" zip="rpatrol.zip|silvland.zip">
+		<part crc="57e6be62" name="7.2r"></part>
+		<part crc="bbb2b287" name="8.1n"></part>
+		<part crc="8fa300df" name="rp3.4f"></part>
+		<part crc="5536a65d" name="10.2n"></part>
+		<part crc="6f23f66f" name="11.1r"></part>
+		<part crc="26f1537c" name="12.2k"></part>
+		<part crc="57e6be62" name="7.2r"></part>
+		<part crc="bbb2b287" name="8.1n"></part>
+		<part crc="affb804f" name="6.6n"></part>
+		<part crc="ad4642e5" name="5.6l"></part>
+		<part crc="e487579d" name="4.6k"></part>
+		<part crc="59125a1a" name="3.6h"></part>
+		<part crc="c8d32b8e" name="2.6c"></part>
+		<part crc="ee333daf" name="1.6a"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

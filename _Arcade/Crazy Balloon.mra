@@ -1,0 +1,59 @@
+<misterromdescription>
+	<name>Crazy Balloon</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Taito</manufacturer>
+	<category>Maze</category>
+
+	<setname>crbaloon</setname>
+	<parent>crbaloon</parent>
+	<mameversion>0219</mameversion>
+	<rbf>crazyballoon</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="87,00,00,00">
+		<dip bits="1" ids="Cocktail,Upright" name="Cabinet"></dip>
+		<dip bits="2,3" ids="2,3,4,5" name="Lives"></dip>
+		<dip bits="4" ids="5000,10000" name="Bonus life"></dip>
+		<dip bits="5,6,7" ids="4c/1cr,3c/1cr,2c/1cr,1c/1cr,1c/2cr,1c/3cr,1c/4cr,Disable" name="Coinage"></dip>
+		</switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="none" zip="crbaloon.zip">
+		<part crc="9d4eef0b" name="cl01.bin"></part>
+		<part crc="10f7a6f7" name="cl02.bin"></part>
+		<part crc="44ed6030" name="cl03.bin"></part>
+		<part crc="62f66f6c" name="cl04.bin"></part>
+		<part crc="c8f1e2be" name="cl05.bin"></part>
+		<part crc="7d465691" name="cl06.bin"></part>
+		<part crc="7d465691" name="cl06.bin"></part>
+		<part crc="7d465691" name="cl06.bin"></part>
+		<part crc="2c1fbea8" name="cl07.bin"></part>
+		<part crc="ba898659" name="cl08.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

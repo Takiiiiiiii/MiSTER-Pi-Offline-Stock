@@ -1,0 +1,58 @@
+<misterromdescription>
+	<name>Pleiades</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Spanish</version>
+	<alternative>Pleiades</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Tehkan</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>pleiadss</setname>
+	<parent>pleiads</parent>
+	<mameversion>0218</mameversion>
+	<rbf>pleiads</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="d69308603d7ff982313b58ee45add925" zip="pleiads.zip|pleiadss.zip">
+		<part crc="e2528599" name="pl45.bin"></part>
+		<part crc="b254217c" name="pl46.bin"></part>
+		<part crc="3b29aec5" name="pl47.bin"></part>
+		<part crc="e74ccdeb" name="pl48.bin"></part>
+		<part crc="24f9c3e8" name="pl49.bin"></part>
+		<part crc="f1a8a00d" name="pl50.bin"></part>
+		<part crc="b5f07fbc" name="pl51.bin"></part>
+		<part crc="b3db08c2" name="pl52.bin"></part>
+		<part crc="5188fc29" name="pl24.bin"></part>
+		<part crc="4e30f9e7" name="pl23.bin"></part>
+		<part crc="71635678" name="pl39.bin"></part>
+		<part crc="a841d511" name="pl40.bin"></part>
+		<part crc="79350b25" name="ic40.prm"></part>
+		<part crc="e176b768" name="ic41.prm"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

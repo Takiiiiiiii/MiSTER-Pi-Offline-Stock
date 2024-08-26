@@ -1,0 +1,85 @@
+<misterromdescription>
+	<name>Bosconian - Star Destroyer</name>
+	<region/>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>New Version</version>
+	<alternative/>
+	<platform/>
+	<series/>
+	<year>1981</year>
+	<manufacturer>Namco</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>bosco</setname>
+	<parent>bosco</parent>
+	<mameversion>0220</mameversion>
+	<rbf>bosconian</rbf>
+	<about/>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip>no</flip>
+
+	<switches default="08,68" base="8">
+		<!-- DIP Switch 6K -->
+		<dip bits="0,1"   name="Difficulty"     ids="Easy (Rank A),Medium (Rank B),Hardest (Rank C),Auto" values="0,2,1,3"/>
+		<dip bits="2"     name="Allow Continue" ids="Off,On"/>
+		<dip bits="3"     name="Demo Sounds"    ids="Off,On"/>
+		<dip bits="4"     name="Freeze"         ids="Off,On"/>
+    <!-- 5 and 6 unused -->
+		<dip bits="7"     name="Cabinet"        ids="Upright,Cocktail"/>
+
+		<!-- DIP Switch 6J -->
+		<dip bits="8,10"  name="Coinage"     ids="1 Coin 1 Credit,1 Coin 2 Credits,1 Coin 3 Credits,2 Coins 3 Credits,2 Coins 1 Credit,3 Coins 1 Credit,4 Coins 1 Credit,Free Play"/>
+		<dip bits="11,13" name="Bonus"	     ids="20/70 | 30/120/120,15/50 | 30/100/100,30/100/100 | 30/80/80,20/70/70 | 30/120,15/70/70 | 20/100,15/50/50 | 20/70,10/50/50 | 15/70,Nothing"/>
+		<dip bits="14,15" name="Lives"       ids="5,3,2,1"/>
+
+		<!-- Service switches -->
+		<dip bits="16" name="Self-test mode"  ids="Off,On"/>
+		<dip bits="17" name="Service trigger" ids="Off,On"/>
+	</switches>
+
+	<rom index="0" md5="none" zip="bosco.zip|boscomd.zip|namco50.zip|namco51.zip|namco52.zip|namco54.zip">
+		<!-- main cpu (4 x 4k) -->
+    <part crc="96021267" name="bos3_1.3n"/> <!-- 0000 -->
+    <part crc="2d8f3ebe" name="bos1_2.3m"/> <!-- 0001 -->
+    <part crc="c80ccfa5" name="bos1_3.3l"/> <!-- 0010 -->
+    <part crc="a3f7f4ab" name="bos1_4b.3k"/> <!-- 0011 -->
+
+		<!-- cpu 2 (2 x 4k) -->
+    <!-- TODO -->
+    <part crc="a7c8e432" name="bos1_5c.3j"/> <!-- 0100 -->
+    <part crc="4543cf82" name="bos3_6.3h"/> <!-- 0101 -->
+
+		<!-- cpu 3 (4k) -->
+    <part crc="d45a4911" name="bos1_7.3e"/> <!-- 0110 -->
+
+		<!-- gfx1 (4k) -->
+    <part crc="a956d3c5" name="bos1_14.5d"/> <!-- 0111 -->
+
+		<!-- gfx2 (4k; TODO - doubled to match Galaga prototype ROM spacing -->
+    <part crc="e869219c" name="bos1_13.5e"/> <!-- 1000 -->
+    <part crc="e869219c" name="bos1_13.5e"/> <!-- 1001 -->
+
+		<!-- ROMs for digitized speech -->
+    <part crc="09acc978" name="bos1_9.5n"/> <!-- part 1 (4k) --> <!-- 1010 -->
+    <part crc="e571e959" name="bos1_10.5m"/> <!-- part 2 (4k) --> <!-- 1011 -->
+		<part crc="17ac9511" name="bos1_11.5k"/> <!-- part 3 (4k) --> <!-- 1100 -->
+
+		<!-- Namco MCUs -->
+		<part crc="a0acbaf7" name="50xx.bin"/>  <!-- 50xx score chip ROM (2k) -->   <!-- 11010 -->
+		<part crc="c2f57ef8" name="51xx.bin"/>  <!-- 51xx score chip ROM (1k) -->   <!-- 110110 -->
+		<part crc="3257d11e" name="52xx.bin"/>  <!-- 52xx sound sample ROM (1k) --> <!-- 110111 -->
+		<part crc="ee7357e0" name="54xx.bin"/>  <!-- 54xx sound ROM (1k) -->        <!-- 111000 -->
+
+		<part crc="4e15d59c" name="bos1-5.4m"/>  <!-- Color lookup table (256) -->  <!-- 11100100 -->
+		<part crc="9b69b543" name="bos1-4.2r"/>  <!-- GFX ROM 3: Radar (256) -->    <!-- 11100101 -->
+	</rom>
+
+	<nvram index="4" size="51"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210704194000</mratimestamp>
+</misterromdescription>

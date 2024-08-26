@@ -1,0 +1,13 @@
+####
+# Name: Kodak Panchromatic GRBK
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: GRB
+####
+
+Resolution=0
+v2
+2,2
+02a,22a
+42a,12a

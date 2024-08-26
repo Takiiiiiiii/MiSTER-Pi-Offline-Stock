@@ -1,0 +1,70 @@
+<misterromdescription>
+	<name>Crazy Kong Part II</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>Set 2</version>
+	<alternative>Crazy Kong</alternative>
+	<platform></platform>
+	<series>Donkey Kong</series>
+	<year>1981</year>
+	<manufacturer>Falcon</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>ckong3a</setname>
+	<parent>ckong3</parent>
+	<mameversion>0218</mameversion>
+	<rbf>crazykong</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" zip="/hbmame/ckong.zip" md5="3a9658e48be91f16fb39998a7ba3eef0">
+		<part crc="9b5e7592" name="ckonga3/ckonga4.07"/>
+		<part crc="5dc1aaba" name="ckonga2/f05-08.bin"/>
+		<part crc="c9054c94" name="ckonga2/h05-09.bin"/>
+		<part crc="c3beb501" name="ckonga2/10.dat"/>
+		<part crc="ae159192" name="ckonga2/l05-11.bin"/>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"/>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"/>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"/>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"/>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"/>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"/>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"/>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"/>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"/>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"/>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"/>
+		<part crc="2dcedd12" name="ckonga2/n11-06.bin"/>
+		<part crc="fa7cbd91" name="ckonga3/l11-05.bin"/>
+		<part crc="3375b3bd" name="ckonga2/k11-04.bin"/>
+		<part crc="5655cc11" name="ckonga2/h11-03.bin"/>
+		<part crc="d1352c31" name="ckonga2/c11-02.bin"/>
+		<part crc="a7a2fdbd" name="ckonga2/a11-01.bin"/>
+		<part crc="d1352c31" name="ckonga2/c11-02.bin"/>
+		<part crc="a7a2fdbd" name="ckonga2/a11-01.bin"/>
+		<part crc="5f0bcdfb" name="falcon13"/>
+		<part crc="9003ffbd" name="falcon12"/>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark>No GFX</remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

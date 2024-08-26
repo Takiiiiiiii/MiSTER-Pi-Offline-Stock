@@ -1,0 +1,65 @@
+<misterromdescription>
+	<name>War of the Bugs or Monsterous Manouvers in a Mushroom Maze</name>
+	<region>USA</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>War of the Bugs</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Armenia</manufacturer>
+	<manufacturer>Super Video Games</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>warofbugu</setname>
+	<parent>warofbug</parent>
+	<mameversion>0218</mameversion>
+	<rbf>galaxian</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="DF,3F,F2">
+		<dip bits="5" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="14,15" ids="1c/1cr,2c/1cr,Free Play" name="Coinage" values="0,1,3"></dip>
+		<dip bits="16,17" ids="1,2,3,4" name="Lives"></dip>
+		<dip bits="19" ids="50k,75k" name="Bonus Life After"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0E</part>
+		</rom>
+	<rom index="0" md5="031dd84ebd0ac35c65f52a17d245eb1c" zip="warofbug.zip|warofbugu.zip">
+		<part crc="b8dfb7e3" name="wb-prog-1.7d"></part>
+		<part crc="fd8854e0" name="wb-prog-2.7e"></part>
+		<part crc="4495aa14" name="wb-prog-3.7j"></part>
+		<part crc="e4bd257c" name="wb-prog-4.7n"></part>
+		<part crc="71257bb4" name="wb-prog-5.7p"></part>
+		<part crc="71257bb4" name="wb-prog-5.7p"></part>
+		<part crc="71257bb4" name="wb-prog-5.7p"></part>
+		<part crc="71257bb4" name="wb-prog-5.7p"></part>
+		<part crc="8100fa85" name="warofbug.1k"></part>
+		<part crc="8100fa85" name="warofbug.1k"></part>
+		<part crc="d1220ae9" name="warofbug.1j"></part>
+		<part crc="d1220ae9" name="warofbug.1j"></part>
+		<part crc="8688e64b" name="warofbug.clr"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

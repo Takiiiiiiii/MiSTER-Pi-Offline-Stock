@@ -1,0 +1,22 @@
+####
+# Name: Fujifilm X-Trans CYCM (Cyan)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+3,12
+30d,62a,30d
+30d,62a,30d
+30d,62a,30d
+30d,62a,30d
+52a,30d,52a
+52a,30d,52a
+52a,30d,52a
+52a,30d,52a
+30d,62a,30d
+30d,62a,30d
+30d,62a,30d
+30d,62a,30d

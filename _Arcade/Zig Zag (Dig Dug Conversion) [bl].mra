@@ -1,0 +1,50 @@
+<misterromdescription>
+	<name>Zig Zag</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Dig Dug Conversion</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series>Dig Dug</series>
+	<year>1982</year>
+	<manufacturer>Bootleg</manufacturer>
+	<category>Maze</category>
+
+	<setname>zigzagb</setname>
+	<parent>digdug</parent>
+	<mameversion>0220</mameversion>
+	<rbf>zigzag</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="273678b3c924d6c56072e56fa12944f2" zip="zigzagb.zip">
+		<part crc="8cc08d81" name="zz_d1.7l"></part>
+		<part crc="326d8d45" name="zz_d2.7k"></part>
+		<part crc="a94ed92a" name="zz_d4.7f"></part>
+		<part crc="ce5e7a00" name="zz_d3.7h"></part>
+		<part crc="780c162a" name="zz_6.1h"></part>
+		<part crc="f3cdfec5" name="zz_5.1k"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

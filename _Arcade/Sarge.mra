@@ -1,0 +1,63 @@
+<misterromdescription>
+	<name>Sarge</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Midway MCR3</platform>
+	<series></series>
+	<year>1985</year>
+	<manufacturer>Bally</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>sarge</setname>
+	<parent>sarge</parent>
+	<mameversion>0217</mameversion>
+	<rbf>mcr3mono</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (simultaneous)</players>
+	<joystick>2-way vertical</joystick>
+	<special_controls>twin stick</special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,X,Y,Start,R" names="Fire 1,Right-Rev,Right-Fwd,Fire 2,Start,Coin"></buttons>
+
+	<switches default="FF,00">
+		<dip bits="3" ids="On,Off" name="Free Play"></dip>
+		<dip bits="4,5" ids="1c/2cr,2c/1cr,1c/1cr" name="Coinage" values="1,2,3"></dip>
+		<dip bits="8" ids="Off,On" name="Service"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>01</part>
+		</rom>
+	<rom index="0" md5="f4957f2d6fef5e2264dac930678a4e84" type="merged|nonmerged" zip="sarge.zip">
+		<part crc="da31a58f" name="cpu_3b.bin"></part>
+		<part crc="6800e746" name="cpu_5b.bin"></part>
+		<part crc="93fac29d" name="spr_8e.bin"></part>
+		<part crc="7cc6fb28" name="spr_6e.bin"></part>
+		<part crc="c832375c" name="spr_5e.bin"></part>
+		<part crc="c382267d" name="spr_4e.bin"></part>
+		<part crc="685001b8" name="til_15a.bin" repeat="4"></part>
+		<part crc="8449eb45" name="til_14b.bin" repeat="4"></part>
+		<part crc="a894ef8a" name="tcs_u5.bin"></part>
+		<part crc="6ca6faf3" name="tcs_u4.bin"></part>
+		<part crc="a894ef8a" name="tcs_u5.bin"></part>
+		<part crc="6ca6faf3" name="tcs_u4.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="2048"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

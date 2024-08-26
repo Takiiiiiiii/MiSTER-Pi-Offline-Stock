@@ -1,0 +1,226 @@
+<misterromdescription>
+	<name>Frogger</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Konami Bugfixed</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>frogger</setname>
+	<parent>frogger</parent>
+	<mameversion>0216</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>0</num_buttons>
+	<buttons default="A,Start,Select,R,L" names="Jump,-,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FC,F1">
+		<dip bits="8,9" ids="3,4,5,256(Cheat)" name="Lives"></dip>
+		<dip bits="17,18" ids="1c/1cr,2c/1cr" name="Coinage"></dip>
+		<dip bits="19" ids="Upright,Cocktail" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>02</part>
+		</rom>
+	<rom index="0" md5="4a469c668be9e428235a9f3ce14bdd6d" type="merged|nonmerged" zip="frogger.zip|froggers2.zip">
+		<part crc="597696d6" name="frogger.26"></part>
+		<part crc="b6e6fcc3" name="frogger.27"></part>
+		<part crc="aca22ae0" name="frsm3.7"></part>
+		<part crc="bf293a02" name="epr-1015.ic8"></part>
+		<part crc="597696d6" name="frogger.26"></part>
+		<part crc="b6e6fcc3" name="frogger.27"></part>
+		<part crc="aca22ae0" name="frsm3.7"></part>
+		<part crc="bf293a02" name="epr-1015.ic8"></part>
+		<part crc="e8ab0256" name="epr-608.ic32"></part>
+		<part crc="7380a48f" name="epr-609.ic33"></part>
+		<part crc="31d7eb27" name="epr-610.ic34"></part>
+		<part crc="31d7eb27" name="epr-610.ic34"></part>
+		<part crc="f524ee30" name="epr-606.ic102" repeat="4"></part>
+		<part crc="05f7d883" name="epr-607.ic101" repeat="4"></part>
+		<part crc="413703bf" name="pr-91.6l"></part>
+		<!-- Start ROM Changes to fix bugs by philmurr 2020-->
+		<!-- http://www.ukvac.com/forum/frogger-bugs-descriptions-and-fixes_topic381374.html -->
+		<!-- ROM frogger.27 (starts at $1000) -->
+		<patch offset="0x1216">	40 </patch>
+		<patch offset="0x121e">	23</patch>
+		<patch offset="0x1226">	60</patch>
+		<patch offset="0x122e">	30</patch>
+		<patch offset="0x1236">	33</patch>
+		<patch offset="0x129d">	06</patch>
+		<patch offset="0x12e9">	c3</patch>
+		<patch offset="0x12ea">	eb</patch>
+		<patch offset="0x12eb">	2f</patch>
+		<patch offset="0x1338">	40</patch>
+		<patch offset="0x1340">	23</patch>
+		<patch offset="0x1348">	60</patch>
+		<patch offset="0x1350">	30</patch>
+		<patch offset="0x1358">	33</patch>
+		<patch offset="0x1be4">	c3</patch>
+		<patch offset="0x1be5">	d8</patch>
+		<patch offset="0x1be6">	2f</patch>
+		<patch offset="0x1c4b">	df</patch>
+		<patch offset="0x1c70">	cd</patch>
+		<patch offset="0x1c71">	c9</patch>
+		<patch offset="0x1c72">	2d</patch>
+		<patch offset="0x1caa">	12</patch>
+		<patch offset="0x1ccf">	cd</patch>
+		<patch offset="0x1cd0">	df</patch>
+		<patch offset="0x1cd1">	2d</patch>
+		<patch offset="0x1d7d">	97</patch>
+		<patch offset="0x1d85">	97</patch>
+		<patch offset="0x1d90">	cd</patch>
+		<patch offset="0x1d91">	d1</patch>
+		<patch offset="0x1d92">	2f</patch>
+		<patch offset="0x1d93">	00</patch>
+		<patch offset="0x1d94">	00</patch>
+		<patch offset="0x1d98">	97</patch>
+		<patch offset="0x1de1">	cd</patch>
+		<patch offset="0x1de2">	d1</patch>
+		<patch offset="0x1de3">	2f</patch>
+		<patch offset="0x1de4">	00</patch>
+		<patch offset="0x1de5">	00</patch>
+		<patch offset="0x1de9">	97</patch>
+		<patch offset="0x1e32">	cd</patch>
+		<patch offset="0x1e33">	d1</patch>
+		<patch offset="0x1e34">	2f</patch>
+		<patch offset="0x1e35">	00</patch>
+		<patch offset="0x1e36">	00</patch>
+		<patch offset="0x1e3a">	97</patch>
+		<patch offset="0x1e83">	cd</patch>
+		<patch offset="0x1e84">	d1</patch>
+		<patch offset="0x1e85">	2f</patch>
+		<patch offset="0x1e86">	00</patch>
+		<patch offset="0x1e87">	00</patch>
+		<patch offset="0x1e8b">	97</patch>
+		<patch offset="0x1ed4">	cd</patch>
+		<patch offset="0x1ed5">	d1</patch>
+		<patch offset="0x1ed6">	2f</patch>
+		<patch offset="0x1ed7">	00</patch>
+		<patch offset="0x1ed8">	00</patch>
+		<patch offset="0x1edc">	97</patch>
+		<!-- ROM frs.3.7 (starts at $2000) -->
+		<!-- Jump off right hand side of centre bank fix -->
+		<patch offset="0x2dc9">	c5</patch>
+		<patch offset="0x2dca"> 3a</patch>
+		<patch offset="0x2dcb"> 58</patch>
+		<patch offset="0x2dcc"> 82</patch>
+		<patch offset="0x2dcd"> 47</patch>
+		<patch offset="0x2dce"> 3a</patch>
+		<patch offset="0x2dcf"> 44</patch>
+		<patch offset="0x2dd0"> 80</patch>
+		<patch offset="0x2dd1"> fe</patch>
+		<patch offset="0x2dd2"> d1</patch>
+		<patch offset="0x2dd3"> 38</patch>
+		<patch offset="0x2dd4"> 07</patch>
+		<patch offset="0x2dd5"> 47</patch>
+		<patch offset="0x2dd6"> 3e</patch>
+		<patch offset="0x2dd7"> e2</patch>
+		<patch offset="0x2dd8"> 90</patch>
+		<patch offset="0x2dd9"> cb</patch>
+		<patch offset="0x2dda"> 1f</patch>
+		<patch offset="0x2ddb"> 47</patch>
+		<patch offset="0x2ddc"> 78</patch>
+		<patch offset="0x2ddd"> c1</patch>
+		<patch offset="0x2dde"> c9</patch>
+		<patch offset="0x2ddf"> c5</patch>
+		<patch offset="0x2de0"> 3a</patch>
+		<patch offset="0x2de1"> 59</patch>
+		<patch offset="0x2de2"> 82</patch>
+		<patch offset="0x2de3"> 47</patch>
+		<patch offset="0x2de4"> 3a</patch>
+		<patch offset="0x2de5"> 44</patch>
+		<patch offset="0x2de6"> 80</patch>
+		<patch offset="0x2de7"> fe</patch>
+		<patch offset="0x2de8"> 20</patch>
+		<patch offset="0x2de9"> 30</patch>
+		<patch offset="0x2dea"> 05</patch>
+		<patch offset="0x2deb"> d6</patch>
+		<patch offset="0x2dec"> 0e</patch>
+		<patch offset="0x2ded"> cb</patch>
+		<patch offset="0x2dee"> 1f</patch>
+		<patch offset="0x2def"> 47</patch>
+		<patch offset="0x2df0"> 78</patch>
+		<patch offset="0x2df1"> c1</patch>
+		<patch offset="0x2df2"> c9</patch>
+		<!--svlow jumping top level fix -->
+		<patch offset="0x2fd1"> 32</patch>
+		<patch offset="0x2fd2"> 3e</patch>
+		<patch offset="0x2fd3"> 81</patch>
+		<patch offset="0x2fd4"> 3a</patch>
+		<patch offset="0x2fd5"> 47</patch>
+		<patch offset="0x2fd6"> 80</patch>
+		<patch offset="0x2fd7"> c9</patch>
+		<patch offset="0x2fd8"> 3a</patch>
+		<patch offset="0x2fd9"> 51</patch>
+		<patch offset="0x2fda"> 82</patch>
+		<patch offset="0x2fdb"> a7</patch>
+		<patch offset="0x2fdc"> c2</patch>
+		<patch offset="0x2fdd"> fa</patch>
+		<patch offset="0x2fde"> 1b</patch>
+		<patch offset="0x2fdf"> 3a</patch>
+		<patch offset="0x2fe0"> 3e</patch>
+		<patch offset="0x2fe1"> 81</patch>
+		<patch offset="0x2fe2"> b7</patch>
+		<patch offset="0x2fe3"> ca</patch>
+		<patch offset="0x2fe4"> ea</patch>
+		<patch offset="0x2fe5"> 1b</patch>
+		<patch offset="0x2fe6"> af</patch>
+		<patch offset="0x2fe7"> 32</patch>
+		<patch offset="0x2fe8"> 3e</patch>
+		<patch offset="0x2fe9"> 81</patch>
+		<patch offset="0x2fea"> c9</patch>
+		<!-- Collision detection fix -->
+		<patch offset="0x2feb"> 21</patch>
+		<patch offset="0x2fec"> 47</patch>
+		<patch offset="0x2fed"> 80</patch>
+		<patch offset="0x2fee"> 7e</patch>
+		<patch offset="0x2fef"> fe</patch>
+		<patch offset="0x2ff0"> 80</patch>
+		<patch offset="0x2ff1"> d8</patch>
+		<patch offset="0x2ff2"> c3</patch>
+		<patch offset="0x2ff3"> ec</patch>
+		<patch offset="0x2ff4"> 12</patch>
+		<!-- philmurr-20 -->
+		<patch offset="0x2ff5">	70</patch>
+		<patch offset="0x2ff6">	68</patch>
+		<patch offset="0x2ff7">	69</patch>
+		<patch offset="0x2ff8">	6c</patch>
+		<patch offset="0x2ff9">	6d</patch>
+		<patch offset="0x2ffa">	75</patch>
+		<patch offset="0x2ffb">	72</patch>
+		<patch offset="0x2ffc">	72</patch>
+		<patch offset="0x2ffd">	2d</patch>
+		<patch offset="0x2ffe">	32</patch>
+		<patch offset="0x2fff">	30</patch>
+		<!-- End ROM Changes to fix bugs by philmurr 2020-->
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 07 FF FF 00 FF 00 02 00 02 00 01 00 FF 02 00
+		00 00 83 F1 00 0A 63 01
+		00 00 83 EF 00 02 63 04
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="12"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

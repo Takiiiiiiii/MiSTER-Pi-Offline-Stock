@@ -1,0 +1,159 @@
+<misterromdescription>
+	<name>Kung-Fu Master</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Set 2</version>
+	<alternative>Kung-Fu Master</alternative>
+	<platform>Irem M62</platform>
+	<series></series>
+	<year>1984</year>
+	<manufacturer>Irem</manufacturer>
+	<category>Beat 'em Up</category>
+
+	<setname>kungfub2</setname>
+	<parent>kungfum</parent>
+	<mameversion>0221</mameversion>
+	<rbf>iremm62</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R,L" names="Kick,Punch,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FD">
+		<dip bits="0" ids="Hard,Easy" name="Difficulty"></dip>
+		<dip bits="1" ids="Fast,Slow" name="Energy Loss"></dip>
+		<dip bits="2,3" ids="5,4,2,3" name="Lives"></dip>
+		<dip bits="4,7" ids="Free Play,1C/1C" name="Coinage" values="16,15"></dip>
+		<dip bits="8" ids="On,Off" name="Flip Screen"></dip>
+		<dip bits="9" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="10" ids="Mode 2,Mode 1" name="Coin Mode"></dip>
+		<dip bits="11" ids="On,Off" name="Slow Motion Mode (Cheat)"></dip>
+		<dip bits="12" ids="On,Off" name="Freeze (Cheat)"></dip>
+		<dip bits="13" ids="On,Off" name="Level Selection (Cheat)"></dip>
+		<dip bits="14" ids="On,Off" name="Invulnerability (Cheat)"></dip>
+		<dip bits="15" ids="On,Off" name="Service Mode"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>04</part>
+		</rom>
+	<rom index="0" zip="kungfum.zip|kungfub2.zip" type="merged|nonmerged|split" md5="none">
+		<part crc="3f65313f" name="kf4"/>
+		<part crc="9ea325f3" name="kf5"/>
+		<part crc="3f65313f" name="kf4"/>
+		<part crc="9ea325f3" name="kf5"/>
+		<part crc="3f65313f" name="kf4"/>
+		<part crc="9ea325f3" name="kf5"/>
+		<part crc="3f65313f" name="kf4"/>
+		<part crc="9ea325f3" name="kf5"/>
+		<part repeat="0xa000">FF</part>
+		<part crc="58e87ab0" name="a-3e-.bin"/>
+		<part crc="c81e31ea" name="a-3f-.bin"/>
+		<part crc="d99fb995" name="a-3h-.bin"/>
+		<interleave output="32">
+			<part crc="6b2cc9c8" name="g-4c-a.bin" map="0001"/>
+			<part crc="c648f558" name="g-4d-a.bin" map="0010"/>
+			<part crc="fbe9276e" name="g-4e-a.bin" map="0100"/>
+			<part crc="fbe9276e" name="g-4e-a.bin" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="6b2cc9c8" name="g-4c-a.bin" map="0001"/>
+			<part crc="c648f558" name="g-4d-a.bin" map="0010"/>
+			<part crc="fbe9276e" name="g-4e-a.bin" map="0100"/>
+			<part crc="fbe9276e" name="g-4e-a.bin" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="6b2cc9c8" name="g-4c-a.bin" map="0001"/>
+			<part crc="c648f558" name="g-4d-a.bin" map="0010"/>
+			<part crc="fbe9276e" name="g-4e-a.bin" map="0100"/>
+			<part crc="fbe9276e" name="g-4e-a.bin" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="6b2cc9c8" name="g-4c-a.bin" map="0001"/>
+			<part crc="c648f558" name="g-4d-a.bin" map="0010"/>
+			<part crc="fbe9276e" name="g-4e-a.bin" map="0100"/>
+			<part crc="fbe9276e" name="g-4e-a.bin" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="16fb5150" name="b-4k-.bin" map="0001"/>
+			<part crc="28a213aa" name="b-3n-.bin" map="0010"/>
+			<part crc="01298885" name="b-4c-.bin" map="0100"/>
+			<part crc="01298885" name="b-4c-.bin" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="67745a33" name="b-4f-.bin" map="0001"/>
+			<part crc="d5228df3" name="b-4n-.bin" map="0010"/>
+			<part crc="c77b87d4" name="b-4e-.bin" map="0100"/>
+			<part crc="c77b87d4" name="b-4e-.bin" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="bd1c2261" name="b-4l-.bin" map="0001"/>
+			<part crc="b16de4f2" name="b-4m-.bin" map="0010"/>
+			<part crc="6a70615f" name="b-4d-.bin" map="0100"/>
+			<part crc="6a70615f" name="b-4d-.bin" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="8ac5ed3a" name="b-4h-.bin" map="0001"/>
+			<part crc="eba0d66b" name="b-3m-.bin" map="0010"/>
+			<part crc="6189d626" name="b-4a-.bin" map="0100"/>
+			<part crc="6189d626" name="b-4a-.bin" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="16fb5150" name="b-4k-.bin" map="0001"/>
+			<part crc="28a213aa" name="b-3n-.bin" map="0010"/>
+			<part crc="01298885" name="b-4c-.bin" map="0100"/>
+			<part crc="01298885" name="b-4c-.bin" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="67745a33" name="b-4f-.bin" map="0001"/>
+			<part crc="d5228df3" name="b-4n-.bin" map="0010"/>
+			<part crc="c77b87d4" name="b-4e-.bin" map="0100"/>
+			<part crc="c77b87d4" name="b-4e-.bin" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="bd1c2261" name="b-4l-.bin" map="0001"/>
+			<part crc="b16de4f2" name="b-4m-.bin" map="0010"/>
+			<part crc="6a70615f" name="b-4d-.bin" map="0100"/>
+			<part crc="6a70615f" name="b-4d-.bin" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="8ac5ed3a" name="b-4h-.bin" map="0001"/>
+			<part crc="eba0d66b" name="b-3m-.bin" map="0010"/>
+			<part crc="6189d626" name="b-4a-.bin" map="0100"/>
+			<part crc="6189d626" name="b-4a-.bin" map="1000"/>
+		</interleave>
+		<part repeat="0x10000">FF</part>
+		<part crc="76c05a9c" name="b-1m-.bin"/>
+		<part crc="23f06b99" name="b-1n-.bin"/>
+		<part crc="35e45021" name="b-1l-.bin"/>
+		<part crc="668e6bca" name="g-1j-.bin"/>
+		<part crc="964b6495" name="g-1f-.bin"/>
+		<part crc="550563e1" name="g-1h-.bin"/>
+		<part repeat="0x300">FF</part>
+		<part crc="7a601c3d" name="b-5f-.bin"/>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 00 FF FF 00 3F 00 02
+		00 02 00 01 00 FF 00 00
+		00 00 EA 06 00 78 00 41
+		00 00 E9 80 00 03 52 00
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="123"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

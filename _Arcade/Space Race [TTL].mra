@@ -1,0 +1,46 @@
+<misterromdescription>
+	<name>Space Race [TTL]</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1973</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Racing</category>
+
+	<setname>spacerace</setname>
+	<parent>spacerace</parent>
+	<mameversion></mameversion>
+	<rbf>spacerace</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (simultaneous)</players>
+	<joystick>2-way vertical</joystick>
+	<special_controls></special_controls>
+	<num_buttons>0</num_buttons>
+	<buttons default="R,Start" names="Coin,Start"></buttons>
+
+	<switches default="0A">
+		<dip bits="0" name="Credit per coin" ids="One,Two"/>
+		<dip bits="1,4" name="Playtime pot [%]" ids="0,10,20,30,40,50,60,70,80,90,100"/>
+	</switches>
+
+	<rom index="1"></rom>
+	<rom index="0"></rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

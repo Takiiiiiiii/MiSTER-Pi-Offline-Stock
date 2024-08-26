@@ -1,0 +1,78 @@
+<misterromdescription>
+	<name>Amidar</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Scramble</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Maze</category>
+
+	<setname>amidars</setname>
+	<parent>amidars</parent>
+	<mameversion>0216</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R,L" names="Jump,-,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FF,F1">
+		<dip bits="8,9" ids="255(Cheat),5,4,3" name="Lives"></dip>
+		<dip bits="17" ids="1c/1cr,2c/1cr" name="Coinage"></dip>
+		<dip bits="18" ids="30K 70K,50K 80K" name="Bonus Life"></dip>
+		<dip bits="19" ids="Upright,Cocktail" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>01</part>
+		</rom>
+	<rom index="0" md5="22506edd9fb15fc2f5608c0174217753" type="merged|split|nonmerged" zip="amidar.zip|amidars.zip">
+		<part crc="24b79547" name="am2d"></part>
+		<part crc="4c64161e" name="am2e"></part>
+		<part crc="b3987a72" name="am2f"></part>
+		<part crc="29873461" name="am2h"></part>
+		<part crc="0fdd54d8" name="am2j"></part>
+		<part crc="5382f7ed" name="am2l"></part>
+		<part crc="1d7109e9" name="am2m"></part>
+		<part crc="c9163ac6" name="am2p"></part>
+		<part crc="24b79547" name="am2d"></part>
+		<part crc="4c64161e" name="am2e"></part>
+		<part crc="b3987a72" name="am2f"></part>
+		<part crc="29873461" name="am2h"></part>
+		<part crc="0fdd54d8" name="am2j"></part>
+		<part crc="5382f7ed" name="am2l"></part>
+		<part crc="1d7109e9" name="am2m"></part>
+		<part crc="c9163ac6" name="am2p"></part>
+		<part crc="8ca7b750" name="amidarus.5c"></part>
+		<part crc="9b5bdc0a" name="amidarus.5d"></part>
+		<part crc="3029f94f" name="2716.a5" repeat="4"></part>
+		<part crc="2082ad0a" name="2716.a6" repeat="4"></part>
+		<part crc="f940dcc3" name="amidar.clr"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 07 FF FF 00 FF 00 02 00 02 00 01 00 FF 02 00
+		00 00 82 00 00 1E 00 01
+		00 00 80 A8 00 03 00 01
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="33"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

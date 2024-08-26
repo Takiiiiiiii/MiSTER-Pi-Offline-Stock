@@ -1,0 +1,65 @@
+<misterromdescription>
+	<name>Power Drive</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Midway MCR3</platform>
+	<series></series>
+	<year>1986</year>
+	<manufacturer>Bally</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Racing</category>
+
+	<setname>powerdrv</setname>
+	<parent>powerdrv</parent>
+	<mameversion>0217</mameversion>
+	<rbf>mcr3mono</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>3</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="L,R,B,A,Start" names="Left Wheel,Right Wheel,Wheelie,4WD/2WD,-,Coin"></buttons>
+
+	<switches default="FF,00">
+		<dip bits="0,1" ids="1c/2cr,2c/1cr,1c/1cr" name="Coinage" values="1,2,3"></dip>
+		<dip bits="4,5" ids="Hardest,Hard,Easy,Factory" name="Difficulty"></dip>
+		<dip bits="6" ids="On,Off" name="Demo Sounds"></dip>
+		<dip bits="7" ids="On,Off" name="Rack Advance (cheat)"></dip>
+		<dip bits="8" ids="Off,On" name="Service"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>02</part>
+		</rom>
+	<rom index="0" md5="c50d6870f88537f1f2a1e45c2a2f8450" type="merged|nonmerged" zip="powerdrv.zip">
+		<part crc="d870b704" name="pdrv3b.bin"></part>
+		<part crc="fa0544ad" name="pdrv5b.bin"></part>
+		<part crc="dd3a2adc" name="pdrv8e.bin"></part>
+		<part crc="1a1f7f81" name="pdrv6e.bin"></part>
+		<part crc="4cb4780e" name="pdrv5e.bin"></part>
+		<part crc="de400335" name="pdrv4e.bin"></part>
+		<part crc="b858b5a8" name="pdrv15a.bin" repeat="2"></part>
+		<part crc="12ee7fc2" name="pdrv14b.bin" repeat="2"></part>
+		<part crc="c41de6e4" name="power_drive_snd_u17.u17"></part>
+		<part crc="cae14c70" name="power_drive_snd_u18.u18"></part>
+		<part crc="78713e78" name="power_drive_snd_u7.u7"></part>
+		<part crc="15714036" name="power_drive_snd_u8.u8"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="2048"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

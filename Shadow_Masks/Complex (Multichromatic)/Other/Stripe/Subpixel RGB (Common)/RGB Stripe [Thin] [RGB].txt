@@ -1,0 +1,12 @@
+####
+# Name: RGB Stripe [Thin]
+# Author: Soltan_G42
+# Type: Other
+# Genre: Stripe
+# Sub-Pixel Layout: RGB
+####
+
+Resolution=0
+v2
+3,1
+42a,22a,12a

@@ -1,0 +1,42 @@
+<misterromdescription>
+	<name>Mr. Goemon</name>
+	<mameversion>0229</mameversion>
+	<setname>mrgoemon</setname>
+	<mratimestamp>20210605000000</mratimestamp>
+	<year>1986</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Platform / Fighter Scrolling</category>
+	<rbf>rshnatk</rbf>
+	<buttons names="Weapon,Shoot,Start 1P,Start 2P,Coin,Pause" default="A,B,Start,Select,R,L"/>
+	<switches default="a1,00,00">
+		<dip bits="0,1"  name="Lives" ids="2,3,5,7"/>
+		<!-- dip bits="2"   name="Cabinet" ids="Cocktail,Upright"/ -->
+		<dip bits="3,4"  name="Bonus Life"   ids="20K &amp; every 60K,30K &amp; every 70K,40K &amp; every 80K,50K &amp; every 90K"/>
+		<dip bits="5,6"  name="Difficulty"   ids="Easy,Normal,Difficult,Very Difficult"/>
+		<dip bits="7"    name="Demo Sounds"  ids="Off,On"/>
+		<!-- dip bits="8"    name="Flip Screen" ids="Off,On"/ -->
+		<dip bits="9"    name="Upright Controls" ids="Single,Dual"/>
+		<dip bits="16,19"  name="Coin Switch #1" ids="1/1,1/2,1/3,1/4,1/5,1/6,1/7,2/1,2/3,2/5,3/1,3/2,3/4,4/1,4/3,Free play"/>
+		<dip bits="20,23"  name="Coin Switch #2" ids="1/1,1/2,1/3,1/4,1/5,1/6,1/7,2/1,2/3,2/5,3/1,3/2,3/4,4/1,4/3,Invalid"/>
+	</switches>
+	<rom index="1">
+		<part>02</part>
+	</rom>
+	<rom index="0" zip="mrgoemon.zip" md5="bb85714cd6fe34f3c812183d6f7ca0a0" type="merged">
+		<!-- main cpu -->
+		<part crc="b2219c56" name="621d01.10c"/>
+		<part crc="c3337a97" name="621d02.12c"/>
+
+		<!-- gfx2 -->
+		<part crc="66f2b973" name="621d03.4d"/>
+		<part crc="47df6301" name="621d04.5d"/>
+
+		<!-- gfx1 -->
+		<part crc="f0a6dfc5" name="621a05.6d"/>
+
+		<!-- proms -->
+		<part crc="3980acdc" name="621a07.6f"/>
+		<part crc="2fb244dd" name="621a08.7f"/>
+		<part crc="7c90de5f" name="621a06.5f"/>
+	</rom>
+</misterromdescription>

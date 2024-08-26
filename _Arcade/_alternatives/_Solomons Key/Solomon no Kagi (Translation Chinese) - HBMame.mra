@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Solomon no Kagi</name>
+	<region>China</region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>Chinese</version>
+	<alternative>Solomon's Key</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1986</year>
+	<manufacturer>Tecmo</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>solomonjs01</setname>
+	<parent>solomon</parent>
+	<mameversion>0217</mameversion>
+	<rbf>solomonskey</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-SolomonsKey_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="728e403a710471b1721a08467e208a89" zip="/hbmame/solomon.zip">
+		<part crc="bb5c5400" name="solomonjs01/slmn_02hc01.bin"></part>
+		<part crc="66137d2b" name="solomonjs01/slmn_03hc01.bin"></part>
+		<part crc="33299a3a" name="solomonjs01/slmn_04hc01.bin"></part>
+		<part crc="5856d9b0" name="solomonjs01/slmn_05hc01.bin"></part>
+		<part crc="e80594fc" name="solomonjs01/slmn_12hc01.bin"></part>
+		<part crc="9dab2e9a" name="solomonjs01/slmn_11hc01.bin"></part>
+		<part crc="cf11872e" name="solomonjs01/slmn_10hc01.bin"></part>
+		<part crc="60122e98" name="solomonjs01/slmn_09hc01.bin"></part>
+		<part crc="fa6e562e" name="1.3jk"></part>
+		<part crc="bbc0d319" name="solomonjs01/slmn_06hc01.bin"></part>
+		<part crc="2465a83a" name="solomonjs01/slmn_07hc01.bin"></part>
+		<part crc="b924d162" name="solomonjs01/slmn_08.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

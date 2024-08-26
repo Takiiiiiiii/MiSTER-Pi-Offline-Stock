@@ -1,0 +1,31 @@
+####
+# Name: PC Monitor RGBK (Generic)
+# Author: Tonurics
+# Type: CRT
+# Genre: Realistic
+# Sub-Pixel Layout: BRG
+####
+
+Resolution=0
+v2
+8,2
+12a,42a,22a,00a,00a,00a,00a,00a
+00a,00a,00a,00a,12a,42a,22a,00a
+
+Resolution=1080
+v2
+8,4
+12a,42a,22a,00a,12a,42a,22a,00a
+12a,42a,22a,00a,00a,00a,00a,00a
+12a,42a,22a,00a,12a,42a,22a,00a
+00a,00a,00a,00a,12a,42a,22a,00a
+
+Resolution=1440
+v2
+8,6
+12a,42a,22a,00a,12a,42a,22a,00a
+12a,42a,22a,00a,00a,00a,00a,00a
+12a,42a,22a,00a,00a,00a,00a,00a
+12a,42a,22a,00a,12a,42a,22a,00a
+00a,00a,00a,00a,12a,42a,22a,00a
+00a,00a,00a,00a,12a,42a,22a,00a

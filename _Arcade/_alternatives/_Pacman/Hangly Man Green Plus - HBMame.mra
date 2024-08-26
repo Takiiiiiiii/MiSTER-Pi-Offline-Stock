@@ -1,0 +1,66 @@
+<misterromdescription>
+	<name>Hangly Man Green Plus</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Pac-Man</alternative>
+	<platform></platform>
+	<series></series>
+	<year>2001</year>
+	<manufacturer>Nittoh</manufacturer>
+	<category>Maze</category>
+
+	<setname>hmgrenp</setname>
+	<parent>puckman</parent>
+	<mameversion>0217</mameversion>
+	<rbf>pacman</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>0</num_buttons>
+	<button_names></button_names>
+
+	<switches default="FF,FF,C9">
+		<dip bits="15" ids="Cocktail,Upright" name="Cabinet"></dip>
+		<dip bits="16,17" ids="2c/1cr,1c/1cr,1c/2cr,Free Play" name="Coinage" values="3,1,2,0"></dip>
+		<dip bits="18,19" ids="1,2,3,5" name="Lives"></dip>
+		<dip bits="20,21" ids="10000,15000,20000,None" name="Bonus Life After"></dip>
+		<dip bits="22" ids="Hard,Normal" name="Difficulty"></dip>
+		</switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="9a31c1d6d1718c370ac42b5754ac6b2f" zip="/hbmame/puckman.zip">
+		<part crc="5fe8610a" name="fasthang/hangly.6e"></part>
+		<part crc="73726586" name="hanglyad/hangly.6f"></part>
+		<part crc="4e7ef99f" name="fasthang/hangly.6h"></part>
+		<part crc="7f4147e6" name="fasthang/hangly.6j"></part>
+		<part crc="5fe8610a" name="fasthang/hangly.6e"></part>
+		<part crc="73726586" name="hanglyad/hangly.6f"></part>
+		<part crc="4e7ef99f" name="fasthang/hangly.6h"></part>
+		<part crc="7f4147e6" name="fasthang/hangly.6j"></part>
+		<part crc="5807a438" name="hmgrenp/pmgrenp.5e"></part>
+		<part crc="1fcc0cf2" name="hmgrenp/hmgrenp.5f"></part>
+		<part crc="1fcc0cf2" name="hmgrenp/hmgrenp.5f"></part>
+		<part crc="1fcc0cf2" name="hmgrenp/hmgrenp.5f"></part>
+		<part crc="a9cc86bf" name="82s126.1m"></part>
+		<part crc="e271a166" name="hmba7000/pacplus.4a"></part>
+		<part crc="77245b66" name="82s126.3m"></part>
+		<part crc="063dd53a" name="hmba7000/pacplus.7f"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

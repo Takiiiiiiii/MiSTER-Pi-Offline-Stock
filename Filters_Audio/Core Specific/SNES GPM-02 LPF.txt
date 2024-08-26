@@ -1,0 +1,33 @@
+#Version
+v1
+
+#Original Filename
+#SNES Newer Filter.txt
+
+#Filter Description
+#SNES Newer Filter
+
+#Sampling Frequency
+6144000
+
+#Base gain
+0.00000165496618923196
+
+#gain scale for X0
+3
+
+#gain scale for X1
+3
+
+#gain scale for X2
+1
+
+#gain scale for Y0
+-2.98002795148246590884
+
+#gain scale for Y1
+2.96034873972561385358
+
+#gain scale for Y2
+-0.98031959762246800860
+

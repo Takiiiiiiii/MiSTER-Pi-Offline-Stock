@@ -1,0 +1,49 @@
+<misterromdescription>
+	<name>Hyperspace (bootleg of Asteroids)</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version></version>
+	<alternative>Asteroids</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1979</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>hyperspc</setname>
+	<parent>Asteroids</parent>
+	<mameversion>0218</mameversion>
+	<rbf>asteroids</rbf>
+	<about></about>
+
+	<resolution>31kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>3</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="af82fb16ddf3881673dfc17cf32f0a7c" zip="asteroid.zip|hyperspc.zip">
+		<part crc="e9bfda64" name="035145-01.bin"></part>
+		<part crc="e53c28a9" name="035144-01.bin"></part>
+		<part crc="7d4e3d05" name="035143-01.bin"></part>
+		<part crc="7dec48bd" name="035127-01.bin"></part>
+		<part crc="97953db8" name="034602-01.c8"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

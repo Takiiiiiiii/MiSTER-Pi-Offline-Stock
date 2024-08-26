@@ -1,0 +1,45 @@
+<misterromdescription>
+	<name>Dottori-Kun</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Old</version>
+	<alternative></alternative>
+	<platform>Dottori-Kun</platform>
+	<series></series>
+	<year>1990</year>
+	<manufacturer>Sega</manufacturer>
+	<category>Maze</category>
+
+	<setname>dotrikun2</setname>
+	<parent></parent>
+	<mameversion>0225</mameversion>
+	<rbf>DottoriKun</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip>no</flip>
+
+	<players>1</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select" names="Fast,Pause,Start,Colour"></buttons>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="c99fd1f37adfce53010de0cb17c74061" zip="dotrikun.zip">
+		<part crc="a6aa7fa5" name="dotrikun2/epr-13141.ic2"/>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>202106162102</mratimestamp>
+</misterromdescription>

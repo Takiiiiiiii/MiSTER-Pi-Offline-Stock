@@ -1,0 +1,16 @@
+####
+# Name: Yamanaka CFA GRGB (Green)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+4,6
+21d,42a,21d,12a
+21d,42a,21d,12a
+21d,42a,21d,12a
+21d,12a,21d,42a
+21d,12a,21d,42a
+21d,12a,21d,42a

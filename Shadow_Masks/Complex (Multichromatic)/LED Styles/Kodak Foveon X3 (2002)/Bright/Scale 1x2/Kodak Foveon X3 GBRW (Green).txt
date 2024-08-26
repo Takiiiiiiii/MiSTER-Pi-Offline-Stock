@@ -1,0 +1,18 @@
+####
+# Name: Kodak Foveon X3 GBRW (Green)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+4,8
+21d,71d,12a,71d
+21d,71d,12a,71d
+71d,21d,71d,12a
+71d,21d,71d,12a
+42a,71d,21d,71d
+42a,71d,21d,71d
+71d,42a,71d,21d
+71d,42a,71d,21d

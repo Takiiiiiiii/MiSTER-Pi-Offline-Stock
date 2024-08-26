@@ -1,0 +1,70 @@
+<misterromdescription>
+	<name>Tapper</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Budweiser, 840127, Alt. GFX</version>
+	<alternative>Tapper</alternative>
+	<platform>Midway MCR3</platform>
+	<series></series>
+	<year>1983</year>
+	<manufacturer>Bally</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Action</category>
+
+	<setname>tapperg</setname>
+	<parent>tapper</parent>
+	<mameversion>0218</mameversion>
+	<rbf>mcr3</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R" names="Fill,-,-,-,-,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="FF 00">
+		<dip bits="2" ids="Off,On" name="Demo Sounds"></dip>
+		<dip bits="6" ids="Cocktail,Upright" name="Cabinet"></dip>
+		<dip bits="7" ids="1,2" name="Coin Meters"></dip>
+		<dip bits="8" ids="Off,On" name="Service"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>00</part>
+		</rom>
+	<rom index="0" md5="56b7b53e7c0acd6db2e59293f2c7fb7b" zip="tapper.zip|tapperg.zip">
+		<part crc="bb060bb0" name="tapper_c.p.u._pg_0_1c_1-27-84.1c"></part>
+		<part crc="fd9acc22" name="tapper_c.p.u._pg_1_2c_1-27-84.2c"></part>
+		<part crc="b3755d41" name="tapper_c.p.u._pg_2_3c_1-27-84.3c"></part>
+		<part crc="77273096" name="tapper_c.p.u._pg_3_4c_1-27-84.4c"></part>
+		<part crc="0e8bb9d5" name="tapper_sound_snd_0_a7_12-7-83.a7"></part>
+		<part crc="0cf0e29b" name="tapper_sound_snd_1_a8_12-7-83.a8"></part>
+		<part crc="31eb6dc6" name="tapper_sound_snd_2_a9_12-7-83.a9"></part>
+		<part crc="01a9be6a" name="tapper_sound_snd_3_a10_12-7-83.a10"></part>
+		<part crc="bac70b69" name="fg1_a7.128"></part>
+		<part crc="c300925d" name="fg0_a8.128"></part>
+		<part crc="ecff6c23" name="fg3_a5.128"></part>
+		<part crc="a4f2d1be" name="fg2_a6.128"></part>
+		<part crc="16ce38cb" name="fg5_a3.128"></part>
+		<part crc="082a4059" name="fg4_a4.128"></part>
+		<part crc="3b476abe" name="fg7_a1.128"></part>
+		<part crc="6717264c" name="fg6_a2.128"></part>
+		<part crc="2a30238c" name="tapper_c.p.u._bg_1_6f_12-7-83.6f"></part>
+		<part crc="394ab576" name="tapper_c.p.u._bg_0_5f_12-7-83.5f"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

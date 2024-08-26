@@ -1,0 +1,84 @@
+<misterromdescription>
+	<name>Up'n Down</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Sega System 1</platform>
+	<series></series>
+	<year>1984</year>
+	<manufacturer>Sega</manufacturer>
+	<category>Racing</category>
+
+	<setname>upndown</setname>
+	<parent>upndown</parent>
+	<mameversion>0216</mameversion>
+	<rbf>segasys1</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R,C" names="-,Jump,-,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,BE">
+		<dip bits="8" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="9,10" ids="Infinite,5,4,3" name="Lives"></dip>
+		<dip bits="11,13" ids="Never,70k,60k,50k,40k,30k,20k,10k" name="Bonus at"></dip>
+		<dip bits="14,15" ids="Hardest,Hard,Medium,Easy" name="Difficulty"></dip>
+	</switches>
+
+	<rom index="1">
+		<part>06</part>
+	</rom>
+	<rom index="0" zip="upndown.zip" md5="883aa812204763b2ffcbe9862cdacb39" type="merged|nonmerged|split">
+		<part crc="038c82da" name="epr5516a.129"/>
+		<part crc="6930e1de" name="epr5517a.130"/>
+		<part crc="2a370c99" name="epr-5518.131"/>
+		<part crc="9d664a58" name="epr-5519.132"/>
+		<part crc="208dfbdf" name="epr-5520.133"/>
+		<part crc="e7b8d87a" name="epr-5521.134"/>
+		<part crc="cf4e4c45" name="epr-5535.3"/>
+		<part crc="cf4e4c45" name="epr-5535.3"/>
+		<part crc="fcc0a88b" name="epr-5514.86"/>
+		<part crc="60908838" name="epr-5515.93"/>
+		<part crc="fcc0a88b" name="epr-5514.86"/>
+		<part crc="60908838" name="epr-5515.93"/>
+		<part crc="b2d616f1" name="epr-5527.82"/>
+		<part crc="e749c5ef" name="epr-5525.81"/>
+		<part crc="dede35d9" name="epr-5523.80"/>
+		<part crc="8a8b33c2" name="epr-5526.65"/>
+		<part crc="8b886952" name="epr-5524.64"/>
+		<part crc="5e6d9dff" name="epr-5522.63"/>
+		<part crc="648350b8" name="pr-5317.106"/>
+		<part>
+08 88 00 80 a0 20 80 00 a8 a0 28 20 88 a8 80 a0
+88 80 08 00 28 08 a8 88 88 a8 80 a0 28 08 a8 88
+88 a8 80 a0 a0 20 80 00 a8 a0 28 20 a8 a0 28 20
+88 80 08 00 88 a8 80 a0 88 a8 80 a0 88 a8 80 a0
+a0 20 80 00 a0 20 80 00 08 88 00 80 28 08 a8 88
+88 a8 80 a0 88 80 08 00 88 a8 80 a0 28 08 a8 88
+88 a8 80 a0 88 a8 80 a0 88 a8 80 a0 88 a8 80 a0
+88 80 08 00 88 80 08 00 08 88 00 80 28 08 a8 88
+		</part>
+	</rom>
+	<rom index="3" md5="none">
+		<part>
+		00 0F FF FF 00 FF 00 02 00 02 00 01 00 FF 00 00
+		00 00 C9 3F 00 3F 01 00
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="63"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

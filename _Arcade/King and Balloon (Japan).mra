@@ -1,0 +1,72 @@
+<misterromdescription>
+	<name>King and Balloon</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Namco</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>kingballj</setname>
+	<parent>kingball</parent>
+	<mameversion>0216</mameversion>
+	<rbf>galaxian</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons></buttons>
+
+	<buttons default="A,Start,Select,R,B,L" names="Fire,Start 1P,Start 2P,Coin,Test,Pause"></buttons>
+
+	<switches default="1F,1F,04">
+		<dip bits="7"    name="Service" ids="Off,On"/>
+		<dip bits="6"    name="Test" ids="Off,On"/>
+		<dip bits="5"    name="Cabinet" ids="Upright,Cocktail"/>
+		<dip bits="14,15" name="Coinage" ids="1c/1cr,1c/2cr,2c/1cr,Free Play" values="1,2,3,0"/>
+		<dip bits="16,17" name="Bonus Life After" ids="10000,12000,15000,None"/>
+		<dip bits="18" name="Lives" ids="2,3"/>
+	</switches>
+	
+	<rom index="1"><part>07</part></rom>
+	<rom index="0" zip="kingball.zip|kingballj.zip" md5="none" type="merged|nonmerged">
+		<part crc="6cb49046" name="prg1.7f"/>
+		<part crc="c223b416" name="prg2.7j"/>
+		<part crc="453634c0" name="prg3.7l"/>
+		<part repeat="0x1800">FF</part>
+		<part crc="a206757d" name="chg2.1k"/>
+		<part crc="a206757d" name="chg2.1k"/>
+		<part crc="9cd550e7" name="chg1.1h"/>
+		<part crc="9cd550e7" name="chg1.1h"/>
+		<part crc="15dd5b16" name="kb2-1"/>
+		<part repeat="0x0FE0">00</part>
+		<part crc="ba16beb7" name="kbj1.ic4"/>
+		<part crc="56686a63" name="kbj2.ic5"/>
+		<part crc="fbc570a5" name="kbj3.ic6"/>
+		<part crc="56686a63" name="kbj2.ic7"/>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 00 00 00 00 FF 00 02 00 02 00 01 00 FF 02 00
+		00 00 83 05 00 03 00 00
+		00 00 80 0d 00 03 00 00
+		00 00 83 02 00 01 01 01
+		</part>
+	</rom>
+	<nvram index="4" size="7"/>
+
+	<remark></remark>
+
+	<mratimestamp>202106111651</mratimestamp>
+</misterromdescription>

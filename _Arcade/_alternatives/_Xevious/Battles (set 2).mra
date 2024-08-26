@@ -1,0 +1,64 @@
+<misterromdescription>
+	<name>Battles</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Set 2</version>
+	<alternative>Xevious</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>bootleg</manufacturer>
+	<category>Shooter - Vertical</category>
+
+	<setname>battles2</setname>
+	<parent>battles</parent>
+	<mameversion>0218</mameversion>
+	<rbf>xevious</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="5de9f3130b7686c85b60bac3310ffd05" zip="xevious.zip|battles2.zip|namco50.zip|namco51.zip|namco54.zip">
+		<part crc="475d848a" name="bg1.h7"></part>
+		<part crc="c66f2a87" name="bg2.h6"></part>
+		<part crc="79754b7d" name="bg3.h5"></part>
+		<part crc="3da1a0a2" name="bg4.h4"></part>
+		<part crc="c85b703f" name="bg5.h2"></part>
+		<part crc="e18cdaad" name="bg6.h1"></part>
+		<part crc="dd35cf1c" name="bg7.h8"></part>
+		<part crc="9571e400" name="bg17.f8"></part>
+		<part crc="b43ea55d" name="bg18.f9"></part>
+		<part crc="73603931" name="bg19.f11"></part>
+		<part crc="dc2c0ecb" name="bg13.d4"></part>
+		<part crc="dfb587ce" name="bg15.d7"></part>
+		<part crc="605ca889" name="bg14.d6"></part>
+		<part crc="44262c04" name="bg16.d8"></part>
+		<part crc="10baeebb" name="bg10.d1"></part>
+		<part crc="ae3ba9e5" name="bg11.d2"></part>
+		<part crc="51a4e83b" name="bg12.d3"></part>
+		<part crc="a0acbaf7" name="50xx.bin" zip="namco50.zip"></part>
+		<part crc="c2f57ef8" name="51xx.bin" zip="namco51.zip"></part>
+		<part crc="ee7357e0" name="54xx.bin" zip="namco54.zip"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

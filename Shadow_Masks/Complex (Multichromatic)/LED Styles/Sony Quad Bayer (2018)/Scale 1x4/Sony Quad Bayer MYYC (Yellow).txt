@@ -1,0 +1,26 @@
+####
+# Name: Sony Quad Bayer MYYC (Yellow)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+8,16
+61d,61d,52a,52a,32a,32a,61d,61d
+61d,61d,52a,52a,32a,32a,61d,61d
+61d,61d,52a,52a,32a,32a,61d,61d
+61d,61d,52a,52a,32a,32a,61d,61d
+61d,61d,52a,52a,32a,32a,61d,61d
+61d,61d,52a,52a,32a,32a,61d,61d
+61d,61d,52a,52a,32a,32a,61d,61d
+61d,61d,52a,52a,32a,32a,61d,61d
+32a,32a,61d,61d,61d,61d,52a,52a
+32a,32a,61d,61d,61d,61d,52a,52a
+32a,32a,61d,61d,61d,61d,52a,52a
+32a,32a,61d,61d,61d,61d,52a,52a
+32a,32a,61d,61d,61d,61d,52a,52a
+32a,32a,61d,61d,61d,61d,52a,52a
+32a,32a,61d,61d,61d,61d,52a,52a
+32a,32a,61d,61d,61d,61d,52a,52a

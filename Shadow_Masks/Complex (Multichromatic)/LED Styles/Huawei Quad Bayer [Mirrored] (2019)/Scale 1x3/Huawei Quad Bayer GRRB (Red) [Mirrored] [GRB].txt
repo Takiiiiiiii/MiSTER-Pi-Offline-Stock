@@ -1,0 +1,23 @@
+####
+# Name: Huawei Quad Bayer GRRB (Red) [Mirrored]
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: GRB
+####
+
+Resolution=0
+v2
+4,12
+21d,22a,40e,41d
+22a,21d,41d,40e
+21d,22a,40e,41d
+22a,21d,41d,40e
+21d,22a,40e,41d
+22a,21d,41d,40e
+40e,41d,11d,12a
+41d,40e,12a,11d
+40e,41d,11d,12a
+41d,40e,12a,11d
+40e,41d,11d,12a
+41d,40e,12a,11d

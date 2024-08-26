@@ -1,0 +1,62 @@
+<misterromdescription>
+	<name>Megumi Rescue (Japan)</name>
+	<region>Japan</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Sega System E</platform>
+	<series></series>
+	<year>1987</year>
+	<manufacturer>Sega / Exa</manufacturer>
+	<category>Ball and Paddle</category>
+
+	<setname>megrescu</setname>
+	<parent>megrescu</parent>
+	<mameversion>0245</mameversion>
+	<rbf>SMS</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip></flip>
+
+	<players>2</players>
+	<joystick>8-way</joystick>
+	<buttons names="Launch/Button1,Button2,Button3,-,-,-,Coin,Start,Pause" default="A,B,L,R,Start,Select" count="1"/>
+	
+	<switches base="24" default="FF,FF,FF">
+		<!-- SWA -->
+		<!-- SWB -->
+		<dip name="Lives" bits="10,11" ids="Cheat,4,3,2"/>
+		<dip name="Cabinet" bits="12" ids="Upright,Cocktail"/>
+		<!-- SWC -->
+		<dip name="Service Toggle" bits="18" ids="On,Off"/>
+		<dip name="Service Mode" bits="19" ids="On,Off"/>
+	</switches>
+	
+	<rom index="0" zip="megrescu.zip" type="merged" md5="31084284291fe1328d7963a3eda660fa">
+		<!-- banks, size: 0x40000 -->
+		<part crc="278CABA8" name="v10_30ic.5"/>
+		<part crc="BDA242D1" name="v10_30ic.4"/>
+		<part crc="56E36F85" name="v10_30ic.3"/>
+		<part crc="5B74C767" name="v10_30ic.2"/>
+		<part crc="278CABA8" name="v10_30ic.5"/>
+		<part crc="BDA242D1" name="v10_30ic.4"/>
+		<part crc="56E36F85" name="v10_30ic.3"/>
+		<part crc="5B74C767" name="v10_30ic.2"/>
+
+		<!-- maincpu, size: 0x8000 -->
+		<part crc="490d0059" name="v10_30ic.7"/>
+	</rom>
+	<rom index="4">
+		<part>04</part>
+	</rom>
+<!--
+	<nvram index="4" size="3"/>
+-->
+
+	<remark></remark>
+
+	<mratimestamp>20220531000000</mratimestamp>
+</misterromdescription>

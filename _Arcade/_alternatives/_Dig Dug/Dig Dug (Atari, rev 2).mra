@@ -1,0 +1,62 @@
+<misterromdescription>
+	<name>Dig Dug</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Atari, Rev 2</version>
+	<alternative>Dig Dug</alternative>
+	<platform></platform>
+	<series>Dig Dug</series>
+	<year>1982</year>
+	<manufacturer>Namco</manufacturer>
+	<category>Maze</category>
+
+	<setname>digdugat</setname>
+	<parent>digdug</parent>
+	<mameversion>0218</mameversion>
+	<rbf>digdug</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-DigDug_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="1ec940262e97efe4c32a59877a775a0e" zip="digdug.zip|digdugat.zip">
+		<part crc="23d0b1a4" name="136007.201"></part>
+		<part crc="5453dc1f" name="136007.202"></part>
+		<part crc="c9077dfa" name="136007.203"></part>
+		<part crc="a8fc8eac" name="136007.204"></part>
+		<part crc="e22957c8" name="136007.116"></part>
+		<part crc="a3bbfd85" name="136007.117"></part>
+		<part crc="458499e9" name="136007.118"></part>
+		<part crc="c58252a0" name="136007.119"></part>
+		<part crc="5ba385c5" name="136007.205"></part>
+		<part crc="382b4011" name="136007.206"></part>
+		<part crc="a41bce72" name="136007.107"></part>
+		<part crc="d6822397" name="136007.114"></part>
+		<part crc="754539be" name="136007.115"></part>
+		<part crc="3d24a3af" name="136007.108"></part>
+		<part crc="7a2815b4" name="136007.110"></part>
+		<part crc="00c7c419" name="136007.111"></part>
+		<part crc="e9b3e08e" name="136007.112"></part>
+		<part crc="4cb9da99" name="136007.113"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

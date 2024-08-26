@@ -1,0 +1,70 @@
+<misterromdescription>
+	<name>Tapper</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Suntory</version>
+	<alternative>Tapper</alternative>
+	<platform>Midway MCR3</platform>
+	<series></series>
+	<year>1983</year>
+	<manufacturer>Bally</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Action</category>
+
+	<setname>sutapper</setname>
+	<parent>tapper</parent>
+	<mameversion>0218</mameversion>
+	<rbf>mcr3</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R" names="Fill,-,-,-,-,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="FF 00">
+		<dip bits="2" ids="Off,On" name="Demo Sounds"></dip>
+		<dip bits="6" ids="Cocktail,Upright" name="Cabinet"></dip>
+		<dip bits="7" ids="1,2" name="Coin Meters"></dip>
+		<dip bits="8" ids="Off,On" name="Service"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>00</part>
+		</rom>
+	<rom index="0" md5="cd76c350a1480a83e1be86c93c957a02" zip="tapper.zip|sutapper.zip">
+		<part crc="87119cc4" name="epr-5791"></part>
+		<part crc="4c23ad89" name="epr-5792"></part>
+		<part crc="fecbf683" name="epr-5793"></part>
+		<part crc="5bdc1916" name="epr-5794"></part>
+		<part crc="5c1d0982" name="epr-5788.h11.ic8"></part>
+		<part crc="09e74ed8" name="epr-5787.h10.ic6"></part>
+		<part crc="c3e98284" name="epr-5786.h9.ic5"></part>
+		<part crc="ced2fd47" name="epr-5785.h7.ic4"></part>
+		<part crc="5d987c92" name="epr-5795"></part>
+		<part crc="de5700b4" name="epr-5796"></part>
+		<part crc="f10a1d05" name="epr-5797"></part>
+		<part crc="614990cd" name="epr-5798"></part>
+		<part crc="02c69432" name="epr-5799"></part>
+		<part crc="ebf1f948" name="epr-5800"></part>
+		<part crc="d70defa7" name="epr-5801"></part>
+		<part crc="d4f114b9" name="epr-5802"></part>
+		<part crc="ac1558c1" name="epr-5790"></part>
+		<part crc="fa66cab5" name="epr-5789"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

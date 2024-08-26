@@ -1,0 +1,12 @@
+####
+# Name: Yamanaka CFA BGBR (Blue) [Mirrored]
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+2,2
+11d,22a
+11d,42a

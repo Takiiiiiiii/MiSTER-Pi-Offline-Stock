@@ -1,0 +1,95 @@
+<misterromdescription>
+    <name>Air Assault (World)</name>
+    <mameversion>0245</mameversion>
+    <setname>airass</setname>
+    <year>1993</year>
+    <manufacturer>Irem</manufacturer>
+    <category>Shooter</category>
+    <rbf>IremM107</rbf>
+    <rotation>vertical</rotation>
+
+    <joystick>8-way</joystick>
+    <num_buttons>2</num_buttons>
+    <buttons default="B,A,X,Start,Select" names="Gun/Missile,Bomb,Rapid Fire,-,-,-,Start,Coin,P2 Start,Pause"></buttons>
+    <switches default="00 00 00">
+        <dip bits="0,1" ids="3,4,5,2" name="Lives"></dip>
+
+        <dip bits="5" ids="Start,Any" name="Start Button"></dip>
+        <dip bits="6" ids="Off,On" name="Demo Sounds"></dip>
+        <dip bits="7" ids="Off,On" name="Service Mode"></dip>
+        <dip bits="8" ids="Off,On" name="Flip Screen"></dip>
+
+        <dip bits="12,15" ids="1C/1C,2C/1C,3C/1C,4C/1C,5C/1C,6C/1C,1C/2C,1C/3C,1C/4C,1C/5C,1C/6C,2C/3C,3C/2C,4C/3C,2S/1C,Free Play" name="Coin Mode"></dip>
+
+        <dip bits="18,19" ids="Off,Off,Button 1, Button 3" name="Rapid Fire"></dip>
+    </switches>
+
+    <rom index="0" zip="airass.zip" md5="None" address="0x30000000">
+        <!-- board type -->
+        <part>00</part>
+        
+        <!-- maincpu -->
+        <part>00 0c 00 00</part>
+        <interleave output="16">
+            <part name="f4-a-h0-etc.h0" crc="038f2cbd" map="10" />
+            <part name="f4-a-l0-etc.l0" crc="d3eb7842" map="01" />
+        </interleave>
+        <interleave output="16">
+            <part name="f4-a-h1-ss.h1" crc="4cb1c9ae" map="10" />
+            <part name="f4-a-l1-ss.l1" crc="1ddd192d" map="01" />
+        </interleave>
+
+        <!-- gfx1 tiles -->
+        <part>01 20 00 00</part>
+        <interleave output="16">
+	        <part name="w45.c00" crc="2aab419e" map="10" />
+	        <part name="w46.c10" crc="d6e5c910" map="01" />
+        </interleave>
+
+        <!-- gfx2 sprites -->
+        <part>02 40 00 00</part>
+        <interleave output="32">
+	        <part name="w47.000" crc="72e1a253" map="0001" />
+	        <part name="w48.010" crc="1746b7f6" map="0010" />
+	        <part name="w49.020" crc="17b5caf2" map="0100" />
+	        <part name="w50.030" crc="63e4bec3" map="1000" />
+        </interleave>
+
+        <!-- soundcpu -->
+        <part>03 02 00 00</part>
+        <interleave output="16">
+	        <part name="f4-b-sh0-c.sh0" crc="31c05c0d" map="10" />
+	        <part name="f4-b-sl0-c.sl0" crc="60a0d33a" map="01" />
+        </interleave>
+
+        <!-- soundcpu key -->
+        <part>04 00 01 00</part>
+        <part>
+            ff 90 90 2c 90 90 43 88 90 13 0a bd ba 60 ea 90
+            90 90 f2 29 b3 22 90 0c a9 5f 9d 07 90 90 0b bb
+            8a 90 90 90 3a 3c 5a 38 99 90 f8 89 90 91 90 55
+            ac 40 73 90 59 90 fc 90 50 fa 90 25 90 34 47 b7
+            90 90 90 49 90 0f 8b 05 c3 a5 bf 83 86 c5 90 90
+            08 77 24 b4 90 92 90 3b 5e b6 80 0d 2e ab e7 90
+            48 90 ad c0 90 1b c6 a3 04 90 90 90 16 b0 7d 98
+            87 46 8c 90 90 fe 90 cf 90 68 84 90 d2 90 18 51
+            76 a4 36 52 fb 90 b9 90 90 b1 1c 21 e6 b5 17 27
+            3d 45 be ae 90 4a 0e e5 90 58 1f 61 f3 02 90 e8
+            90 90 90 f7 56 96 aa bc 4f 90 90 79 d0 90 2a 12
+            4e b8 90 41 90 90 d3 90 2d 33 f6 90 90 14 90 32
+            5d a8 53 26 2b 20 81 75 7f 3e 90 90 00 93 90 b2
+            57 90 a0 90 39 90 90 72 90 01 42 74 9c 1e 90 5b
+            90 f9 90 2f 85 90 eb a2 90 e2 11 90 4b 7e 90 78
+            90 90 09 a1 03 90 23 c1 8e e9 d1 7c 90 90 c7 06
+        </part>
+
+        <!-- iremg20 -->
+        <part>05 08 00 00</part>
+   		<part name="w96.da0" crc="7a493e2e" />
+
+        <!-- sprite table -->
+        <part>07 04 00 00</part>
+        <part name="f4-b-drh-.drh" crc="12001372" map="10" />
+        <part name="f4-b-drl-.drl" crc="08cb7533" map="01" />
+     </rom>
+</misterromdescription>

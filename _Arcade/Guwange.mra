@@ -1,0 +1,62 @@
+<misterromdescription>
+  <name>Guwange</name>
+  <mameversion>0226</mameversion>
+  <setname>guwange</setname>
+  <year>1999</year>
+  <manufacturer>CAVE</manufacturer>
+  <category>Shooter</category>
+  <rotation>vertical (ccw)</rotation>
+  <rbf>cave</rbf>
+
+  <!-- ROM data -->
+  <rom index="0" zip="guwange.zip" md5="none" address="0x30000000">
+    <!-- prog ROM -->
+    <interleave output="16">
+      <part name="gu-u0127.bin" crc="f86b5293" map="01" />
+      <part name="gu-u0129.bin" crc="6c0e3b93" map="10" />
+    </interleave>
+
+    <!-- EEPROM -->
+    <part name="eeprom-guwange.bin" crc="c3174959"/>
+
+    <!-- sound ROM -->
+    <part name="u0462.bin" crc="b3d75691"/>
+
+    <!-- layer 0 -->
+    <part name="u101.bin" crc="0369491f"/>
+
+    <!-- layer 1 -->
+    <part name="u10102.bin" crc="e28d6855"/>
+
+    <!-- layer 2 -->
+    <part name="u10103.bin" crc="0fe91b8e"/>
+
+    <!-- sprites -->
+    <interleave output="16">
+      <part name="u083.bin" crc="adc4b9c4" map="01" />
+      <part name="u082.bin" crc="3d75876c" map="10" />
+    </interleave>
+    <interleave output="16">
+      <part name="u086.bin" crc="188e4f81" map="01" />
+      <part name="u085.bin" crc="a7d5659e" map="10" />
+    </interleave>
+    <interleave output="16">
+      <part name="u086.bin" crc="188e4f81" map="01" />
+      <part name="u085.bin" crc="a7d5659e" map="10" />
+    </interleave>
+
+    <!-- enable C button in EEPROM -->
+    <patch offset="0x00100002">11 11</patch>
+    <patch offset="0x00100008">00 04</patch>
+  </rom>
+
+  <!-- select game -->
+  <rom index="1">
+    <part>05</part>
+  </rom>
+
+  <!-- NVRAM -->
+  <nvram index="2" size="128" />
+
+  <buttons names="B0,B1,B2,-,Start,Coin,Pause" default="A,B,X,R,L,Start" />
+</misterromdescription>

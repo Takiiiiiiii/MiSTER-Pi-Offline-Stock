@@ -1,0 +1,14 @@
+####
+# Name: Sony RGBE (Blue Green)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+4,4
+31d,42a,12a,21d
+31d,42a,12a,21d
+12a,21d,31d,42a
+12a,21d,31d,42a

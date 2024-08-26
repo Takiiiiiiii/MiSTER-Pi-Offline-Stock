@@ -1,0 +1,80 @@
+<misterromdescription>
+    <name>Turkey Shoot - The Day They Took Over</name>
+    <region>World</region>
+    <homebrew>no</homebrew>
+    <bootleg>no</bootleg>
+    <version>Prototype</version>
+    <alternative></alternative>
+    <platform>Williams 2nd Generation</platform>
+    <series></series>
+    <year>1984</year>
+    <manufacturer>Williams</manufacturer>
+    <category>Shooter - Gun</category>
+
+    <setname>tshoot</setname>
+    <parent>tshoot</parent>
+    <mameversion>0220</mameversion>
+    <rbf>TurkeyShoot</rbf>
+    <about author="darfpga" source="https://github.com/darfpga/vhdl_turkey_shoot" webpage="http://darfpga.blogspot.com/" price="free"></about>
+
+    <resolution>15kHz</resolution>
+    <rotation>horizontal</rotation>
+    <flip></flip>
+
+    <players>1</players>
+    <joystick>8-way</joystick>
+    <special_controls></special_controls>
+    <num_buttons>3</num_buttons>
+    <button_names></button_names>
+
+    <rom index="0" zip="tshoot.zip" md5="none" type="merged">
+
+        <!-- turkey_shoot_bank_b -->
+        <part crc="69ce38f8" name="rom16.ic25"/>
+        <part crc="769a4ae5" name="rom14.ic23"/>
+        <part crc="ec016c9b" name="rom13.ic21"/>
+        <part crc="98ae7afa" name="rom12.ic19"/>
+
+        <!-- turkey_shoot_bank_c -->
+        <part crc="60d5fab8" name="rom11.ic18"/>
+        <part crc="a4dd4a0e" name="rom9.ic16"/>
+        <part crc="f25505e6" name="rom7.ic14"/>
+        <part crc="94a7c0ed" name="rom5.ic12"/>
+
+        <!-- turkey_shoot_bank_d -->
+        <part crc="0f32bad8" name="rom10.ic17"/>
+        <part crc="e9b6cbf7" name="rom8.ic15"/>
+        <part crc="a49f617f" name="rom6.ic13"/>
+        <part crc="b026dc00" name="rom4.ic11"/>
+
+        <!-- turkey_shoot_graph1 -->
+        <part crc="c6e1d253" name="rom20.ic57"/>
+
+        <!-- turkey_shoot_graph2 -->
+        <part crc="9874e90f" name="rom21.ic58"/>
+
+        <!-- turkey_shoot_graph3 -->
+        <part crc="b9ce4d2a" name="rom19.ic41"/>
+
+        <!-- turkey_shoot_sound -->
+        <part crc="011a94a7" name="rom1.ic8"/>
+
+        <!-- turkey_shoot_bank_a -->
+        <part crc="4861f063" name="rom17.ic26"/>
+        <part crc="421aafa8" name="rom15.ic24"/>
+
+        <!-- turkey_shoot_prog2 -->
+        <part crc="fd982687" name="rom2.ic9"/>
+        <part crc="9617054d" name="rom3.ic10"/>
+
+        <!-- turkey_shoot_prog1 -->
+        <part crc="effc33f1" name="rom18.ic55"/>
+
+        <!-- turkey_shoot_decoder -->
+        <part crc="0ea3f7fb" name="7649.ic60"/>
+
+    </rom>
+
+    <mratimestamp>20220426014201</mratimestamp>
+
+</misterromdescription>

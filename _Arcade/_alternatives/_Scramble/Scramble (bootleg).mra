@@ -1,0 +1,73 @@
+<misterromdescription>
+	<name>Scramble</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version></version>
+	<alternative>Scramble</alternative>
+	<platform></platform>
+	<series>Scramble</series>
+	<year>1981</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Shooter - Horizontal</category>
+
+	<setname>scramblebb</setname>
+	<parent>scramble</parent>
+	<mameversion>0218</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R" names="Shoot,Bomb,-,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="FF,FC,F1">
+		<dip bits="8,9" ids="3,4,5,255(Cheat)" name="Lives"></dip>
+		<dip bits="17,18" ids="1c/1cr,1c/2cr,1c/3cr,1c/4cr" name="Coinage"></dip>
+		<dip bits="19" ids="Upright,Cocktail" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>00</part>
+		</rom>
+	<rom index="0" md5="59b021a8020c0c2919dd3965f285f6db" zip="scramble.zip|scramblebb.zip">
+		<part crc="8ba174c4" name="1"></part>
+		<part crc="43cb40a4" name="2"></part>
+		<part crc="eec265ee" name="3"></part>
+		<part crc="dd380a22" name="4"></part>
+		<part crc="92980e72" name="5"></part>
+		<part crc="9fd96374" name="6"></part>
+		<part crc="88ac07a0" name="7"></part>
+		<part crc="75232e09" name="8"></part>
+		<part crc="8ba174c4" name="1"></part>
+		<part crc="43cb40a4" name="2"></part>
+		<part crc="eec265ee" name="3"></part>
+		<part crc="dd380a22" name="4"></part>
+		<part crc="92980e72" name="5"></part>
+		<part crc="9fd96374" name="6"></part>
+		<part crc="88ac07a0" name="7"></part>
+		<part crc="75232e09" name="8"></part>
+		<part crc="bcd297f0" name="ot1.5c"></part>
+		<part crc="de7912da" name="ot2.5d"></part>
+		<part crc="ba2fa933" name="ot3.5e"></part>
+		<part crc="ba2fa933" name="ot3.5e"></part>
+		<part crc="11fd2887" name="10" repeat="4"></part>
+		<part crc="4708845b" name="9" repeat="4"></part>
+		<part crc="4e3caeab" name="c01s.6e"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

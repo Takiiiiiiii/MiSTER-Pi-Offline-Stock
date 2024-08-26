@@ -1,0 +1,76 @@
+<misterromdescription>
+	<name>Burnin' Rubber</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Data East</manufacturer>
+	<category>Racing</category>
+
+	<setname>brubber</setname>
+	<parent>brubber</parent>
+	<mameversion>0220</mameversion>
+	<rbf>burningrubber</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="80,00">
+		<dip bits="0,1"   name="Slot 1 Coinage" ids="1 C/1 Cr,1 C/2 Cr,1 C/3 Cr,2 C/1 Cr"></dip>
+		<dip bits="2,3"   name="Slot 2 Coinage" ids="1 C/1 Cr,1 C/2 Cr,1 C/3 Cr,2 C/1 Cr"></dip>
+		<!-- In original game manual there are separate cocktail switches
+		   - for control panel and screen. There's no support for this in core
+		   - so let's keep this commented out for now.
+		  -->
+		<!--
+			<dip bits="6"      name="Control Panel" ids="Cocktail,Upright"></dip>
+			<dip bits="7"      name="Screen" ids="Cocktail,Upright"></dip>
+		  -->
+		<dip bits="7"     name="Cabinet" ids="Cocktail,Upright"></dip>
+		<dip bits="8"     name="Lives" ids="3,5"></dip>
+		<dip bits="9,10"  name="Bonus" ids="Every 30k,Every 70k,20k only,30k only"></dip>
+		<dip bits="11"    name="Allow Continue" ids="No,Yes"></dip>
+		<dip bits="12"    name="Difficulty" ids="Easy,Hard"></dip>
+	</switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="c7d288bc1514495a741b17001e2400a2" zip="brubber.zip">
+		<part crc="b5279c70" name="brubber.12c"></part>
+		<part crc="b2ce51f5" name="brubber.12d"></part>
+		<part crc="b864d082" name="bnj4e.bin"></part>
+		<part crc="6c31d77a" name="bnj4f.bin"></part>
+		<part crc="5824e6fb" name="bnj4h.bin"></part>
+		<part crc="f4e9eb49" name="bnj10e.bin"></part>
+		<part crc="a9ffacb4" name="bnj10f.bin"></part>
+		<part crc="8c02f662" name="bnj6c.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<rom index="5" md5="none">
+	     	<part>
+			00 00 FF FF 00 FF 00 02 00 02 00 01 00 FF 02 00
+			00 00 00 0A 00 03 12 01
+			00 00 05 00 02 6C 01 00
+			00 00 06 40 00 01 4D 4D
+ 		</part>
+ 	</rom>
+	<nvram index="6" size="624"/>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,18 @@
+####
+# Name: Lukac & Plataniotis CFA RGRB (Red) [Mirrored]
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+2,8
+41d,22a
+41d,22a
+41d,12a
+41d,12a
+22a,41d
+22a,41d
+12a,41d
+12a,41d

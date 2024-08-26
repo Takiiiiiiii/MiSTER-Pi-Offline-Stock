@@ -1,0 +1,83 @@
+<misterromdescription>
+	<name>Journey</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Midway MCR3</platform>
+	<series></series>
+	<year>1984</year>
+	<manufacturer>Bally</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Arena</category>
+
+	<setname>journey</setname>
+	<parent>journey</parent>
+	<mameversion>0216</mameversion>
+	<rbf>mcr3</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R" names="Blast,-,-,-,-,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="FF 00">
+		<dip bits="0" ids="1,2" name="Coin Meters"></dip>
+		<dip bits="1" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="8" ids="Off,On" name="Service"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>03</part>
+		</rom>
+	<rom index="0" md5="95d0859c7922308b094486d0d624c727" type="merged|nonmerged" zip="journey.zip">
+		<part crc="f2618913" name="d2"></part>
+		<part crc="2f290d2e" name="d3"></part>
+		<part crc="cc6c0150" name="d4"></part>
+		<part crc="c3023931" name="d5"></part>
+		<part crc="5d445c99" name="d6"></part>
+		<part repeat="16384">00</part>
+		<part crc="2524a2aa" name="a"></part>
+		<part crc="b8e35814" name="b"></part>
+		<part crc="09c488cf" name="c"></part>
+		<part crc="3d627bee" name="d"></part>
+		<part crc="4ca2bb2d" name="a7"></part>
+		<part crc="4fb7925d" name="a8"></part>
+		<part crc="4ca2bb2d" name="a7"></part>
+		<part crc="4fb7925d" name="a8"></part>
+		<part crc="560c474f" name="a5"></part>
+		<part crc="b1f31583" name="a6"></part>
+		<part crc="560c474f" name="a5"></part>
+		<part crc="b1f31583" name="a6"></part>
+		<part crc="f295afda" name="a3"></part>
+		<part crc="765876a7" name="a4"></part>
+		<part crc="f295afda" name="a3"></part>
+		<part crc="765876a7" name="a4"></part>
+		<part crc="4af986f8" name="a1"></part>
+		<part crc="b30cd2a7" name="a2"></part>
+		<part crc="4af986f8" name="a1"></part>
+		<part crc="b30cd2a7" name="a2"></part>
+		<part crc="c14558de" name="g3"></part>
+		<part crc="c14558de" name="g3"></part>
+		<part crc="9104c1d0" name="g4"></part>
+		<part crc="9104c1d0" name="g4"></part>
+		</rom>
+	<rom address="0x30000000" index="2" md5="none" zip="/sound/journey.zip">
+		<part ignore_crc="" name="sepways.wav"></part>
+		</rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="2048"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

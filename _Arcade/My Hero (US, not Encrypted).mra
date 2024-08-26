@@ -1,0 +1,83 @@
+<misterromdescription>
+	<name>My Hero</name>
+	<region>USA</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>not Encrypted</version>
+	<alternative></alternative>
+	<platform>Sega System 1</platform>
+	<series></series>
+	<year>1985</year>
+	<manufacturer>Sega</manufacturer>
+	<category>Platform</category>
+
+	<setname>myhero</setname>
+	<parent>myhero</parent>
+	<mameversion>0217</mameversion>
+	<rbf>segasys1</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R,C" names="Kick 1,Kick 2,-,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,7E">
+		<dip bits="9" ids="On,Off" name="Demo Sound"></dip>
+		<dip bits="10,11" ids="Infinite,5,4,3" name="Lives"></dip>
+		<dip bits="12,13" ids="90000,70000,50000,30000" name="Extend"></dip>
+		<dip bits="14" ids="Hard,Easy" name="Difficulty"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>00</part>
+		</rom>
+	<rom index="0" md5="cde7c117b285ecfcf17814e30099eee0" type="merged|nonmerged|split" zip="myhero.zip">
+		<part crc="4daf89d4" name="epr-6963b.116"></part>
+		<part crc="c26188e5" name="epr-6964a.109"></part>
+		<part crc="3cbbaf64" name="epr-6927.96"></part>
+		<part crc="0039e1e9" name="epr-69xx.120"></part>
+		<part crc="0039e1e9" name="epr-69xx.120"></part>
+		<part crc="f19e05a1" name="epr-6921.117"></part>
+		<part crc="7988adc3" name="epr-6923.04"></part>
+		<part crc="37f77a78" name="epr-6922.110"></part>
+		<part crc="42bdc8f6" name="epr-6924.05"></part>
+		<part crc="157f0401" name="epr-6966.62"></part>
+		<part crc="bd381baa" name="epr-6960.64"></part>
+		<part crc="714f2c26" name="epr-6958.66"></part>
+		<part crc="be53ce47" name="epr-6961.61"></part>
+		<part crc="bc04e79a" name="epr-6959.63"></part>
+		<part crc="80920112" name="epr-6957.65"></part>
+		<part crc="648350b8" name="pr-5317.76"></part>
+		<part>
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+		</part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 00 00 00 00 FF 00 02 00 02 00 01 00 FF 00 00
+		00 00 D3 00 00 3C 00 49
+		00 00 C0 17 00 03 00 00
+		</part>
+		</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="63"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

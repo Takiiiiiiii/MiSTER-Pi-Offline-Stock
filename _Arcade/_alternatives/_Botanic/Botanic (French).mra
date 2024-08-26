@@ -1,0 +1,65 @@
+<misterromdescription>
+	<name>Botanic</name>
+	<region>France</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Botanic</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1984</year>
+	<manufacturer>Itisa</manufacturer>
+	<category>Maze</category>
+
+	<setname>botanicf</setname>
+	<parent>botanic</parent>
+	<mameversion>0218</mameversion>
+	<rbf>bagman</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="EB">
+		<dip bits="0,1" ids="2,5,4,3" name="Lives"></dip>
+		<dip bits="2" ids="1c/1cr,2c/1cr" name="Coinage"></dip>
+		<dip bits="3,4" ids="2,3" name="Invulnerability Fruits"></dip>
+		<dip bits="5" ids="Spanish/Fruits Off,English/Fruits On" name="Language"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>02</part>
+		</rom>
+	<rom index="0" md5="428bcade708bdd9fed461e13e81acc6f" zip="botanic.zip|botanicf.zip">
+		<part crc="cc66e6f8" name="bota_05.9e"></part>
+		<part crc="59892f41" name="bota_06.9f"></part>
+		<part crc="b7c544ef" name="bota_07.9j"></part>
+		<part crc="0afea479" name="bota_08.9k"></part>
+		<part crc="2da36120" name="bota_09.9m"></part>
+		<part crc="7ce9fbc8" name="bota_10.9n"></part>
+		<part repeat="40960">00</part>
+		<part crc="bea449a6" name="bota_02.1e"></part>
+		<part crc="a1148d89" name="bota_01.1c"></part>
+		<part crc="a5deb8ed" name="bota_04.1j"></part>
+		<part crc="70be5565" name="bota_03.1f"></part>
+		<part repeat="8192">00</part>
+		<part crc="a8a2ddd2" name="bota_3p.3p"></part>
+		<part crc="edf88f34" name="bota_3a.3a"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

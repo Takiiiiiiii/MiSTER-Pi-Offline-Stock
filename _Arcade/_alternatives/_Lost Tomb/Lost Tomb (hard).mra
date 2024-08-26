@@ -1,0 +1,65 @@
+<misterromdescription>
+	<name>Lost Tomb</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Hard</version>
+	<alternative>Lost Tomb</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Stern</manufacturer>
+	<category>Maze</category>
+
+	<setname>losttombh</setname>
+	<parent>losttomb</parent>
+	<mameversion>0218</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>1</players>
+	<joystick>8-way</joystick>
+	<special_controls>twin stick</special_controls>
+	<num_buttons>4</num_buttons>
+	<buttons default="A,B,X,Y,Start,Select,R" names="Fire Right,Fire Down,Fire Up,Fire Left,Start 1P/Bomb,Start 2P,Coin"></buttons>
+
+	<switches default="FF,FD,F3">
+		<dip bits="8,9" ids="Invulnerable,3,5,Free Play" name="Lives"></dip>
+		<dip bits="17,18" ids="1c/2cr,1c/1cr,1c/3cr,1c/4cr" name="Coinage"></dip>
+		<dip bits="19" ids="On,Off" name="Demo Sounds"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0B</part>
+		</rom>
+	<rom index="0" md5="4cf8666e963957adc78f65d787c9f58c" zip="losttomb.zip|losttombh.zip">
+		<part crc="d6176d2c" name="2c"></part>
+		<part crc="a5f55f4a" name="2e"></part>
+		<part crc="0169fa3c" name="2f"></part>
+		<part crc="e32cbf0e" name="lthard"></part>
+		<part crc="249ee040" name="2j"></part>
+		<part crc="c7d2e608" name="2l"></part>
+		<part crc="bc4bc5b1" name="2m"></part>
+		<part crc="bc4bc5b1" name="2m"></part>
+		<part crc="b899be2a" name="5c"></part>
+		<part crc="6907af31" name="5d"></part>
+		<part crc="b899be2a" name="5c"></part>
+		<part crc="6907af31" name="5d"></part>
+		<part crc="5581de5f" name="5h" repeat="4"></part>
+		<part crc="61f137e7" name="5f" repeat="4"></part>
+		<part crc="1108b816" name="ltprom"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

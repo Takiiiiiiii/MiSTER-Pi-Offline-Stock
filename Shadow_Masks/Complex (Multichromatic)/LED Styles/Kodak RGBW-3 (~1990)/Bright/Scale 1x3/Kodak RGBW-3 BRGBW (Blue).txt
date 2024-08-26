@@ -1,0 +1,16 @@
+####
+# Name: Kodak RGBW-3 BRGBW (Blue)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+4,6
+11d,71d,42a,71d
+11d,71d,42a,71d
+11d,71d,42a,71d
+22a,71d,11d,71d
+22a,71d,11d,71d
+22a,71d,11d,71d

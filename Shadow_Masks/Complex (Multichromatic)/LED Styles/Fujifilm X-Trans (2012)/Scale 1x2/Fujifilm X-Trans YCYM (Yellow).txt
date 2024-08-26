@@ -1,0 +1,16 @@
+####
+# Name: Fujifilm X-Trans YCYM (Yellow)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+3,6
+60d,32a,60d
+60d,32a,60d
+52a,60d,52a
+52a,60d,52a
+60d,32a,60d
+60d,32a,60d

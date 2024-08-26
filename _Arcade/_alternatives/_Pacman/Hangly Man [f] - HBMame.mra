@@ -1,0 +1,60 @@
+<misterromdescription>
+	<name>Hangly Man</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>Fast</version>
+	<alternative>Pac-Man</alternative>
+	<platform></platform>
+	<series></series>
+	<year>2000</year>
+	<manufacturer>Nittoh</manufacturer>
+	<category>Maze</category>
+
+	<setname>fasthang</setname>
+	<parent>puckman</parent>
+	<mameversion>0217</mameversion>
+	<rbf>pacman</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="c50de72d183f4b3ec49dcc7b36bb2424" zip="/hbmame/puckman.zip">
+		<part crc="5fe8610a" name="fasthang/hangly.6e"></part>
+		<part crc="1b1014bc" name="fasthang/fasthang.6f"></part>
+		<part crc="4e7ef99f" name="fasthang/hangly.6h"></part>
+		<part crc="7f4147e6" name="fasthang/hangly.6j"></part>
+		<part crc="5fe8610a" name="fasthang/hangly.6e"></part>
+		<part crc="1b1014bc" name="fasthang/fasthang.6f"></part>
+		<part crc="4e7ef99f" name="fasthang/hangly.6h"></part>
+		<part crc="7f4147e6" name="fasthang/hangly.6j"></part>
+		<part crc="0c944964" name="chtpac/pacman.5e"></part>
+		<part crc="958fedf9" name="chtpac/pacman.5f"></part>
+		<part crc="958fedf9" name="chtpac/pacman.5f"></part>
+		<part crc="958fedf9" name="chtpac/pacman.5f"></part>
+		<part crc="a9cc86bf" name="82s126.1m"></part>
+		<part crc="3eb3a8e4" name="82s126.4a"></part>
+		<part crc="77245b66" name="82s126.3m"></part>
+		<part crc="2fc650bd" name="82s123.7f"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

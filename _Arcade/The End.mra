@@ -1,0 +1,79 @@
+<misterromdescription>
+	<name>The End</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>theend</setname>
+	<parent>theend</parent>
+	<mameversion>0220</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R,L" names="Fire,-,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FC,F1">
+		<dip bits="8,9" ids="3,4,5,256(Cheat)" name="Lives"></dip>
+		<dip bits="17,18" ids="1c/1cr,2c/1cr,3c/1cr,1c/2cr" name="Coinage"></dip>
+		<dip bits="19" ids="Upright,Cocktail" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0C</part>
+		</rom>
+	<rom index="0" md5="60adfc6d038213be60df5c8597a99373" zip="theend.zip">
+		<part crc="93e555ba" name="ic13_1t.bin"></part>
+		<part crc="2de7ad27" name="ic14_2t.bin"></part>
+		<part crc="035f750b" name="ic15_3t.bin"></part>
+		<part crc="61286b5c" name="ic16_4t.bin"></part>
+		<part crc="434a8f68" name="ic17_5t.bin"></part>
+		<part crc="dc4cc786" name="ic18_6t.bin"></part>
+		<part crc="dc4cc786" name="ic18_6t.bin"></part>
+		<part crc="dc4cc786" name="ic18_6t.bin"></part>
+		<part crc="93e555ba" name="ic13_1t.bin"></part>
+		<part crc="2de7ad27" name="ic14_2t.bin"></part>
+		<part crc="035f750b" name="ic15_3t.bin"></part>
+		<part crc="61286b5c" name="ic16_4t.bin"></part>
+		<part crc="434a8f68" name="ic17_5t.bin"></part>
+		<part crc="dc4cc786" name="ic18_6t.bin"></part>
+		<part crc="dc4cc786" name="ic18_6t.bin"></part>
+		<part crc="dc4cc786" name="ic18_6t.bin"></part>
+		<part crc="7a141f29" name="ic56_1.bin"></part>
+		<part crc="218497c1" name="ic55_2.bin"></part>
+		<part crc="7a141f29" name="ic56_1.bin"></part>
+		<part crc="218497c1" name="ic55_2.bin"></part>
+		<part crc="4a48c999" name="ic31_1c.bin" repeat="4"></part>
+		<part crc="68ccf7bf" name="ic30_2c.bin" repeat="4"></part>
+		<part crc="24652bc4" name="6331-1j.86"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 07 FF FF 00 FF 00 02 00 02 00 01 00 FF 02 00
+		00 00 43 C0 00 0F 00 00
+		00 00 40 A8 00 03 00 00
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="18"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

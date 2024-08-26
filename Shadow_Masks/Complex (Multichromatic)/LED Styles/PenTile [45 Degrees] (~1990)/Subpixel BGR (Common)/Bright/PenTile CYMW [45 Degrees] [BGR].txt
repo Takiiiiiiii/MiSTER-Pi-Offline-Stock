@@ -1,0 +1,15 @@
+####
+# Name: PenTile CYMW [45 Degrees]
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: BGR
+####
+
+Resolution=0
+v2
+4,4
+72a,32a,62a,52a
+52a,72a,32a,62a
+62a,52a,72a,32a
+32a,62a,52a,72a

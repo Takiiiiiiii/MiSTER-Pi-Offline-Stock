@@ -1,0 +1,50 @@
+<misterromdescription>
+	<name>Asteroids Deluxe</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Asteroids Deluxe</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>astdelux4</setname>
+	<parent>astdelux</parent>
+	<mameversion>0217</mameversion>
+	<rbf>asteroidsdeluxe</rbf>
+	<about></about>
+
+	<resolution>31kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>3</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="7d270b653ed6549b4148fa42e4ff3d2e" zip="/hbmame/asteroid.zip">
+		<part crc="cbcfba4f" name="astdelux4/036430.02"></part>
+		<part crc="3249e623" name="astdelux4/036431.02"></part>
+		<part crc="6d720c41" name="astdelux4/036432.02"></part>
+		<part crc="0dcc0be6" name="astdelux4/036433.03"></part>
+		<part crc="5c0ca7a6" name="astdelux4/036800.02"></part>
+		<part crc="7d511572" name="astdelux4/036799.01"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

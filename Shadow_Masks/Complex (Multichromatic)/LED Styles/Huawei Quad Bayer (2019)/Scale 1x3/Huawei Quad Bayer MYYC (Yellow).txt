@@ -1,0 +1,23 @@
+####
+# Name: Huawei Quad Bayer MYYC (Yellow)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: RGB
+####
+
+Resolution=0
+v2
+8,12
+60e,61d,51d,52a,31d,32a,60e,61d
+61d,60e,52a,51d,32a,31d,61d,60e
+60e,61d,51d,52a,31d,32a,60e,61d
+61d,60e,52a,51d,32a,31d,61d,60e
+60e,61d,51d,52a,31d,32a,60e,61d
+61d,60e,52a,51d,32a,31d,61d,60e
+31d,32a,60e,61d,60e,61d,51d,52a
+32a,31d,61d,60e,61d,60e,52a,51d
+31d,32a,60e,61d,60e,61d,51d,52a
+32a,31d,61d,60e,61d,60e,52a,51d
+31d,32a,60e,61d,60e,61d,51d,52a
+32a,31d,61d,60e,61d,60e,52a,51d

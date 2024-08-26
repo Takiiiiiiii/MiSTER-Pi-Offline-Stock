@@ -1,0 +1,73 @@
+<misterromdescription>
+	<name>Mars</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Artic</manufacturer>
+	<category>Shooter - Horizontal</category>
+
+	<setname>mars</setname>
+	<parent>mars</parent>
+	<mameversion>0217</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls>twin stick</special_controls>
+	<num_buttons>4</num_buttons>
+	<buttons default="A,B,X,Y,Start,Select,R,L" names="R Right,R Down,R Up,R Left,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FD,F9,FF">
+		<dip bits="9" ids="1c/1cr,2c/1cr" name="Coinage"></dip>
+		<dip bits="17" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="19" ids="255(Cheat),3" name="Lives"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0D</part>
+		</rom>
+	<rom index="0" md5="34264a2b1bc3e329f54f28a862386e40" type="merged|nonmerged" zip="mars.zip">
+		<part crc="2f88892c" name="u26.3"></part>
+		<part crc="9e6bcbf7" name="u56.4"></part>
+		<part crc="df496e6e" name="u69.5"></part>
+		<part crc="75f274bb" name="u98.6"></part>
+		<part crc="497fd8d0" name="u114.7"></part>
+		<part crc="3d4cd59f" name="u133.8"></part>
+		<part crc="497fd8d0" name="u114.7"></part>
+		<part crc="3d4cd59f" name="u133.8"></part>
+		<part crc="2f88892c" name="u26.3"></part>
+		<part crc="9e6bcbf7" name="u56.4"></part>
+		<part crc="df496e6e" name="u69.5"></part>
+		<part crc="75f274bb" name="u98.6"></part>
+		<part crc="497fd8d0" name="u114.7"></part>
+		<part crc="3d4cd59f" name="u133.8"></part>
+		<part crc="497fd8d0" name="u114.7"></part>
+		<part crc="3d4cd59f" name="u133.8"></part>
+		<part crc="bb5968b9" name="u39.9"></part>
+		<part crc="75fd7720" name="u51.10"></part>
+		<part crc="72a492da" name="u78.11"></part>
+		<part crc="72a492da" name="u78.11"></part>
+		<part crc="c5dc627f" name="u101.2" repeat="4"></part>
+		<part crc="279789d0" name="u72.1" repeat="4"></part>
+		<part crc="4e3caeab" name="c01s.6e"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

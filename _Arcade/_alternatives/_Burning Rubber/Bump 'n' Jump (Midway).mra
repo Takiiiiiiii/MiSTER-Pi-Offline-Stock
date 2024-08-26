@@ -1,0 +1,53 @@
+<misterromdescription>
+	<name>Bump 'n' Jump</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Midway</version>
+	<alternative>Burning Rubber</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Data East</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Racing</category>
+
+	<setname>bnjm</setname>
+	<parent>bnj</parent>
+	<mameversion>0218</mameversion>
+	<rbf>burningrubber</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="fabac565b5d9ae3a99f9988fea766ea1" zip="brubber.zip|bnjm.zip">
+		<part crc="fb3a2cdd" name="bnj12c.bin"></part>
+		<part crc="b88bc99e" name="bnj12d.bin"></part>
+		<part crc="b864d082" name="bnj4e.bin"></part>
+		<part crc="6c31d77a" name="bnj4f.bin"></part>
+		<part crc="5824e6fb" name="bnj4h.bin"></part>
+		<part crc="f4e9eb49" name="bnj10e.bin"></part>
+		<part crc="a9ffacb4" name="bnj10f.bin"></part>
+		<part crc="8c02f662" name="bnj6c.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

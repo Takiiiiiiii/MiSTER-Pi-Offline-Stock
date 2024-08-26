@@ -1,0 +1,65 @@
+<misterromdescription>
+	<name>Rampage</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Rev 2, 860804</version>
+	<alternative>Rampage</alternative>
+	<platform>Midway MCR3</platform>
+	<series></series>
+	<year>1986</year>
+	<manufacturer>Bally</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>rampage2</setname>
+	<parent>rampage</parent>
+	<mameversion>0218</mameversion>
+	<rbf>mcr3mono</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>3</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start" names="Punch,Jump,-,-,-,Coin"></buttons>
+
+	<switches default="FF,00">
+		<dip bits="0,1" ids="Free Play,Hard,Easy,Normal" name="Difficulty"></dip>
+		<dip bits="2" ids="Lose,Keep" name="Scor Opt"></dip>
+		<dip bits="3" ids="2c/1cr,1c/1cr" name="Coinage"></dip>
+		<dip bits="7" ids="On,Off" name="Rack Advance (cheat)"></dip>
+		<dip bits="8" ids="Off,On" name="Service"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>00</part>
+		</rom>
+	<rom index="0" md5="c222bf41f8048dabf6272a5125ae87da" zip="rampage.zip|rampage2.zip">
+		<part crc="3f1d0293" name="pro-0_3b_rev_2_8-4-86.3b"></part>
+		<part crc="58523d75" name="pro-1_5b_rev_2_8-4-86.5b"></part>
+		<part crc="0974be5d" name="fg-0_8e_6-30-86.8e"></part>
+		<part crc="8728532b" name="fg-1_6e_6-30-86.6e"></part>
+		<part crc="9489f714" name="fg-2_5e_6-30-86.5e"></part>
+		<part crc="81e1de40" name="fg-3_4e_6-30-86.4e"></part>
+		<part crc="c0d8b7a5" name="bg-0_u15_7-23-86.15a" repeat="2"></part>
+		<part crc="2f6e3aa1" name="bg-1_u14_7-23-86.14b" repeat="2"></part>
+		<part crc="e92c596b" name="u-17_rev.2_8-14-86.u17"></part>
+		<part crc="6b8bf5e1" name="u-18_rev.2_8-14-86.u18"></part>
+		<part crc="cffd7fa5" name="u-7_rev.2_8-14-86.u7"></part>
+		<part crc="11f787e4" name="u-8_rev.2_8-14-86.u8"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

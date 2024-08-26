@@ -1,0 +1,69 @@
+<misterromdescription>
+	<name>Crazy Kong</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Kyoei</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series>Donkey Kong</series>
+	<year>1981</year>
+	<manufacturer>Falcon</manufacturer>
+	<manufacturer>Kyoei</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>ckong</setname>
+	<parent>ckong</parent>
+	<mameversion>0224</mameversion>
+	<rbf>crazykong</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R" names="Jump,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="97793b507edf1529355e900a01dd0e5a" type="merged|nonmerged|split" zip="ckong.zip">
+		<!-- maincpu -->
+		<part crc="2171cac3" name="falcon7"></part>
+		<part crc="88b83ff7" name="falcon8"></part>
+		<part crc="cff2af47" name="falcon9"></part>
+		<part crc="6b2ecf23" name="falcon10"></part>
+		<part crc="327dcadf" name="falcon11"></part>
+		<part repeat="45056">00</part>
+		<!-- gfx1 -->
+		<part crc="a8916dc8" name="falcon6"></part>
+		<part crc="cd3b5dde" name="falcon5"></part>
+		<part crc="b62a0367" name="falcon4"></part>
+		<part crc="61122c5e" name="falcon3"></part>
+		<!-- gfx2 -->
+		<part crc="f67c80f1" name="falcon2"></part>
+		<part crc="80eb517d" name="falcon1"></part>
+		<part crc="f67c80f1" name="falcon2"></part>
+		<part crc="80eb517d" name="falcon1"></part>
+		<!-- cclimber_audio:samples -->
+		<part crc="5f0bcdfb" name="falcon13"></part>
+		<part crc="9003ffbd" name="falcon12"></part>
+		<!-- proms -->
+		<part crc="751c3325" name="ck6v.bin"></part>
+		<part crc="ab1940fa" name="ck6u.bin"></part>
+		<part crc="b4e827a5" name="ck6t.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

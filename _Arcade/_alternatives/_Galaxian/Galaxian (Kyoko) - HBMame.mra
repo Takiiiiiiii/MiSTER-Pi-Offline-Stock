@@ -1,0 +1,65 @@
+<misterromdescription>
+	<name>Galaxian</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>Kyoko</version>
+	<alternative>Galaxian</alternative>
+	<platform></platform>
+	<series>Galaxian</series>
+	<year>1979</year>
+	<manufacturer>Namco</manufacturer>
+	<manufacturer>Kyoko</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>galaxkyo</setname>
+	<parent>galaxian</parent>
+	<mameversion>0217</mameversion>
+	<rbf>galaxian</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="1F,1F,00">
+		<dip bits="7" ids="Off,On" name="Service"></dip>
+		<dip bits="6" ids="Off,On" name="Test"></dip>
+		<dip bits="5" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="14,15" ids="1c/1cr,1c/2cr,2c/1cr,Free Play" name="Coinage" values="0,2,1,3"></dip>
+		<dip bits="16,17" ids="None,4000,5000,7000" name="Bonus Life After"></dip>
+		<dip bits="18" ids="3,5" name="Lives"></dip>
+		</switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="94c3536a64b1e20d73d0b89ac1e2aee6" zip="/hbmame/galnamco.zip">
+		<part crc="acfde501" name="galaxkyo/galxk.u"></part>
+		<part crc="65cf3c77" name="galaxkyo/galxk.v"></part>
+		<part crc="9eef9ae6" name="galaxkyo/galxk.w"></part>
+		<part crc="56a5ddd1" name="galaxkyo/galxk.y"></part>
+		<part crc="f4bc7262" name="galaxkyo/galxk.z"></part>
+		<part crc="f4bc7262" name="galaxkyo/galxk.z"></part>
+		<part crc="f4bc7262" name="galaxkyo/galxk.z"></part>
+		<part crc="f4bc7262" name="galaxkyo/galxk.z"></part>
+		<part crc="66a4335d" name="galaxkyo/galxk.1h"></part>
+		<part crc="66a4335d" name="galaxkyo/galxk.1h"></part>
+		<part crc="2160265b" name="galaxkyo/galxk.1k"></part>
+		<part crc="2160265b" name="galaxkyo/galxk.1k"></part>
+		<part crc="c3ac9467" name="6l.bpr"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

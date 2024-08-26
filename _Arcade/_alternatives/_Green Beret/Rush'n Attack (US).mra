@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Rush'n Attack</name>
+	<region>USA</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Green Beret</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1985</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Run 'n' Gun - Horizontal</category>
+
+	<setname>rushatck</setname>
+	<parent>rushatck</parent>
+	<mameversion>0218</mameversion>
+	<rbf>rshnatk</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-RushnAttack_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="77c3e9fb3763204f8e118a7442991c6e" zip="gberet.zip|rushatck.zip">
+		<part crc="4d276b52" name="577h03.10c"></part>
+		<part crc="b5802806" name="577h02.8c"></part>
+		<part crc="da7c8f3d" name="577h01.7c"></part>
+		<part crc="da7c8f3d" name="577h01.7c"></part>
+		<part crc="0f1cb0ca" name="577l06.5e"></part>
+		<part crc="9d028e8f" name="577h05.4e"></part>
+		<part crc="883933a4" name="577l08.4f"></part>
+		<part crc="ccecda4c" name="577l04.3e"></part>
+		<part crc="03f9815f" name="577h07.3f"></part>
+		<part crc="e9de1e53" name="577h10.5f"></part>
+		<part crc="2a1a992b" name="577h11.6f"></part>
+		<part crc="c15e7c80" name="577h09.2f"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

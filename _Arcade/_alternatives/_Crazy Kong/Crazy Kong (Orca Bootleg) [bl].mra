@@ -1,0 +1,72 @@
+<misterromdescription>
+	<name>Crazy Kong</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Orca Bootleg</version>
+	<alternative>Crazy Kong</alternative>
+	<platform></platform>
+	<series>Donkey Kong</series>
+	<year>1981</year>
+	<manufacturer>Falcon</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>ckongo</setname>
+	<parent>ckong</parent>
+	<mameversion>0223</mameversion>
+	<rbf>crazykong</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R" names="Jump,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="b38340a70f5bc48a41731e85aecee15e" type="merged|nonmerged|split" zip="ckong.zip|ckongo.zip|bigkong.zip">
+		<!-- maincpu -->
+		<part crc="8bfb4623" name="o55a-1"></part>
+		<part crc="9ae8089b" name="o55a-2"></part>
+		<part crc="e82b33c8" name="o55a-3"></part>
+		<part crc="f038f941" name="o55a-4"></part>
+		<part crc="5182db06" name="o55a-5"></part>
+		<part repeat="45056">00</part>
+		<!-- gfx1 -->
+		<part crc="cae9e2bf" length="2048" name="o50b-1" offset="0"></part>
+		<part crc="fba82114" length="2048" name="o50b-2" offset="0"></part>
+		<part crc="cae9e2bf" length="2048" name="o50b-1" offset="2048"></part>
+		<part crc="fba82114" length="2048" name="o50b-2" offset="2048"></part>
+		<part crc="1714764b" length="2048" name="o50b-3" offset="0"></part>
+		<part crc="b7008b57" length="2048" name="o50b-4" offset="0"></part>
+		<part crc="1714764b" length="2048" name="o50b-3" offset="2048"></part>
+		<part crc="b7008b57" length="2048" name="o50b-4" offset="2048"></part>
+		<!-- gfx2 -->
+		<part crc="d1352c31" name="c11-02.bin"></part>
+		<part crc="a7a2fdbd" name="a11-01.bin"></part>
+		<part crc="d1352c31" name="c11-02.bin"></part>
+		<part crc="a7a2fdbd" name="a11-01.bin"></part>
+		<!-- cclimber_audio:samples -->
+		<part crc="5f0bcdfb" name="cc13j.bin"></part>
+		<part crc="9003ffbd" name="cc12j.bin"></part>
+		<!-- proms -->
+		<part crc="b3fc1505" name="prom.v6"></part>
+		<part crc="26aada9e" name="prom.u6"></part>
+		<part crc="676b3166" name="prom.t6"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

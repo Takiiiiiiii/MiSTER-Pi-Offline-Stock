@@ -1,0 +1,174 @@
+<misterromdescription>
+	<name>The Battle-Road</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Irem M62</platform>
+	<series></series>
+	<year>1984</year>
+	<manufacturer>Irem</manufacturer>
+	<category>Shooter - Vertical</category>
+
+	<setname>battroad</setname>
+	<parent>battroad</parent>
+	<mameversion>0221</mameversion>
+	<rbf>iremm62</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>broken</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R,L" names="Fire Forward,Fire Right,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FD">
+		<dip bits="0,1" name="Fuel Decrease" ids="Fastest,Fast,Medium,Slow"></dip>
+		<dip bits="2" name="Difficulty" ids="Hard,Easy"></dip>
+		<dip bits="3" name="Unknown" ids="On,Off"></dip>
+        <dip bits="4,7" name="Coinage" ids="Free Play,1C/1C" values="16,15"></dip>
+		<dip bits="8" name="Flip Screen" ids="On,Off"></dip>
+		<dip bits="9" name="Cabinet" ids="Upright,Cocktail"></dip>
+		<dip bits="10" name="Coin Mode" ids="Mode 2,Mode 1"></dip>
+		<dip bits="11" name="Unknown" ids="On,Off"></dip>
+		<dip bits="12" name="Stop Mode (Cheat)" ids="On,Off"></dip>
+		<dip bits="13" name="Unknown" ids="On,Off"></dip>
+		<dip bits="14" name="Invulnerability (Cheat)" ids="On,Off"></dip>
+		<dip bits="15" name="Service Mode" ids="On,Off"></dip>
+	</switches>
+
+	<rom index="1">
+		<part>06</part>
+	</rom>
+	<rom index="0" zip="battroad.zip" md5="c5379551c45c24ad7028efd60801cdf7">
+		<part crc="9bf14768" name="br-a-4e.b"/>
+		<part crc="39ca1627" name="br-a-4d.b"/>
+		<part crc="1865bb22" name="br-a-4b.b"/>
+		<part crc="65b61c21" name="br-a-4a"/>
+		<part repeat="0x8000">FF</part>
+		<part crc="2e1eca52" name="br-c-7c"/>
+		<part crc="f2178578" name="br-c-7l"/>
+		<part crc="3aa9fa30" name="br-c-7d"/>
+		<part crc="0b31b90b" name="br-c-7b"/>
+		<part crc="ec3b0080" name="br-c-7a"/>
+		<part crc="edc75f7f" name="br-c-7k"/>
+		<part crc="edc75f7f" name="br-c-7k"/>
+		<part repeat="0x2000">FF</part>
+		<part repeat="0xa000">FF</part>
+		<part crc="a7140871" name="br-a-3e"/>
+		<part crc="1bb51b30" name="br-a-3f"/>
+		<part crc="afb3e083" name="br-a-3h"/>
+		<interleave output="32">
+			<part crc="ca50841c" name="br-c-6h" map="0001"/>
+			<part crc="7d53163a" name="br-c-6n" map="0010"/>
+			<part crc="5951e12a" name="br-c-6k" map="0100"/>
+			<part crc="5951e12a" name="br-c-6k" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="ca50841c" name="br-c-6h" map="0001"/>
+			<part crc="7d53163a" name="br-c-6n" map="0010"/>
+			<part crc="5951e12a" name="br-c-6k" map="0100"/>
+			<part crc="5951e12a" name="br-c-6k" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="ca50841c" name="br-c-6h" map="0001"/>
+			<part crc="7d53163a" name="br-c-6n" map="0010"/>
+			<part crc="5951e12a" name="br-c-6k" map="0100"/>
+			<part crc="5951e12a" name="br-c-6k" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="ca50841c" name="br-c-6h" map="0001"/>
+			<part crc="7d53163a" name="br-c-6n" map="0010"/>
+			<part crc="5951e12a" name="br-c-6k" map="0100"/>
+			<part crc="5951e12a" name="br-c-6k" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="d3c5e85b" name="br-b-4k.a" map="0001"/>
+			<part crc="2668dbef" name="br-b-3n.a" map="0010"/>
+			<part crc="0b3193bf" name="br-b-4c.a" map="0100"/>
+			<part crc="0b3193bf" name="br-b-4c.a" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="4354232a" name="br-b-4f.a" map="0001"/>
+			<part crc="c719a324" name="br-b-4n.a" map="0010"/>
+			<part crc="3662e8fb" name="br-b-4e.a" map="0100"/>
+			<part crc="3662e8fb" name="br-b-4e.a" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="d3c5e85b" name="br-b-4k.a" map="0001"/>
+			<part crc="2668dbef" name="br-b-3n.a" map="0010"/>
+			<part crc="0b3193bf" name="br-b-4c.a" map="0100"/>
+			<part crc="0b3193bf" name="br-b-4c.a" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="4354232a" name="br-b-4f.a" map="0001"/>
+			<part crc="c719a324" name="br-b-4n.a" map="0010"/>
+			<part crc="3662e8fb" name="br-b-4e.a" map="0100"/>
+			<part crc="3662e8fb" name="br-b-4e.a" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="d3c5e85b" name="br-b-4k.a" map="0001"/>
+			<part crc="2668dbef" name="br-b-3n.a" map="0010"/>
+			<part crc="0b3193bf" name="br-b-4c.a" map="0100"/>
+			<part crc="0b3193bf" name="br-b-4c.a" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="4354232a" name="br-b-4f.a" map="0001"/>
+			<part crc="c719a324" name="br-b-4n.a" map="0010"/>
+			<part crc="3662e8fb" name="br-b-4e.a" map="0100"/>
+			<part crc="3662e8fb" name="br-b-4e.a" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="d3c5e85b" name="br-b-4k.a" map="0001"/>
+			<part crc="2668dbef" name="br-b-3n.a" map="0010"/>
+			<part crc="0b3193bf" name="br-b-4c.a" map="0100"/>
+			<part crc="0b3193bf" name="br-b-4c.a" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="4354232a" name="br-b-4f.a" map="0001"/>
+			<part crc="c719a324" name="br-b-4n.a" map="0010"/>
+			<part crc="3662e8fb" name="br-b-4e.a" map="0100"/>
+			<part crc="3662e8fb" name="br-b-4e.a" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="3d78b653" name="br-c-1c" map="0001"/>
+			<part crc="8088911e" name="br-c-1b" map="0010"/>
+			<part crc="3d78b653" name="br-c-1c" map="0100"/>
+			<part crc="8088911e" name="br-c-1b" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="3d78b653" name="br-c-1c" map="0001"/>
+			<part crc="8088911e" name="br-c-1b" map="0010"/>
+			<part crc="3d78b653" name="br-c-1c" map="0100"/>
+			<part crc="8088911e" name="br-c-1b" map="1000"/>
+		</interleave>
+		<part crc="3bd30c7d" name="br-b-1m"/>
+		<part crc="b7f3dc3b" name="br-b-1n"/>
+		<part crc="5271c7d8" name="br-b-1l"/>
+		<part crc="aceaed79" name="br-c-3j"/>
+		<part crc="7cf6f380" name="br-c-3l"/>
+		<part crc="d90e4a54" name="br-c-3k"/>
+		<part crc="78eb5d77" name="br-c-1j"/>
+		<part repeat="0x2e0">FF</part>
+		<part crc="ce746937" name="br-b-5p"/>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 00 FF FF 00 3F 00 02 00 02 00 01 00 FF 02 00
+		00 00 ED 50 00 B0 00 08
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="176"/>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

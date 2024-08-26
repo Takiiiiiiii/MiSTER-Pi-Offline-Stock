@@ -1,0 +1,9 @@
+####
+# Name: MG Stripe (Magenta Green)
+# Author: TrashUncle
+# Type: CRT
+# Genre: Realistic
+####
+v2
+2,1
+53d,23d

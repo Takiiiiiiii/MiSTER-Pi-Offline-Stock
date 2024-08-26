@@ -1,0 +1,46 @@
+<misterromdescription>
+	<name>Tetris</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Cocktail, Set 2</version>
+	<alternative>Tetris</alternative>
+	<platform></platform>
+	<series>Tetris</series>
+	<year>1989</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Puzzle</category>
+
+	<setname>atetrisc2</setname>
+	<parent>atetris</parent>
+	<mameversion>0218</mameversion>
+	<rbf>ataritetris</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-ATetris_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (simultaneous)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="3363856fcc8e4fcbaaf5bceab01920e2" zip="atetris.zip|atetrisc2.zip">
+		<part crc="1bd28902" name="136066-1102.45f"></part>
+		<part crc="ec2a7f93" name="136066-1103.35a"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

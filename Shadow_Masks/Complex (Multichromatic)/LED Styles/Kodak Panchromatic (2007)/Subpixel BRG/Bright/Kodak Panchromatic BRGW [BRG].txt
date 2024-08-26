@@ -1,0 +1,13 @@
+####
+# Name: Kodak Panchromatic BRGW
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: BRG
+####
+
+Resolution=0
+v2
+2,2
+72a,12a
+42a,22a

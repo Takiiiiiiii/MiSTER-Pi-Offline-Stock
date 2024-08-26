@@ -1,0 +1,66 @@
+<misterromdescription>
+	<name>Armored Car</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Set 2</version>
+	<alternative>Armored Car</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Stern</manufacturer>
+	<category>Maze</category>
+
+	<setname>armorcar2</setname>
+	<parent>armorcar</parent>
+	<mameversion>0218</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R" names="Shoot,Bomb,-,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="FF,FD,FB">
+		<dip bits="8" ids="5,3" name="Lives"></dip>
+		<dip bits="9" ids="On,Off" name="Demo Sounds"></dip>
+		<dip bits="17,18" ids="1c/2cr,1c/1cr,1c/3cr,1c/4cr" name="Coinage"></dip>
+		<dip bits="19" ids="Cocktail,Upright" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>05</part>
+		</rom>
+	<rom index="0" md5="66553a0b5ab86aea48ecc75f0ba26037" zip="armorcar.zip|armorcar2.zip">
+		<part crc="e393bd2f" name="2c"></part>
+		<part crc="b7d443af" name="2e"></part>
+		<part crc="e67380a4" name="2g"></part>
+		<part crc="72af7b37" name="2h"></part>
+		<part crc="e6b0dd7f" name="2j"></part>
+		<part crc="e393bd2f" name="2c"></part>
+		<part crc="b7d443af" name="2e"></part>
+		<part crc="e67380a4" name="2g"></part>
+		<part crc="54ee7753" name="sound.5c"></part>
+		<part crc="5218fec0" name="sound.5d"></part>
+		<part crc="54ee7753" name="sound.5c"></part>
+		<part crc="5218fec0" name="sound.5d"></part>
+		<part crc="85bdb113" name="cpu.5h" repeat="4"></part>
+		<part crc="8a3da4d1" name="cpu.5f" repeat="4"></part>
+		<part crc="9b87f90d" name="82s123.6e"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

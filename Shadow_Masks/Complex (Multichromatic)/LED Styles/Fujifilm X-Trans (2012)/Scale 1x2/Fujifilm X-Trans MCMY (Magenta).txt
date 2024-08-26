@@ -1,0 +1,16 @@
+####
+# Name: Fujifilm X-Trans MCMY (Magenta)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+3,6
+50d,32a,50d
+50d,32a,50d
+62a,50d,62a
+62a,50d,62a
+50d,32a,50d
+50d,32a,50d

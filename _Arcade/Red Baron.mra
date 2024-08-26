@@ -1,0 +1,37 @@
+<misterromdescription>
+	<name>Red Baron</name>
+	<mameversion>0226</mameversion>
+	<setname>redbarona</setname>
+	<mratimestamp>20201224150402</mratimestamp>
+	<year>1980</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Army / Airforce 3D</category>
+	<rbf>BattleZone</rbf>
+	<mameinfo parent="redbaron" cpp="bzone" input="redbaron"/>
+	<display type="vector" rotate="0"/>
+	<switches default="FD,E7">
+		<dip bits="0,7" name="Coinage" ids="Normal"></dip>
+		<dip bits="8,9" name="Language" ids="German,French,Spanish,English"></dip>
+		<dip bits="10,11" name="Bonus Life" ids="None,6k 20k 50k,4k 15k 40k,2k 10k 30k"></dip>
+		<dip bits="12,13" name="Lives" ids="5,4,3,2"></dip>
+		<dip bits="14" name="One Play Minimum" ids="On,Off"></dip>
+		<dip bits="15" name="Self Adjust Diff" ids="On,Off"></dip>
+	</switches>
+	<buttons names="fire,Start 1P,Start 2P,Coin" default="A,Start,Select,R"/>
+	<rom index="0" zip="redbaron.zip|redbarona.zip" md5="none">
+		<part repeat="2048">0</part>
+		<part crc="b9486a6a" name="037001-01e.e1"/>
+		<part crc="69bed808" name="037000-01e.fh1"/>
+		<part crc="48d49819" name="036999-01e.j1"/>
+		<part crc="d1104dd7" name="036998-01e.k1"/>
+		<part crc="7434acb4" name="036997-01e.lm1"/>
+		<part crc="c0e7589e" name="036996-01e.n1"/>
+		<part crc="ad81d1da" name="036995-01e.p1"/>
+		<part crc="9fcffea0" name="037006-01e.bc3"/>
+		<part crc="60250ede" name="037007-01e.a3"/>
+		<part crc="8b04f921" name="036174-01.a1"/>
+	</rom>
+	<rom index="1">
+		<part>2</part>
+	</rom>
+</misterromdescription>

@@ -1,0 +1,67 @@
+<misterromdescription>
+	<name>Bagman Turbo</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>Stern, Set 1, Cheat</version>
+	<alternative>Bagman</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1991</year>
+	<manufacturer>Valadon Automation</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>bagturbo</setname>
+	<parent>bagman</parent>
+	<mameversion>0217</mameversion>
+	<rbf>bagman</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="F6">
+		<dip bits="0,1" ids="5,4,3,2" name="Lives"></dip>
+		<dip bits="2" ids="2c/1cr,1c/1cr" name="Coinage"></dip>
+		<dip bits="3,4" ids="Hardest,Hard,Medium,Easy" name="Difficulty"></dip>
+		<dip bits="5" ids="French,English" name="Language"></dip>
+		<dip bits="6" ids="40000,30000" name="Bonus"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>00</part>
+		</rom>
+	<rom index="0" md5="ea29ad68d129269625c79765718542ae" zip="/hbmame/bagman.zip">
+		<part crc="c070635c" name="bagturbo/bagt_a4_9e.bin"></part>
+		<part crc="2ddf6bb9" name="bagturbo/a5-9f"></part>
+		<part crc="b2da8b77" name="bagturbo/a4_9j.bin"></part>
+		<part crc="f91d617b" name="bagturbo/a5-9k"></part>
+		<part crc="8cb278fe" name="bagturbo/bagt_a4_9m.bin"></part>
+		<part crc="68e4b64d" name="bagturbo/a5-9n"></part>
+		<part repeat="40960">00</part>
+		<part crc="f217ac09" name="bagturbo/a2_1e.bin"></part>
+		<part crc="f3e11bd7" name="bagturbo/a2_1c.bin"></part>
+		<part crc="c680ef04" name="j1_b04.bin"></part>
+		<part crc="d0f7105b" name="bagturbo/a2_1f.bin"></part>
+		<part crc="2e0057ff" name="r9_b11.bin"></part>
+		<part crc="b2120edd" name="t9_b12.bin"></part>
+		<part crc="2a855523" name="p3.bin"></part>
+		<part crc="ae6f1019" name="r3.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,81 @@
+<misterromdescription>
+	<name>Athena</name>
+	<mameversion>0193</mameversion>
+	<setname>athena</setname>
+	<mratimestamp>2022810</mratimestamp>
+	<year>1986</year>
+	<manufacturer>SNK</manufacturer>
+	<category>Action</category>
+	<rbf>Athena</rbf>
+	<about author="RndMnkIII" twitter="@RndMnkIII"></about>
+	<resolution>16.1785kHz</resolution>
+	<rotation>horizontal</rotation>
+	<players>2</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	
+
+    <!-- DSW1=9C, DSW2=F7 byte mas significativo a la derecha de la cadena -->
+	<!-- 1101_0111 1001_1100 -->
+	<switches default="3D,FB" base="16">
+		<!-- DSW1 -->
+		<dip bits="1"     name="Cabinet" ids="Upright,Cocktail" values="0,1"/>
+		<dip bits="3"     name="Lives"   ids="3,5" values="1,0"/>
+		 
+		<dip bits="4,5"   name="Coin A" ids="4Co/1Cr,3Co/1Cr,2Co/1Cr,1Co/1Cr" values="0,1,2,3"/>
+		<dip bits="6,7"   name="Coin B" ids="1Co/2Cr,1Co/3Cr,1Co/4Cr,1Co/6Cr" values="0,2,1,3"/>
+ 
+		<dip bits="8,9"   name="Difficulty"                 ids="Easy,Normal,Hard,Hardest" values="3,2,1,0"/>
+		<dip bits="10"    name="Demo Sounds"                ids="Off,On" values="1,0"/>
+		<dip bits="11"    name="Freeze"                     ids="Off,On" values="1,0"/>
+		<!-- Bonus Life VIRTUAL DIP SWITCHES 14,13,12 MUST BE TRASLATED TO DIP1:{bit0,bit1,bit12,bit3,bit4,bit5,bit6,bit7}, DIP2:{bit8,bit9,bit10,bit11,bit14,bit13,1,bit15} -->
+	    <dip bits="12,14" name="Bonus Life"                 ids="50K 100K 100K+,60K 120K 120K+,100K 200K 200K+,50K 100K,60K 120K,100K 200K,None" values="7,5,3,6,4,2,0"/>    
+	    <dip bits="15"    name="Energy"                     ids="12,14" values="1,0"/>
+	</switches>
+
+	<rom index='0' md5="None" type='nonmerged' zip='athena.zip'>	
+		<!-- main cpu    0x00000-0x0bfff -->
+		<part crc="900a113c" name="p1.4p"/>
+		<part crc="61c69474" name="p2.4m"/>
+		<part repeat="0x4000">FF</part>
+		<!-- sub cpu     0x10000-0x1bfff -->
+		<part crc="df50af7e" name="p3.8p"/>
+		<part crc="f3c933df" name="p4.8m"/>
+		<part repeat="0x4000">FF</part>
+		<!-- audio cpu   0x20000-0x2bfff -->
+		<part crc="42dbe029" name="p5.6g"/>
+		<part crc="596f1c8a" name="p6.6k"/>
+		<part repeat="0x4000">FF</part>
+		<!-- TX tiles    0x30000-0x33fff -->
+		<part crc="18b4bcca" name="p11.2d"/>
+		<part repeat="0xC000">FF</part>
+		<!-- BG tiles    0x40000-0x47fff -->
+		<part crc="f269c0eb" name="p10.2b"/>
+		<part repeat="0x8000">FF</part>
+
+		<!-- SP16 tiles  0x50000-0x57fff -->
+		<part crc="c63a871f" name="p7.2p"/>
+        <part repeat="0x8000">FF</part>
+
+        <!-- SP16 tiles  0x60000-0x67fff -->
+		<part crc="760568d8" name="p8.2s"/>
+        <part repeat="0x8000">FF</part>
+
+        <!-- SP16 tiles  0x70000-0x77fff -->
+		<part crc="57b35c73" name="p9.2t"/>
+        <part repeat="0x8000">FF</part>
+
+		<!-- PROMs       0x80000-0x80bff -->
+		<part crc="294279ae" name="3.2c"/>
+		<part crc="d25c9099" name="2.1b"/>
+		<part crc="a4a4e7dc" name="1.1c"/>
+		<!-- Athena Invincibility ROM Patch -->
+		<!-- <patch offset="0x10918">C3</patch> -->
+	</rom>
+	<rom index="1">
+		<part>02</part>
+	</rom>
+	
+<buttons default="A,B,Start,R,L,X" names="PUSH1,PUSH2,Start1,Coin,Pause,Service"></buttons>
+</misterromdescription>

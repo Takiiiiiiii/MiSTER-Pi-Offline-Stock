@@ -1,0 +1,19 @@
+####
+# Name: Kodak Panchromatic YCMK
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: GBR
+####
+
+Resolution=0
+v2
+2,8
+02a,62a
+02a,62a
+02a,62a
+02a,62a
+32a,52a
+32a,52a
+32a,52a
+32a,52a

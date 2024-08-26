@@ -1,0 +1,60 @@
+<misterromdescription>
+  <name>DoDonPachi (Japan)</name>
+  <mameversion>0226</mameversion>
+  <setname>ddonpachj</setname>
+  <year>1997</year>
+  <manufacturer>CAVE</manufacturer>
+  <category>Shooter</category>
+  <rotation>vertical (ccw)</rotation>
+  <rbf>cave</rbf>
+
+  <!-- ROM data -->
+  <rom index="0" zip="ddonpach.zip|ddonpachj.zip" md5="none" address="0x30000000">
+    <!-- prog ROM -->
+    <interleave output="16">
+      <part name="u27.bin" crc="2432ff9b" map="01" />
+      <part name="u26.bin" crc="4f3a914a" map="10" />
+    </interleave>
+
+    <!-- EEPROM -->
+    <part name="eeprom-ddonpach.bin" crc="315fb546" />
+
+    <!-- sound ROM -->
+    <part name="u6.bin" crc="9dfdafaf" />
+    <part name="u7.bin" crc="795b17d5" />
+
+    <!-- layer 0 -->
+    <part name="u60.bin" crc="903096a7" />
+
+    <!-- layer 1 -->
+    <part name="u61.bin" crc="d89b7631" />
+
+    <!-- layer 2 -->
+    <part name="u62.bin" crc="292bfb6b" />
+
+    <!-- sprites -->
+    <part name="u50.bin" crc="14b260ec" />
+    <part name="u51.bin" crc="e7ba8cce" />
+    <part name="u52.bin" crc="02492ee0" />
+    <part name="u53.bin" crc="cb4c10f0" />
+
+    <!-- skip CRC -->
+    <patch offset="0x00005410">60 00 00 0C</patch>
+    <!-- skip warning -->
+    <patch offset="0x000054EC">60 00 00 50</patch>
+
+    <!-- enable C button in EEPROM -->
+    <patch offset="0x00100002">ff ff</patch>
+    <patch offset="0x00100008">00 04</patch>
+  </rom>
+
+  <!-- select game -->
+  <rom index="1">
+    <part>01</part>
+  </rom>
+
+  <!-- NVRAM -->
+  <nvram index="2" size="128" />
+
+  <buttons names="Shots/Laser,Spread/Laser Bomber,Full-Auto,-,Start,Coin,Pause" default="A,B,X,R,L,Start" />
+</misterromdescription>

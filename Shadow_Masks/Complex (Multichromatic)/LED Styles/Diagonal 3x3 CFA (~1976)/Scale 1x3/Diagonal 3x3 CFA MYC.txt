@@ -1,0 +1,19 @@
+####
+# Name: Diagonal 3x3 CFA MYC
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+3,9
+50a,60a,30a
+50a,60a,30a
+50a,60a,30a
+30a,50a,60a
+30a,50a,60a
+30a,50a,60a
+60a,30a,50a
+60a,30a,50a
+60a,30a,50a

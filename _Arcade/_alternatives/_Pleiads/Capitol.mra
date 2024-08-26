@@ -1,0 +1,58 @@
+<misterromdescription>
+	<name>Capitol</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Pleiades</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Universal Video Spiel</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>capitol</setname>
+	<parent>capitol</parent>
+	<mameversion>0218</mameversion>
+	<rbf>pleiads</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="df68f7d8d28e8d5b44f09433064864ba" zip="pleiads.zip|capitol.zip">
+		<part crc="0922905b" name="cp1.45"></part>
+		<part crc="4f168f45" name="cp2.46"></part>
+		<part crc="3975e0b0" name="cp3.47"></part>
+		<part crc="da49caa8" name="cp4.48"></part>
+		<part crc="38e4362b" name="cp5.49"></part>
+		<part crc="aaf798eb" name="cp6.50"></part>
+		<part crc="eaadf14c" name="cp7.51"></part>
+		<part crc="d3fe2af4" name="cp8.52"></part>
+		<part crc="9b0bbb8d" name="cp11.23"></part>
+		<part crc="39949e66" name="cp12.24"></part>
+		<part crc="04f7d19a" name="cp9.39"></part>
+		<part crc="4807408f" name="cp10.40"></part>
+		<part crc="79350b25" name="ic40.prm"></part>
+		<part crc="e176b768" name="ic41.prm"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

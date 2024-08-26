@@ -1,0 +1,18 @@
+####
+# Name: Trichromatic YCmm (Magenta)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+2,8
+62a,51d
+62a,51d
+32a,51d
+32a,51d
+51d,62a
+51d,62a
+51d,32a
+51d,32a

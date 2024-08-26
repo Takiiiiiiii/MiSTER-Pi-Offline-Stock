@@ -1,0 +1,59 @@
+<misterromdescription>
+	<name>Motos</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1985</year>
+	<manufacturer>Namco</manufacturer>
+	<category>Arena</category>
+
+	<setname>motos</setname>
+	<parent>motos</parent>
+	<mameversion>0220</mameversion>
+	<rbf>druaga</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1">
+		<part>04</part>
+		</rom>
+	<rom index="0" md5="446203961cff53598233d2c50db390d8" zip="motos.zip">
+		<part crc="1104abb2" name="mo1_3.1d"></part>
+		<part crc="57b157e2" name="mo1_1.1b"></part>
+		<part crc="2f0e396e" name="mo1_6.3m"></part>
+		<part crc="cf8a3b86" name="mo1_7.3n"></part>
+		<part crc="55e45d21" name="mo1_4.1k"></part>
+		<part crc="5d4a2a22" name="mo1_5.3b"></part>
+		<part crc="7721275d" name="mo1-7.5k"></part>
+		<part crc="7721275d" name="mo1-7.5k"></part>
+		<part crc="7721275d" name="mo1-7.5k"></part>
+		<part crc="7721275d" name="mo1-7.5k"></part>
+		<part crc="730ba7fb" name="mo1-6.4c"></part>
+		<part crc="2accdfb4" name="mo1-3.3m"></part>
+		<part crc="71972383" name="mo1-5.5b"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

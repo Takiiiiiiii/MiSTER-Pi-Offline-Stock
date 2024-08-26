@@ -1,0 +1,22 @@
+####
+# Name: Bayer RBRG (Red) [45 Degrees]
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+4,12
+41d,12a,41d,22a
+41d,12a,41d,22a
+41d,12a,41d,22a
+22a,41d,12a,41d
+22a,41d,12a,41d
+22a,41d,12a,41d
+41d,22a,41d,12a
+41d,22a,41d,12a
+41d,22a,41d,12a
+12a,41d,22a,41d
+12a,41d,22a,41d
+12a,41d,22a,41d

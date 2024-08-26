@@ -1,0 +1,64 @@
+<misterromdescription>
+	<name>Catacomb</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>MTM Games</manufacturer>
+	<category>Shooter - Vertical</category>
+
+	<setname>catacomb</setname>
+	<parent>catacomb</parent>
+	<mameversion>0217</mameversion>
+	<rbf>galaxian</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<buttons default="A,Start,Select,R,L" names="Fire,Start 1P,Start 2P,Coin,-,Pause"></buttons>
+
+	<switches default="FF,DF,04">
+		<dip bits="14" ids="2c/1cr,1c/1cr" name="Coinage"></dip>
+		<dip bits="18" ids="5,3" name="Lives"></dip>
+	</switches>
+
+	<rom index="1">
+		<part>04</part>
+	</rom>
+	<rom index="0" md5="a9c00095b4ccb5183445aa9e67c873af" zip="catacomb.zip">
+		<part crc="35cc28d2" name="catacomb.u"></part>
+		<part crc="1d1ce133" name="catacomb.v"></part>
+		<part crc="479bbde7" name="catacomb.w"></part>
+		<part crc="479bbde7" name="catacomb.w"></part>
+		<part crc="5e3da534" name="catacomb.y"></part>
+		<part crc="5e3da534" name="catacomb.y"></part>
+		<part crc="5e3da534" name="catacomb.y"></part>
+		<part crc="5e3da534" name="catacomb.y"></part>
+		<part crc="e871e65c" name="cat-gfx1"></part>
+		<part crc="e871e65c" name="cat-gfx1"></part>
+		<part crc="b14dafaa" name="cat-gfx2"></part>
+		<part crc="b14dafaa" name="cat-gfx2"></part>
+		<part crc="6a0c7d87" name="mmi6331.6l"></part>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

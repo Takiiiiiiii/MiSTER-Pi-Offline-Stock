@@ -1,0 +1,75 @@
+<misterromdescription>
+  <name>ESP Ra.De. (Japan)</name>
+  <mameversion>0226</mameversion>
+  <setname>espradej_fp</setname>
+  <year>1998</year>
+  <manufacturer>CAVE</manufacturer>
+  <category>Shooter</category>
+  <rotation>vertical (ccw)</rotation>
+  <rbf>cave</rbf>
+
+  <!-- ROM data -->
+  <rom index="0" zip="espradej.zip|esprade.zip" md5="none" address="0x30000000">
+    <!-- prog ROM -->
+    <interleave output="16">
+      <part name="u42_ver.2" crc="75d03c42" map="01" />
+      <part name="u41_ver.2" crc="734b3ef0" map="10" />
+    </interleave>
+
+    <!-- EEPROM -->
+    <part name="eeprom-esprade.bin" crc="315fb546" />
+	
+	<!-- sound ROM -->
+    <part name="esp_u19.u19" crc="f54b1cab" />
+
+    <!-- layer 0 -->
+    <part name="esp_u54.u54" crc="e7ca6936" />
+    <part name="esp_u55.u55" crc="f53bd94f" />
+
+    <!-- layer 1 -->
+    <part name="esp_u52.u52" crc="e7abe7b4" />
+    <part name="esp_u53.u53" crc="51a0f391" />
+
+    <!-- layer 2 -->
+    <part name="esp_u51.u51" crc="0b9b875c" />
+
+    <!-- sprites -->
+    <interleave output="16">
+      <part name="esp_u63.u63" crc="2f2fe92c" map="01" />
+      <part name="esp_u64.u64" crc="491a3da4" map="10" />
+    </interleave>
+    <interleave output="16">
+      <part name="esp_u65.u65" crc="06563efe" map="01" />
+      <part name="esp_u66.u66" crc="7bbe4cfc" map="10" />
+    </interleave>
+
+    <!-- enable C button and freeplay mode in EEPROM -->
+    <patch offset="0x00100002">00 ef</patch>
+    <patch offset="0x00100008">00 f4</patch>
+	
+	<!-- Free Play Option By Mikejmoffitt -->
+	<patch offset="0x0000400D">F9 00 07 A4 36</patch>
+	<patch offset="0x000040F0">4E F9 00 07 A3 9C</patch>
+	<patch offset="0x000041FA">4E F9 00 07 A4 66</patch>
+	<patch offset="0x00004AB0">4E F9 00 07 A4 96</patch>
+	<patch offset="0x0004F152">4E F9 00 07 A3 00 4E 71 4E 71 4E 71 4E 71</patch>
+	<patch offset="0x0004F448">4E F9 00 07 A4 D8 4E 71 4E 71</patch>
+	<patch offset="0x00050564">4E F9 00 07 A4 02</patch>
+	<patch offset="0x0006401E">20 20 54 32 4B 32 20 46 52 45 45 20 50 4C 41 59 20 4D 49 53 54 45 52 20 56 45 52 2E</patch>
+	<patch offset="0x00064346">46 52 45 45 20 50 4C 41 59 20 20 20 20 20</patch>
+	<patch offset="0x00064422">46 52 45 45 20 50 4C 41 59 20 20 20 20 20</patch>
+	<patch offset="0x0007A300">52 39 00 10 11 F9 4A 79 00 10 0F 04 67 F2 2F 01 12 39 00 10 12 99 02 01 00 F0 0C 01 00 30 67 0E 0C 01 00 C0 67 08 0C 01 00 F0 67 02 60 66 32 39 00 10 12 54 82 79 00 10 12 56 02 01 00 80 67 1E 06 79 00 01 00 10 FC 02 0C 79 00 B4 00 10 FC 02 65 12 42 79 00 10 FC 02 4E F9 00 07 A5 78 42 79 00 10 FC 02 32 39 00 10 24 0A 0C 41 00 0B 66 1E 06 79 00 01 00 10 FC 00 0C 79 0C 0D 00 10 FC 00 65 12 42 79 00 10 FC 00 4E F9 00 07 A5 78 42 79 00 10 FC 00 22 1F 4E F9 00 04 F1 60 2F 01 12 39 00 10 12 99 02 01 00 F0 0C 01 00 30 67 18 0C 01 00 C0 67 12 0C 01 00 F0 67 0C 22 1F 4A 39 00 10 24 09 4E F8 40 F6 22 1F 4A 39 00 10 0E CC 67 04 4E F8 40 F6 32 39 00 10 12 54 82 79 00 10 12 56 02 01 00 80 67 0A 4A 39 00 10 24 09 4E F8 40 F6 42 79 00 10 0E C4 33 FC 00 01 00 10 24 0A 4E F8 40 F6 2F 01 12 39 00 10 12 99 02 01 00 F0 0C 01 00 30 67 1A 0C 01 00 C0 67 14 0C 01 00 F0 67 0E 22 1F B8 79 00 10 12 26 4E F9 00 05 05 6A 22 1F 4E F9 00 05 05 82 2F 01 12 39 00 10 12 99 02 01 00 F0 0C 01 00 30 67 14 0C 01 00 C0 67 0E 0C 01 00 F0 67 08 4E B9 00 04 FA AC 60 04 4E B8 54 6A 22 1F 4E F8 40 12 33 C6 00 10 24 0C 2F 01 12 39 00 10 12 99 02 01 00 F0 0C 01 00 30 67 12 0C 01 00 C0 67 0C 0C 01 00 F0 67 06 22 1F 4E F8 42 00 22 1F 4E F8 42 16 2F 01 12 39 00 10 12 99 02 01 00 F0 0C 01 00 30 67 18 0C 01 00 C0 67 12 0C 01 00 F0 67 0C 22 1F B6 51 62 00 00 1C 4E F8 4A B6 22 1F 4E B9 00 05 05 BE CC 79 00 10 13 A8 67 00 00 06 4E F8 4A CE 4E 75 12 39 00 10 12 99 02 01 00 F0 0C 01 00 30 67 1C 0C 01 00 C0 67 16 0C 01 00 F0 67 10 32 3C 01 C0 4A 79 00 10 25 AC 4E F9 00 04 F4 4E 42 79 00 10 12 26 42 79 00 10 12 28 32 39 00 10 24 0A 0C 41 00 08 67 50 0C 41 00 0A 67 4A 0C 41 00 0B 67 46 32 39 00 10 12 54 82 79 00 10 12 56 02 01 00 80 67 32 4A 79 00 10 25 B4 66 2A 32 39 00 10 24 0A 0C 41 00 05 67 16 0C 41 00 03 67 10 42 79 00 10 0E C4 33 FC 00 04 00 10 24 0A 4E 75 33 FC 09 E0 00 10 0E C6 4E 75 33 FC 00 09 00 10 12 26 4E 75 4E B9 00 06 54 08 30 3C 00 51 32 3C 00 03 4E B9 00 06 4E BE 2E 7C 69 11 00 00 46 FC 27 00 4E F8 59 72</patch> 
+	<patch offset="0x00080000">00 00</patch>
+	
+  </rom>
+
+  <!-- select game -->
+  <rom index="1">
+    <part>03</part>
+  </rom>
+  
+    <!-- NVRAM -->
+  <nvram index="2" size="128" />
+
+  <buttons names="Main Shot,Power Shot,Guard Barrier,-,Start,Coin,Pause" default="A,B,X,R,L,Start" />
+</misterromdescription>

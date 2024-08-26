@@ -1,0 +1,64 @@
+<misterromdescription>
+	<name>Zero Time</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Petaco S.A.</version>
+	<alternative>Galaxian</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1979</year>
+	<manufacturer>Petaco S.A.</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>zerotime</setname>
+	<parent></parent>
+	<mameversion>0218</mameversion>
+	<rbf>galaxian</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="1F,1F,04">
+		<dip bits="7" ids="Off,On" name="Service"></dip>
+		<dip bits="6" ids="Off,On" name="Test"></dip>
+		<dip bits="5" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="14,15" ids="1c/1cr,1c/2cr,2c/1cr,Free Play" name="Coinage" values="0,2,1,3"></dip>
+		<dip bits="16,17" ids="7000,10000,12000,20000" name="Bonus Life After"></dip>
+		<dip bits="18" ids="2,3" name="Lives"></dip>
+		</switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="96d55a444bfaec609173d5ddc1138c48" zip="galaxian.zip|zerotime.zip">
+		<part crc="90a2bc61" name="zt-p01c.016"></part>
+		<part crc="a433067e" name="zt-2.016"></part>
+		<part crc="aaf038d4" name="zt-3.016"></part>
+		<part crc="786d690a" name="zt-4.016"></part>
+		<part crc="af9260d7" name="zt-5.016"></part>
+		<part crc="af9260d7" name="zt-5.016"></part>
+		<part crc="af9260d7" name="zt-5.016"></part>
+		<part crc="af9260d7" name="zt-5.016"></part>
+		<part crc="1b13ca05" name="ztc-2.016"></part>
+		<part crc="1b13ca05" name="ztc-2.016"></part>
+		<part crc="5cd7df03" name="ztc-1.016"></part>
+		<part crc="5cd7df03" name="ztc-1.016"></part>
+		<part crc="c3ac9467" name="6l.bpr"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

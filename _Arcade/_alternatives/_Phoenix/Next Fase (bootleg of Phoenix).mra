@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Next Fase</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Phoenix</version>
+	<alternative>Phoenix</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Petaco S.A.</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>nextfase</setname>
+	<parent>phoenix</parent>
+	<mameversion>0218</mameversion>
+	<rbf>phoenix</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="cd6737ba7acdfe20da59c22eb83ef218" zip="phoenix.zip|nextfase.zip">
+		<part crc="b31ce820" name="nf01.bin"></part>
+		<part crc="891d21e1" name="nf02.bin"></part>
+		<part crc="2ab7389d" name="nf03.bin"></part>
+		<part crc="590d3c36" name="nf04.bin"></part>
+		<part crc="3527f247" name="nf05.bin"></part>
+		<part crc="ac5e9ec1" name="nf06.bin"></part>
+		<part crc="2eab35b4" name="nf07.bin"></part>
+		<part crc="04c2323f" name="nf08.bin"></part>
+		<part crc="3c7e623f" name="nf11.bin"></part>
+		<part crc="59916d3b" name="nf12.bin"></part>
+		<part crc="bacbfa88" name="nf09.bin"></part>
+		<part crc="3143a9ee" name="nf10.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,65 @@
+<misterromdescription>
+	<name>Moon War</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Older</version>
+	<alternative>Moon War</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Stern</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>moonwara</setname>
+	<parent>moonwar</parent>
+	<mameversion>0218</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick></joystick>
+	<special_controls>spinner</special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,X,Y,Start,Select,R" names="Fire,Thrust,Shield,Hyperflip,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="FF,FC,F3">
+		<dip bits="8,9" ids="3,4,5,Free Play" name="Lives"></dip>
+		<dip bits="17,18" ids="1c/2cr,1c/1cr,1c/3cr,1c/4cr" name="Coinage"></dip>
+		<dip bits="19" ids="Upright,Cocktail" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>06</part>
+		</rom>
+	<rom index="0" md5="1df32d948d254797b769191f46c098da" zip="moonwar.zip|moonwara.zip">
+		<part crc="bc20b734" name="moon_war_ii_ra22_2c.2c"></part>
+		<part crc="db6ffec2" name="moon_war_ii_ra22_2e.2e"></part>
+		<part crc="378931b8" name="moon_war_ii_rxa22_2f.2f"></part>
+		<part crc="031dbc2c" name="moon_war_ii_rxa22_2h.2h"></part>
+		<part crc="bc20b734" name="moon_war_ii_ra22_2c.2c"></part>
+		<part crc="db6ffec2" name="moon_war_ii_ra22_2e.2e"></part>
+		<part crc="378931b8" name="moon_war_ii_rxa22_2f.2f"></part>
+		<part crc="031dbc2c" name="moon_war_ii_rxa22_2h.2h"></part>
+		<part crc="c26231eb" name="moon_war_ii_ra20_5c.5c"></part>
+		<part crc="bb48a646" name="moon_war_ii_ra20_5d.5d"></part>
+		<part crc="c26231eb" name="moon_war_ii_ra20_5c.5c"></part>
+		<part crc="bb48a646" name="moon_war_ii_ra20_5d.5d"></part>
+		<part crc="a6ccc652" name="moon_war_ii_ra20_5h.5h" repeat="4"></part>
+		<part crc="c5fa1aa0" name="moon_war_ii_ra20_5f.5f" repeat="4"></part>
+		<part crc="99614c6c" name="moonwar_ii_color_6ea1.6e"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

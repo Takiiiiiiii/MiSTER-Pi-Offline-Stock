@@ -1,0 +1,68 @@
+<misterromdescription>
+	<name>Domino Man</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Midway MCR2</platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Bally</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Action</category>
+
+	<setname>domino</setname>
+	<parent>domino</parent>
+	<mameversion>0216</mameversion>
+	<rbf>mcr2</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R" names="Swat,-,-,-,-,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="FF 00">
+		<dip bits="0" ids="Off,On" name="Music"></dip>
+		<dip bits="1" ids="Light,Dark" name="Skin Color"></dip>
+		<dip bits="6" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="7" ids="1,2" name="Coin Meters"></dip>
+		<dip bits="8" ids="Off,On" name="Service"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>5</part>
+		</rom>
+	<rom index="0" md5="112359d5a207884821f6df0f0c1c4d2c" type="merged|nonmerged" zip="domino.zip">
+		<part crc="3bf3bb1c" name="dmanpg0.bin"></part>
+		<part crc="85cf1d69" name="dmanpg1.bin"></part>
+		<part crc="7dd2177a" name="dmanpg2.bin"></part>
+		<part crc="f2e0aa44" name="dmanpg3.bin"></part>
+		<part repeat="16384">00</part>
+		<part crc="fa982dcc" name="dm-a7.snd"></part>
+		<part crc="72839019" name="dm-a8.snd"></part>
+		<part crc="ad760da7" name="dm-a9.snd"></part>
+		<part crc="958c7287" name="dm-a10.snd"></part>
+		<part crc="9163007f" name="dmanbg0.bin"></part>
+		<part crc="28615c56" name="dmanbg1.bin"></part>
+		<part crc="0b1f9f9e" name="dmanfg0.bin"></part>
+		<part crc="16aa4b9b" name="dmanfg1.bin"></part>
+		<part crc="4a8e76b8" name="dmanfg2.bin"></part>
+		<part crc="1f39257e" name="dmanfg3.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="2048"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

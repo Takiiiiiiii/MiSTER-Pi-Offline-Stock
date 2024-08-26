@@ -1,0 +1,67 @@
+<misterromdescription>
+	<name>Satan's Hollow</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Set 1</version>
+	<alternative></alternative>
+	<platform>Midway MCR2</platform>
+	<series></series>
+	<year>1983</year>
+	<manufacturer>Bally</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>shollow</setname>
+	<parent>shollow</parent>
+	<mameversion>0216</mameversion>
+	<rbf>mcr2</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R" names="Fire,Shield,-,-,-,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="FF 00">
+		<dip bits="0" ids="1,2" name="Coin Meters"></dip>
+		<dip bits="1" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="8" ids="Off,On" name="Service"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0</part>
+		</rom>
+	<rom index="0" md5="cc2c7141ad992cffa1bd34ee74952152" type="merged|nonmerged" zip="shollow.zip">
+		<part crc="95e2b800" name="sh-pro.00"></part>
+		<part crc="b99f6ff8" name="sh-pro.01"></part>
+		<part crc="1202c7b2" name="sh-pro.02"></part>
+		<part crc="0a64afb9" name="sh-pro.03"></part>
+		<part crc="22fa9175" name="sh-pro.04"></part>
+		<part crc="1716e2bb" name="sh-pro.05"></part>
+		<part crc="55a297cc" name="sh-snd.01"></part>
+		<part crc="46fc31f6" name="sh-snd.02"></part>
+		<part crc="b1f4a6a8" name="sh-snd.03"></part>
+		<part repeat="4096">00</part>
+		<part crc="3e2b333c" name="sh-bg.00"></part>
+		<part crc="d1d70cc4" name="sh-bg.01"></part>
+		<part crc="33f4554e" name="sh-fg.00"></part>
+		<part crc="ba1a38b4" name="sh-fg.01"></part>
+		<part crc="6b57f6da" name="sh-fg.02"></part>
+		<part crc="37ea9d07" name="sh-fg.03"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="2048"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

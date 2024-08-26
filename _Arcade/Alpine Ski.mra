@@ -1,0 +1,51 @@
+<misterromdescription>
+	<name>Alpine Ski</name>
+	<mameversion>0245</mameversion>
+	<setname>alpine</setname>
+	<parent>alpine</parent>
+	<mratimestamp>202304140600</mratimestamp>
+	<year>1981</year>
+	<manufacturer>Taito</manufacturer>
+	<category>Sports</category>
+	<rbf>TaitoSJ</rbf>
+	<rotation>Vertical</rotation>
+	<joystick>8-way</joystick>
+        <buttons default="A,-,Start,Select,L,R,X,Y" names="Alpine,-,Start,Select,Coin,Coin,Service,Pause"/>
+	<switches default="00,40,FF,00,00,00,00,00">
+		<dip bits="8,9" name="Jump Bonus" ids="2000-4000,1000-2500,800-2000,500-1500"/>
+		<dip bits="11,12" name="Game Time" ids="2:30,2:00,1:30,1:00"/>
+		<dip bits="13" name="End Race Bonus" ids="0:10,0:20"/>
+		<dip bits="14" name="Flip Screen" ids="Off, On"/>
+		<dip bits="15" name="Cabinet" ids="Upright, Cocktail"/>
+		<dip bits="16,19" name="Coin A" ids="9C1C,8C1C,7C1C,6C1C,5C1C,4C1C,3C1C,2C1C,1C8C,1C7C,1C6C,1C5C,1C4C,1C3C,1C2C,1C1C"/>
+		<dip bits="20,23" name="Coin B" ids="9C1C,8C1C,7C1C,6C1C,5C1C,4C1C,3C1C,2C1C,1C8C,1C7C,1C6C,1C5C,1C4C,1C3C,1C2C,1C1C"/>		
+		<dip bits="32,33" name="1st Ext. Time" ids="25000,20000,15000,10000"/>
+		<dip bits="34,36" name="Ext Time" ids="12000,11000,10000,9000,8000,7000,6000,5000"/>
+		<dip bits="37" name="Year Display" ids="Yes,No"/>		
+		<dip bits="38" name="Hit Detection" ids="Normal Game,No Hit"/>		
+		<dip bits="39" name="Coin Slots" ids="A and B,A only"/>		
+	</switches>		
+	<rom index="0" md5="none" zip="alpine.zip" type="merged|nonmerged">
+		<part crc="6b2a69b7" name="rh16.069"/>
+		<part crc="e344b0b7" name="rh17.068"/>
+		<part crc="753bdd87" name="rh18.067"/>
+		<part crc="3efb3fcd" name="rh19.066"/>
+		<part crc="c2cd4e79" name="rh20.065"/>
+		<part crc="74109145" name="rh21.064"/>
+		<part crc="efa82a57" name="rh22.055"/>
+		<part crc="77c25acf" name="rh23.054"/>
+		<part repeat="0x8000"> 00 </part>
+		<part crc="4b1d9455" name="rh24.001"/>
+		<part crc="bf71e278" name="rh25.002"/>
+		<part crc="13da2a9b" name="rh26.003"/>
+		<part crc="425b52b0" name="rh27.004"/>
+		<part repeat="0x4000"> 00 </part>
+		<part crc="dcad1794" name="rh13.070"/>
+		<part repeat="0x3000"> 00 </part> 
+		<part crc="b833b5ea" name="eb16.22"/>
+		<part repeat="0x0F00"> 00 </part>
+    </rom>	
+	<rom index="1">
+		<part>2</part>
+	</rom>		
+</misterromdescription>

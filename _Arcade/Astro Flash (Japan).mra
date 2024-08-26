@@ -1,0 +1,88 @@
+<misterromdescription>
+	<name>Astro Flash (Japan)</name>
+	<region>Japan</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Sega System E</platform>
+	<series></series>
+	<year>1986</year>
+	<manufacturer>Sega</manufacturer>
+	<category>Shooter</category>
+
+	<setname>astrofl</setname>
+	<parent>transfrm</parent>
+	<mameversion>0235</mameversion>
+	<rbf>SMS</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2</players>
+	<joystick>8-way</joystick>
+	<buttons names="Fire/Button1,Transform/Button2,-,-,-,-,Coin,Start,Pause" default="A,B,R,Start,Select" count="1"/>
+	
+	<switches base="24" default="FF,FF,FF">
+		<!-- SWA -->
+		<dip name="Coin A" bits="0,3" ids="1/1,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1"/>
+		<dip name="Coin B" bits="4,7" ids="1/1,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1"/>
+		<!-- SWB -->
+		<dip name="1 Player Only" bits="8" ids="Off,On"/>
+		<dip name="Demo Sounds" bits="9" ids="Off,On"/>
+		<dip name="Lives" bits="10,11" ids="Infinite (Cheat),5,4,3"/>
+		<dip name="Bonus_Life" bits="12,13" ids="50k, 150k and 250k,30k, 80k, 130k and 180k,10k, 30k, 50k and 70k,20k, 60k, 100k and 140k"/>
+		<dip name="Difficulty" bits="14,15" ids="Hardest,Easy,Hard,Medium"/>
+		<!-- SWC -->
+		<dip name="Service Toggle" bits="18" ids="On,Off"/>
+		<dip name="Service Mode" bits="19" ids="On,Off"/>
+	</switches>
+	
+	<rom index="0" zip="transfrm.zip" type="merged" md5="18fec1824591aa3d342dd0d3cca0dab0">
+		<!-- banks, size: 0x40000 -->
+		<part crc="DF0F639F" name="epr-7347.ic5"/>
+		<part crc="0F38EA96" name="epr-7348.ic4"/>
+		<part crc="F8C352D5" name="epr-7349.ic3"/>
+		<part crc="0052165D" name="epr-7350.ic2"/>
+		<part crc="DF0F639F" name="epr-7347.ic5"/>
+		<part crc="0F38EA96" name="epr-7348.ic4"/>
+		<part crc="F8C352D5" name="epr-7349.ic3"/>
+		<part crc="0052165D" name="epr-7350.ic2"/>
+
+		<!-- maincpu, size: 0x8000 -->
+		<part crc="66061137" name="epr-7605.ic7"/>
+
+		<!-- encryption_device: 315-5177, size: 0x80 * 2 -->
+		<part>
+			04 54 51 15 40 44 01 51 55 10 44 41 05 55 50 14
+			41 45 00 50 54 11 45 40 04 54 51 15 40 44 01 51
+			55 10 44 41 05 55 50 14 41 45 00 50 54 11 45 40
+			04 54 51 15 40 44 01 51 55 10 44 41 05 55 50 14
+			04 54 51 15 40 44 01 51 55 10 44 41 05 55 50 14
+			41 45 00 50 54 11 45 40 04 54 51 15 40 44 01 51
+			55 10 44 41 05 55 50 14 41 45 00 50 54 11 45 40
+			04 54 51 15 40 44 01 51 55 10 44 41 05 55 50 14
+
+			00 00 00 00 01 01 01 01 01 02 02 02 02 02 03 03
+			03 03 04 04 04 04 04 05 05 05 05 05 06 06 06 06
+			06 07 07 07 07 07 08 08 08 08 09 09 09 09 09 0a
+			0a 0a 0a 0a 0b 0b 0b 0b 0b 0c 0c 0c 0c 0c 0d 0d
+			08 08 08 08 09 09 09 09 09 0a 0a 0a 0a 0a 0b 0b
+			0b 0b 0c 0c 0c 0c 0c 0d 0d 0d 0d 0d 0e 0e 0e 0e
+			0e 0f 0f 0f 0f 0f 10 10 10 10 11 11 11 11 11 12
+			12 12 12 12 13 13 13 13 13 14 14 14 14 14 15 15
+		</part>
+	</rom>
+	<rom index="4">
+		<part>42</part>
+	</rom>
+<!--
+	<nvram index="4" size="3"/>
+-->
+
+	<remark></remark>
+
+	<mratimestamp>20210906000000</mratimestamp>
+</misterromdescription>

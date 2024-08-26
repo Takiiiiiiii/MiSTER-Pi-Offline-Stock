@@ -1,0 +1,60 @@
+<misterromdescription>
+	<name>MotoTour- Zippy Race (Tecfri license)</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Traverse USA</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1983</year>
+	<manufacturer>Irem</manufacturer>
+	<manufacturer>Tecfri</manufacturer>
+	<category>Racing</category>
+
+	<setname>mototour</setname>
+	<parent></parent>
+	<mameversion>0218</mameversion>
+	<rbf>traverseusa</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" zip="travrusa.zip|mototour.zip" md5="3d64b5c4bd781772f223aefd5990eab4">
+		<part crc="fe643567" name="mt1-4.m3"/>
+		<part crc="38d9d0f5" name="mt1-5.l3"/>
+		<part crc="efd325f2" name="mt1-6.k3"/>
+		<part crc="ab8a3a33" name="mt1-7.j3"/>
+		<part crc="a02ad8a0" name="snd.a1"/>
+		<part crc="a02ad8a0" name="snd.a1"/>
+		<part crc="aa8994dd" name="mt1-1.e3"/>
+		<part crc="3a046dd1" name="mt1-2.c3"/>
+		<part crc="1cc3d3f4" name="mt1-3.a3"/>
+		<part crc="600a57f5" name="mt1-8..n3"/>
+		<part crc="6f9f2a4e" name="mt1-9..m3"/>
+		<part crc="d958def5" name="mt1-10..k3"/>
+		<part crc="c9724350" name="mmi6349.k2"/>
+		<part crc="76062638" name="prom2.h2"/>
+		<part crc="a1130007" name="prom1.f1"/>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

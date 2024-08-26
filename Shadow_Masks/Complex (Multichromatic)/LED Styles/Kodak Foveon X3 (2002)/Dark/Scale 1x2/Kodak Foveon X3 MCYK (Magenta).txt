@@ -1,0 +1,18 @@
+####
+# Name: Kodak Foveon X3 MCYK (Magenta)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+4,8
+51d,01d,32a,01d
+51d,01d,32a,01d
+01d,51d,01d,32a
+01d,51d,01d,32a
+62a,01d,51d,01d
+62a,01d,51d,01d
+01d,62a,01d,51d
+01d,62a,01d,51d

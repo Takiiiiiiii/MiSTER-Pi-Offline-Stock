@@ -1,0 +1,12 @@
+####
+# Name: Trichromatic YCmm (Magenta) [Mirrored]
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+2,2
+62a,51d
+32a,51d

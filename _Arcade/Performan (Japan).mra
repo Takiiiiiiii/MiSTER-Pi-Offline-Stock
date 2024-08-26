@@ -1,0 +1,68 @@
+<misterromdescription>
+	<name>Performan</name>
+	<mameversion>0245</mameversion>
+	<setname>perfrman</setname>
+	<parent>Performan</parent>
+	<mratimestamp>202211250534</mratimestamp>
+	<year>1986</year>
+	<manufacturer>Toaplan</manufacturer>
+	<category>Puzzle</category>
+	<rbf>Performan</rbf>
+	<rotation>vertical (ccw)</rotation>
+	<joystick>8-way</joystick>
+	<switches default="FF,FF,FF">
+		<dip bits="15" name="Unused" ids="ON,OFF"/>
+		<dip bits="14" name="Dip Switch Test" ids="ON,OFF"/>
+		<dip bits="13" name="Test Screen" ids="ON,OFF"/>
+		<dip bits="12" name="Cabinet" ids="Upright,Table"/>
+		<dip bits="11" name="Attract" ids="Demo Sound Off,Demo Sound On"/>
+		<dip bits="8,10" name="Coinage" ids="Free Play,3 Coins 1 Play,3 Coins 1 Play,2 Coins 3 Play,2 Coins 1 Play,1 Coin 3 Plays,1 Coin 2 Plays,1 Coin 1 Play"/>
+		<dip bits="22,23" name="Loop Excent" ids="300000,200000,100000,Nothing"/>
+		<dip bits="20,21" name="Extend" ids="Nothing,60000,40000,20000"/>
+		<dip bits="18,19" name="Game Level" ids="3,2,1,0"/>
+		<dip bits="16,17" name="Hero Count" ids="2,1,5,3"/>
+	</switches>		
+	<rom index="0" md5="none" zip="perfrman.zip" type="merged|nonmerged">
+		<part crc="7ad32eea" name="ci07.0"/>
+		<part crc="90A02D5F" name="ci08.1"/>
+		<part crc="df891ad0" name="ci06.4"/>
+		<part repeat="0x2000"> 00 </part>		
+		<part repeat="0x4000"> 00 </part>		
+		<part crc="79e191f8" name="ci00.5"/>
+		<part crc="2e8e69df" name="ci01.6"/>
+		<part crc="8efa960a" name="ci02.7"/>
+		<part crc="6410d9eb" name="ci03.8"/>
+		<part crc="026f27b3" name="ci04.9"/>	
+		<part crc="809a4ccc" name="ci05.10"/>	
+		<part crc="515f8a3b" name="ci14.16"/>
+		<part crc="67f86e3d" name="ci12.14"/>
+		<part crc="a9a397eb" name="ci13.15"/>
+		<part repeat="0x0100"> 00 </part>	
+		<part repeat="0x0100"> 00 </part>	
+		<part crc="59490887" name="ci10.12"/>
+		<part crc="D492E6C2" name="ci11.11"/>	
+		<part crc="AA0CA5A5" name="ci09.13"/>			
+	</rom>
+	<rom index="1">
+		<part>4</part>
+	</rom>		
+	<rom index="2">
+		<part>00</part>
+	</rom>		
+	<rom index="3">
+		<part>03</part>
+	</rom>		
+	<rom index="5">
+		<part>00</part>
+	</rom>	
+	<rom index="6">
+		<part>00</part>
+	</rom>		
+	<rom index="7">
+		<part>00</part>
+	</rom>		
+	<rom index="8">
+		<part>04</part>
+	</rom>		
+	
+</misterromdescription>

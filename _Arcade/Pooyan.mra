@@ -1,0 +1,58 @@
+<misterromdescription>
+	<name>Pooyan</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>pooyan</setname>
+	<parent>pooyan</parent>
+	<mameversion>0220</mameversion>
+	<rbf>pooyan</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way vertical</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="0" zip="pooyan.zip" md5="de106fd90992460848b7856876a4e330">
+		<part crc="bb319c63" name="1.4a"/>
+		<part crc="a1463d98" name="2.5a"/>
+		<part crc="fe1a9e08" name="3.6a"/>
+		<part crc="9e0f9bcc" name="4.7a"/>
+		<part crc="931b29eb" name="8.10g"/>
+		<part crc="bbe6d6e4" name="7.9g"/>
+		<part crc="b2d8c121" name="6.9a"/>
+		<part crc="1097c2b6" name="5.8a"/>
+		<part crc="fbe2b368" name="xx.7a"/>
+		<part crc="e1795b3d" name="xx.8a"/>
+	</rom>
+	<rom index="3" md5="none">
+		<part>
+		00 FF FF FF 00 FF 00 02 00 02 00 01 00 FF 02 00
+		00 00 89 C0 00 1E 00 00
+		00 00 8A 00 00 1E 00 01
+		00 00 8E 00 00 1E 00 00
+		00 00 88 A8 00 03 00 01
+		</part>
+	</rom>
+	<nvram index="4" size="93"/>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

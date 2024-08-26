@@ -1,0 +1,32 @@
+####
+# Name: Generic Consumer TV
+# Author: TrashUncle
+# Type: CRT
+# Genre: Realistic
+# Sub-Pixel Layout: Monochrome
+####
+v2
+2,4
+008,74c
+74c,708
+008,74c
+74c,708
+
+Resolution=1080
+v2
+3,5
+008,74c,708
+74c,708,74c
+708,74c,708
+708,708,008
+008,008,008
+
+Resolution=1440
+v2
+4,6
+008,008,74c,708
+708,74c,708,708
+74c,74c,708,74c
+74c,708,74c,74c
+708,708,74c,008
+008,008,008,008

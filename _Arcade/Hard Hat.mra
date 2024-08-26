@@ -1,0 +1,48 @@
+<misterromdescription>
+	<name>Hard Hat</name>
+	<mameversion>0245</mameversion>
+	<setname>hardhat</setname>
+	<parent>hardhat</parent>
+	<mratimestamp>202312091000</mratimestamp>
+	<year>1981</year>
+	<manufacturer>Exidy</manufacturer>
+	<category>Maze</category>
+	<rbf>Exidy2</rbf>
+	<rotation>horizontal</rotation>
+	<joystick>4-way</joystick>
+	<switches default="00,80,FF,00,00,00,00,00">
+		<dip bits="9,10" name="Bonus Life" ids="90000 and 180000,70000 and 140000,50000 and 100000,40000 and 80000"/>
+		<dip bits="11,12" name="Coinage" ids="1 COIN 4 CREDITS,1 COIN 2 CREDITS,2 COINS 1 CREDIT,1 COIN 1 CREDIT"/>
+		<dip bits="13,14" name="Lives" ids="5,4,3,2"/>
+	</switches>
+	<rom index="0" md5="none" zip="hardhat.zip|venture.zip" type="merged|nonmerged">
+		<part repeat="0xA000"> 00 </part>
+		<part crc="7623deea" name="hhl-2.11a"/>
+		<part crc="e6bf2fb1" name="hhl-2.10a"/>
+		<part crc="acc2bce5" name="hhl-2.9a"/>
+		<part crc="23c7a2f8" name="hhl-2.8a"/>
+		<part crc="6f7ce1c2" name="hhl-2.7a"/>
+		<part crc="2a20cf10" name="hhl-2.6a"/>
+		<part repeat="0x2800"> 00 </part>
+		<part crc="16a5a183" name="hha-1.5a"/>
+		<part crc="bde64021" name="hha-1.6a"/>
+		<part crc="505ee5d3" name="hha-1.7a"/>
+		<part crc="dbcdf353" name="hhl-1.11d"/>
+		<part crc="43b35bb7" name="vel5c 1.c5"/>
+		<part crc="e26f9053" name="hrl6d 1.d6"/>
+		<part crc="f76b4fcf" name="hrl14h 1.h14"/>
+	</rom>	
+	<rom index="1">
+		<part>30</part>
+	</rom>	
+	<rom index="2">
+		<part>37</part>
+	</rom>		
+	<rom index="3" md5="none">
+		<part>
+			5D 00 00 00 00 FF 00 02 00 02 00 01 00 FF 02 00
+			00 00 03 60 00 23 00 11
+		</part>
+	</rom>
+	<nvram index="4" size="35"/>	
+</misterromdescription>

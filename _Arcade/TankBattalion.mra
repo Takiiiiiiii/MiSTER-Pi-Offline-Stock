@@ -1,0 +1,21 @@
+<misterromdescription>
+	<name>Tank Battalion</name>
+	<mameversion>0245</mameversion>
+	<setname>tankbatt</setname>
+	<mratimestamp>20221211100829</mratimestamp>
+	<year>1980</year>
+	<manufacturer>Namco</manufacturer>
+	<rotation>vertical (cw)</rotation>
+	<category>Maze</category>
+	<rbf>TankBattalion</rbf>
+	<rom index="0" md5="none" zip="tankbatt.zip">
+		<part crc="278a0b8c" name="tb1-1.1a"/>
+		<part crc="e0923370" name="tb1-2.1b"/>
+		<part crc="85005ea4" name="tb1-3.1c"/>
+		<part crc="3dfb5bcf" name="tb1-4.1d"/>
+		<part crc="aabd4fb1" name="tb1-5.2k"/>
+		<part crc="d17518bc" name="bct1-1.l3"/>
+	</rom>
+        <buttons default="A,Start,Select,L,R" names="Shoot,Start,Coin,Service"></buttons>
+
+</misterromdescription>

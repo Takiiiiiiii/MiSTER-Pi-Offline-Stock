@@ -1,0 +1,27 @@
+####
+# Name: PenTile GBRK [45 Degrees]
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: GBR
+####
+
+Resolution=0
+v2
+4,16
+02a,22a,12a,42a
+02a,22a,12a,42a
+02a,22a,12a,42a
+02a,22a,12a,42a
+42a,02a,22a,12a
+42a,02a,22a,12a
+42a,02a,22a,12a
+42a,02a,22a,12a
+12a,42a,02a,22a
+12a,42a,02a,22a
+12a,42a,02a,22a
+12a,42a,02a,22a
+22a,12a,42a,02a
+22a,12a,42a,02a
+22a,12a,42a,02a
+22a,12a,42a,02a

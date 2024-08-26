@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Konek Gorbunok</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>TIAMC1</platform>
+	<series></series>
+	<year>1988</year>
+	<manufacturer>Terminal</manufacturer>
+	<category>Platform</category>
+
+	<setname>konek</setname>
+	<parent>konek</parent>
+	<mameversion>0229</mameversion>
+	<rbf>tiamc1</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,B,Y" names="Button 1,Button 2,Coin/Start"></buttons>
+
+	<switches></switches>
+
+	<rom index="1">
+		<part>01</part>
+		</rom>
+	<rom index="0" md5="6d0297d1d264e5da5d2349ebb557189b" zip="konek.zip">
+		<part crc="9EED06EE" name="a2.b07"></part>
+		<part crc="EEFF9B77" name="a3.g07"></part>
+		<part crc="FFF9E089" name="a5.l07"></part>
+		<part crc="092E8EE2" name="a6.r07"></part>
+		<part crc="F41D82C9" name="g1.d17"></part>
+		<part crc="B44E7491" name="g2.d17"></part>
+		<part crc="91301282" name="g3.d17"></part>
+		<part crc="3FF0C20B" name="g4.d17"></part>
+		<part crc="E3196D30" name="g5.d17"></part>
+		<part crc="FE4E9FDD" name="g7.d17"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

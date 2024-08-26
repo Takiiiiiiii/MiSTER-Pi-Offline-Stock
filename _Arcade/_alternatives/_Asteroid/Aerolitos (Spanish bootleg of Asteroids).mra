@@ -1,0 +1,49 @@
+<misterromdescription>
+	<name>Aerolitos</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Spanish</version>
+	<alternative>Asteroids</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>aerolitos</setname>
+	<parent>Asteroids</parent>
+	<mameversion>0218</mameversion>
+	<rbf>asteroids</rbf>
+	<about></about>
+
+	<resolution>31kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>3</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="22d2b37eb86b3e4d60f3fe12e8b5e16a" zip="asteroid.zip|aerolitos.zip">
+		<part crc="0cc75459" name="2516_1e.bin"></part>
+		<part crc="096ed35c" name="2516_1d.bin"></part>
+		<part crc="b912754d" name="2516_1c.bin"></part>
+		<part crc="32e69e66" name="2716_3n.bin"></part>
+		<part crc="97953db8" name="034602-01.c8"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

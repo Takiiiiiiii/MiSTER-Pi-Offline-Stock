@@ -1,0 +1,49 @@
+<misterromdescription>
+	<name>Starslayer</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>Asteroids</version>
+	<alternative>Asteroids</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1979</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>starslayer</setname>
+	<parent>Asteroids</parent>
+	<mameversion>0217</mameversion>
+	<rbf>asteroids</rbf>
+	<about></about>
+
+	<resolution>31kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>3</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="3a76d639409e82ea0b4c73943f9ed8be" zip="/hbmame/asteroid.zip">
+		<part crc="0cc75459" name="starslayer/035145-02.ef2"></part>
+		<part crc="096ed35c" name="starslayer/035144-02.h2"></part>
+		<part crc="312caa02" name="035143-02.j2"></part>
+		<part crc="edf610a2" name="starslayer/035127-02.ss"></part>
+		<part crc="97953db8" name="034602-01.c8"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

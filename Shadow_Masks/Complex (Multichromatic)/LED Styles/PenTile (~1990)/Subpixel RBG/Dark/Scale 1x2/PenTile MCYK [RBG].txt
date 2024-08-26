@@ -1,0 +1,15 @@
+####
+# Name: PenTile MCYK
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: RBG
+####
+
+Resolution=0
+v2
+4,4
+02a,52a,32a,62a
+02a,52a,32a,62a
+32a,62a,02a,52a
+32a,62a,02a,52a

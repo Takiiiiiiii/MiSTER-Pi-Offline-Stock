@@ -1,0 +1,54 @@
+<misterromdescription>
+	<name>High Way Race</name>
+	<mameversion>0245</mameversion>
+	<setname>hwrace</setname>
+	<parent>hwrace</parent>
+	<mratimestamp>202304140600</mratimestamp>
+	<year>1983</year>
+	<manufacturer>Taito</manufacturer>
+	<category>Racing</category>
+	<rbf>TaitoSJ</rbf>
+	<rotation>Vertical</rotation>
+	<joystick>8-way</joystick>
+        <buttons default="A,B,Start,Select,L,R,X,Y" names="A,B,Start,Select,Coin,Coin,Service,Pause"/>
+	<switches default="00,40,FF,00,00,00,00,00">
+		<dip bits="10" name="Free Play" ids="Off,On"/>
+		<dip bits="11,12" name="Lives" ids="3,4,5,6"/>
+		<dip bits="13" name="IO Test" ids="Off, On"/>
+		<dip bits="14" name="Flip Screen" ids="Off, On"/>
+		<dip bits="15" name="Cabinet" ids="Upright, Cocktail"/>
+		<dip bits="16,19" name="Coin A" ids="9C1C,8C1C,7C1C,6C1C,5C1C,4C1C,3C1C,2C1C,1C8C,1C7C,1C6C,1C5C,1C4C,1C3C,1C2C,1C1C"/>
+		<dip bits="20,23" name="Coin B" ids="9C1C,8C1C,7C1C,6C1C,5C1C,4C1C,3C1C,2C1C,1C8C,1C7C,1C6C,1C5C,1C4C,1C3C,1C2C,1C1C"/>		
+		<dip bits="36" name="Coinage Display" ids="Credits,Insert Coin"/>		
+		<dip bits="37" name="Year Display" ids="Yes,No"/>		
+		<dip bits="38" name="Hit Detection" ids="Normal Game,No Hit"/>		
+		<dip bits="39" name="Coin Slots" ids="A and B,A only"/>		
+	</switches>		
+	<rom index="0" md5="none" zip="hwrace.zip" type="merged|nonmerged">
+		<part crc="8beec11f" name="hw_race.01"/>
+		<part crc="72ad099d" name="hw_race.02"/>
+		<part crc="d0c221d7" name="hw_race.03"/>
+		<part crc="eb97015b" name="hw_race.04"/>
+		<part crc="777c8007" name="hw_race.05"/>
+		<part crc="165f46a3" name="hw_race.06"/>
+		<part crc="53d7e323" name="hw_race.07"/>
+		<part crc="bdbc1208" name="hw_race.08"/>		
+		<part repeat="0x8000"> 00 </part>
+		<part crc="345b9b88" name="hw_race.09"/>
+		<part crc="598a3c3e" name="hw_race.10"/>
+		<part crc="3f436a7d" name="hw_race.11"/>
+		<part crc="8694b2c6" name="hw_race.12"/>
+		<part crc="a0af7711" name="hw_race.13"/>		
+		<part crc="9be0f556" name="hw_race.14"/>
+		<part crc="e1057eb7" name="hw_race.15"/>
+		<part crc="f7104668" name="hw_race.16"/>		
+		<part crc="afe24f3e" name="w_race.17"/>
+		<part crc="dbec897d" name="w_race.18"/>		
+		<part repeat="0x2000"> 00 </part> 
+		<part crc="b833b5ea" name="eb16.22"/>
+		<part repeat="0x0F00"> 00 </part>
+    </rom>	
+	<rom index="1">
+		<part>0</part>
+	</rom>		
+</misterromdescription>

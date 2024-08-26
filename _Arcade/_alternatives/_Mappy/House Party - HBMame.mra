@@ -1,0 +1,63 @@
+<misterromdescription>
+	<name>House Party</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Mappy</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1998</year>
+	<manufacturer>Jerky</manufacturer>
+	<category>Maze</category>
+
+	<setname>housepty</setname>
+	<parent></parent>
+	<mameversion>0217</mameversion>
+	<rbf>druaga</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R" names="Door,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches></switches>
+
+	<rom index="1">
+		<part>02</part>
+		</rom>
+	<rom index="0" md5="50a2c39b6981b0cce5f50cce72009ee4" zip="/hbmame/mappy.zip">
+		<part crc="6f778a5d" name="housepty/housep1d.64"></part>
+		<part crc="6f778a5d" name="housepty/housep1d.64"></part>
+		<part crc="a958a61c" name="mp1_2.1c"></part>
+		<part crc="41a0c5b4" name="housepty/housep1b.64"></part>
+		<part crc="23a3c108" name="housepty/housep3m.64"></part>
+		<part crc="23a3c108" name="housepty/housep3m.64"></part>
+		<part crc="c6822529" name="housepty/housep3n.64"></part>
+		<part crc="c6822529" name="housepty/housep3n.64"></part>
+		<part crc="8182dd5b" name="mp1_4.1k"></part>
+		<part crc="8d565a7e" name="housepty/housep3b.32"></part>
+		<part crc="5396bd78" name="mp1-7.5k"></part>
+		<part crc="5396bd78" name="mp1-7.5k"></part>
+		<part crc="5396bd78" name="mp1-7.5k"></part>
+		<part crc="5396bd78" name="mp1-7.5k"></part>
+		<part crc="50765082" name="mp1-6.4c"></part>
+		<part crc="16a9166a" name="mp1-3.3m"></part>
+		<part crc="56531268" name="mp1-5.5b"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

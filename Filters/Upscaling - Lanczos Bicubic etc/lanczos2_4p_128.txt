@@ -1,0 +1,14 @@
+# 4 Phase Filters
+# Single Set of Coefficients
+
+# The original filename is:
+# lanczos2_4p_128.txt
+
+# Coefficients
+   0, 128,   0,   0
+ -11, 111,  30,  -2
+  -8,  72,  72,  -8
+  -2,  30, 111, -11
+
+
+

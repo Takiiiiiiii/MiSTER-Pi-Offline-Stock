@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Phoenix</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>D and L</version>
+	<alternative>Phoenix</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Amstar</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>phoenixdal</setname>
+	<parent>phoenix</parent>
+	<mameversion>0218</mameversion>
+	<rbf>phoenix</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="62e2775c0f4b58a8539ca091d662fce5" zip="phoenix.zip|phoenixdal.zip">
+		<part crc="5b8c55a8" name="dal.a1"></part>
+		<part crc="dbc942fa" name="dal.a2"></part>
+		<part crc="cbbb8839" name="dal.a3"></part>
+		<part crc="228b76ad" name="dal.a4"></part>
+		<part crc="1a1ce0d0" name="d2716,dal.a5"></part>
+		<part crc="ac5e9ec1" name="h6-ic50.6a"></part>
+		<part crc="2eab35b4" name="h7-ic51.7a"></part>
+		<part crc="0a0f92c0" name="dal.a8"></part>
+		<part crc="3c7e623f" name="ic23.3d"></part>
+		<part crc="59916d3b" name="ic24.4d"></part>
+		<part crc="bb0525ed" name="dal.b3"></part>
+		<part crc="4178aa4f" name="dal.b4"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,21 @@
+####
+# Name: Consumer TV (Generic)
+# Author: TrashUncle
+# Type: CRT
+# Genre: Realistic
+# Sub-Pixel Layout: BGR
+####
+v2
+4,2
+708,14c,24c,44c
+14c,24c,44c,708
+
+Resolution=1440
+v2
+8,6
+708,708,14c,14c,24c,24c,44c,44c
+708,708,14c,14c,24c,24c,44c,44c
+708,708,14c,14c,24c,24c,44c,44c
+14c,14c,24c,24c,44c,44c,708,708
+14c,14c,24c,24c,44c,44c,708,708
+14c,14c,24c,24c,44c,44c,708,708

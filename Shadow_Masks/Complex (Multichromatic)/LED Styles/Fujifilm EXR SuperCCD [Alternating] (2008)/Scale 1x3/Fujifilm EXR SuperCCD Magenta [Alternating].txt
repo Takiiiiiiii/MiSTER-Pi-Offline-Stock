@@ -1,0 +1,22 @@
+####
+# Name: Fujifilm EXR SuperCCD Magenta [Alternating]
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+2,12
+32a,51d
+32a,51d
+32a,51d
+51d,32a
+51d,32a
+51d,32a
+51d,62a
+51d,62a
+51d,62a
+62a,51d
+62a,51d
+62a,51d

@@ -1,0 +1,83 @@
+<misterromdescription>
+	<name>TeddyBoy Blues</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>315-5115, New Ver</version>
+	<alternative></alternative>
+	<platform>Sega System 1</platform>
+	<series></series>
+	<year>1985</year>
+	<manufacturer>Sega</manufacturer>
+	<category>Platform</category>
+
+	<setname>teddybb</setname>
+	<parent>teddybb</parent>
+	<mameversion>0217</mameversion>
+	<rbf>segasys1</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R,C" names="Fire,Jump,-,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,7E">
+		<dip bits="9" ids="Off,On" name="Demo Sound"></dip>
+		<dip bits="10,11" ids="252,4,2,3" name="Lives"></dip>
+		<dip bits="12,13" ids="600k,400k 800k,200k 600k,100k 400k" name="Extend"></dip>
+		<dip bits="14" ids="Hard,Easy" name="Difficulty"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>40</part>
+		</rom>
+	<rom index="0" md5="f2fd1aa2db99df38b56d4a05c192db32" type="merged|nonmerged|split" zip="teddybb.zip">
+		<part crc="5939817e" name="epr-6768.116"></part>
+		<part crc="14a98ddd" name="epr-6769.109"></part>
+		<part crc="67b0c7c2" name="epr-6770.96"></part>
+		<part crc="c2a1b89d" name="epr6748x.120"></part>
+		<part crc="c2a1b89d" name="epr6748x.120"></part>
+		<part crc="1be35a97" name="epr-6735.117"></part>
+		<part crc="6b53aa7a" name="epr-6737.04"></part>
+		<part crc="565c25d0" name="epr-6736.110"></part>
+		<part crc="e116285f" name="epr-6738.05"></part>
+		<part crc="a0e5aca7" name="epr-6747.62"></part>
+		<part crc="0cab75c3" name="epr-6745.64"></part>
+		<part crc="c33062b5" name="epr-6743.66"></part>
+		<part crc="cdb77e51" name="epr-6746.61"></part>
+		<part crc="0ef8d2cd" name="epr-6744.63"></part>
+		<part crc="c457e8c5" name="epr-6742.65"></part>
+		<part crc="648350b8" name="pr-5317.76"></part>
+		<part>
+20 28 00 08 80 00 a0 20 20 28 00 08 a0 a8 20 28 
+28 08 a8 88 a0 80 a8 88 a0 a8 20 28 a0 80 a8 88 
+20 28 00 08 28 08 a8 88 a0 a8 20 28 a0 a8 20 28 
+a0 80 a8 88 28 08 a8 88 a0 a8 20 28 28 08 a8 88 
+80 00 a0 20 80 00 a0 20 a0 20 a8 28 a0 a8 20 28 
+a0 20 a8 28 a0 80 a8 88 a0 80 a8 88 a0 80 a8 88 
+80 00 a0 20 20 28 00 08 a0 a8 20 28 a0 20 a8 28 
+80 00 a0 20 a0 80 a8 88 a0 a8 20 28 a0 20 a8 28 
+		</part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		55 00 00 00 00 FF 00 02 00 02 00 01 00 FF 00 00
+		00 00 C5 78 00 03 00 00
+		00 00 EF 03 00 31 00 49
+		</part>
+		</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="52"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

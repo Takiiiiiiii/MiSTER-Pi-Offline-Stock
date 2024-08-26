@@ -1,0 +1,60 @@
+<misterromdescription>
+	<name>Pac Snoop</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>v1.3, Fast</version>
+	<alternative>Pac-Man</alternative>
+	<platform></platform>
+	<series>Pac-Man</series>
+	<year>1980</year>
+	<manufacturer>Scott Lawrence</manufacturer>
+	<category>Maze</category>
+
+	<setname>pacsnoop</setname>
+	<parent>puckman</parent>
+	<mameversion>0217</mameversion>
+	<rbf>pacman</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>0</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="86e8e17c6e208a2bb41ac05fea0c2aef" zip="/hbmame/puckman.zip">
+		<part crc="fa536307" name="pacsnoop/pacsnoop.6e"></part>
+		<part crc="30ea615c" name="pacsnoop/pacsnoop.6f"></part>
+		<part crc="25da6440" name="pacsnoop/pacsnoop.6h"></part>
+		<part crc="a9594951" name="pacsnoop/pacsnoop.6j"></part>
+		<part crc="fa536307" name="pacsnoop/pacsnoop.6e"></part>
+		<part crc="30ea615c" name="pacsnoop/pacsnoop.6f"></part>
+		<part crc="25da6440" name="pacsnoop/pacsnoop.6h"></part>
+		<part crc="a9594951" name="pacsnoop/pacsnoop.6j"></part>
+		<part crc="0c944964" name="chtpac/pacman.5e"></part>
+		<part crc="958fedf9" name="chtpac/pacman.5f"></part>
+		<part crc="958fedf9" name="chtpac/pacman.5f"></part>
+		<part crc="958fedf9" name="chtpac/pacman.5f"></part>
+		<part crc="a9cc86bf" name="82s126.1m"></part>
+		<part crc="3eb3a8e4" name="82s126.4a"></part>
+		<part crc="77245b66" name="82s126.3m"></part>
+		<part crc="2fc650bd" name="82s123.7f"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

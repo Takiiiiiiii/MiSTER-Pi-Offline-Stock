@@ -1,0 +1,63 @@
+<misterromdescription>
+	<name>Elevator Action (bootleg)</name>
+	<mameversion>0245</mameversion>
+	<setname>elevatorb</setname>
+	<parent>elevator</parent>
+	<mratimestamp>202304140600</mratimestamp>
+	<year>1983</year>
+	<manufacturer>Taito</manufacturer>
+	<category>Platform</category>
+	<rbf>TaitoSJ</rbf>
+	<rotation>Horizontal</rotation>
+	<joystick>8-way</joystick>
+        <buttons default="A,B,Start,Select,L,R,X,Y" names="A,B,Start,Select,Coin,Coin,Service,Pause"/>
+	<switches default="00,00,FF,00,00,00,00,00">
+		<dip bits="8,9" name="Bonus Life" ids="10000,15000,20000,25000"/>
+		<dip bits="10" name="Free Play" ids="Off,On"/>
+		<dip bits="11,12" name="Lives" ids="3,4,5,6"/>
+		<dip bits="14" name="Flip Screen" ids="Off, On"/>
+		<dip bits="15" name="Cabinet" ids="Upright, Cocktail"/>
+		<dip bits="16,19" name="Coin A" ids="9C1C,8C1C,7C1C,6C1C,5C1C,4C1C,3C1C,2C1C,1C8C,1C7C,1C6C,1C5C,1C4C,1C3C,1C2C,1C1C"/>
+		<dip bits="20,23" name="Coin B" ids="9C1C,8C1C,7C1C,6C1C,5C1C,4C1C,3C1C,2C1C,1C8C,1C7C,1C6C,1C5C,1C4C,1C3C,1C2C,1C1C"/>		
+		<dip bits="32,33" name="Difficulty" ids="Easiest,Easy,Normal,Hard"/>
+		<dip bits="36" name="Coinage Display" ids="Credits,Insert Coin"/>		
+		<dip bits="37" name="Year Display" ids="Yes,No"/>		
+		<dip bits="38" name="Hit Detection" ids="Normal Game,No Hit"/>		
+		<dip bits="39" name="Coin Slots" ids="A and B,A only"/>		
+	</switches>		
+	<rom index="0" md5="none" zip="elevator.zip|elevatorb.zip" type="merged|nonmerged">
+		<part crc="66baa214" name="eabl_12.2732.ic69"/>
+		<part crc="13702e39" name="ea_13.2732.ic68"/>
+		<part crc="46f52646" name="ea_14.2732.ic67"/>
+		<part crc="b88f3383" name="eabl_15.2732.ic66"/>
+		<part crc="c10691d7" name="ea_16.2732.ic65"/>
+		<part crc="8913b293" name="ea_17.2732.ic64"/>
+		<part crc="d546923e" name="eabl_18.2732.ic55"/>
+		<part crc="963ec5a5" name="eabl_19.2732.ic54"/>
+		<part crc="66baa214" name="eabl_12.2732.ic69"/>
+		<part crc="13702e39" name="ea_13.2732.ic68"/>
+		<part crc="46f52646" name="ea_14.2732.ic67"/>
+		<part crc="b88f3383" name="eabl_15.2732.ic66"/>
+		<part crc="c10691d7" name="ea_16.2732.ic65"/>
+		<part crc="8913b293" name="ea_17.2732.ic64"/>
+		<part repeat="0x1000"> 00 </part>
+		<part crc="44b1314a" name="eabl.2732.ic52"/>
+		<part crc="bbbb3fba" name="ea_20.2732.ic1"/>
+		<part crc="639cc2fd" name="ea_21.2732.ic2"/>
+		<part crc="61317eea" name="ea_22.2732.ic3"/>
+		<part crc="55446482" name="ea_23.2732.ic4"/>
+		<part crc="77895c0f" name="ea_24.2732.ic5"/>
+		<part crc="9a1b6901" name="ea_25.2732.ic6"/>
+		<part crc="839112ec" name="ea_26.2732.ic7"/>
+		<part crc="db7ff692" name="ea_27.2732.ic8"/>
+		<part crc="6d5f57cb" name="ea_9.2732.ic70"/>
+		<part crc="f0a769a1" name="ea_10.2732.ic71"/>
+		<part repeat="0x1000"> 00 </part>
+		<part repeat="0x1000"> 00 </part>
+		<part crc="b833b5ea" name="eb16.ic22"/>
+		<part repeat="0x0F00"> 00 </part>
+    </rom>	
+	<rom index="1">
+		<part>1</part>
+	</rom>		
+</misterromdescription>

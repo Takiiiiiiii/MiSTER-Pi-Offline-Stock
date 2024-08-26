@@ -1,0 +1,51 @@
+<misterromdescription>
+	<name>Astropede II</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Centipede</alternative>
+	<platform></platform>
+	<series></series>
+	<year>2002</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>astropd2</setname>
+	<parent>centiped</parent>
+	<mameversion>0217</mameversion>
+	<rbf>centipede</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>no</flip>
+
+	<players>1</players>
+	<joystick></joystick>
+	<special_controls>trackball</special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="16a6d7aba073d86dd4806d9dfeda360c" zip="/hbmame/centiped.zip">
+		<part crc="5ab0d9de" name="astropd2/136001-307.d1"></part>
+		<part crc="4c07fd3e" name="astropd2/136001-308.e1"></part>
+		<part crc="ff69b424" name="astropd2/136001-309.fh1"></part>
+		<part crc="44e40fa4" name="astropd2/136001-310.j1"></part>
+		<part crc="7bdb6861" name="astropd2/astropd2.211"></part>
+		<part crc="043f9810" name="astropd2/astropd2.212"></part>
+		<part crc="6fa3093a" name="136001-213.p4"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

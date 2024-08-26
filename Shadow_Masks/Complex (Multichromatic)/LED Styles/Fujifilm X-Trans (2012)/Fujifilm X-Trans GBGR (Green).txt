@@ -1,0 +1,13 @@
+####
+# Name: Fujifilm X-Trans GBGR (Green)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+3,3
+20d,12a,20d
+42a,20d,42a
+20d,12a,20d

@@ -1,0 +1,72 @@
+<misterromdescription>
+	<name>Star Fighter</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Galaxian</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1979</year>
+	<manufacturer>Jeutel</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>starfght</setname>
+	<parent></parent>
+	<mameversion>0218</mameversion>
+	<rbf>galaxian</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="1F,1F,04">
+		<dip bits="7" ids="Off,On" name="Service"></dip>
+		<dip bits="6" ids="Off,On" name="Test"></dip>
+		<dip bits="5" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="14,15" ids="1c/1cr,1c/2cr,2c/1cr,Free Play" name="Coinage" values="0,2,1,3"></dip>
+		<dip bits="16,17" ids="7000,10000,12000,20000" name="Bonus Life After"></dip>
+		<dip bits="18" ids="2,3" name="Lives"></dip>
+		</switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="d51a0a26344532a49ef61d9b6eb79587" zip="galaxian.zip|starfght.zip">
+		<part crc="c6ab558b" name="ja.1"></part>
+		<part crc="34b99fed" name="jb.2"></part>
+		<part crc="30e28016" name="jc.3"></part>
+		<part crc="de7e7770" name="jd.4"></part>
+		<part crc="a916c919" name="je.5"></part>
+		<part crc="9175882b" name="jf.6"></part>
+		<part crc="707c0f02" name="jg.7"></part>
+		<part crc="5dd26461" name="jh.8"></part>
+		<part crc="6651fe93" name="ji.9"></part>
+		<part crc="12c721b9" name="jj.10"></part>
+		<part crc="6651fe93" name="ji.9"></part>
+		<part crc="12c721b9" name="jj.10"></part>
+		<part crc="6651fe93" name="ji.9"></part>
+		<part crc="12c721b9" name="jj.10"></part>
+		<part crc="6651fe93" name="ji.9"></part>
+		<part crc="12c721b9" name="jj.10"></part>
+		<part crc="977e37cf" name="k1.7a"></part>
+		<part crc="977e37cf" name="k1.7a"></part>
+		<part crc="15e387ce" name="k2.9a"></part>
+		<part crc="15e387ce" name="k2.9a"></part>
+		<part crc="24652bc4" name="mmi6331.7f"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,14 @@
+####
+# Name: Trichromatic RBgg (Green)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+2,4
+42a,21d
+12a,21d
+21d,42a
+21d,12a

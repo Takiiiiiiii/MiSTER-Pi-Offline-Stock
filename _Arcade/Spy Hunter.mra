@@ -1,0 +1,78 @@
+<misterromdescription>
+	<name>Spy Hunter</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Midway MCR3</platform>
+	<series></series>
+	<year>1983</year>
+	<manufacturer>Bally</manufacturer>
+	<manufacturer2>Midway</manufacturer2>
+	<category>Shooter - Vertical</category>
+
+	<setname>spyhunt</setname>
+	<parent>spyhunt</parent>
+	<mameversion>0220</mameversion>
+	<rbf>mcr3scroll</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>1</players>
+	<joystick></joystick>
+	<special_controls>paddle / pedal</special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,B,X,Y,Start,R,Select" names="Machine Guns,Missiles,Smoke Screen,Oil Slick,Van/Start,Gear Shift,Coin"></buttons>
+
+	<switches default="FF 00">
+		<dip bits="0" ids="1:00,1:30" name="Game Timer"></dip>
+		<dip bits="1" ids="Off,On" name="Demo Sounds"></dip>
+		<dip bits="8" ids="Off,On" name="Service"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0</part>
+		</rom>
+	<rom index="0" md5="83494589c7ec76729e0d776d999e3a70" zip="spyhunt.zip">
+		<part crc="1721b88f" name="spy-hunter_cpu_pg0_2-9-84.6d"></part>
+		<part crc="909d044f" name="spy-hunter_cpu_pg1_2-9-84.7d"></part>
+		<part crc="afeeb8bd" name="spy-hunter_cpu_pg2_2-9-84.8d"></part>
+		<part crc="5e744381" name="spy-hunter_cpu_pg3_2-9-84.9d"></part>
+		<part crc="a3033c15" name="spy-hunter_cpu_pg4_2-9-84.10d"></part>
+		<part crc="88aa1e99" name="spy-hunter_cpu_pg5_2-9-84.11d"></part>
+		<part crc="c95cf31e" name="spy-hunter_snd_0_sd_11-18-83.a7"></part>
+		<part crc="12aaa48e" name="spy-hunter_snd_1_sd_11-18-83.a8"></part>
+		<part crc="0d9ddce6" name="spy-hunter_cs_deluxe_u17_b_11-18-83.u17"></part>
+		<part crc="63d3f5b1" name="spy-hunter_cs_deluxe_u18_d_11-18-83.u18"></part>
+		<part crc="6e689fe7" name="spy-hunter_cs_deluxe_u7_a_11-18-83.u7"></part>
+		<part crc="35563cd0" name="spy-hunter_cs_deluxe_u8_c_11-18-83.u8"></part>
+		<interleave output="32">
+		<part crc="9fe286ec" map="0001" name="spy-hunter_video_1fg_11-18-83.a7"></part>
+		<part crc="292c5466" map="0001" name="spy-hunter_video_0fg_11-18-83.a8"></part>
+		<part crc="b894934d" map="0010" name="spy-hunter_video_3fg_11-18-83.a5"></part>
+		<part crc="62c8bfa5" map="0010" name="spy-hunter_video_2fg_11-18-83.a6"></part>
+		<part crc="2d9fbcec" map="0100" name="spy-hunter_video_5fg_11-18-83.a3"></part>
+		<part crc="7ca4941b" map="0100" name="spy-hunter_video_4fg_11-18-83.a4"></part>
+		<part crc="940fe17e" map="1000" name="spy-hunter_video_7fg_11-18-83.a1"></part>
+		<part crc="8cb8a066" map="1000" name="spy-hunter_video_6fg_11-18-83.a2"></part>
+		</interleave>
+		<part crc="dea34fed" name="spy-hunter_cpu_bg0_11-18-83.3a"></part>
+		<part crc="8f64525f" name="spy-hunter_cpu_bg1_11-18-83.4a"></part>
+		<part crc="ba0fd626" name="spy-hunter_cpu_bg2_11-18-83.5a"></part>
+		<part crc="7b482d61" name="spy-hunter_cpu_bg3_11-18-83.6a"></part>
+		<part crc="936dc87f" name="spy-hunter_cpu_alpha-n_11-18-83"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="2048"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,30 @@
+####
+# Name: S-Slot
+# Author: TrashUncle
+# Type: CRT
+# Genre: Slot Mask
+# Sub-Pixel Layout: Monochrome
+####
+v2
+2,2
+70f,00c
+00c,70f
+
+Resolution=1080
+v2
+6,5
+00c,70f,00c,00c,70f,00c
+70f,70f,00c,70f,70f,00c
+00c,00c,00c,00c,00c,00c
+00c,70f,70f,00c,70f,70f
+00c,70f,00c,00c,70f,00c
+
+Resolution=1440
+v2
+6,6
+00c,70f,00c,00c,70f,00c
+00c,70f,00c,00c,70f,00c
+70f,70f,00c,70f,70f,00c
+00c,00c,00c,00c,00c,00c
+00c,70f,70f,00c,70f,70f
+00c,70f,00c,00c,70f,00c

@@ -1,0 +1,59 @@
+<misterromdescription>
+	<name>Time Tunnel</name>
+	<mameversion>0245</mameversion>
+	<setname>timetunl</setname>
+	<parent>timetunl</parent>
+	<mratimestamp>202304140600</mratimestamp>
+	<year>1983</year>
+	<manufacturer>Taito</manufacturer>
+	<category>Platform</category>
+	<rbf>TaitoSJ</rbf>
+	<rotation>horizontal</rotation>
+	<joystick>8-way</joystick>
+        <buttons default="A,B,Start,Select,L,R,X,Y" names="A,B,Start,Select,Coin,Coin,Service,Pause"/>
+	<switches default="00,C0,FF,00,00,00,00,00">
+		<dip bits="10" name="Free Play" ids="Off,On"/>
+		<dip bits="11,12" name="Lives" ids="3,4,5,6"/>
+		<dip bits="14" name="Flip Screen" ids="Off, On"/>
+		<dip bits="15" name="Cabinet" ids="Upright, Cocktail"/>
+		<dip bits="16,19" name="Coin A" ids="9C1C,8C1C,7C1C,6C1C,5C1C,4C1C,3C1C,2C1C,1C8C,1C7C,1C6C,1C5C,1C4C,1C3C,1C2C,1C1C"/>
+		<dip bits="20,23" name="Coin B" ids="9C1C,8C1C,7C1C,6C1C,5C1C,4C1C,3C1C,2C1C,1C8C,1C7C,1C6C,1C5C,1C4C,1C3C,1C2C,1C1C"/>			
+		<dip bits="36" name="Coinage Display" ids="Credits,Insert Coin"/>		
+		<dip bits="37" name="Year Display" ids="Yes,No"/>		
+		<dip bits="38" name="Free Game" ids="Normal Game,Free Game"/>		
+		<dip bits="39" name="Coin Slots" ids="A and B,A only"/>		
+	</switches>		
+	<rom index="0" md5="none" zip="timetunl.zip" type="merged|nonmerged">
+		<part crc="2e56d946" name="un01.69"/>
+		<part crc="f611d852" name="un02.68"/>
+		<part crc="144b5e7f" name="un03.67"/>
+		<part crc="b6767eba" name="un04.66"/>
+		<part crc="91e3c558" name="un05.65"/>
+		<part crc="af5a7d2a" name="un06.64"/>
+		<part crc="4ee50999" name="un07.55"/>
+		<part crc="97259b57" name="un08.54"/>
+		<part crc="2e56d946" name="un01.69"/>
+		<part crc="f611d852" name="un02.68"/>
+		<part crc="144b5e7f" name="un03.67"/>
+		<part crc="b6767eba" name="un04.66"/>
+		<part crc="91e3c558" name="un05.65"/>
+		<part crc="af5a7d2a" name="un06.64"/>
+		<part crc="771d0fb0" name="un09.53"/>
+		<part crc="8b6afad2" name="un10.52"/>
+		<part crc="3be4fed6" name="un11.1"/>
+		<part crc="2dee1cf3" name="un12.2"/>
+		<part crc="72b491a8" name="un13.3"/>
+		<part crc="5f695369" name="un14.4"/>
+		<part crc="001df94b" name="un15.5"/>
+		<part crc="e33b9019" name="un16.6"/>
+		<part crc="d66025b8" name="un17.7"/>
+		<part crc="e67ff377" name="un18.8"/>
+		<part crc="dbf726c6" name="un19.70"/>
+		<part repeat="0x3000"> 00 </part>			
+		<part crc="b833b5ea" name="eb16.22"/>
+		<part repeat="0x0F00"> 00 </part>
+	</rom>
+	<rom index="1">
+		<part>1</part>
+	</rom>			
+</misterromdescription>

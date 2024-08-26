@@ -1,0 +1,65 @@
+<misterromdescription>
+	<name>Pisces</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version></version>
+	<alternative>Pisces</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>bootleg</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>piscesb</setname>
+	<parent>pisces</parent>
+	<mameversion>0218</mameversion>
+	<rbf>galaxian</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="FF,1F,00">
+		<dip bits="14" ids="3,4" name="Lives"></dip>
+		<dip bits="15" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="16" ids="10000,20000" name="Bonus Life After"></dip>
+		<dip bits="17" ids="1c/1cr,2c/1cr" name="Coinage"></dip>
+		<dip bits="18" ids="Easy,Hard" name="Difficulty"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0B</part>
+		</rom>
+	<rom index="0" md5="cb6521abfe0cc628aedce40635cf85f1" zip="pisces.zip|piscesb.zip">
+		<part crc="856b8e1f" name="pisces.a1"></part>
+		<part crc="055f9762" name="p2.bin"></part>
+		<part crc="5540f2e4" name="pisces.b2"></part>
+		<part crc="44aaf525" name="p4.bin"></part>
+		<part crc="fade512b" name="p5.bin"></part>
+		<part crc="5ab2822f" name="p6.bin"></part>
+		<part crc="5ab2822f" name="p6.bin"></part>
+		<part crc="5ab2822f" name="p6.bin"></part>
+		<part crc="9503a23a" name="g09.bin"></part>
+		<part crc="0adfc3fe" name="g11.bin"></part>
+		<part crc="3e61f849" name="g10.bin"></part>
+		<part crc="7130e9eb" name="g12.bin"></part>
+		<part crc="57a45057" name="colour.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

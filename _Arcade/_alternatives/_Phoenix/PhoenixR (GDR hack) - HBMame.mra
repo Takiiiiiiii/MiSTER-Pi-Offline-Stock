@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>PhoenixR</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>GDR</version>
+	<alternative>Phoenix</alternative>
+	<platform></platform>
+	<series></series>
+	<year>2000</year>
+	<manufacturer>CYBERYOGI =CO= Windler</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>phoenixr</setname>
+	<parent>phoenix</parent>
+	<mameversion>0217</mameversion>
+	<rbf>phoenix</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="bb614d291845a426554ec06b34bdf10a" zip="/hbmame/phoenix.zip">
+		<part crc="5b8c55a8" name="phoenixg/phoenix.45"></part>
+		<part crc="5748f486" name="phoenixr/phoenix3.46"></part>
+		<part crc="cbbb8839" name="phoenixg/phoenix.47"></part>
+		<part crc="9253e642" name="phoenixr/phoenixr.48"></part>
+		<part crc="a105e4e7" name="h5-ic49.5a"></part>
+		<part crc="ac5e9ec1" name="h6-ic50.6a"></part>
+		<part crc="2eab35b4" name="h7-ic51.7a"></part>
+		<part crc="d2c5c984" name="phoenixr/phoenix3.52"></part>
+		<part crc="02bc87ea" name="phoenixr/r_ic23"></part>
+		<part crc="675388ee" name="phoenixr/r_ic24"></part>
+		<part crc="8b1653ba" name="phoenixr/r_ic39"></part>
+		<part crc="3b811dfb" name="phoenixr/r_ic40"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

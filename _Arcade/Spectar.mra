@@ -1,0 +1,48 @@
+<misterromdescription>
+	<name>Spectar</name>
+	<mameversion>0245</mameversion>
+	<setname>spectar</setname>
+	<parent>spectar</parent>
+	<mratimestamp>202312091000</mratimestamp>
+	<year>1980</year>
+	<manufacturer>Exidy</manufacturer>
+	<category>Maze</category>
+	<rbf>Exidy2</rbf>
+	<rotation>horizontal</rotation>
+	<joystick>4-way</joystick>
+	<switches default="00,80,FF,00,00,00,00,00">
+		<dip bits="10" name="Extend" ids="Credited, Extended"/>
+		<dip bits="11,12" name="Coinage" ids="1 COIN 1 CREDIT,1 COIN 1 CREDIT,2 COIN 1 CREDIT,1 COIN 2 CREDIT"/>
+		<dip bits="13,14" name="Lives" ids="5,4,3,2"/>
+		<dip bits="15" name="Coin Type" ids="Pence,Quarters"/>
+	</switches>
+	<rom index="0" md5="none" zip="spectar.zip" type="merged|nonmerged">
+		<part repeat="0x1000"> 00 </part>
+		<part crc="08880aff" name="spl11a-3"/>
+		<part crc="fca667c1" name="spl10a-2"/>
+		<part crc="9d4ce8ba" name="spl9a-3"/>
+		<part crc="cfacbadf" name="spl8a-2"/>
+		<part crc="4c4741ff" name="spl7a-2"/>
+		<part crc="0cb46b25" name="spl6a-2"/>
+		<part repeat="0xb800"> 00 </part>
+		<part crc="0cb46b25" name="spl6a-2"/>
+		<part repeat="0x4000"> 00 </part>
+		<part crc="c55b645d" name="hrl11d-2"/>
+		<part crc="9ca2e061" name="prom.5c"/>
+		<part crc="e26f9053" name="prom.6d"/>
+		<part crc="f76b4fcf" name="hrl14h-1"/>
+	</rom>	
+	<rom index="1">
+		<part>2</part>
+	</rom>	
+	<rom index="2">
+		<part>37</part>
+	</rom>
+	<rom index="3" md5="none">
+		<part>
+			00 00 FF FF 00 FF 00 02 00 02 00 01 00 FF 02 00
+			00 00 00 AE 00 02 00 10
+		</part>
+	</rom>
+	<nvram index="4" size="2"/>		
+</misterromdescription>

@@ -1,0 +1,65 @@
+<misterromdescription>
+	<name>Riddle of Pythagoras (Japan)</name>
+	<region>Japan</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Sega System E</platform>
+	<series></series>
+	<year>1986</year>
+	<manufacturer>Sega / Nasco</manufacturer>
+	<category>Ball and Paddle</category>
+
+	<setname>ridleofp</setname>
+	<parent>ridleofp</parent>
+	<mameversion>0235</mameversion>
+	<rbf>SMS</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>8-way</joystick>
+	<buttons names="Launch/Button1,Button2,-,-,-,-,Coin,Start,Pause" default="A,B,R,Start,Select" count="1"/>
+	
+	<switches base="24" default="FF,FF,FF">
+		<!-- SWA -->
+		<dip name="Coin A" bits="0,3" ids="Free Play,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1"/>
+		<dip name="Coin B" bits="4,7" ids="Free Play,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1"/>
+		<!-- SWB -->
+		<dip name="Lives" bits="8,9" ids="100 (Cheat),5,4,3"/>
+		<dip name="Difficulty" bits="11" ids="Difficult,Easy"/>
+		<dip name="Bonus_Life" bits="13,14" ids="None,200K 1M 2M 10M 20M 50M,100K 200K 1M 2M 10M 20M 50M,50K 100K 200K 1M 2M 10M 20M 50M"/>
+		<!-- SWC -->
+		<dip name="Service Toggle" bits="18" ids="On,Off"/>
+		<dip name="Service Mode" bits="19" ids="On,Off"/>
+	</switches>
+	
+	<rom index="0" zip="ridleofp.zip" type="merged" md5="22cff7d82820707800ed419441475842">
+		<!-- banks, size: 0x40000 -->
+		<part crc="35964109" name="epr-10425.bin"/>
+		<part crc="FCDA1DFA" name="epr-10424.bin"/>
+		<part crc="0B87244F" name="epr-10423.bin"/>
+		<part crc="14781E56" name="epr-10422.bin"/>
+		<part crc="35964109" name="epr-10425.bin"/>
+		<part crc="FCDA1DFA" name="epr-10424.bin"/>
+		<part crc="0B87244F" name="epr-10423.bin"/>
+		<part crc="14781E56" name="epr-10422.bin"/>
+
+		<!-- maincpu, size: 0x8000 -->
+		<part crc="4404C7E7" name="epr-10426.bin"/>
+	</rom>
+	<rom index="4">
+		<part>04</part>
+	</rom>
+<!--
+	<nvram index="4" size="3"/>
+-->
+
+	<remark></remark>
+
+	<mratimestamp>20210904000000</mratimestamp>
+</misterromdescription>

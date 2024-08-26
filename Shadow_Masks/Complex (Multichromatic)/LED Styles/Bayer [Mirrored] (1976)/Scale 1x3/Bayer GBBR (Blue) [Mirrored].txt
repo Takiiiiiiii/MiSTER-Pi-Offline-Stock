@@ -1,0 +1,16 @@
+####
+# Name: Bayer GBBR (Blue) [Mirrored]
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+2,6
+22a,11d
+22a,11d
+22a,11d
+11d,42a
+11d,42a
+11d,42a

@@ -1,0 +1,14 @@
+####
+# Name: Kodak RGBW-3 CMYCW (Cyan)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+4,4
+31d,71d,52a,71d
+31d,71d,52a,71d
+62a,71d,31d,71d
+62a,71d,31d,71d

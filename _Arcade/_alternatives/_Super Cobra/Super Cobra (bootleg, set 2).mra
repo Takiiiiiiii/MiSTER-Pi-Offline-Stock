@@ -1,0 +1,66 @@
+<misterromdescription>
+	<name>Super Cobra</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version></version>
+	<alternative>Super Cobra</alternative>
+	<platform></platform>
+	<series>Scramble</series>
+	<year>1981</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Shooter - Horizontal</category>
+
+	<setname>scobrag</setname>
+	<parent>scobra</parent>
+	<mameversion>0218</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R" names="Shoot,Bomb,-,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="FF,FD,F3">
+		<dip bits="8" ids="No,4 times" name="Allow Continue"></dip>
+		<dip bits="9" ids="3,4" name="Lives"></dip>
+		<dip bits="17,18" ids="99cr,1c/1cr,2c/1cr,4c/3cr" name="Coinage"></dip>
+		<dip bits="19" ids="Upright,Cocktail" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>03</part>
+		</rom>
+	<rom index="0" md5="dccc60a80946ef919e9f8f33f6c46d1a" zip="scobra.zip|scobrag.zip">
+		<part crc="04ffab61" name="2c_32.bin"></part>
+		<part crc="f82a52de" name="2e_32.bin"></part>
+		<part crc="9dee81cc" name="2f_32.bin"></part>
+		<part crc="99dee0c6" name="2h_32.bin"></part>
+		<part crc="db7fb865" name="2j_32.bin"></part>
+		<part crc="6493d2d3" name="2l_32.bin"></part>
+		<part crc="04ffab61" name="2c_32.bin"></part>
+		<part crc="f82a52de" name="2e_32.bin"></part>
+		<part crc="d4346959" name="c5_16.bin"></part>
+		<part crc="cc025d95" name="d5_16.bin"></part>
+		<part crc="1628c53f" name="e5_16.bin"></part>
+		<part crc="1628c53f" name="e5_16.bin"></part>
+		<part crc="a96316d3" name="f5_16.bin" repeat="4"></part>
+		<part crc="64d113b4" name="h5_16.bin" repeat="4"></part>
+		<part crc="4e3caeab" name="super_cobra_288_6e"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

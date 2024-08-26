@@ -1,0 +1,10 @@
+####
+# Name: Aperture Grille (No Scanlines)
+# Author: TrashUncle
+# Type: CRT
+# Genre: Realistic
+# Sub-Pixel Layout: Monochrome
+####
+v2
+2,1
+70f,00f

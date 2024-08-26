@@ -1,0 +1,17 @@
+####
+# Name: Kodak Panchromatic MYCK
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: RGB
+####
+
+Resolution=0
+v2
+2,6
+02a,52a
+02a,52a
+02a,52a
+62a,32a
+62a,32a
+62a,32a

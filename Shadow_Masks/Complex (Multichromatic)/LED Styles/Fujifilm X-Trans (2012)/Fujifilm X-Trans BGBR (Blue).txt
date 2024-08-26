@@ -1,0 +1,13 @@
+####
+# Name: Fujifilm X-Trans BGBR (Blue)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+3,3
+10d,22a,10d
+42a,10d,42a
+10d,22a,10d

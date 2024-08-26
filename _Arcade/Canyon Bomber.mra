@@ -1,0 +1,51 @@
+<misterromdescription>
+	<name>Canyon Bomber</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1977</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>canyon</setname>
+	<parent>canyon</parent>
+	<mameversion>0220</mameversion>
+	<rbf>canyonbomber</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (simultaneous)</players>
+	<joystick></joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="570812dbc8f570392274ce95df59ac25" zip="canyon.zip">
+		<part crc="31800767" name="9499-01.j1"></part>
+		<part crc="1eddbe28" name="9503-01.p1"></part>
+		<part crc="8be15080" name="9496-01.d1"></part>
+		<part crc="7449f754" name="9492-01.n8"></part>
+		<part crc="0d63396a" name="9506-01.m5"></part>
+		<part crc="60507c07" name="9505-01.n5"></part>
+		<part crc="b8094b4c" name="9491-01.j6"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

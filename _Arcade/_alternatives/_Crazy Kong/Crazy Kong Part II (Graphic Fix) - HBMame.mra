@@ -1,0 +1,70 @@
+<misterromdescription>
+	<name>Crazy Kong Part II</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>GFX Fix</version>
+	<alternative>Crazy Kong</alternative>
+	<platform></platform>
+	<series>Donkey Kong</series>
+	<year>1981</year>
+	<manufacturer>Falcon</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>ckongfix</setname>
+	<parent>ckong</parent>
+	<mameversion>0217</mameversion>
+	<rbf>crazykong</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="1b57264b902ff6af2c1d1e61ff953c3e" zip="/hbmame/ckong.zip">
+		<part crc="b27df032" name="ckongfix/d05-07.bin"></part>
+		<part crc="5dc1aaba" name="ckonga2/f05-08.bin"></part>
+		<part crc="c9054c94" name="ckonga2/h05-09.bin"></part>
+		<part crc="069c4797" name="ckongfix/k05-10.bin"></part>
+		<part crc="ae159192" name="ckonga2/l05-11.bin"></part>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"></part>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"></part>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"></part>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"></part>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"></part>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"></part>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"></part>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"></part>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"></part>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"></part>
+		<part crc="966bc9ab" name="ckonga2/n05-12.bin"></part>
+		<part crc="2dcedd12" name="ckonga2/n11-06.bin"></part>
+		<part crc="fa7cbd91" name="ckonga3/l11-05.bin"></part>
+		<part crc="3375b3bd" name="ckonga2/k11-04.bin"></part>
+		<part crc="5655cc11" name="ckonga2/h11-03.bin"></part>
+		<part crc="881ed76e" name="ckongfix/c11-02f.bin"></part>
+		<part crc="d49aa505" name="ckongfix/a11-01f.bin"></part>
+		<part crc="881ed76e" name="ckongfix/c11-02f.bin"></part>
+		<part crc="d49aa505" name="ckongfix/a11-01f.bin"></part>
+		<part crc="5f0bcdfb" name="falcon13"></part>
+		<part crc="9003ffbd" name="falcon12"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark>No GFX</remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,15 @@
+####
+# Name: PC Monitor RGBW (Generic)
+# Author: Tonurics
+# Type: CRT
+# Genre: Realistic
+# Sub-Pixel Layout: BGR
+####
+
+Resolution=0
+v2
+8,4
+12a,22a,42a,70a,12a,22a,42a,70a
+12a,22a,42a,70a,70a,70a,70a,70a
+12a,22a,42a,70a,12a,22a,42a,70a
+70a,70a,70a,70a,12a,22a,42a,70a

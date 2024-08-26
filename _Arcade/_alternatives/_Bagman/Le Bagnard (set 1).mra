@@ -1,0 +1,67 @@
+<misterromdescription>
+	<name>Le Bagnard</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Set 1</version>
+	<alternative>Bagman</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Valadon Automation</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>bagnard</setname>
+	<parent>bagnard</parent>
+	<mameversion>0218</mameversion>
+	<rbf>bagman</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="F6">
+		<dip bits="0,1" ids="5,4,3,2" name="Lives"></dip>
+		<dip bits="2" ids="2c/1cr,1c/1cr" name="Coinage"></dip>
+		<dip bits="3,4" ids="Hardest,Hard,Medium,Easy" name="Difficulty"></dip>
+		<dip bits="5" ids="French,English" name="Language"></dip>
+		<dip bits="6" ids="40000,30000" name="Bonus"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>00</part>
+		</rom>
+	<rom index="0" md5="f852d039ecf7c0b0a6ed4fa390511f84" zip="bagman.zip|bagnard.zip">
+		<part crc="e0156191" name="e9_b05.bin"></part>
+		<part crc="7b758982" name="f9_b06.bin"></part>
+		<part crc="302a077b" name="f9_b07.bin"></part>
+		<part crc="f04293cb" name="k9_b08.bin"></part>
+		<part crc="4f0088ab" name="bagnard.009"></part>
+		<part crc="cd2cac01" name="bagnard.010"></part>
+		<part repeat="40960">00</part>
+		<part crc="4a0a6b55" name="e1_b02.bin"></part>
+		<part crc="060b044c" name="bagnard.001"></part>
+		<part crc="c680ef04" name="j1_b04.bin"></part>
+		<part crc="8043bc1a" name="bagnard.003"></part>
+		<part crc="2e0057ff" name="r9_b11.bin"></part>
+		<part crc="b2120edd" name="t9_b12.bin"></part>
+		<part crc="2a855523" name="p3.bin"></part>
+		<part crc="ae6f1019" name="r3.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

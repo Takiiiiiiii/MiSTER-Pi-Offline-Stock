@@ -1,0 +1,21 @@
+####
+# Name: Imaging Science & Technology CFA RBGK
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: RBG
+####
+
+Resolution=0
+v2
+5,10
+02a,42a,22a,02a,12a
+02a,42a,22a,02a,12a
+02a,12a,02a,42a,22a
+02a,12a,02a,42a,22a
+42a,22a,02a,12a,02a
+42a,22a,02a,12a,02a
+12a,02a,42a,22a,02a
+12a,02a,42a,22a,02a
+22a,02a,12a,02a,42a
+22a,02a,12a,02a,42a

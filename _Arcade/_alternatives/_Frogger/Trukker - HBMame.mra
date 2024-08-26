@@ -1,0 +1,65 @@
+<misterromdescription>
+	<name>Trukker</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Frogger</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1999</year>
+	<manufacturer>Grimlick</manufacturer>
+	<category>Maze</category>
+
+	<setname>trukker</setname>
+	<parent></parent>
+	<mameversion>0217</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>0</num_buttons>
+	<buttons default="A,Start,Select,R" names="Jump,-,-,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="FF,FC,F1">
+		<dip bits="8,9" ids="3,4,5,256(Cheat)" name="Lives"></dip>
+		<dip bits="17,18" ids="1c/1cr,2c/1cr" name="Coinage"></dip>
+		<dip bits="19" ids="Upright,Cocktail" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>02</part>
+		</rom>
+	<rom index="0" md5="7f8ee938ebef2780a29940e67ba44e1a" zip="/hbmame/frogger.zip">
+		<part crc="efab0c79" name="trukker/frogger.ic5"></part>
+		<part crc="aeca9c13" name="trukker/frogger.ic6"></part>
+		<part crc="dd251066" name="trukker/frogger.ic7"></part>
+		<part crc="bf293a02" name="trukker/frogger.ic8"></part>
+		<part crc="efab0c79" name="trukker/frogger.ic5"></part>
+		<part crc="aeca9c13" name="trukker/frogger.ic6"></part>
+		<part crc="dd251066" name="trukker/frogger.ic7"></part>
+		<part crc="bf293a02" name="trukker/frogger.ic8"></part>
+		<part crc="e8ab0256" name="frogger.608"></part>
+		<part crc="7380a48f" name="frogger.609"></part>
+		<part crc="31d7eb27" name="frogger.610"></part>
+		<part crc="31d7eb27" name="frogger.610"></part>
+		<part crc="6ab5c2eb" name="trukker/trukker.607" repeat="4"></part>
+		<part crc="f0c49466" name="trukker/trukker.606" repeat="4"></part>
+		<part crc="413703bf" name="pr-91.6l"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

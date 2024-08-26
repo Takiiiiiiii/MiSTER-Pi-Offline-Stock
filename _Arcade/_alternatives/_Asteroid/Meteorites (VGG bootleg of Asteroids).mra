@@ -1,0 +1,49 @@
+<misterromdescription>
+	<name>Meteor</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Asteroids, VGG</version>
+	<alternative>Asteroids</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1979</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>meteorts</setname>
+	<parent>Asteroids</parent>
+	<mameversion>0218</mameversion>
+	<rbf>asteroids</rbf>
+	<about></about>
+
+	<resolution>31kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>3</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="ba0d4208275d59217a24b00f79297762" zip="asteroid.zip|meteorts.zip">
+		<part crc="dff88688" name="m0_c1.bin"></part>
+		<part crc="e53c28a9" name="m1_f1.bin"></part>
+		<part crc="64bd0408" name="m2_j1.bin"></part>
+		<part crc="11d1c4ae" name="mv_np3.bin"></part>
+		<part crc="97953db8" name="034602-01.c8"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

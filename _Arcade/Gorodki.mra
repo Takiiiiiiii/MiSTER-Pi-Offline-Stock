@@ -1,0 +1,54 @@
+<misterromdescription>
+	<name>Gorodki</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1988</year>
+	<manufacturer>Terminal</manufacturer>
+	<category>Action</category>
+
+	<setname>gorodki</setname>
+	<parent>gorodki</parent>
+	<mameversion>0229</mameversion>
+	<rbf>tiamc1</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Y" names="Button 1,Button 2,Coin/Start"></buttons>
+
+	<switches></switches>
+
+	<rom index="1">
+		<part>05</part>
+		</rom>
+	<rom index="0" md5="173f43dafeaa1ab936ee9f84effd0778" zip="gorodki.zip">
+		<part crc="B3DD4DEC" name="66.2a"></part>
+		<part crc="C94F5579" name="67.3a"></part>
+		<part crc="0D64708D" name="68.5a"></part>
+		<part crc="57C8AE81" name="69.6a"></part>
+		<part crc="BD3EB624" name="70.1g"></part>
+		<part crc="5A9EBD8D" name="71.2g"></part>
+		<part crc="EDCC5C13" name="72.3g"></part>
+		<part crc="AE69B9F3" name="73.4g"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

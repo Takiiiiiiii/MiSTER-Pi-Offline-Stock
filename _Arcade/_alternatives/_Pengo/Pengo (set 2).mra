@@ -1,0 +1,58 @@
+<misterromdescription>
+	<name>Pengo</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Set 2</version>
+	<alternative>Pengo</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Sega</manufacturer>
+	<category>Maze</category>
+
+	<setname>pengo2</setname>
+	<parent>pengo</parent>
+	<mameversion>0218</mameversion>
+	<rbf>pengo</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="056e8d070cbb9d55ea8fe7f59f1a409f" zip="pengo.zip|pengo2.zip">
+		<part crc="e4924b7b" name="ic8.2"></part>
+		<part crc="72e7775d" name="ic7.2"></part>
+		<part crc="7410ef1e" name="ic15.2"></part>
+		<part crc="55b3f379" name="ic14.2"></part>
+		<part crc="b72084ec" name="ep1693b.21"></part>
+		<part crc="770570cf" name="ic20.2"></part>
+		<part crc="af7b12c4" name="ep5118b.32"></part>
+		<part crc="669555c1" name="ic31.2"></part>
+		<part crc="d7eec6cd" name="ep1640.92"></part>
+		<part crc="5bfd26e9" name="ep1695.105"></part>
+		<part crc="766b139b" name="pr1634.88"></part>
+		<part crc="c29dea27" name="pr1635.51"></part>
+		<part crc="77245b66" name="pr1636.70"></part>
+		<part crc="3a5844ec" name="pr1633.78"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

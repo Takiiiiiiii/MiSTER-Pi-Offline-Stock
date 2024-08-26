@@ -1,0 +1,57 @@
+<misterromdescription>
+	<name>Kot-Rybolov</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>TIAMC1</platform>
+	<series></series>
+	<year>1988</year>
+	<manufacturer>Terminal</manufacturer>
+	<category>Action</category>
+
+	<setname>kot</setname>
+	<parent>kot</parent>
+	<mameversion>0229</mameversion>
+	<rbf>tiamc1</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Y" names="Button 1,Button 2,Coin/Start"></buttons>
+
+	<switches></switches>
+
+	<rom index="1">
+		<part>80</part>
+		</rom>
+	<rom index="0" md5="none" zip="kot.zip">
+		<part crc="5DC3A102" name="850.5"></part>
+		<part crc="7DB239A0" name="851.6"></part>
+		<part crc="C7700F88" name="852.7"></part>
+		<part crc="B94BF1AF" name="853.8"></part>
+		<part crc="44E5E8FC" name="854.6"></part>
+		<part crc="0BB2E4B2" name="855.7"></part>
+		<part crc="9180C98F" name="856.8"></part>
+		<part crc="42447F4A" name="846.1"></part>
+		<part crc="99ADA5E8" name="847.2"></part>
+		<part crc="A124CFF4" name="848.3"></part>
+		<part crc="5D27FDA6" name="849.4"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

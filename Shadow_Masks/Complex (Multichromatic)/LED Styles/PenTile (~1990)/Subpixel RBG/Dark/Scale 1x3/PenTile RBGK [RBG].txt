@@ -1,0 +1,17 @@
+####
+# Name: PenTile RBGK
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: RBG
+####
+
+Resolution=0
+v2
+4,6
+02a,42a,12a,22a
+02a,42a,12a,22a
+02a,42a,12a,22a
+12a,22a,02a,42a
+12a,22a,02a,42a
+12a,22a,02a,42a

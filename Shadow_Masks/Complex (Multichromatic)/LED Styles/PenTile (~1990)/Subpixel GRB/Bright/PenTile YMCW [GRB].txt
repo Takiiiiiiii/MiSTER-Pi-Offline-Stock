@@ -1,0 +1,13 @@
+####
+# Name: PenTile YMCW
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: GRB
+####
+
+Resolution=0
+v2
+4,2
+72a,62a,52a,32a
+52a,32a,72a,62a

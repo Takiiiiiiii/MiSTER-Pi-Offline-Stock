@@ -1,0 +1,58 @@
+<misterromdescription>
+	<name>Jin</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Falcon</manufacturer>
+	<category>Puzzle</category>
+
+	<setname>jin</setname>
+	<parent>jin</parent>
+	<mameversion>0218</mameversion>
+	<rbf>defender</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>1</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons names="Button 1,Button 2,-,-,-,Start 1P,Start 2P,Coin,Advance,Auto Up,High Score Reset,Pause" default="A,B,Start,Select,R"/>
+
+	<switches>
+		<dip bits="19" ids="3,4" name="Lives"></dip>
+		<dip bits="21,22" ids="55%,65%,75%,85%" name="Level complete"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>3</part>
+		</rom>
+	<rom index="0" md5="56cf65f7e7d1fefc4660c54b77922693" zip="jin.zip">
+		<part crc="c4b9e93f" name="jin11.6c"></part>
+		<part crc="a8bc9fdd" name="jin12.7c"></part>
+		<part crc="79779b85" name="jin13.6d"></part>
+		<part crc="6a4df97e" name="jin14.4c" repeat="4"></part>
+		<part crc="8dd98da5" name="jin.1a"></part>
+		<part crc="c3f45f70" name="jin.1l"></part>
+		<part repeat="3072">00</part>
+		<part crc="fefd5b48" name="jin15.3f"></part>
+		<part crc="fefd5b48" name="jin15.3f"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

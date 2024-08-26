@@ -1,0 +1,62 @@
+<misterromdescription>
+	<name>Star Guards</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Midway MCR3</platform>
+	<series></series>
+	<year>1987</year>
+	<manufacturer>Bally</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>stargrds</setname>
+	<parent>stargrds</parent>
+	<mameversion>0217</mameversion>
+	<rbf>mcr3mono</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>3</players>
+	<joystick>8-way</joystick>
+	<special_controls>twin stick</special_controls>
+	<num_buttons>4</num_buttons>
+	<buttons default="A,B,X,Y,Start,R" names="Fire Right,Fire Down,Fire Up,Fire Left,Start,Coin"></buttons>
+
+	<switches default="FF,00">
+		<dip bits="2,3" ids="14,12,8,10" name="Energy Units"></dip>
+		<dip bits="5" ids="Off,On" name="Demo Sounds"></dip>
+		<dip bits="6,7" ids="Hasdest,Hard,Easy,Medium" name="Difficulty"></dip>
+		<dip bits="8" ids="Off,On" name="Service"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>05</part>
+		</rom>
+	<rom index="0" md5="14a8079eb9f3ccc0a37c11842d17bd96" type="merged|nonmerged" zip="stargrds.zip">
+		<part crc="3ad94aa2" name="pro-0.3b"></part>
+		<part crc="dba428b0" name="pro-1.5b"></part>
+		<part crc="22797aaa" name="fg-0.8e"></part>
+		<part crc="413fa119" name="fg-1.6e"></part>
+		<part crc="7036cfe6" name="fg-2.5e"></part>
+		<part crc="cc5cc003" name="fg-3.4e"></part>
+		<part crc="ecfaef3e" name="bg-0.15a"></part>
+		<part crc="2c75569d" name="bg-1.14b"></part>
+		<part crc="d98d14ae" name="snd1.u17" repeat="2"></part>
+		<part crc="7755a493" name="snd0.u7" repeat="2"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="2048"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

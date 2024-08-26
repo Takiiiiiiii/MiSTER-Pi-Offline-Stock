@@ -1,0 +1,17 @@
+####
+# Name: PenTile MYCW
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: RGB
+####
+
+Resolution=0
+v2
+4,6
+72a,52a,62a,32a
+72a,52a,62a,32a
+72a,52a,62a,32a
+62a,32a,72a,52a
+62a,32a,72a,52a
+62a,32a,72a,52a

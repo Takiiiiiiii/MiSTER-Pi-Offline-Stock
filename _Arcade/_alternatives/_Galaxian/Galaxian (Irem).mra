@@ -1,0 +1,65 @@
+<misterromdescription>
+	<name>Galaxian</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Irem</version>
+	<alternative>Galaxian</alternative>
+	<platform></platform>
+	<series>Galaxian</series>
+	<year>1979</year>
+	<manufacturer>Namco</manufacturer>
+	<manufacturer>Irem</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>galaxiani</setname>
+	<parent>galaxian</parent>
+	<mameversion>0218</mameversion>
+	<rbf>galaxian</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="1F,1F,00">
+		<dip bits="7" ids="Off,On" name="Service"></dip>
+		<dip bits="6" ids="Off,On" name="Test"></dip>
+		<dip bits="5" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="14,15" ids="1c/1cr,1c/2cr,2c/1cr,Free Play" name="Coinage" values="0,2,1,3"></dip>
+		<dip bits="16,17" ids="None,4000,5000,7000" name="Bonus Life After"></dip>
+		<dip bits="18" ids="3,5" name="Lives"></dip>
+		</switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="9f2babe9157dd0a54519b172fc70b376" zip="galaxian.zip|galaxiani.zip">
+		<part crc="e8f3aa67" name="cp-1.8g"></part>
+		<part crc="f58283e3" name="cp-2.8f"></part>
+		<part crc="4c7031c0" name="cp-3.8e"></part>
+		<part crc="097d92a2" name="cp-4.8d"></part>
+		<part crc="5341d75a" name="cp-5.8c"></part>
+		<part crc="5341d75a" name="cp-5.8c"></part>
+		<part crc="5341d75a" name="cp-5.8c"></part>
+		<part crc="5341d75a" name="cp-5.8c"></part>
+		<part crc="287159b7" name="cp-7.1k"></part>
+		<part crc="287159b7" name="cp-7.1k"></part>
+		<part crc="6fb54cb1" name="cp-6.1j"></part>
+		<part crc="6fb54cb1" name="cp-6.1j"></part>
+		<part crc="c3ac9467" name="6l.bpr"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

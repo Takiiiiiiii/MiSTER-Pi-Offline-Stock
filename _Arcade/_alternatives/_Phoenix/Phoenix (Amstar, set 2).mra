@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Phoenix</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Amstar, Set 2</version>
+	<alternative>Phoenix</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Amstar</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>phoenix2</setname>
+	<parent>phoenix</parent>
+	<mameversion>0218</mameversion>
+	<rbf>phoenix</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="2741786e8f8aa9b131c80193aa5cc970" zip="phoenix.zip|phoenix2.zip">
+		<part crc="5b8c55a8" name="ic45-pg1.1a"></part>
+		<part crc="273a4a82" name="ic46-pg2.2a"></part>
+		<part crc="cbbb8839" name="ic47-pg3.3a"></part>
+		<part crc="cb5d9915" name="ic48-pg4.4a"></part>
+		<part crc="73bcd2e1" name="ic49-pg5.5a"></part>
+		<part crc="ac5e9ec1" name="ic50-pg6.6a"></part>
+		<part crc="2eab35b4" name="ic51-pg7.7a"></part>
+		<part crc="aff8e9c5" name="ic52-pg8.8a"></part>
+		<part crc="3c7e623f" name="ic23-cg1.3d"></part>
+		<part crc="59916d3b" name="ic24-cg2.4d"></part>
+		<part crc="53413e8f" name="ic39-cg3.3b"></part>
+		<part crc="0be2ba91" name="ic40-cg4.4b"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

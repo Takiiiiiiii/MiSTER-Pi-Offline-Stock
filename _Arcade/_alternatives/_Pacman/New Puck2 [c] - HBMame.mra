@@ -1,0 +1,61 @@
+<misterromdescription>
+	<name>New Puck 2</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>Cheat</version>
+	<alternative>Pac-Man</alternative>
+	<platform></platform>
+	<series>Pac-Man</series>
+	<year>1980</year>
+	<manufacturer>Namco</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Maze</category>
+
+	<setname>chtpman2</setname>
+	<parent>puckman</parent>
+	<mameversion>0217</mameversion>
+	<rbf>pacman</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>0</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="fe584e49e20ee84b7419c60a62e8a8f5" zip="/hbmame/puckman.zip">
+		<part crc="a8ae23c5" name="chtpman2/newpuck2.6e"></part>
+		<part crc="72cea888" name="chtpac/chtpac.6f"></part>
+		<part crc="197443f8" name="bucaneerx/newpuck2.6h"></part>
+		<part crc="0e3bdbde" name="chtpman2/newpuck2.6j"></part>
+		<part crc="a8ae23c5" name="chtpman2/newpuck2.6e"></part>
+		<part crc="72cea888" name="chtpac/chtpac.6f"></part>
+		<part crc="197443f8" name="bucaneerx/newpuck2.6h"></part>
+		<part crc="0e3bdbde" name="chtpman2/newpuck2.6j"></part>
+		<part crc="0c944964" name="chtpac/pacman.5e"></part>
+		<part crc="958fedf9" name="chtpac/pacman.5f"></part>
+		<part crc="958fedf9" name="chtpac/pacman.5f"></part>
+		<part crc="958fedf9" name="chtpac/pacman.5f"></part>
+		<part crc="a9cc86bf" name="82s126.1m"></part>
+		<part crc="3eb3a8e4" name="82s126.4a"></part>
+		<part crc="77245b66" name="82s126.3m"></part>
+		<part crc="2fc650bd" name="82s123.7f"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

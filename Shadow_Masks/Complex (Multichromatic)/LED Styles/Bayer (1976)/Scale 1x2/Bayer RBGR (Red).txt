@@ -1,0 +1,14 @@
+####
+# Name: Bayer RBGR (Red)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+4,4
+41d,12a,22a,41d
+41d,12a,22a,41d
+22a,41d,41d,12a
+22a,41d,41d,12a

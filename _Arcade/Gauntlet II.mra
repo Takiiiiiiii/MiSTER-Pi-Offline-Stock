@@ -1,0 +1,88 @@
+<misterromdescription>
+	<name>Gauntlet II</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series>Gauntlet</series>
+	<year>1985</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>gaunt2</setname>
+	<parent>gaunt3</parent>
+	<mameversion>0225</mameversion>
+	<rbf>gauntlet</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>4</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="B,A,R" names="Magic/Start,Fire,-,-,Coin,-"></buttons>
+
+	<switches></switches>
+
+	<rom index="1">
+		<part>6A</part>
+	</rom>
+	<rom index="0" zip="gaunt2.zip" md5="none">
+		<interleave output="32">
+			<part crc="9e30b2e9" name="136043-1117.2l" map="0001"/>
+			<part crc="f71e2503" name="136043-1115.2a" map="0010"/>
+			<part crc="33cb476e" name="136043-1113.1l" map="0100"/>
+			<part crc="09df6e23" name="136043-1111.1a" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="8bf3b263" name="136037-118.2mn" map="0001"/>
+			<part crc="11e0ac5b" name="136037-116.2b"  map="0010"/>
+			<part crc="29ef9882" name="136037-114.1mn" map="0100"/>
+			<part crc="869330be" name="136037-112.1b"  map="1000"/>
+		</interleave>
+		<part repeat="0x10000">FF</part>
+		<interleave output="32">
+			<part crc="a32c732a" name="136043-1126.2p" map="0001"/>
+			<part crc="d9c2c2d1" name="136043-1125.2c" map="0010"/>
+			<part crc="c4857879" name="136043-1124.1p" map="0100"/>
+			<part crc="e4c98f01" name="136043-1123.1c" map="1000"/>
+		</interleave>
+		<part repeat="0x60000">FF</part>
+		<interleave output="16">
+			<part crc="46fe8743" name="136037-1307.9a" map="01"/>
+			<part crc="276e15c4" name="136037-1308.9b" map="10"/>
+		</interleave>
+		<part repeat="0x20000">00</part>
+		<interleave output="16">
+			<part crc="45dfda47" name="136043-1105.10a" map="01"/>
+			<part crc="343c029c" name="136043-1106.10b" map="10"/>
+		</interleave>
+		<part repeat="0x8000">00</part>
+		<interleave output="16">
+			<part crc="58a0a9a3" name="136043-1109.7a" map="01"/>
+			<part crc="658f0da8" name="136043-1110.7b" map="10"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="ae301bba" name="136043-1121.6a" map="01"/>
+			<part crc="e94aaa8a" name="136043-1122.6b" map="10"/>
+		</interleave>
+		<part repeat="0x20000">00</part>
+		<part crc="dc3591e7" name="136043-1119.16s"/>
+		<part crc="5c731006" name="136043-1120.16r"/>
+		<part crc="bddc3dfc" name="136043-1104.6p"/>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

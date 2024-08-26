@@ -1,0 +1,52 @@
+<misterromdescription>
+	<name>Car Action</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Set 2</version>
+	<alternative>Burning Rubber</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>bootleg</manufacturer>
+	<category>Racing</category>
+
+	<setname>caractn2</setname>
+	<parent>caractn</parent>
+	<mameversion>0218</mameversion>
+	<rbf>burningrubber</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="3b18ec160afa2379145f54ea1c228243" zip="brubber.zip|caractn2.zip">
+		<part crc="406086aa" name="7.c12"></part>
+		<part crc="1d6957c4" name="c6.12d"></part>
+		<part crc="bf3ea732" name="c0.4e"></part>
+		<part crc="9789f639" name="c1.4f"></part>
+		<part crc="51dcc111" name="c2.4h"></part>
+		<part crc="f4e9eb49" name="c3.10e"></part>
+		<part crc="a9ffacb4" name="c4.10f"></part>
+		<part crc="8c02f662" name="c5.6c"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

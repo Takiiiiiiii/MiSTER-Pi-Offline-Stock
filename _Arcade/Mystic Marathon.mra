@@ -1,0 +1,77 @@
+<misterromdescription>
+  <name>Mystic Marathon</name>
+  <region>World</region>
+  <homebrew>no</homebrew>
+  <bootleg>no</bootleg>
+  <version></version>
+  <alternative></alternative>
+  <platform></platform>
+  <series></series>
+  <year>1983</year>
+  <manufacturer>Williams</manufacturer>
+  <category>Sports</category>
+
+  <setname>mysticm</setname>
+  <parent>mysticm</parent>
+  <mameversion>0222</mameversion>
+  <rbf>MysticMarathon</rbf>
+  <about></about>
+
+  <resolution>15kHz</resolution>
+  <rotation>horizontal</rotation>
+  <flip></flip>
+
+  <players>2</players>
+  <joystick></joystick>
+  <special_controls></special_controls>
+  <num_buttons></num_buttons>
+  <button_names></button_names>
+
+  <rom index="0" zip="mysticm.zip" md5="none" type="merged">
+
+    <!-- mystic_marathon_graph3 -->
+    <part crc="E274DF86" name="mm19_1.b41"/>
+
+    <!-- mystic_marathon_sound -->
+    <part crc="65339512" name="mm01_1.a08"/>
+
+    <!-- mystic_marathon_graph1 -->
+    <part crc="5C0F4F46" name="mm20_1.b57"/>
+
+    <!-- mystic_marathon_graph2 -->
+    <part crc="CB90B3C5" name="mm21_1.b57"/>
+
+    <!-- mystic_marathon_bank_a -->
+    <part crc="9B391A81" name="mm18_1.a26"/>
+    <part crc="399E175D" name="mm16_1.a24"/>
+    <part crc="191153B1" name="mm14_1.a22"/>
+    <part crc="191153B1" name="mm14_1.a22"/>
+
+    <!-- mystic_marathon_bank_b -->
+    <part crc="D36F0A96" name="mm17_1.a25"/>
+    <part crc="CD5D99DA" name="mm15_1.a23"/>
+    <part crc="EF4B79DB" name="mm13_1.a21"/>
+    <part crc="A1F04BF0" name="mm12_1.a19"/>
+
+    <!-- mystic_marathon_bank_c -->
+    <part crc="F537968E" name="mm11_1.a18"/>
+    <part crc="3BD12F6C" name="mm09_1.a16"/>
+    <part crc="EA2A2A68" name="mm07_1.a14"/>
+    <part crc="B514EEF3" name="mm05_1.a12"/>
+
+    <!-- mystic_marathon_bank_d -->
+    <part crc="D6A37509" name="mm10_1.a17"/>
+    <part crc="6F1A64F2" name="mm08_1.a15"/>
+    <part crc="2E6795D4" name="mm06_1.a13"/>
+    <part crc="C222FB64" name="mm04_1.a11"/>
+
+    <!-- mystic_marathon_prog2 -->
+    <part crc="3A776EA8" name="mm02_2.a09"/>
+    <part crc="6E247C75" name="mm03_2.a10"/>
+
+    <!-- mystic_marathon_decoder -->
+    <part crc="0EA3F7FB" name="ic60.bpr"/>
+
+  </rom>
+
+</misterromdescription>

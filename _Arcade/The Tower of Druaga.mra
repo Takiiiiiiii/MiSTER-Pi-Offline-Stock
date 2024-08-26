@@ -1,0 +1,63 @@
+<misterromdescription>
+	<name>The Tower of Druaga</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1984</year>
+	<manufacturer>Namco</manufacturer>
+	<category>Maze</category>
+
+	<setname>todruaga</setname>
+	<parent>todruaga</parent>
+	<mameversion>0220</mameversion>
+	<rbf>druaga</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R" names="Sword,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="00,00,00">
+		<dip bits="4,5"    name="Lives" ids="3,2,1,5"/>
+		<dip bits="8"	   name="Freeze" ids="Off,On"></dip>
+		<!-- dip bits="15" name="Cabinet" ids="Upright,Cocktail"></dip -->
+		<dip bits="19"	   name="Service Mode" ids="Off,On"></dip>
+	</switches>
+
+	<rom index="1">
+		<part>01</part>
+		</rom>
+	<rom index="0" zip="todruaga.zip" md5="ef0d64d4d3fc4f594389d2b28c677c20">
+		<part crc="fbf16299" name="td2_3.1d"/>
+		<part crc="b238d723" name="td2_1.1b"/>
+		<part crc="e827e787" name="td1_6.3m"/>
+		<part crc="e827e787" name="td1_6.3m"/>
+		<part crc="962bd060" name="td1_7.3n"/>
+		<part crc="962bd060" name="td1_7.3n"/>
+		<part crc="ae9d06d9" name="td1_4.1k"/>
+		<part crc="d32b249f" name="td1_5.3b"/>
+		<part crc="a86c74dd" name="td1-7.5k"/>
+		<part crc="8c661d6a" name="td1-6.4c"/>
+		<part crc="07104c40" name="td1-3.3m"/>
+		<part crc="122cc395" name="td1-5.5b"/>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

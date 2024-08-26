@@ -1,0 +1,64 @@
+<misterromdescription>
+	<name>Xevious 2002</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Xevious</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Namco</manufacturer>
+	<category>Shooter - Vertical</category>
+
+	<setname>xevioush</setname>
+	<parent>xevious</parent>
+	<mameversion>0217</mameversion>
+	<rbf>xevious</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="2b866069ba0ae5c6793f2bd318abbf75" zip="/hbmame/xevious.zip|namco50.zip|namco51.zip|namco54.zip">
+		<part crc="09964dda" name="xvi_1.3p"></part>
+		<part crc="60ecce84" name="xvi_2.3m"></part>
+		<part crc="79754b7d" name="xvi_3.2m"></part>
+		<part crc="c7d4bbf0" name="xvi_4.2l"></part>
+		<part crc="c85b703f" name="xvi_5.3f"></part>
+		<part crc="e18cdaad" name="xvi_6.3j"></part>
+		<part crc="dd35cf1c" name="xvi_7.2c"></part>
+		<part crc="9b8f4deb" name="sxvioush/xh_xvi_12.3b"></part>
+		<part crc="de60ba25" name="xvi_13.3c"></part>
+		<part crc="535cdbbc" name="xvi_14.3d"></part>
+		<part crc="308c5bad" name="battlesh/xh_xvi_15.4m"></part>
+		<part crc="b06b9ccb" name="battlesh/xh_xvi_17.4p"></part>
+		<part crc="1cbbddce" name="battlesh/xh_xvi_16.4n"></part>
+		<part crc="f56c3697" name="battlesh/xh_xvi_18.4r"></part>
+		<part crc="57ed9879" name="xvi_9.2a"></part>
+		<part crc="ae3ba9e5" name="xvi_10.2b"></part>
+		<part crc="31e244dd" name="xvi_11.2c"></part>
+		<part crc="a0acbaf7" name="50xx.bin" zip="namco50.zip"></part>
+		<part crc="c2f57ef8" name="51xx.bin" zip="namco51.zip"></part>
+		<part crc="ee7357e0" name="54xx.bin" zip="namco54.zip"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

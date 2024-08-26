@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Ave Fenix</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Electrogame, Spanish, Phoenix</version>
+	<alternative>Phoenix</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Video Game</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>avefenix</setname>
+	<parent>phoenix</parent>
+	<mameversion>0218</mameversion>
+	<rbf>phoenix</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="9b74d8028f075587a373275fe558355d" zip="phoenix.zip|avefenix.zip">
+		<part crc="5bc2e2fe" name="4101-8516.rom"></part>
+		<part crc="dcf2cc3e" name="4102-2716.rom"></part>
+		<part crc="cbbb8839" name="4103-8516.rom"></part>
+		<part crc="8380a581" name="4104-8516.rom"></part>
+		<part crc="cfa8cb51" name="4105-8516.rom"></part>
+		<part crc="ac5e9ec1" name="4106-8516.rom"></part>
+		<part crc="2eab35b4" name="4107-8516.rom"></part>
+		<part crc="f15c439d" name="4108-8516.rom"></part>
+		<part crc="3c7e623f" name="41011-8516.rom"></part>
+		<part crc="59916d3b" name="41012-8516.rom"></part>
+		<part crc="53413e8f" name="4109-8516.rom"></part>
+		<part crc="0be2ba91" name="41010-8516.rom"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

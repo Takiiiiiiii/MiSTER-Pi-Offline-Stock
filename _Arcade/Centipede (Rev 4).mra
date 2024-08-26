@@ -1,0 +1,59 @@
+<misterromdescription>
+	<name>Centipede</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Rev 4</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series>*pede</series>
+	<year>1980</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>centiped</setname>
+	<parent>centiped</parent>
+	<mameversion>0220</mameversion>
+	<rbf>centipede</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>yes</flip>
+
+	<players>1</players>
+	<joystick></joystick>
+	<special_controls>trackball</special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches page_id="1" page_name="Switches" base="8" default="00,54,02">
+	<!-- sw1, N9 -->
+	<dip bits="8,9"   name="Language"       ids="English,German,French,Spanish"/>
+	<dip bits="10,11" name="Lives"          ids="2,3,4,5"/>
+	<dip bits="12,13" name="Bonus Life"     ids="10000,12000,15000,20000"/>
+	<dip bits="14"    name="Difficulty"     ids="Hard,Easy"/>
+	<dip bits="15"    name="Credit minimum" ids="1,2"/>
+	<!-- sw2, N8 -->
+	<dip bits="16,17" name="Coinage"        ids="Free Play,1C_2C,1C_1C,2C_1C"/>
+	<dip bits="18,20" name="Game Time"      ids="Untimed,1 min,2 min,3 min,4 min,5 min,6 min,7 min"/>
+	<dip bits="21,23" name="Bonus Coins"    ids="None,3cr/2c,5cr/4c,6cr/4c,6cr/5c,4cr/3c"/>
+	</switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="92ab4507356aca0896d5c4138e82b9c4" zip="centiped.zip">
+		<part crc="c4d995eb" name="136001-407.d1"/>
+		<part crc="bcdebe1b" name="136001-408.e1"/>
+		<part crc="66d7b04a" name="136001-409.fh1"/>
+		<part crc="33ce4640" name="136001-410.j1"/>
+		<part crc="880acfb9" name="136001-211.f7"/>
+		<part crc="b1397029" name="136001-212.hj7"/>
+		<part crc="6fa3093a" name="136001-213.p4"/>
+	</rom>
+
+	<nvram index="4" size="64"/>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

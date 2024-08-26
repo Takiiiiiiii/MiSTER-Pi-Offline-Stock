@@ -1,0 +1,131 @@
+<misterromdescription>
+    <name>Daiku no Gensan (Japan, M72 hardware)</name>
+    <mameversion>0240</mameversion>
+    <setname>dkgensanm72</setname>
+    <parent>hharry</parent>
+    <year>1990</year>
+    <manufacturer>Irem</manufacturer>
+    <rotation>horizontal</rotation>
+    <category></category>
+    <rbf>IremM72</rbf>
+
+    <joystick>8-way</joystick>
+    <num_buttons>2</num_buttons>
+    <buttons default="B,A,R,L" names="Attack,Jump,-,-,Start,Coin,P2 Start,Pause"></buttons>
+    <switches default="00,06">
+        <dip bits="0,1" ids="3,2,4,5" name="Lives"></dip>
+        <dip bits="2,3" ids="Normal,Easy,Hard,Very Easy" name="Difficulty"></dip>
+        <dip bits="4" ids="Yes,No" name="Continue Limit"></dip>
+        <dip bits="5" ids="Yes,No" name="Allow Continue"></dip>
+        <dip bits="6" ids="Off,On" name="Demo Sounds"></dip>
+        <dip bits="7" ids="Off,On" name="Diagnostic Test"></dip>
+        <dip bits="8" ids="Off,On" name="Flip Picture"></dip>
+        <dip bits="9,10" ids="Cocktail,Upright (2P),Upright (2P),Upright" name="Cabinet type"></dip>
+        <dip bits="12,15" ids="1C/1C,2C/1C,3C/1C,4C/1C,5C/1C,6C/1C,1C/2C,1C/3C,1C/4C,1C/5C,1C/6C,2C/3C,3C/2C,4C/3C,2C/1C,Free Play" name="Coin Mode"></dip>
+    </switches>
+
+    <rom index="0" zip="dkgensanm72.zip|hharry.zip" md5="None">
+        <!-- board type -->
+        <part>09</part>
+
+        <!-- maincpu -->
+        <part>00 08 00 00</part>
+        <interleave output="16">
+            <part name="ge72-l0.bin" crc="996396f0" map="01"/>
+            <part name="ge72-h0.bin" crc="a0ad992c" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="ge72-l3.bin" crc="23d303a5" map="01"/>
+            <part name="ge72-h3.bin" crc="d8b86005" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="ge72-l3.bin" crc="23d303a5" map="01"/>
+            <part name="ge72-h3.bin" crc="d8b86005" map="10"/>
+        </interleave>
+
+        <!-- sprites -->
+        <part>01 08 00 00</part>
+        <interleave output="32">
+            <part name="hh_00.rom" crc="ec5127ef" map="0001" />
+            <part name="hh_10.rom" crc="def65294" map="0010" />
+            <part name="hh_20.rom" crc="bb0d6ad4" map="0100" />
+            <part name="hh_30.rom" crc="4351044e" map="1000" />
+        </interleave>
+
+        <!-- gfx2 -->
+        <part>02 08 00 00</part>
+        <interleave output="32">
+            <part name="ge72b-a0.bin" crc="f5f56b2a" map="0001" />
+            <part name="ge72-a1.bin"  crc="d194ea08" map="0010" />
+            <part name="ge72-a2.bin"  crc="2b06bcc3" map="0100" />
+            <part name="ge72-a3.bin"  crc="94b96bfa" map="1000" />
+        </interleave>
+        <interleave output="32">
+            <part name="ge72b-a0.bin" crc="f5f56b2a" map="0001" />
+            <part name="ge72-a1.bin"  crc="d194ea08" map="0010" />
+            <part name="ge72-a2.bin"  crc="2b06bcc3" map="0100" />
+            <part name="ge72-a3.bin"  crc="94b96bfa" map="1000" />
+        </interleave>
+
+        <!-- gfx3 -->
+        <part>03 04 00 00</part>
+        <interleave output="32">
+            <part name="ge72-b0.bin"  crc="208796b3" map="0001" />
+            <part name="ge72-b1.bin"  crc="b4a7f490" map="0010" />
+            <part name="ge72b-b2.bin" crc="34fe8f7f" map="0100" />
+            <part name="ge72b-b3.bin" crc="4b0e92f4" map="1000" />
+        </interleave>
+
+        <!-- samples -->
+        <part>05 02 00 00</part>
+        <part name="gen-vo.bin" crc="d8595c66"/>
+
+        <!-- offsets -->
+        <part>06 00 00 70</part>
+        <part>
+            00 00 00 00
+            00 00 00 20
+            00 00 18 00
+            00 00 2d a0
+            00 00 3b e0
+            00 00 5a e0
+            00 00 61 00
+            00 00 6d e0
+            00 00 72 60
+            00 00 7a 60
+            00 00 87 20
+            00 00 a5 c0
+            00 00 c3 c0
+            00 00 c7 a0
+            00 00 e1 40
+            00 00 fb 00
+            00 01 0f a0
+            00 01 0f c0
+            00 01 0f e0
+            00 01 1f 40
+            00 01 2b 20
+            00 01 30 a0
+            00 01 3c 60
+            00 01 47 40
+            00 01 53 c0
+            00 01 97 e0
+            00 01 af 40
+            00 01 c0 80
+        </part>
+
+        <!-- protection -->
+        <part>07 00 00 17</part>
+        <part>
+            c8 b4 dc f8 d3 ba 48 ed 79 08 1c b3 00 00 00 00 00 00
+            ea 3d 00 00 10
+        </part>
+    </rom>
+    <rom index="3" md5="none">
+            <part>
+            0F 00 00 00 0F FF 00 01 00 0F 00 01 00 01 F0 00
+            00 0e 09 a0 9f 40 20 00
+            00 0e 0a 40 03 40 02 00
+            </part>
+    </rom>
+    <nvram index="4" size="162"></nvram>
+</misterromdescription>

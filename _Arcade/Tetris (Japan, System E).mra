@@ -1,0 +1,64 @@
+<misterromdescription>
+	<name>Tetris (Japan, System E)</name>
+	<region>Japan</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Sega System E</platform>
+	<series>Tetris</series>
+	<year>1988</year>
+	<manufacturer>Sega</manufacturer>
+	<category>Puzzle / Drop</category>
+
+	<setname>tetrisse</setname>
+	<parent>tetrisse</parent>
+	<mameversion>0235</mameversion>
+	<rbf>SMS</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+	
+	<players>1</players>
+	<joystick>8-way</joystick>
+	<buttons names="Rotate/Button1,Rotate/Button2,-,-,-,-,Coin,Start,Pause" default="A,B,R,Start,Select" count="1"/>
+	
+	<switches base="24" default="FF,FF,FF">
+		<!-- SWA -->
+		<dip name="Coin A" bits="0,3" ids="1/1,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1"/>
+		<dip name="Coin B" bits="4,7" ids="1/1,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1"/>
+		<!-- SWB -->
+		<dip name="Demo Sounds" bits="9" ids="On,Off"/>
+		<dip name="Difficulty" bits="12,13" ids="Hardest,Hard,Easy,Normal"/>
+		<!-- SWC -->
+		<dip name="Service Toggle" bits="18" ids="On,Off"/>
+		<dip name="Service Mode" bits="19" ids="On,Off"/>
+	</switches>
+
+	<rom index="0" zip="tetrisse.zip" type="merged" md5="5ea87dc49d7dcc026f73a0506b3cf6da">
+		<!-- banks, size: 0x40000 -->
+		<part crc="28B550BF" name="epr-12212.5"/>
+		<part crc="5AA114E9" name="epr-12211.4"/>
+		<part crc="28B550BF" name="epr-12212.5"/>
+		<part crc="5AA114E9" name="epr-12211.4"/>
+		<part crc="28B550BF" name="epr-12212.5"/>
+		<part crc="5AA114E9" name="epr-12211.4"/>
+		<part crc="28B550BF" name="epr-12212.5"/>
+		<part crc="5AA114E9" name="epr-12211.4"/>
+
+		<!-- maincpu, size: 0x8000 -->
+		<part crc="EF3C7A38" name="epr-12213.7"/>
+	</rom>
+	<rom index="4">
+		<part>C0</part>
+	</rom>
+<!--
+	<nvram index="4" size="3"/>
+-->
+
+	<remark></remark>
+
+	<mratimestamp>20210904000000</mratimestamp>
+</misterromdescription>

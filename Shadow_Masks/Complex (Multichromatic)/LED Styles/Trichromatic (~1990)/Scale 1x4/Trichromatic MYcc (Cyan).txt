@@ -1,0 +1,26 @@
+####
+# Name: Trichromatic MYcc (Cyan)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+2,16
+52a,31d
+52a,31d
+52a,31d
+52a,31d
+62a,31d
+62a,31d
+62a,31d
+62a,31d
+31d,52a
+31d,52a
+31d,52a
+31d,52a
+31d,62a
+31d,62a
+31d,62a
+31d,62a

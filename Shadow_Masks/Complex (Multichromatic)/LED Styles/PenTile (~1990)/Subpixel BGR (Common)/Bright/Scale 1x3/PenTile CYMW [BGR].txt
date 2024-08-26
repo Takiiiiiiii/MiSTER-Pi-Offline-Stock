@@ -1,0 +1,17 @@
+####
+# Name: PenTile CYMW
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: BGR
+####
+
+Resolution=0
+v2
+4,6
+72a,32a,62a,52a
+72a,32a,62a,52a
+72a,32a,62a,52a
+62a,52a,72a,32a
+62a,52a,72a,32a
+62a,52a,72a,32a

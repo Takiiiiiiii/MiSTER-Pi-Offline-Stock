@@ -1,0 +1,15 @@
+####
+# Name: RGBW
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: RGB
+####
+
+Resolution=0
+v2
+4,4
+72a,42a,22a,12a
+72a,42a,22a,12a
+22a,12a,72a,42a
+22a,12a,72a,42a

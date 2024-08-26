@@ -1,0 +1,15 @@
+####
+# Name: Mosaic WBRG
+# Author: Tonurics
+# Type: Other
+# Genre: Mosaic
+# Sub-Pixel Layout: RGB
+####
+
+Resolution=0
+v2
+4,4
+70d,12a,42a,22a
+42a,22a,70d,42a
+12a,70d,22a,12a
+22a,12a,42a,70d

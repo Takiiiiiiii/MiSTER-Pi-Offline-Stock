@@ -1,0 +1,68 @@
+<misterromdescription>
+	<name>Squash</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Itisa</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1984</year>
+	<manufacturer>Itisa</manufacturer>
+	<category>Sports</category>
+
+	<setname>squaitsa</setname>
+	<parent>squaitsa</parent>
+	<mameversion>0220</mameversion>
+	<rbf>bagman</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (simultaneous)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="5F">
+		<dip bits="0" ids="2c/1cr,1c/1cr" name="Coinage"></dip>
+		<dip bits="1,2" ids="21,15,11,7" name="Max Points"></dip>
+		<dip bits="3,4" ids="Level 1,Level 2,Level 3,Level 4" name="Difficulty"></dip>
+		<dip bits="5" ids="English,Spanish" name="Language"></dip>
+		<dip bits="6" ids="On,Off" name="Body Fault"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>03</part>
+		</rom>
+	<rom index="0" md5="610d4d6ce7a36c42030c54958ca7ab49" zip="squaitsa.zip">
+		<part crc="04128d92" name="sq5.3.9e"></part>
+		<part crc="4ff7dd56" name="sq6.4.9f"></part>
+		<part crc="e46ecda6" name="sq7.5.9j"></part>
+		<part crc="04128d92" name="sq5.3.9e"></part>
+		<part crc="4ff7dd56" name="sq6.4.9f"></part>
+		<part crc="e46ecda6" name="sq7.5.9j"></part>
+		<part crc="04128d92" name="sq5.3.9e"></part>
+		<part crc="4ff7dd56" name="sq6.4.9f"></part>
+		<part repeat="32768">00</part>
+		<part crc="0eb6ecad" name="sq2.1.1e"></part>
+		<part crc="b6d563e5" name="sq1.1c"></part>
+		<part crc="8d875b0e" name="sq4.2.1j"></part>
+		<part crc="0d9d87e6" name="sq3.1f"></part>
+		<part repeat="8192">00</part>
+		<part crc="06eab7ce" name="mmi6331.3p"></part>
+		<part crc="86c1e7db" name="mmi6331.3r"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

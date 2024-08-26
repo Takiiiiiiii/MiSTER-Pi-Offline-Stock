@@ -1,0 +1,53 @@
+<misterromdescription>
+	<name>Meteor</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Asteroids</version>
+	<alternative>Asteroids</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1979</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>meteorho</setname>
+	<parent>Asteroids</parent>
+	<mameversion>0218</mameversion>
+	<rbf>asteroids</rbf>
+	<about></about>
+
+	<resolution>31kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>3</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="845cda7f82c10d89970ccda8013754cd" zip="asteroid.zip|meteorho.zip">
+		<part crc="7420421b" name="g.bin"></part>
+		<part crc="a6aa56bc" name="h.bin"></part>
+		<part crc="2711bd52" name="f.bin"></part>
+		<part crc="9f169db9" name="d.bin"></part>
+		<part crc="bd99556a" name="c.bin"></part>
+		<part crc="10fdfe9a" name="e.bin"></part>
+		<part crc="d7822110" name="a.bin"></part>
+		<part crc="d62b2887" name="b.bin"></part>
+		<part crc="9e237193" name="prom.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

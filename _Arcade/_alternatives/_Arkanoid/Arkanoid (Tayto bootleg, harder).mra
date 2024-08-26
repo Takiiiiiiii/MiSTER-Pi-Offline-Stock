@@ -1,0 +1,52 @@
+<misterromdescription>
+	<name>Arkanoid</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Tayto, Harder</version>
+	<alternative>Arkanoid</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1986</year>
+	<manufacturer>Taito</manufacturer>
+	<category>Ball and Paddle</category>
+
+	<setname>arktayt2</setname>
+	<parent>arkanoid</parent>
+	<mameversion>0218</mameversion>
+	<rbf>arkanoid</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick></joystick>
+	<special_controls>spinner</special_controls>
+	<num_buttons>0</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="5041f34c91cf238e907a9d7c2c7a05e2" zip="arkanoid.zip|arktayt2.zip">
+		<part crc="6e0a2b6f" name="ic81.3f"></part>
+		<part crc="5a97dd56" name="ic82.5f"></part>
+		<part crc="038b74ba" name="1-ic33.2c"></part>
+		<part crc="71fae199" name="2-ic34.3c"></part>
+		<part crc="c76374e2" name="3-ic35.5c"></part>
+		<part crc="0af8b289" name="ic73.11e"></part>
+		<part crc="abb002fb" name="ic74.12e"></part>
+		<part crc="a7c6c277" name="ic75.13e"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,38 @@
+<misterromdescription>
+	<name>Pac Man Babies Plus - HBMame</name>
+	<mameversion>0217</mameversion>
+	<setname>pmbaplus</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>2001</year>
+	<manufacturer>Blue Justice</manufacturer>
+	<category>Maze / Pac-Man</category>
+	<rbf>pacman</rbf>
+	<switches default="FF,FF,C9">
+		<dip bits="15"    name="Cabinet" ids="Cocktail,Upright"/>
+		<dip bits="16,17" name="Coinage" ids="2c/1cr,1c/1cr,1c/2cr,Free Play" values="3,1,2,0"/>
+		<dip bits="18,19" name="Lives" ids="1,2,3,5"/>
+		<dip bits="20,21" name="Bonus Life After" ids="10000,15000,20000,None"/>
+		<dip bits="22"    name="Difficulty" ids="Hard,Normal"/>
+	</switches>
+	<rom index="1">
+		<part>01</part>
+	</rom>
+	<rom index="0" zip="/hbmame/puckman.zip" md5="3b4558aef3c7e40d88e6ee8a9fc63045">
+		<part crc="d611ef68" name="pm4000p/pacplus.6e"/>
+		<part crc="c7207556" name="pm4000p/pacplus.6f"/>
+		<part crc="ae379430" name="pm4000p/pacplus.6h"/>
+		<part crc="5a6dff7b" name="pm4000p/pacplus.6j"/>
+		<part crc="d611ef68" name="pm4000p/pacplus.6e"/>
+		<part crc="c7207556" name="pm4000p/pacplus.6f"/>
+		<part crc="ae379430" name="pm4000p/pacplus.6h"/>
+		<part crc="5a6dff7b" name="pm4000p/pacplus.6j"/>
+		<part crc="3e5a31c2" name="pmbaplus/pmbaplus.5e"/>
+		<part crc="3c099bbd" name="pmbaplus/pmbaplus.5f"/>
+		<part crc="3e5a31c2" name="pmbaplus/pmbaplus.5e"/>
+		<part crc="3c099bbd" name="pmbaplus/pmbaplus.5f"/>
+		<part crc="a9cc86bf" name="82s126.1m"/>
+		<part crc="3eb3a8e4" name="82s126.4a"/>
+		<part crc="77245b66" name="82s126.3m"/>
+		<part crc="2fc650bd" name="82s123.7f"/>
+	</rom>
+</misterromdescription>

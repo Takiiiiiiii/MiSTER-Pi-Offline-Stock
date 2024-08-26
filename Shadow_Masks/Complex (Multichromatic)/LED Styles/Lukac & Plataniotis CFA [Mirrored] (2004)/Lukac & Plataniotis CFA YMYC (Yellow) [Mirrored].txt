@@ -1,0 +1,14 @@
+####
+# Name: Lukac & Plataniotis CFA YMYC (Yellow) [Mirrored]
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+2,4
+61d,52a
+61d,32a
+52a,61d
+32a,61d

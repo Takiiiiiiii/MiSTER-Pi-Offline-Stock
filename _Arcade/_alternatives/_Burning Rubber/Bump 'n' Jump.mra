@@ -1,0 +1,52 @@
+<misterromdescription>
+	<name>Bump 'n' Jump</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Burning Rubber</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Data East</manufacturer>
+	<category>Racing</category>
+
+	<setname>bnj</setname>
+	<parent>bnj</parent>
+	<mameversion>0218</mameversion>
+	<rbf>burningrubber</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="6a9851bfe5783f273679a24643f134d1" zip="brubber.zip|bnj.zip">
+		<part crc="7a27f5f4" name="ad07.12c"></part>
+		<part crc="f855a2d2" name="ad06.12d"></part>
+		<part crc="b864d082" name="ad00.4e"></part>
+		<part crc="6c31d77a" name="ad01.4f"></part>
+		<part crc="5824e6fb" name="ad02.4h"></part>
+		<part crc="f4e9eb49" name="ad03.10e"></part>
+		<part crc="a9ffacb4" name="ad04.10f"></part>
+		<part crc="8c02f662" name="ad05.6c"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

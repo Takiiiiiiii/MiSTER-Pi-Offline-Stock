@@ -1,0 +1,72 @@
+<misterromdescription>
+	<name>Super Cobra</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series>Scramble</series>
+	<year>1981</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Shooter - Horizontal</category>
+
+	<setname>scobra</setname>
+	<parent>scobra</parent>
+	<mameversion>0216</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R,L" names="Shoot,Bomb,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FD,F3">
+		<dip bits="8" ids="No,4 times" name="Allow Continue"></dip>
+		<dip bits="9" ids="3,4" name="Lives"></dip>
+		<dip bits="17,18" ids="99cr,1c/1cr,2c/1cr,4c/3cr" name="Coinage"></dip>
+		<dip bits="19" ids="Upright,Cocktail" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>03</part>
+		</rom>
+	<rom index="0" md5="0ec2bec4caeee8a0987fc391a4011e41" type="merged|nonmerged" zip="scobra.zip">
+		<part crc="a0744b3f" name="epr1265.2c"></part>
+		<part crc="8e7245cd" name="2e"></part>
+		<part crc="47a4e6fb" name="epr1267.2f"></part>
+		<part crc="7244f21c" name="2h"></part>
+		<part crc="e1f8a801" name="epr1269.2j"></part>
+		<part crc="d52affde" name="2l"></part>
+		<part crc="a0744b3f" name="epr1265.2c"></part>
+		<part crc="8e7245cd" name="2e"></part>
+		<part crc="d4346959" name="5c"></part>
+		<part crc="cc025d95" name="5d"></part>
+		<part crc="1628c53f" name="5e"></part>
+		<part crc="1628c53f" name="5e"></part>
+		<part crc="a96316d3" name="epr1273.5f" repeat="4"></part>
+		<part crc="64d113b4" name="epr1274.5h" repeat="4"></part>
+		<part crc="9b87f90d" name="82s123.6e"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 07 FF FF 00 FF 00 02 00 02 00 01 00 FF 02 00
+		00 00 82 00 00 1E 00 01
+		00 00 80 A8 00 03 00 01
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="33"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,54 @@
+<misterromdescription>
+	<name>Sprint 2</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series>Sprint</series>
+	<year>1976</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Racing</category>
+
+	<setname>sprint2</setname>
+	<parent>sprint3</parent>
+	<mameversion>0220</mameversion>
+	<rbf>sprint2</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (simultaneous)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>3</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="39b513cba4455052bb88ca21707c15c3" zip="sprint1.zip|sprint2.zip">
+		<part crc="41fc985e" name="6290-01.b1"></part>
+		<part crc="07f7a920" name="6291-01.c1"></part>
+		<part crc="d2878ff6" name="6404.d1"></part>
+		<part crc="6c991c80" name="6405.e1"></part>
+		<part crc="801b42dd" name="6396-01.p4"></part>
+		<part crc="135ba1aa" name="6397-01.r4"></part>
+		<part crc="c9e1017e" name="6398-01.k6"></part>
+		<part crc="63d685b2" name="6399-01.j6"></part>
+		<part crc="b8094b4c" name="6400-01.m2"></part>
+		<part crc="857df8db" name="6401-01.e2"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

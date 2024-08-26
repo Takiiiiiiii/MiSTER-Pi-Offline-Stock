@@ -1,0 +1,64 @@
+<misterromdescription>
+	<name>Popeye</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Rev D</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Nintendo</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>popeye</setname>
+	<parent>popeye</parent>
+	<mameversion>0219</mameversion>
+	<rbf>popeye</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R" names="Kick,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="20,C5,00">
+		<dip bits="5,6" ids="Nintendo Am.Inc.,Nintendo,Nintendo Co Ltd,Nintendo Am.Inc." name="Version"></dip>
+		<dip bits="8,9" ids="1,2,3,4" name="Live"></dip>
+		<dip bits="10,11" ids="Easy,Medium-,Medium+,Hard" name="Difficulty"></dip>
+		<dip bits="12,13" ids="40.000,60.000,80.000,None" name="Bonus"></dip>
+		<dip bits="14" ids="Silent,On" name="Music"></dip>
+		<dip bits="16" ids="No,Yes" name="Service"></dip>
+		</switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="d8ca94dbdb94bd3f06d01de96854acc9" zip="popeye.zip">
+		<part crc="9af7c821" name="tpp2-c.7a"></part>
+		<part crc="c3704958" name="tpp2-c.7b"></part>
+		<part crc="5882ebf9" name="tpp2-c.7c"></part>
+		<part crc="ef8649ca" name="tpp2-c.7e"></part>
+		<part crc="0f2cd853" name="tpp2-v.1e"></part>
+		<part crc="888f3474" name="tpp2-v.1f"></part>
+		<part crc="7e864668" name="tpp2-v.1j"></part>
+		<part crc="49e1d170" name="tpp2-v.1k"></part>
+		<part crc="cca61ddd" name="tpp2-v.5n"></part>
+		<part crc="c5826883" name="tpp2-c.5b"></part>
+		<part crc="c576afba" name="tpp2-c.5a"></part>
+		<part crc="e950bea1" name="tpp2-c.3a"></part>
+		<part crc="375e1602" name="tpp2-c.4a"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

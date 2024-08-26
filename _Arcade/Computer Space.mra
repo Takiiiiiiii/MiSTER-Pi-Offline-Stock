@@ -1,0 +1,46 @@
+<misterromdescription>
+	<name>Computer Space</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1971</year>
+	<manufacturer>Syzygy Engineering</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname></setname>
+	<parent></parent>
+	<mameversion>0220</mameversion>
+	<rbf>computerspace</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="B,A,Start,R" names="Thrust,Fire,Start,Coin"></buttons>
+
+	<switches default="02">
+		<dip bits="0" ids="Off,On" name="2PlayPerCoin"></dip>
+		<dip bits="1" ids="Off,On" name="Replay"></dip>
+		</switches>
+
+	<rom index="1"></rom>
+	<rom index="0"></rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

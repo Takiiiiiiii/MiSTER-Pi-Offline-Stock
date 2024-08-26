@@ -1,0 +1,68 @@
+<misterromdescription>
+	<name>Bagman</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Taito</version>
+	<alternative>Bagman</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Valadon Automation</manufacturer>
+	<manufacturer>Taito</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>bagmanj</setname>
+	<parent>bagman</parent>
+	<mameversion>0218</mameversion>
+	<rbf>bagman</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="F6">
+		<dip bits="0,1" ids="5,4,3,2" name="Lives"></dip>
+		<dip bits="2" ids="2c/1cr,1c/1cr" name="Coinage"></dip>
+		<dip bits="3,4" ids="Hardest,Hard,Medium,Easy" name="Difficulty"></dip>
+		<dip bits="5" ids="French,English" name="Language"></dip>
+		<dip bits="6" ids="40000,30000" name="Bonus"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>00</part>
+		</rom>
+	<rom index="0" md5="8557e55804130b9908cfe112689607cb" zip="bagman.zip|bagmanj.zip">
+		<part crc="5fb0a1a3" name="bf8_06.e9"></part>
+		<part crc="7871206e" name="bf8_07.f9"></part>
+		<part crc="ae037d0a" name="bf8_08.j9"></part>
+		<part crc="36b6a944" name="bf8_09.k9"></part>
+		<part crc="b8e75eb6" name="bf8_10.m9"></part>
+		<part crc="83fccb1c" name="bf8_11.n9"></part>
+		<part repeat="40960">00</part>
+		<part crc="f217ac09" name="bf8_03.e1"></part>
+		<part crc="404283ed" name="bf8_02.c1"></part>
+		<part crc="c680ef04" name="bf8_05.j1"></part>
+		<part crc="3f5c991e" name="bf8_04-1.f1"></part>
+		<part crc="2e0057ff" name="bf8_12.r9"></part>
+		<part crc="b2120edd" name="bf8_13.t9"></part>
+		<part crc="2a855523" name="p3.bin"></part>
+		<part crc="ae6f1019" name="r3.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

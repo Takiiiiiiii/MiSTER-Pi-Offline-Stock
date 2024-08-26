@@ -1,0 +1,78 @@
+<misterromdescription>
+	<name>Discs of Tron</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Alt.</version>
+	<alternative>Discs of Tron</alternative>
+	<platform>Midway MCR3</platform>
+	<series></series>
+	<year>1983</year>
+	<manufacturer>Bally</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Sports</category>
+
+	<setname>dotrona</setname>
+	<parent>dotron</parent>
+	<mameversion>0218</mameversion>
+	<rbf>mcr3</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>4</num_buttons>
+	<buttons default="A,B,X,Y,R,L,Start,Select" names="Toss,Deflect,Aim Up,Aim Down,Rotate Right,Rotate Left,Start1+Coin,Start2+Coin"></buttons>
+
+	<switches default="FF,00">
+		<dip bits="0" ids="2,1" name="Coin Meters"></dip>
+		<dip bits="8" ids="Off,On" name="Service"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>02</part>
+		</rom>
+	<rom index="0" md5="36e80f75a2415788e78bc5e3a131d465" zip="dotron.zip|dotrona.zip">
+		<part crc="40d00195" name="aloc-pg0.1c"></part>
+		<part crc="5a7d1300" name="aloc-pg1.2c"></part>
+		<part crc="cb89c9be" name="aloc-pg2.3c"></part>
+		<part crc="5098faf4" name="aloc-pg1.4c"></part>
+		<part crc="7fb54293" name="asound0.a7"></part>
+		<part crc="edef7326" name="asound1.a8"></part>
+		<part crc="e8ef6519" name="sound2.a9"></part>
+		<part crc="6b5aeb02" name="sound3.a10"></part>
+		<part crc="57a2b1ff" name="loc-g.cp4"></part>
+		<part crc="3bb4d475" name="loc-h.cp3"></part>
+		<part crc="57a2b1ff" name="loc-g.cp4"></part>
+		<part crc="3bb4d475" name="loc-h.cp3"></part>
+		<part crc="ce957f1a" name="loc-e.cp6"></part>
+		<part crc="d26053ce" name="loc-f.cp5"></part>
+		<part crc="ce957f1a" name="loc-e.cp6"></part>
+		<part crc="d26053ce" name="loc-f.cp5"></part>
+		<part crc="ef45d146" name="loc-c.cp8"></part>
+		<part crc="5e8a3ef3" name="loc-d.cp7"></part>
+		<part crc="ef45d146" name="loc-c.cp8"></part>
+		<part crc="5e8a3ef3" name="loc-d.cp7"></part>
+		<part crc="b35f5374" name="loc-a.cp0"></part>
+		<part crc="565a5c48" name="loc-b.cp9"></part>
+		<part crc="b35f5374" name="loc-a.cp0"></part>
+		<part crc="565a5c48" name="loc-b.cp9"></part>
+		<part crc="40167124" name="loc-bg2.6f"></part>
+		<part crc="40167124" name="loc-bg2.6f"></part>
+		<part crc="bb2d7a5d" name="loc-bg1.5f"></part>
+		<part crc="bb2d7a5d" name="loc-bg1.5f"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

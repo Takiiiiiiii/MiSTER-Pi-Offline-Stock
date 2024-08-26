@@ -1,0 +1,121 @@
+<misterromdescription>
+	<name>Lode Runner IV- Teikoku Karano Dasshutsu</name>
+	<region>Japan</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Irem M62</platform>
+	<series>Lode Runner</series>
+	<year>1986</year>
+	<manufacturer>Irem</manufacturer>
+	<manufacturer2>Broderbund</manufacturer2>
+	<category>Platform - Climb</category>
+
+	<setname>ldrun4</setname>
+	<parent>ldrun5</parent>
+	<mameversion>0221</mameversion>
+	<rbf>iremm62</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (simultaneous)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches default="FF,FF">
+		<dip bits="0" name="Timer" ids="Fast,Slow"></dip>
+		<dip bits="1" name="2 Players Game" ids="1 Credit,2 Credits"></dip>
+		<dip bits="2,3" name="1 Player Lives" ids="5,4,2,3"></dip>
+                <dip bits="4,7" name="Coinage" ids="Free Play,1C/1C" values="0,15"></dip>
+		<dip bits="8" name="Flip Screen" ids="On,Off"></dip>
+		<dip bits="9" name="2 Players Lives" ids="6,5"></dip>
+		<dip bits="10" name="Coin Mode" ids="Mode 2,Mode 1"></dip>
+		<dip bits="11" name="Unknown" ids="On,Off"></dip>
+		<dip bits="12" name="Allow 2 Players Game" ids="No,Yes"></dip>
+		<dip bits="13" name="Level Selection (Cheat)" ids="On,Off"></dip>
+		<dip bits="14" name="Invulnerability (Cheat)" ids="On,Off"></dip>
+		<dip bits="15" name="Service Mode (must set 2P game to No)" ids="On,Off"></dip>
+	</switches>
+
+	<rom index="1">
+		<part>03</part>
+	</rom>
+	<rom index="0" zip="ldrun4.zip" md5="49e2eca9cb6d08ae86f11fc034039610">
+		<part crc="5383e9bf" name="lr4-a-4e"/>
+		<part crc="298afa36" name="lr4-a-4d.c"/>
+		<part crc="8b248abd" name="lr4-v-4k"/>
+		<part crc="5383e9bf" name="lr4-a-4e"/>
+		<part crc="298afa36" name="lr4-a-4d.c"/>
+		<part crc="8b248abd" name="lr4-v-4k"/>
+		<part crc="86c6d445" name="lr4-a-3d"/>
+		<part crc="097c6c0a" name="lr4-a-3f"/>
+		<part crc="86c6d445" name="lr4-a-3d"/>
+		<part crc="097c6c0a" name="lr4-a-3f"/>
+		<interleave output="32">
+			<part crc="4118e60a" name="lr4-v-2b" map="0001"/>
+			<part crc="542bb5b5" name="lr4-v-2d" map="0010"/>
+			<part crc="c765266c" name="lr4-v-2c" map="0100"/>
+			<part crc="c765266c" name="lr4-v-2c" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="4118e60a" name="lr4-v-2b" map="0001"/>
+			<part crc="542bb5b5" name="lr4-v-2d" map="0010"/>
+			<part crc="c765266c" name="lr4-v-2c" map="0100"/>
+			<part crc="c765266c" name="lr4-v-2c" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="e7fe620c" name="lr4-b-4k" map="0001"/>
+			<part crc="ad1fba1b" name="lr4-b-3n" map="0010"/>
+			<part crc="82c53669" name="lr4-b-4c" map="0100"/>
+			<part crc="82c53669" name="lr4-b-4c" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="6f0403db" name="lr4-b-4f" map="0001"/>
+			<part crc="0e568fab" name="lr4-b-4n" map="0010"/>
+			<part crc="767a1352" name="lr4-b-4e" map="0100"/>
+			<part crc="767a1352" name="lr4-b-4e" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="e7fe620c" name="lr4-b-4k" map="0001"/>
+			<part crc="ad1fba1b" name="lr4-b-3n" map="0010"/>
+			<part crc="82c53669" name="lr4-b-4c" map="0100"/>
+			<part crc="82c53669" name="lr4-b-4c" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="6f0403db" name="lr4-b-4f" map="0001"/>
+			<part crc="0e568fab" name="lr4-b-4n" map="0010"/>
+			<part crc="767a1352" name="lr4-b-4e" map="0100"/>
+			<part crc="767a1352" name="lr4-b-4e" map="1000"/>
+		</interleave>
+		<part repeat="0x10000">FF</part>
+		<part crc="5d8d17d0" name="lr4-b-1m"/>
+		<part crc="da1129d2" name="lr4-b-1n"/>
+		<part crc="0d89b692" name="lr4-b-1l"/>
+		<part crc="fe51bf1d" name="lr4-v-1m"/>
+		<part crc="da0658e5" name="lr4-v-1n"/>
+		<part crc="0df23ebe" name="lr4-v-1p"/>
+		<part repeat="0x300">FF</part>
+		<part crc="e01f69e2" name="lr4-b-5p"/>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 00 FF FF 00 3F 00 02 00 02 00 01 00 FF 02 00
+		00 00 E7 35 00 C8 00 06
+		00 00 E6 EA 00 03 00 70
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="203"/>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

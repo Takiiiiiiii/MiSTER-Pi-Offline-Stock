@@ -1,0 +1,64 @@
+<misterromdescription>
+	<name>Xevios</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Xevious</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Namco</manufacturer>
+	<category>Shooter - Vertical</category>
+
+	<setname>xevios</setname>
+	<parent>xevious</parent>
+	<mameversion>0218</mameversion>
+	<rbf>xevious</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="72677feef0d6f73b430ee6d196e3a8e9" zip="xevious.zip|xevios.zip|namco50.zip|namco51.zip|namco54.zip">
+		<part crc="1f8ca4c0" name="4.7h"></part>
+		<part crc="2e47ce8f" name="5.6h"></part>
+		<part crc="79754b7d" name="6.5h"></part>
+		<part crc="17f48277" name="7.4h"></part>
+		<part crc="c85b703f" name="8.2h"></part>
+		<part crc="e18cdaad" name="9.1h"></part>
+		<part crc="dd35cf1c" name="3.9h"></part>
+		<part crc="088c8b26" name="17.8f"></part>
+		<part crc="de60ba25" name="18.9f"></part>
+		<part crc="535cdbbc" name="19.11f"></part>
+		<part crc="dc2c0ecb" name="13.4d"></part>
+		<part crc="dfb587ce" name="15.7d"></part>
+		<part crc="605ca889" name="14.6d"></part>
+		<part crc="44262c04" name="16.8d"></part>
+		<part crc="10baeebb" name="10.1d"></part>
+		<part crc="ae3ba9e5" name="11.2d"></part>
+		<part crc="51a4e83b" name="12.3d"></part>
+		<part crc="a0acbaf7" name="50xx.bin" zip="namco50.zip"></part>
+		<part crc="c2f57ef8" name="51xx.bin" zip="namco51.zip"></part>
+		<part crc="ee7357e0" name="54xx.bin" zip="namco54.zip"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

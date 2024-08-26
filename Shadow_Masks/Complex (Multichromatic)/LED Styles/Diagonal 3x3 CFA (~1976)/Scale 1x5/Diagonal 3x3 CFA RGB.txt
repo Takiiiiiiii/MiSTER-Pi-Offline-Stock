@@ -1,0 +1,25 @@
+####
+# Name: Diagonal 3x3 CFA RGB
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+3,15
+40a,20a,10a
+40a,20a,10a
+40a,20a,10a
+40a,20a,10a
+40a,20a,10a
+10a,40a,20a
+10a,40a,20a
+10a,40a,20a
+10a,40a,20a
+10a,40a,20a
+20a,10a,40a
+20a,10a,40a
+20a,10a,40a
+20a,10a,40a
+20a,10a,40a

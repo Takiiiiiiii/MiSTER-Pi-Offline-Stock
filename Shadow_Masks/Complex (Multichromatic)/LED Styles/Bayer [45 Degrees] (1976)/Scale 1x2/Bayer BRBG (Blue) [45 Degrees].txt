@@ -1,0 +1,18 @@
+####
+# Name: Bayer BRBG (Blue) [45 Degrees]
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+4,8
+11d,42a,11d,22a
+11d,42a,11d,22a
+22a,11d,42a,11d
+22a,11d,42a,11d
+11d,22a,11d,42a
+11d,22a,11d,42a
+42a,11d,22a,11d
+42a,11d,22a,11d

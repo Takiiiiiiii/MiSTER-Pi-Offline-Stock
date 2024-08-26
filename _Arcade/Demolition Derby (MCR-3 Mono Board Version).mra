@@ -1,0 +1,70 @@
+<misterromdescription>
+	<name>Demolition Derby</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>MCR-3 Mono Board Version</version>
+	<alternative></alternative>
+	<platform>Midway MCR3</platform>
+	<series></series>
+	<year>1984</year>
+	<manufacturer>Bally</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Racing</category>
+
+	<setname>demoderm</setname>
+	<parent>demoderb</parent>
+	<mameversion>0216</mameversion>
+	<rbf>mcr3mono</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>4</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="X,B,Start,R" names="Forward,Reverse,-,-,Start,Coin"></buttons>
+
+	<switches default="FF 00">
+		<dip bits="0" ids="4P Cocktail,2P Upright" name="Cabinet"></dip>
+		<dip bits="1" ids="Harder,Normal" name="Difficulty"></dip>
+		<dip bits="2" ids="On,Off" name="Free Play"></dip>
+		<dip bits="3" ids="Limited,Expanded" name="Reward Screen"></dip>
+		<dip bits="4,5" ids="2c/2cr,1c/2cr,2c/1cr,1c/1cr" name="Coinage"></dip>
+		<dip bits="8" ids="Off,On" name="Service"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>04</part>
+		</rom>
+	<rom index="0" md5="aff76437b13ecd375e3c5cb407bec5a9" type="merged|nonmerged" zip="demoderb.zip|demoderm.zip">
+		<part crc="2e24527b" name="pro0.3b"></part>
+		<part crc="034c00fc" name="pro1.5b"></part>
+		<part crc="e57a4de6" name="dd_fg-0.a4"></part>
+		<part crc="55aa667f" name="dd_fg-4.a3"></part>
+		<part crc="70259651" name="dd_fg-1.a6"></part>
+		<part crc="5fe99007" name="dd_fg-5.a5"></part>
+		<part crc="6cab7b95" name="dd_fg-2.a8"></part>
+		<part crc="abfb9a8b" name="dd_fg-6.a7"></part>
+		<part crc="801d9b86" name="dd_fg-3.a10"></part>
+		<part crc="0ec3f60a" name="dd_fg-7.a9"></part>
+		<part crc="a35d13b8" name="bg0.15a" repeat="4"></part>
+		<part crc="22ca93f3" name="bg1.14b" repeat="4"></part>
+		<part crc="eca33b2c" name="tcs_u5.bin"></part>
+		<part crc="3490289a" name="tcs_u4.bin"></part>
+		<part crc="eca33b2c" name="tcs_u5.bin"></part>
+		<part crc="3490289a" name="tcs_u4.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="2048"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

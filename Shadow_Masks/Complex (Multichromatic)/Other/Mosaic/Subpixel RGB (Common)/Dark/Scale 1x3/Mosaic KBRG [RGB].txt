@@ -1,0 +1,23 @@
+####
+# Name: Mosaic KBRG
+# Author: Tonurics
+# Type: Other
+# Genre: Mosaic
+# Sub-Pixel Layout: RGB
+####
+
+Resolution=0
+v2
+4,12
+00d,12a,42a,22a
+00d,12a,42a,22a
+00d,12a,42a,22a
+42a,22a,00d,42a
+42a,22a,00d,42a
+42a,22a,00d,42a
+12a,00d,22a,12a
+12a,00d,22a,12a
+12a,00d,22a,12a
+22a,12a,42a,00d
+22a,12a,42a,00d
+22a,12a,42a,00d

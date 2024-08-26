@@ -1,0 +1,65 @@
+<misterromdescription>
+	<name>Fantasy Zone II - The Tears of Opa-Opa (MC-8123, 317-0057)</name>
+	<region>Japan</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Sega System E</platform>
+	<series>Fantasy Zone</series>
+	<year>1988</year>
+	<manufacturer>Sega</manufacturer>
+	<category>Shooter</category>
+
+	<setname>fantzn2</setname>
+	<parent>fantzn2</parent>
+	<mameversion>0235</mameversion>
+	<rbf>SMS</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>8-way</joystick>
+	<buttons names="Fire/Button1,Bomb/Button2,-,-,-,-,Coin,Start,Pause" default="A,B,R,Start,Select" count="1"/>
+	
+	<switches base="24" default="FF,FF,FF">
+		<!-- SWA -->
+		<dip name="Coin A" bits="0,3" ids="1/1,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1"/>
+		<dip name="Coin B" bits="4,7" ids="1/1,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1"/>
+		<!-- SWB -->
+		<dip name="Demo Sounds" bits="9" ids="Off,On"/>
+		<dip name="Lives" bits="10,11" ids="2,5,4,3"/>
+		<dip name="Timer" bits="12,13" ids="90,80,70,60"/>
+		<dip name="Difficulty" bits="14,15" ids="Hardest,Hard,Easy,Normal"/>
+		<!-- SWC -->
+		<dip name="Service Toggle" bits="18" ids="On,Off"/>
+		<dip name="Service Mode" bits="19" ids="On,Off"/>
+	</switches>
+
+	<rom index="0" zip="fantzn2.zip" type="merged" md5="b2a30dbfbf4547642bd33b538a978096">
+		<!-- banks, size: 0x40000 -->
+		<part crc="57B45681" name="epr-11415.ic5"/>
+		<part crc="A231DC85" name="epr-11413.ic3"/>
+		<part crc="6F7A9F5F" name="epr-11414.ic4"/>
+		<part crc="B14DB5AF" name="epr-11412.ic2"/>
+
+		<!-- maincpu, size: 0x8000 -->
+		<part crc="76DB7B7B" name="epr-11416.ic7"/>
+
+		<!-- key, size: 0x2000 -->
+		<part crc="EE43D0F0" name="317-0057.key"/>
+	</rom>
+	<rom index="4">
+		<part>41</part>
+	</rom>
+<!--
+	<nvram index="4" size="3"/>
+-->
+
+	<remark></remark>
+
+	<mratimestamp>20210904000000</mratimestamp>
+</misterromdescription>

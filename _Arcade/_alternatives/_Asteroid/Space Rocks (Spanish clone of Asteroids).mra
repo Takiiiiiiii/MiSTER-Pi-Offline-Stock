@@ -1,0 +1,49 @@
+<misterromdescription>
+	<name>Space Rocks</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Asteroids, Spanish</version>
+	<alternative>Asteroids</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>spcrocks</setname>
+	<parent>Asteroids</parent>
+	<mameversion>0218</mameversion>
+	<rbf>asteroids</rbf>
+	<about></about>
+
+	<resolution>31kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>3</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="e03dfeb3cc03d0b85030f69a70351e3f" zip="asteroid.zip|spcrocks.zip">
+		<part crc="0cc75459" name="1.bin"></part>
+		<part crc="096ed35c" name="2.bin"></part>
+		<part crc="b912754d" name="3.bin"></part>
+		<part crc="148ef465" name="e.bin"></part>
+		<part crc="97953db8" name="034602-01.c8"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

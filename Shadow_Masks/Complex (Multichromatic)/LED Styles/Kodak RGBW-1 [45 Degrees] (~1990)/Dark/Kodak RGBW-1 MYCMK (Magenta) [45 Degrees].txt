@@ -1,0 +1,18 @@
+####
+# Name: Kodak RGBW-1 MYCMK (Magenta) [45 Degrees]
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+4,8
+51d,01d,62a,01d
+32a,01d,51d,01d
+01d,51d,01d,62a
+01d,32a,01d,51d
+62a,01d,51d,01d
+51d,01d,32a,01d
+01d,62a,01d,51d
+01d,51d,01d,32a

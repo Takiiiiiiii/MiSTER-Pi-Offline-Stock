@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Space Zap</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Midway</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>spacezap</setname>
+	<parent>spacezap</parent>
+	<mameversion>0219</mameversion>
+	<rbf>astrocade</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="00,00,03,FF">
+		<dip bits="01" ids="Colour,Mono" name="Monitor"></dip>
+		<dip bits="16" ids="Cocktail,Upright" name="Cabinet"></dip>
+		<dip bits="17" ids="On,Off" name="Service"></dip>
+		<dip bits="25,26" ids="1c/5cr,1c/3cr,2c/1cr,1c/1cr" name="Coinage"></dip>
+		<dip bits="03" ids="No,Yes" name="Freeplay"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>03</part>
+		</rom>
+	<rom index="0" md5="17d6d5dc739097980aa24a7075ea0c79" zip="spacezap.zip">
+		<part crc="a92de312" name="0662.01"></part>
+		<part crc="4836ebf1" name="0663.xx"></part>
+		<part crc="d8193a80" name="0664.xx"></part>
+		<part crc="3784228d" name="0665.xx"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,45 @@
+<misterromdescription>
+	<name>Dottori-Man Jr</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Dottori-Kun</platform>
+	<series></series>
+	<year>2016</year>
+	<manufacturer>Chris Covell</manufacturer>
+	<category>Maze</category>
+
+	<setname>dotriman</setname>
+	<parent></parent>
+	<mameversion>0225</mameversion>
+	<rbf>DottoriKun</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip>no</flip>
+
+	<players>1</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select" names="Fast,Pause,Start,Test"></buttons>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="954c08ff813bcea4e5901144def9f618" zip="dotrikun.zip">
+		<part crc="4ba6d2f5" name="dotriman/14479a.mpr"/>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>202106162102</mratimestamp>
+</misterromdescription>	

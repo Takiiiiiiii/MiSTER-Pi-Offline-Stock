@@ -1,0 +1,69 @@
+<misterromdescription>
+    <name>Kick And Run</name>
+    <setname>kicknrun</setname>
+    <homebrew>no</homebrew>
+    <bootleg>no</bootleg>
+    <series></series>
+    <year>1986</year>
+    <manufacturer>Taito</manufacturer>
+    <category>Soccer</category>
+    <rbf>KickAndRun</rbf>
+    <about></about>
+    <resolution>15kHz</resolution>
+    <rotation>horizontal</rotation>
+    <flip></flip>
+    <players>2</players>
+    <joystick>4-way</joystick>
+    <special_controls></special_controls>
+    <num_buttons>2</num_buttons>
+    <buttons names="Button 1,Button 2,Start 1P,Start 2P,Coin A,Coin B" default="A,B,Start,Select,R1,R2"></buttons>
+    <switches default="ff,ff">
+        <dip bits="0" name="Mode" ids="Slave,Master"/>
+        <dip bits="3" name="Demo Sounds" ids="Off,On"/>
+        <dip bits="4,5" name="CoinA" ids="2C/3C,2C/1C,1C/2C,1C/1C"/>
+        <dip bits="6,7" name="CoinB" ids="2C/3C,2C/1C,1C/2C,1C/1C"/>
+        <dip bits="8,9" name="Difficulty" ids="Hardest,Hard,Normal,Easy"/>
+        <dip bits="10,11" name="Playing Time" ids="0:40,1:40,1:20,1:00"/>
+        <dip bits="13" name="Board ID" ids="Slave,Master"/>
+        <dip bits="14" name="Number of Matches" ids="2,6"/>
+        <dip bits="15" name="SB 4 Players Mode" ids="On,Off"/>
+    </switches>
+    <rom index="0" zip="kicknrun.zip" md5="none">
+
+        <!-- main cpu -->
+        <part name="a87-08.h16" crc="715e1b04"/>
+        <part name="a87-07.h18" crc="6cb6ebfe"/>
+
+        <!-- mcu -->
+        <part name="a87-01_jph1021p.h8" crc="9451e880"/>
+
+        <!-- sub cpu -->
+        <part name="a87-06.f6" crc="1625b587"/>
+
+        <!-- ecpu -->
+        <part name="a87-09-1" crc="6a2ad32f"/>
+
+        <!-- gfx -->
+        <part name="a87-05.a1" crc="4eee3a8a" offset="32768" length="32768"/>
+        <part name="a87-05.a1" crc="4eee3a8a" offset="0"     length="32768"/>
+        <part name="a87-04.a3" crc="8b438d20"/>
+        <part name="a87-04.a3" crc="8b438d20"/>
+        <part name="a87-03.a4" crc="f42e8a88" offset="32768" length="32768"/>
+        <part name="a87-03.a4" crc="f42e8a88" offset="0"     length="32768"/>
+        <part name="a87-02.a6" crc="64f1a85f"/>
+        <part name="a87-02.a6" crc="64f1a85f"/>
+
+        <!-- proms -->
+        <part name="a87-10.g15" crc="be6eb1f0"/>
+        <part name="a87-12.g12" crc="3e953444"/>
+        <part name="a87-11.g14" crc="14f6c28d"/>
+
+  </rom>
+    <rom index="1"></rom>
+    <rom index="2"></rom>
+    <rom_3></rom_3>
+    <rom_4></rom_4>
+    <nvram></nvram>
+    <remark></remark>
+    <!-- <mratimestamp></mratimestamp> -->
+</misterromdescription>

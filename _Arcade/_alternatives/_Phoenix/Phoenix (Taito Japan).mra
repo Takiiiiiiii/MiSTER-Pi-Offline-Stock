@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Phoenix</name>
+	<region>Japan</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Taito</version>
+	<alternative>Phoenix</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Amstar</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>phoenixj</setname>
+	<parent>phoenix</parent>
+	<mameversion>0218</mameversion>
+	<rbf>phoenix</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="e2a2769f0e40037a1804351515a3baf4" zip="phoenix.zip|phoenixj.zip">
+		<part crc="5b8c55a8" name="pn01.45"></part>
+		<part crc="dbc942fa" name="pn02.46"></part>
+		<part crc="cbbb8839" name="pn03.47"></part>
+		<part crc="dd41f22b" name="pn04.48"></part>
+		<part crc="1a1ce0d0" name="pn05.49"></part>
+		<part crc="ac5e9ec1" name="pn06.50"></part>
+		<part crc="2eab35b4" name="pn07.51"></part>
+		<part crc="b9915263" name="pn08.52"></part>
+		<part crc="3c7e623f" name="pn11.23"></part>
+		<part crc="59916d3b" name="pn12.24"></part>
+		<part crc="53413e8f" name="pn09.39"></part>
+		<part crc="0be2ba91" name="pn10.40"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

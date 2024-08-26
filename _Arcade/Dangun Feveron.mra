@@ -1,0 +1,57 @@
+<misterromdescription>
+  <name>Dangun Feveron</name>
+  <mameversion>0226</mameversion>
+  <setname>dfeveron</setname>
+  <year>1998</year>
+  <manufacturer>CAVE</manufacturer>
+  <category>Shooter</category>
+  <rotation>vertical (ccw)</rotation>
+  <rbf>cave</rbf>
+
+  <!-- ROM data -->
+  <rom index="0" zip="dfeveron.zip|feversos.zip" md5="none" address="0x30000000">
+    <!-- prog ROM -->
+    <interleave output="16">
+      <part name="cv01-u34.bin" crc="be87f19d" map="01" />
+      <part name="cv01-u33.bin" crc="e53a7db3" map="10" />
+    </interleave>
+
+    <!-- EEPROM -->
+    <part name="eeprom-dfeveron.bin" crc="c3174959" />
+
+    <!-- sound ROM -->
+    <part name="cv01-u19.bin" crc="5f5514da" />
+
+    <!-- layer 0 -->
+    <part name="cv01-u50.bin" crc="7a344417" />
+
+    <!-- layer 1 -->
+    <part name="cv01-u49.bin" crc="d21cdda7" />
+
+    <!-- sprites -->
+    <part name="cv01-u25.bin" crc="a6f6a95d" />
+    <part name="cv01-u26.bin" crc="32edb62a" />
+
+    <!-- skip CRC -->
+    <patch offset="0x00008d94">60 00 00 ce</patch>
+    <!-- skip slow loops -->
+    <patch offset="0x00008cca">4e 71 4e 71</patch>
+    <patch offset="0x00008cd2">4e 71 4e 71</patch>
+    <patch offset="0x00008f10">4e 71 4e 71 </patch>
+    <patch offset="0x00008f14">4e 71 4e 71</patch>
+
+    <!-- enable C button in EEPROM -->
+    <patch offset="0x00100002">11 11</patch>
+    <patch offset="0x00100008">00 04</patch>
+  </rom>
+
+  <!-- select game -->
+  <rom index="1">
+    <part>00</part>
+  </rom>
+
+  <!-- NVRAM -->
+  <nvram index="2" size="128" />
+
+  <buttons names="Normal/Powerful Shot,Bomber,Full-Auto,-,Start,Coin,Pause" default="A,B,X,R,L,Start" />
+</misterromdescription>

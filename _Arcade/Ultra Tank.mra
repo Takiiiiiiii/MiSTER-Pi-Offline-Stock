@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Ultra Tank</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1978</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>ultratnk</setname>
+	<parent>ultratnk</parent>
+	<mameversion>0217</mameversion>
+	<rbf>ultratank</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (simultaneous)</players>
+	<joystick>2-way vertical</joystick>
+	<special_controls>twin stick</special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="df3431c1af207b6a7868f1027483972d" zip="ultratnk.zip">
+		<part crc="b6aa6056" name="030180.n1"></part>
+		<part crc="17145c97" name="030181.k1"></part>
+		<part crc="034366a2" name="030182.m1"></part>
+		<part crc="be141602" name="030183.l1"></part>
+		<part crc="d0e20e73" name="30174-01.n6"></part>
+		<part crc="a47459c9" name="30175-01.m6"></part>
+		<part crc="1cc7c2dd" name="30176-01.l6"></part>
+		<part crc="3a91b09f" name="30177-01.k6"></part>
+		<part crc="e71d2e22" name="30024-01.p8"></part>
+		<part crc="1d364b23" name="30172-01.j6"></part>
+		<part crc="5c32f331" name="30173-01.h6"></part>
+		<part crc="d7a2c7b4" name="30218-01.j10"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

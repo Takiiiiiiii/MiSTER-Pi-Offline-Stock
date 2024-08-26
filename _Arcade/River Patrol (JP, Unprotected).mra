@@ -1,0 +1,53 @@
+<misterromdescription>
+	<name>River Patrol</name>
+	<region>Japan</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Unprotected</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Orca</manufacturer>
+	<category>Sports</category>
+
+	<setname>rpatroln</setname>
+	<parent>rpatrol</parent>
+	<mameversion>0220</mameversion>
+	<rbf>riverpatrol</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="91a13a2b5d567b18edba8752438c9d14" zip="rpatrol.zip|rpatroln.zip">
+		<part crc="33b01c90" name="1_2.3k"></part>
+		<part crc="03f53340" name="2_2.3l"></part>
+		<part crc="8fa300df" name="3_2.3n"></part>
+		<part crc="74a8f1f4" name="4_2.3p"></part>
+		<part crc="d7ef6c87" name="5_2.3r"></part>
+		<part crc="b38d8aca" name="6.6l.2732"></part>
+		<part crc="bc2bddf9" name="7.6p.2732"></part>
+		<part crc="065651a5" name="9.2t"></part>
+		<part crc="59747c31" name="8.2s"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

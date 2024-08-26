@@ -1,0 +1,85 @@
+<misterromdescription>
+	<name>Super Xevious</name>
+	<rbf>xevious</rbf>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<year>1982</year>
+	<manufacturer>Namco</manufacturer>
+	<category>Shooter - Vertical</category>
+	<setname>sxevious</setname>
+	<parent>xevious</parent>
+	<mameversion>0229</mameversion>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+
+	<switches default="00,80" base="8">
+		<!-- SWA -->
+		<dip bits="0,1"   name="Coin A"  ids="1 Coin  1 Credit ,1 Coin  2 Credits,2 Coins 1 Credit ,2 Coins 3 Credits"/>
+		<dip bits="2,4"   name="Bonus"	 ids="20k 60k every 60k,10k 40k every 40k,10k 50k every 50k,20k 50k every 50k,20k 70k every 70k,20k 80k every 80k,20k 60k,None"/>
+		<dip bits="5,6"   name="Lives"   ids="3,1,2,5"/>
+		<!-- disable broken cocktail mode -->
+		<!--
+		<dip bits="7"     name="Cabinet" ids="Upright,Cocktail"/>
+		-->
+		<!-- SWB -->
+		<dip bits="9"	  name="Flags Award Bonus Life" ids="Yes,No"/>
+		<dip bits="10,11" name="Coin B"  ids="1 Coin  1 Credit ,1 Coin  2 Credits,2 Coins 1 Credit ,2 Coins 3 Credits"/>
+		<dip bits="13,14" name="Difficulty" ids="Normal,Easy,Hard,Hardest"/>
+		<dip bits="15"    name="Freeze"	ids="On,Off"/>
+	</switches>
+	<rom index="1"/>
+	<rom index="0" zip="sxevious.zip|xevious.zip|namco50.zip|namco51.zip|namco54.zip" type="merged" md5="none">
+		<!-- main cpu -->
+                <part crc="1c8d27d5" name="cpu_3p.rom"/>
+                <part crc="fd04e615" name="cpu_3m.rom"/>
+                <part crc="294d5404" name="xv3_3.2m"/>
+                <part crc="6a44bf92" name="xv3_4.2l"/>
+
+		<!-- cpu 2 -->
+		<part crc="d4bd3d81" name="xv3_5.3f"/>
+		<part crc="af06be5f" name="xv3_6.3j"/>
+
+		<!-- cpu 3 -->
+		<part crc="dd35cf1c" name="xvi_7.2c"/>
+
+		<!-- foreground -->
+		<part crc="088c8b26" name="xvi_12.3b"/>
+
+		<!-- background -->
+		<part crc="de60ba25" name="xvi_13.3c"/>
+		<part crc="535cdbbc" name="xvi_14.3d"/>
+
+		<!-- sprites -->
+		<part crc="dc2c0ecb" name="xvi_15.4m"/>
+		<part crc="dfb587ce" name="xvi_17.4p"/>
+		<part crc="605ca889" name="xvi_16.4n"/>
+		<part crc="02417d19" name="xvi_18.4r"/>
+
+		<!-- background tilemaps -->
+		<part crc="57ed9879" name="xvi_9.2a"/>
+		<part crc="ae3ba9e5" name="xvi_10.2b"/>
+		<part crc="31e244dd" name="xvi_11.2c"/>
+
+		<!-- namco mcus -->
+                <part crc="a0acbaf7" name="50xx.bin"/>
+                <part crc="c2f57ef8" name="51xx.bin"/>
+                <part crc="ee7357e0" name="54xx.bin"/>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+			00008510 004d 00 24
+			00008024 0003 00 00
+			00008025 0001 40 40
+		</part>
+	</rom>
+	<rom index="4"></rom>
+	<nvram index="4" size="81"></nvram>
+	<mratimestamp>20211022143020</mratimestamp>
+</misterromdescription>

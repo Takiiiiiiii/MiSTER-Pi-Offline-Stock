@@ -1,0 +1,73 @@
+<misterromdescription>
+	<name>Gravitar</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Ver 3</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Lander</category>
+
+	<setname>gravitar</setname>
+	<parent>gravitar</parent>
+	<mameversion>0218</mameversion>
+	<rbf>blackwidow</rbf>
+	<about></about>
+
+	<resolution>31kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>3</num_buttons>
+	<buttons default="A,B,Y,Start,Select,R,L" names="Fire,Thrust,-,Shield,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FF,00">
+		<dip bits="3,4" ids="3,4,5,6" name="Lives"></dip>
+		<dip bits="5,6" ids="Easy,Medium,Hard,Demo" name="Difficulty"></dip>
+		<dip bits="7,8" ids="10000,20000,30000,None" name="Bonus_Life"></dip>
+		<dip bits="9,10" ids="1C_1C,2C_1C,Free_Play,1C_2C" name="Coinage"></dip>
+		<dip bits="11,12" ids="1,4,5,6" name="Coin_B"></dip>
+		<dip bits="13" ids="1,2" name="Coin_A"></dip>
+		<dip bits="14,15,16" ids="None,1 each 2,1 each 4,2 each 4,1 each 5,1 each 3" name="Bonus Coins"></dip>
+		<dip bits="17" ids="Off,On" name="Service"></dip>
+		<dip bits="18" ids="Off,On" name="Service2"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>1</part>
+		</rom>
+	<rom index="0" md5="8bce967739e6f1b333ca884da206c52d" type="merged|nonmerged" zip="gravitar.zip">
+		<part crc="a2a55013" name="136010-301.d1"></part>
+		<part crc="d3700b3c" name="136010-302.ef1"></part>
+		<part crc="8e12e3e0" name="136010-303.h1"></part>
+		<part crc="467ad5da" name="136010-304.j1"></part>
+		<part crc="840603af" name="136010-305.kl1"></part>
+		<part crc="3f3805ad" name="136010-306.m1"></part>
+		<part crc="debcb243" name="136010-210.l7"></part>
+		<part crc="debcb243" name="136010-210.l7"></part>
+		<part crc="4135629a" name="136010-207.mn7"></part>
+		<part crc="358f25d9" name="136010-208.np7"></part>
+		<part crc="4ac78df4" name="136010-309.r7"></part>
+		<part crc="5903af03" name="136002-125.n4"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 00 00 00 00 FF 00 02 00 02 00 01 00 FF 02 00
+		00 00 04 1E 00 30 50 05
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="48"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

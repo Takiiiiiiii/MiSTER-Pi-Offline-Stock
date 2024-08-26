@@ -1,0 +1,19 @@
+####
+# Name: PC Monitor MYCW (Generic)
+# Author: Tonurics
+# Type: CRT
+# Genre: Realistic
+# Sub-Pixel Layout: RGB
+####
+
+Resolution=0
+v2
+8,8
+52a,62a,32a,70a,52a,62a,32a,70a
+52a,62a,32a,70a,52a,62a,32a,70a
+52a,62a,32a,70a,70a,70a,70a,70a
+52a,62a,32a,70a,70a,70a,70a,70a
+52a,62a,32a,70a,52a,62a,32a,70a
+52a,62a,32a,70a,52a,62a,32a,70a
+70a,70a,70a,70a,52a,62a,32a,70a
+70a,70a,70a,70a,52a,62a,32a,70a

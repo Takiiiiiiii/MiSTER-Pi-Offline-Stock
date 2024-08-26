@@ -1,0 +1,53 @@
+<misterromdescription>
+	<name>Asterock</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Videotron</version>
+	<alternative>Asteroids</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1979</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>asterockv</setname>
+	<parent>Asteroids</parent>
+	<mameversion>0218</mameversion>
+	<rbf>asteroids</rbf>
+	<about></about>
+
+	<resolution>31kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>3</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="ac7e5f05170fd2a6c661f8c87c83370a" zip="asteroid.zip|asterockv.zip">
+		<part crc="cdf720c6" name="10505.2"></part>
+		<part crc="ee58bdf0" name="10505.3"></part>
+		<part crc="8d3e421e" name="10505.4"></part>
+		<part crc="d2ce7672" name="10505.5"></part>
+		<part crc="74103c87" name="10505.6"></part>
+		<part crc="75a39768" name="10505.7"></part>
+		<part crc="d1ac90b5" name="videotronas.0"></part>
+		<part crc="231ce201" name="10505.1"></part>
+		<part crc="97953db8" name="034602-01.c8"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

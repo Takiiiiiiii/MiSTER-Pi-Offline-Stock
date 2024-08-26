@@ -1,0 +1,60 @@
+<misterromdescription>
+  <name>ESP Ra.De.</name>
+  <mameversion>0226</mameversion>
+  <setname>esprade</setname>
+  <year>1998</year>
+  <manufacturer>CAVE</manufacturer>
+  <category>Shooter</category>
+  <rotation>vertical (ccw)</rotation>
+  <rbf>cave</rbf>
+
+  <!-- ROM data -->
+  <rom index="0" zip="esprade.zip" md5="none" address="0x30000000">
+    <!-- prog ROM -->
+    <interleave output="16">
+      <part name="u42.int" crc="3b510a73" map="01" />
+      <part name="u41.int" crc="97c1b649" map="10" />
+    </interleave>
+
+    <!-- EEPROM -->
+    <part name="eeprom-esprade.bin" crc="315fb546" />
+
+    <!-- sound ROM -->
+    <part name="esp_u19.u19" crc="f54b1cab" />
+
+    <!-- layer 0 -->
+    <part name="esp_u54.u54" crc="e7ca6936" />
+    <part name="esp_u55.u55" crc="f53bd94f" />
+
+    <!-- layer 1 -->
+    <part name="esp_u52.u52" crc="e7abe7b4" />
+    <part name="esp_u53.u53" crc="51a0f391" />
+
+    <!-- layer 2 -->
+    <part name="esp_u51.u51" crc="0b9b875c" />
+
+    <!-- sprites -->
+    <interleave output="16">
+      <part name="esp_u63.u63" crc="2f2fe92c" map="01" />
+      <part name="esp_u64.u64" crc="491a3da4" map="10" />
+    </interleave>
+    <interleave output="16">
+      <part name="esp_u65.u65" crc="06563efe" map="01" />
+      <part name="esp_u66.u66" crc="7bbe4cfc" map="10" />
+    </interleave>
+
+    <!-- enable C button in EEPROM -->
+    <patch offset="0x00100002">ff ff</patch>
+    <patch offset="0x00100008">00 04</patch>
+  </rom>
+
+  <!-- select game -->
+  <rom index="1">
+    <part>03</part>
+  </rom>
+
+  <!-- NVRAM -->
+  <nvram index="2" size="128" />
+
+  <buttons names="Main Shot,Power Shot,Guard Barrier,-,Start,Coin,Pause" default="A,B,X,R,L,Start" />
+</misterromdescription>

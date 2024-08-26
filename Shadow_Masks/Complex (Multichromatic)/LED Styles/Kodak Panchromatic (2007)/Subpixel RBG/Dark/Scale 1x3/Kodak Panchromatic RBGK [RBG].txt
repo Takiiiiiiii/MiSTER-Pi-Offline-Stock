@@ -1,0 +1,17 @@
+####
+# Name: Kodak Panchromatic RBGK
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: RBG
+####
+
+Resolution=0
+v2
+2,6
+02a,42a
+02a,42a
+02a,42a
+12a,22a
+12a,22a
+12a,22a

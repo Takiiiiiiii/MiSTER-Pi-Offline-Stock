@@ -1,0 +1,82 @@
+<misterromdescription>
+	<name>Mister Viking</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>315-5041</version>
+	<alternative></alternative>
+	<platform>Sega System 1</platform>
+	<series></series>
+	<year>1984</year>
+	<manufacturer>Sega</manufacturer>
+	<category>Shooter - Vertical</category>
+
+	<setname>mrviking</setname>
+	<parent>mrviking</parent>
+	<mameversion>0217</mameversion>
+	<rbf>segasys1</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R,C" names="Fire 1,Fire 2,-,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,7E">
+		<dip bits="9" ids="99,9" name="Maximum Credits"></dip>
+		<dip bits="10,11" ids="Infinite,5,4,3" name="Lives"></dip>
+		<dip bits="12,13" ids="40k ev.30k,30k ev.30k,20k 40k ev.30k,10k 30k ev.30k" name="Extend"></dip>
+		<dip bits="14" ids="Hard,Easy" name="Difficulty"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>06</part>
+		</rom>
+	<rom index="0" md5="7fa47147c580223c95b5e9b0ef8a3774" type="merged|nonmerged|split" zip="mrviking.zip">
+		<part crc="14d21624" name="epr-5873.129"></part>
+		<part crc="6df7de87" name="epr-5874.130"></part>
+		<part crc="ac226100" name="epr-5875.131"></part>
+		<part crc="e77db1dc" name="epr-5876.132"></part>
+		<part crc="edd62ae1" name="epr-5755.133"></part>
+		<part crc="11974040" name="epr-5756.134"></part>
+		<part crc="d712280d" name="epr-5763.3"></part>
+		<part crc="d712280d" name="epr-5763.3"></part>
+		<part crc="e24682cd" name="epr-5749.86"></part>
+		<part crc="6564d1ad" name="epr-5750.93"></part>
+		<part crc="e24682cd" name="epr-5749.86"></part>
+		<part crc="6564d1ad" name="epr-5750.93"></part>
+		<part crc="4a91d08a" name="epr-5762.82"></part>
+		<part crc="95045820" name="epr-5760.81"></part>
+		<part crc="808ee706" name="epr-5758.80"></part>
+		<part crc="f7d61b65" name="epr-5761.65"></part>
+		<part crc="5f9bae4e" name="epr-5759.64"></part>
+		<part crc="480f7074" name="epr-5757.63"></part>
+		<part crc="648350b8" name="pr-5317.106"></part>
+		<part>
+28 a8 08 88 88 80 08 00 88 08 80 00 88 80 08 00 
+28 08 a8 88 28 a8 08 88 88 08 80 00 88 08 80 00 
+28 08 a8 88 88 80 08 00 88 80 08 00 28 a8 08 88 
+a0 80 a8 88 28 08 a8 88 a0 80 a8 88 a0 80 a8 88 
+88 80 08 00 88 80 08 00 88 08 80 00 88 80 08 00 
+a0 80 20 00 28 08 a8 88 a0 80 20 00 88 08 80 00 
+28 08 a8 88 a0 80 20 00 a0 80 20 00 a0 80 20 00 
+a0 80 a8 88 28 08 a8 88 a0 80 20 00 a0 80 a8 88 
+		</part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		
+		</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="45"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

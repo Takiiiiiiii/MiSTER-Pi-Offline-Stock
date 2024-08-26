@@ -1,0 +1,19 @@
+####
+# Name: Kodak Panchromatic CMYK
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: BRG
+####
+
+Resolution=0
+v2
+2,8
+02a,32a
+02a,32a
+02a,32a
+02a,32a
+52a,62a
+52a,62a
+52a,62a
+52a,62a

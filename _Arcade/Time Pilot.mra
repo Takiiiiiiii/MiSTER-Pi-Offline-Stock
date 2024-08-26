@@ -1,0 +1,69 @@
+<misterromdescription>
+	<name>Time Pilot</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series>Time Pilot</series>
+	<year>1982</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>timeplt</setname>
+	<parent>timeplt</parent>
+	<mameversion>0220</mameversion>
+	<rbf>timepilot</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+	
+	<switches default="00,34">
+		<dip bits="0,3"   name="Credits A" ids="1c/1cr,1c/2cr,1c/3cr,1c/4cr,1c/5cr,1c/7cr,1c/6cr,2c/1cr,2c/3cr,3c/1cr,2c/5cr,3c/2cr,3c/4cr,4c/3cr,4c/1cr,Free Play"/>
+		<dip bits="4,7"   name="Credits B" ids="1c/1cr,1c/2cr,1c/3cr,1c/4cr,1c/5cr,1c/6cr,1c/7cr,2c/1cr,2c/3cr,2c/5cr,3c/1cr,3c/2cr,3c/4cr,4c/1cr,4c/3cr,Free Play"/>
+		<dip bits="8,9"   name="Lives" ids="3,4,5,255 (Cheat)"/>
+		<dip bits="10"    name="Cabinet type" ids="Cocktail,Upright"/>
+		<dip bits="11"    name="Bonus" ids="10K/50K+,20K/60K+"/>
+		<dip bits="12,14" name="Difficulty" ids="1 (Easiest),2,3,4,5,6,7,8 (Hardest)"/>
+		<dip bits="15"    name="Attract mode sound" ids="Off,On"/>
+	</switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="none" zip="timeplt.zip" >
+		<part crc="1551f1b9" name="tm1"/>
+		<part crc="58636cb5" name="tm2"/>
+		<part crc="ff4e0d83" name="tm3"/>
+		<part crc="c2507f40" name="tm6"/>
+		<part crc="7e437c3e" name="tm4"/>
+		<part crc="e8ca87b9" name="tm5"/>
+		<part crc="d66da813" name="tm7"/>
+		<part crc="f7b7663e" name="timeplt.e12"/>
+		<part crc="4bbb2150" name="timeplt.e9"/>
+		<part crc="463b2b07" name="timeplt.b5"/>
+		<part crc="34c91839" name="timeplt.b4"/>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		01 FF FF FF 00 FF 00 02 00 02 00 01 00 FF 00 00
+		00 00 AB 08 00 28 00 F1
+		00 00 A9 8B 00 03 00 01
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="43"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

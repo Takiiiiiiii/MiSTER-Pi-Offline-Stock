@@ -1,0 +1,48 @@
+<misterromdescription>
+	<name>Breakout</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>TTL</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series>Breakout</series>
+	<year>1976</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Ball and Paddle</category>
+
+	<setname>breakout</setname>
+	<parent>breakout</parent>
+	<mameversion></mameversion>
+	<rbf>breakout</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick></joystick>
+	<special_controls>rotary</special_controls>
+	<num_buttons>0</num_buttons>
+	<buttons default="R,Start,Select,A|P" names="Coin,Start1P,Start2P,Serve"></buttons>
+
+	<switches default="00,00">
+		<dip bits="0,3" ids="None,100,200,300,400,500,600,700,800" name="Bonus Credit"></dip>
+		<dip bits="4" ids="Upright,Cocktail" name="Cabinet Type"></dip>
+		<dip bits="5" ids="One,Two" name="Credit per coin"></dip>
+		<dip bits="6" ids="3,5" name="Balls served"></dip>
+		</switches>
+
+	<rom index="1"></rom>
+	<rom index="0"></rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

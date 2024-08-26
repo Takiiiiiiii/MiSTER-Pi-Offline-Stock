@@ -1,0 +1,93 @@
+<misterromdescription>
+  <name>Joust 2 - Survival of the Fittest (revision 1)</name>
+  <region>World</region>
+  <homebrew>no</homebrew>
+  <bootleg>no</bootleg>
+  <version></version>
+  <alternative></alternative>
+  <platform></platform>
+  <series></series>
+  <year>1986</year>
+  <manufacturer>Williams</manufacturer>
+  <category></category>
+
+  <setname>joust2r1</setname>
+  <parent>joust2</parent>
+  <mameversion>0226</mameversion>
+  <rbf>joust2</rbf>
+  <about></about>
+
+  <resolution>15kHz</resolution>
+  <rotation>vertical (ccw)</rotation>
+  <flip></flip>
+
+  <players>2</players>
+  <joystick></joystick>
+  <special_controls></special_controls>
+  <num_buttons></num_buttons>
+  <button_names></button_names>
+
+  <rom index="0" zip="joust2.zip|joust2r1.zip" md5="none" type="merged|nonmerged">
+
+    <!-- joust2_graph1     16kib [17:14] "0000"   00000-03FFF -->
+    <part crc="572c6b01" name="vid_27128_ic57_rom20_rev1.8f"/>
+
+    <!-- joust2_graph2     16kib [17:14] "0001"   04000-07FFF -->
+    <part crc="aa94bf05" name="vid_27128_ic58_rom21_rev1.9f"/>
+
+    <!-- joust2_graph3     16kib [17:14] "0010"   08000-0BFFF -->
+    <part crc="c41e3daa" name="vid_27128_ic41_rom22_rev1.9d"/>
+
+    <!-- padding           16kib [17:15] "0011"   0C000-0FFFF -->
+    <part repeat="16384">0</part>
+
+    <!-- joust2_bank_a     32kib [17:15] "010"    10000-17FFF -->
+    <part crc="4ef5e805" name="cpu_2732_ic26_rom19_rev1.10j"/>
+    <part crc="4861f063" name="cpu_2732_ic24_rom17_rev1.10h"/>
+    <part crc="421aafa8" name="cpu_2732_ic22_rom15_rev1.9j"/>
+    <part crc="3432ff55" name="cpu_2732_ic20_rom13_rev1.9h"/>
+
+    <!-- joust2_bank_b     32kib [17:15] "011"    18000-1FFFF -->
+    <part crc="47580af5" name="cpu_2732_ic25_rom18_rev1.10i"/>
+    <part crc="869b5942" name="cpu_2732_ic23_rom16_rev1.10g"/>
+    <part crc="0bbd867c" name="cpu_2732_ic21_rom14_rev1.9i"/>
+    <part crc="b9221ed1" name="cpu_2732_ic19_rom12_rev1.9g"/>
+
+    <!-- joust2_bank_c     32kib [17:15] "100"    20000-27FFF -->
+    <part crc="9dc986f9" name="cpu_2732_ic18_rom11_rev1.8j"/>
+    <part crc="0c77e22f" name="cpu_2732_ic16_rom9_rev1.8h"/>
+    <part crc="fb9455ca" name="cpu_2732_ic14_rom7_rev1.6j"/>
+    <part crc="31248a0d" name="cpu_2732_ic12_rom5_rev1.6h"/>
+
+    <!-- joust2_bank_d     32kib [17:15] "101"    28000-2DFFF -->
+    <part crc="3e01b597" name="cpu_2732_ic17_rom10_rev1.8i"/>
+    <part crc="ff26fb29" name="cpu_2732_ic15_rom8_rev1.8g"/>
+    <part crc="5f107db5" name="cpu_2732_ic13_rom6_rev1.6i"/>
+    <!-- Padding            8kib [17:15] "101"    2E000-2FFFF -->
+    <part repeat="8192">0</part>
+
+    <!-- joust2_prog2      32kib [17:13] "11000"  30000-31FFF -->
+    <part crc="6f319644" name="cpu_2732_ic9_rom3_rev1.4d"/>
+    <part crc="027b9f0c" name="cpu_2732_ic10_rom4_rev1.4f"/>
+
+    <!-- Padding           16kib [17:13] "11001"  32000-35FFF -->
+    <part repeat="16384">0</part>
+
+    <!-- joust2_sound       8kib [17:14] "1101"   36000-37FFF -->
+    <part crc="84517c3c" name="cpu_2764_ic8_rom1_rev1.0f"/>
+
+    <!-- Padding           20kib [17:14] "1110"   38000-3CFFF  -->
+    <part repeat="20480">0</part>
+
+    <!-- joust2_prog1       4kib [17:12] "111101" 3D000-3DFFF  -->
+    <part crc="08b0d5bd" name="cpu_2732_ic55_rom2_rev1.4c"/>
+
+    <!-- Padding            4kib [17:12] "111110" 3E000-3EFFF -->
+    <part repeat="4096">0</part>
+
+    <!-- joust2_decoder     512b [17:12] "111111" 3FFA0-4019F -->
+    <part crc="0ea3f7fb" name="vid_82s147a_ic60_a-5282-10292.12f"/>
+
+  </rom>
+
+</misterromdescription>

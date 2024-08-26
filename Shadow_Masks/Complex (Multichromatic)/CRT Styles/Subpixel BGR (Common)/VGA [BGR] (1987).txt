@@ -1,0 +1,15 @@
+####
+# Name: VGA
+# Author: Soltan_G42
+# Type: CRT
+# Genre: VGA
+# Sub-Pixel Layout: BGR
+####
+
+Resolution=0
+v2
+6,4
+12a,12a,22a,22a,42a,42a
+12a,12a,22a,22a,42a,42a
+22a,42a,42a,12a,12a,22a
+22a,42a,42a,12a,12a,22a

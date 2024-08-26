@@ -1,0 +1,476 @@
+<!--
+
+This romset is for games available from Good Old Games https://gog.com, as well
+as on the Humble Bundle store https://www.humblebundle.com/store (both as
+individual games and as collections).
+
+Good Old Games and Humblr Bundle sell part of the NeoGeo game catalogue. Within
+installed games should be every file needed to play these games on MiSTer.
+Availability was not checked for all platforms nor all games, though.
+
+Suggested file layout:
+NeoGeo
+  000-lo.lo    (from neogeo.zip from any installed game)
+  neo-epo.sp1  (likewise)
+  sfix.sfix    (likewise)
+  sp-s2.sp1    (likewise)
+  uni-bios.rom (likewise, renamed from uni-bios_*.rom)
+  gog
+    romsets.xml (this file, renamed)
+    mslug
+      201-p1.p1 (from mslug.zip from installed game)
+      (etc, all files from the zip)
+    mslug2
+      241-p1.p1 (from mslug2.zip from installed game)
+      (etc, all files from the zip)
+    (etc)
+
+Notes on variants
+Some games contain multiple variants (ex: samsho2 also contains samsho2k,
+which in turn is all that is needed for samsho2k2). For these, create an
+empty folder with the variant name (no need to duplicate its content):
+NeoGeo
+  gog
+    samsho2
+      063-p1.p1
+      (etc)
+    samsho2k
+    samsho2k2
+For mslug2t (GOG roms patched with turbo mod), only the produced 941-p1.p1
+file is needed in mslug2t folder:
+NeoGeo
+  gog
+    mslug2
+      241-p1.p1
+      (etc)
+    mslug2t
+      941-p1.p1
+
+-->
+
+<romsets>
+	<!-- ROMs working with 32MB SDRAM -->
+
+	<romset name="aof2" pcm="1" altname="Art of Fighting 2 (Set 1)" altnamej="Ryuuko no Ken 2 (Arcade)" publisher="SNK" year="1994">
+		<file name="056-p1.p1" index="4"/>
+		<file name="056-s1.s1" index="8"/>
+		<file name="056-c1.c1" index="64"/>
+		<file name="056-c2.c2" index="65"/>
+		<file name="056-c3.c3" index="72"/>
+		<file name="056-c4.c4" index="73"/>
+		<file name="056-c5.c5" index="80"/>
+		<file name="056-c6.c6" index="81"/>
+		<file name="056-c7.c7" index="88"/>
+		<file name="056-c8.c8" index="89"/>
+		<file name="056-m1.m1" index="9"/>
+		<file name="056-v1.v1" index="16"/>
+		<file name="056-v2.v2" index="20"/>
+		<file name="056-v3.v3" index="24"/>
+	</romset>
+	<romset name="aof2a" pcm="1" altname="Art of Fighting 2 (Set 2)" altnamej="Ryuuko no Ken 2 (Arcade)" publisher="SNK" year="1994">
+		<file name="../aof2/056-p1.p1" index="4"/>
+		<file name="../aof2/056-epr.ep1" index="4"/>
+		<file name="../aof2/056-s1.s1" index="8"/>
+		<file name="../aof2/056-c1.c1" index="64"/>
+		<file name="../aof2/056-c2.c2" index="65"/>
+		<file name="../aof2/056-c3.c3" index="72"/>
+		<file name="../aof2/056-c4.c4" index="73"/>
+		<file name="../aof2/056-c5.c5" index="80"/>
+		<file name="../aof2/056-c6.c6" index="81"/>
+		<file name="../aof2/056-c7.c7" index="88"/>
+		<file name="../aof2/056-c8.c8" index="89"/>
+		<file name="../aof2/056-m1.m1" index="9"/>
+		<file name="../aof2/056-v1.v1" index="16"/>
+		<file name="../aof2/056-v2.v2" index="20"/>
+		<file name="../aof2/056-v3.v3" index="24"/>
+	</romset>
+	<romset name="bstars2" pcm="1" altname="Baseball Stars 2" publisher="SNK" year="1992">
+		<file name="041-p1.p1" index="4"/>
+		<file name="041-s1.s1" index="8"/>
+		<file name="041-c1.c1" index="64"/>
+		<file name="041-c2.c2" index="65"/>
+		<file name="041-c3.c3" index="68"/>
+		<file name="041-c4.c4" index="69"/>
+		<file name="041-m1.m1" index="9"/>
+		<file name="041-v1.v1" index="16"/>
+		<file name="041-v2.v2" index="18"/>
+		<file name="041-v3.v3" index="20"/>
+	</romset>
+	<romset name="fatfursp" pcm="1" altname="Fatal Fury Special" publisher="SNK" year="1993">
+		<file name="058-p1.p1" index="4"/>
+		<file name="058-p2.sp2" index="6"/>
+		<file name="058-s1.s1" index="8"/>
+		<file name="058-c1.c1" index="64"/>
+		<file name="058-c2.c2" index="65"/>
+		<file name="058-c3.c3" index="72"/>
+		<file name="058-c4.c4" index="73"/>
+		<file name="058-c5.c5" index="80"/>
+		<file name="058-c6.c6" index="81"/>
+		<file name="058-m1.m1" index="9"/>
+		<file name="058-v1.v1" index="16"/>
+		<file name="058-v2.v2" index="20"/>
+		<file name="058-v3.v3" index="24"/>
+	</romset>
+	<romset name="fatfurspa" pcm="1" altname="Fatal Fury Special (set 2)" publisher="SNK" year="1993">
+		<file name="../fatfursp/058-p1.p1" index="4"/>
+		<file name="../fatfursp/058-p2.sp2" index="6"/>
+		<file name="../fatfursp/058-epr.ep1" index="4"/>
+		<file name="../fatfursp/058-s1.s1" index="8"/>
+		<file name="../fatfursp/058-c1.c1" index="64"/>
+		<file name="../fatfursp/058-c2.c2" index="65"/>
+		<file name="../fatfursp/058-c3.c3" index="72"/>
+		<file name="../fatfursp/058-c4.c4" index="73"/>
+		<file name="../fatfursp/058-c5.c5" index="80"/>
+		<file name="../fatfursp/058-c6.c6" index="81"/>
+		<file name="../fatfursp/058-m1.m1" index="9"/>
+		<file name="../fatfursp/058-v1.v1" index="16"/>
+		<file name="../fatfursp/058-v2.v2" index="20"/>
+		<file name="../fatfursp/058-v3.v3" index="24"/>
+	</romset>
+	<romset name="ironclad" pcm="1" altname="Iron Clad" altnamej="Choutetsu Brikinger" publisher="Saurus" year="1996">
+		<file name="proto_220-p1.p1" index="4" offset="0x100000" length="0x100000"/>
+		<file name="proto_220-p1.p1" index="6" offset="0x000000" length="0x100000"/>
+		<file name="proto_220-s1.s1" index="8"/>
+		<file name="proto_220-c1.c1" index="64"/>
+		<file name="proto_220-c2.c2" index="65"/>
+		<file name="proto_220-c3.c3" index="80"/>
+		<file name="proto_220-c4.c4" index="81"/>
+		<file name="proto_220-m1.m1" index="9"/>
+		<file name="proto_220-v1.v1" index="16"/>
+	</romset>
+	<!-- Program ROM bank 0 does not pass CRC check as of Unibios 3.3 -->
+	<romset name="ironclado" pcm="1" altname="Iron Clad (bootleg)" altnamej="Choutetsu Brikinger" publisher="Saurus" year="1996">
+		<file name="../ironclad/proto_220-p1.p1" index="4" offset="0x100000" length="0x100000"/>
+		<file name="../ironclad/proto_220-p1.p1" index="6" offset="0x000000" length="0x100000"/>
+		<file name="../ironclad/220-p1a.bin" index="6"/>
+		<file name="../ironclad/proto_220-s1.s1" index="8"/>
+		<file name="../ironclad/proto_220-c1.c1" index="64"/>
+		<file name="../ironclad/proto_220-c2.c2" index="65"/>
+		<file name="../ironclad/proto_220-c3.c3" index="80"/>
+		<file name="../ironclad/proto_220-c4.c4" index="81"/>
+		<file name="../ironclad/proto_220-m1.m1" index="9"/>
+		<file name="../ironclad/proto_220-v1.v1" index="16"/>
+	</romset>
+	<romset name="kotm" pcm="1" altname="King of the Monsters (Set 1)" publisher="SNK" year="1991">
+		<file name="016-p1.p1" index="4"/>
+		<file name="016-p2.p2" index="5"/>
+		<file name="016-s1.s1" index="8"/>
+		<file name="016-c1.c1" index="64"/>
+		<file name="016-c2.c2" index="65"/>
+		<file name="016-c3.c3" index="68"/>
+		<file name="016-c4.c4" index="69"/>
+		<file name="016-m1.m1" index="9"/>
+		<file name="016-v1.v1" index="16"/>
+		<file name="016-v2.v2" index="18"/>
+	</romset>
+	<romset name="kotmh" pcm="1" altname="King of the Monsters (Set 2)" publisher="SNK" year="1991">
+		<file name="../kotm/016-hp1.p1" index="4"/>
+		<file name="../kotm/016-p2.p2" index="5"/>
+		<file name="../kotm/016-s1.s1" index="8"/>
+		<file name="../kotm/016-c1.c1" index="64"/>
+		<file name="../kotm/016-c2.c2" index="65"/>
+		<file name="../kotm/016-c3.c3" index="68"/>
+		<file name="../kotm/016-c4.c4" index="69"/>
+		<file name="../kotm/016-m1.m1" index="9"/>
+		<file name="../kotm/016-v1.v1" index="16"/>
+		<file name="../kotm/016-v2.v2" index="18"/>
+	</romset>
+	<romset name="mslug" pcm="1" altname="Metal Slug - Super Vehicle-001" publisher="Nazca" year="1996">
+		<file name="201-p1.p1" index="4" offset="0x100000" length="0x100000"/>
+		<file name="201-p1.p1" index="6" offset="0x000000" length="0x100000"/>
+		<file name="201-s1.s1" index="8"/>
+		<file name="201-c1.c1" index="64"/>
+		<file name="201-c2.c2" index="65"/>
+		<file name="201-c3.c3" index="80"/>
+		<file name="201-c4.c4" index="81"/>
+		<file name="201-m1.m1" index="9"/>
+		<file name="201-v1.v1" index="16"/>
+		<file name="201-v2.v2" index="24"/>
+	</romset>
+	<romset name="mslug2" pcm="1" altname="Metal Slug 2 - Super Vehicle-001-II" publisher="SNK" year="1998">
+		<file name="241-p1.p1" index="4"/>
+		<file name="241-p2.sp2" index="6"/>
+		<file name="241-s1.s1" index="8"/>
+		<file name="241-c1.c1" index="64"/>
+		<file name="241-c2.c2" index="65"/>
+		<file name="241-c3.c3" index="96"/>
+		<file name="241-c4.c4" index="97"/>
+		<file name="241-m1.m1" index="9"/>
+		<file name="241-v1.v1" index="16"/>
+		<file name="241-v2.v2" index="24"/>
+	</romset>
+	<!-- 941-p1.p1 can be generated using the patch available from http://blog.system11.org/?p=1442 -->
+	<romset name="mslug2t" pcm="1" altname="Metal Slug 2 Turbo - Super Vehicle-001-II" publisher="SNK" year="1998">
+		<file name="941-p1.p1" index="4"/>
+		<file name="../mslug2/241-p2.sp2" index="6"/>
+		<file name="../mslug2/241-s1.s1" index="8"/>
+		<file name="../mslug2/241-c1.c1" index="64"/>
+		<file name="../mslug2/241-c2.c2" index="65"/>
+		<file name="../mslug2/241-c3.c3" index="96"/>
+		<file name="../mslug2/241-c4.c4" index="97"/>
+		<file name="../mslug2/241-m1.m1" index="9"/>
+		<file name="../mslug2/241-v1.v1" index="16"/>
+		<file name="../mslug2/241-v2.v2" index="24"/>
+	</romset>
+	<romset name="samsho2" pcm="1" altname="Samurai Shodown II" publisher="SNK" year="1994">
+		<file name="063-p1.p1" index="4" offset="0x100000" length="0x100000"/>
+		<file name="063-p1.p1" index="6" offset="0x000000" length="0x100000"/>
+		<file name="063-s1.s1" index="8"/>
+		<file name="063-c1.c1" index="64"/>
+		<file name="063-c2.c2" index="65"/>
+		<file name="063-c3.c3" index="72"/>
+		<file name="063-c4.c4" index="73"/>
+		<file name="063-c5.c5" index="80"/>
+		<file name="063-c6.c6" index="81"/>
+		<file name="063-c7.c7" index="88"/>
+		<file name="063-c8.c8" index="89"/>
+		<file name="063-m1.m1" index="9"/>
+		<file name="063-v1.v1" index="16"/>
+		<file name="063-v2.v2" index="20"/>
+		<file name="063-v3.v3" index="24"/>
+		<file name="063-v4.v4" index="28"/>
+	</romset>
+	<romset name="samsho2k" pcm="1" altname="Samurai Shodown II Korean" publisher="SNK" year="1994">
+		<file name="../samsho2/063-p1-kan.p1" index="4" offset="0x100000" length="0x100000"/>
+		<file name="../samsho2/063-p1-kan.p1" index="6" offset="0x000000" length="0x100000"/>
+		<file name="../samsho2/063-ep1-kan.ep1" index="4"/>
+		<file name="../samsho2/063-ep2-kan.ep2" index="5"/>
+		<file name="../samsho2/063-s1-kan.s1" index="8"/>
+		<file name="../samsho2/063-c1.c1" index="64"/>
+		<file name="../samsho2/063-c2.c2" index="65"/>
+		<file name="../samsho2/063-c3.c3" index="72"/>
+		<file name="../samsho2/063-c4.c4" index="73"/>
+		<file name="../samsho2/063-c5.c5" index="80"/>
+		<file name="../samsho2/063-c6.c6" index="81"/>
+		<file name="../samsho2/063-c7.c7" index="88"/>
+		<file name="../samsho2/063-c8.c8" index="89"/>
+		<file name="../samsho2/063-m1.m1" index="9"/>
+		<file name="../samsho2/063-v1.v1" index="16"/>
+		<file name="../samsho2/063-v2.v2" index="20"/>
+		<file name="../samsho2/063-v3.v3" index="24"/>
+		<file name="../samsho2/063-v4.v4" index="28"/>
+	</romset>
+	<romset name="samsho2k2" pcm="1" altname="Samurai Shodown II Korean 2" publisher="SNK" year="1994">
+		<file name="../samsho2/063-p1-kan.p1" index="4" offset="0x100000" length="0x100000"/>
+		<file name="../samsho2/063-p1-kan.p1" index="6" offset="0x000000" length="0x100000"/>
+		<file name="../samsho2/063-s1-kan.s1" index="8"/>
+		<file name="../samsho2/063-c1.c1" index="64"/>
+		<file name="../samsho2/063-c2.c2" index="65"/>
+		<file name="../samsho2/063-c3.c3" index="72"/>
+		<file name="../samsho2/063-c4.c4" index="73"/>
+		<file name="../samsho2/063-c5.c5" index="80"/>
+		<file name="../samsho2/063-c6.c6" index="81"/>
+		<file name="../samsho2/063-c7.c7" index="88"/>
+		<file name="../samsho2/063-c8.c8" index="89"/>
+		<file name="../samsho2/063-m1.m1" index="9"/>
+		<file name="../samsho2/063-v1.v1" index="16"/>
+		<file name="../samsho2/063-v2.v2" index="20"/>
+		<file name="../samsho2/063-v3.v3" index="24"/>
+		<file name="../samsho2/063-v4.v4" index="28"/>
+	</romset>
+	<romset name="turfmast" pcm="1" altname="Neo Turf Masters" altnamej="Big Tournament Golf" publisher="Nazca" year="1996">
+		<file name="200-p1.p1" index="4" offset="0x100000" length="0x100000"/>
+		<file name="200-p1.p1" index="6" offset="0x000000" length="0x100000"/>
+		<file name="200-s1.s1" index="8"/>
+		<file name="200-c1.c1" index="64"/>
+		<file name="200-c2.c2" index="65"/>
+		<file name="200-m1.m1" index="9"/>
+		<file name="200-v1.v1" index="16"/>
+		<file name="200-v2.v2" index="20"/>
+		<file name="200-v3.v3" index="24"/>
+		<file name="200-v4.v4" index="28"/>
+	</romset>
+	<romset name="twinspri" pcm="1" altname="Twinkle Star Sprites" publisher="ADK / SNK" year="1996">
+		<file name="224-p1.p1" index="4" offset="0x100000" length="0x100000"/>
+		<file name="224-p1.p1" index="6" offset="0x000000" length="0x100000"/>
+		<file name="224-s1.s1" index="8"/>
+		<file name="224-c1.c1" index="64"/>
+		<file name="224-c2.c2" index="65"/>
+		<file name="224-c3.c3" index="80"/>
+		<file name="224-c4.c4" index="81"/>
+		<file name="224-m1.m1" index="9"/>
+		<file name="224-v1.v1" index="16"/>
+		<file name="224-v2.v2" index="24"/>
+	</romset>
+
+	<!-- ROMs requiring 64MB SDRAM -->
+
+	<romset name="blazstar" pcm="1" altname="Blazing Star" publisher="SNK" year="1998" ram="1">
+		<file name="239-p1.p1" index="4"/>
+		<file name="239-p2.sp2" index="6"/>
+		<file name="239-s1.s1" index="8"/>
+		<file name="239-c1.c1" index="64"/>
+		<file name="239-c2.c2" index="65"/>
+		<file name="239-c3.c3" index="80"/>
+		<file name="239-c4.c4" index="81"/>
+		<file name="239-c5.c5" index="96"/>
+		<file name="239-c6.c6" index="97"/>
+		<file name="239-c7.c7" index="112"/>
+		<file name="239-c8.c8" index="113"/>
+		<file name="239-m1.m1" index="9"/>
+		<file name="239-v1.v1" index="16"/>
+		<file name="239-v2.v2" index="24"/>
+	</romset>
+	<romset name="lastblad" pcm="1" altname="Last Blade, The (Set 1)" altnamej="Bakumatsu Roman - Gekka no Kenshi (Arcade)" publisher="SNK" year="1997" ram="1">
+		<file name="234-p1.p1" index="4"/>
+		<file name="234-p2.sp2" index="6"/>
+		<file name="234-s1.s1" index="8"/>
+		<file name="234-c1.c1" index="64"/>
+		<file name="234-c2.c2" index="65"/>
+		<file name="234-c3.c3" index="96"/>
+		<file name="234-c4.c4" index="97"/>
+		<file name="234-c5.c5" index="128"/>
+		<file name="234-c6.c6" index="129"/>
+		<file name="234-m1.m1" index="9"/>
+		<file name="234-v1.v1" index="16"/>
+		<file name="234-v2.v2" index="24"/>
+		<file name="234-v3.v3" index="32"/>
+		<file name="234-v4.v4" index="40"/>
+	</romset>
+	<romset name="lastbladh" pcm="1" altname="Last Blade, The (Set 2)" altnamej="Bakumatsu Roman - Gekka no Kenshi (Arcade)" publisher="SNK" year="1997" ram="1">
+		<file name="../lastblad/234-pg1.p1" index="4"/>
+		<file name="../lastblad/234-p2.sp2" index="6"/>
+		<file name="../lastblad/234-s1.s1" index="8"/>
+		<file name="../lastblad/234-c1.c1" index="64"/>
+		<file name="../lastblad/234-c2.c2" index="65"/>
+		<file name="../lastblad/234-c3.c3" index="96"/>
+		<file name="../lastblad/234-c4.c4" index="97"/>
+		<file name="../lastblad/234-c5.c5" index="128"/>
+		<file name="../lastblad/234-c6.c6" index="129"/>
+		<file name="../lastblad/234-m1.m1" index="9"/>
+		<file name="../lastblad/234-v1.v1" index="16"/>
+		<file name="../lastblad/234-v2.v2" index="24"/>
+		<file name="../lastblad/234-v3.v3" index="32"/>
+		<file name="../lastblad/234-v4.v4" index="40"/>
+	</romset>
+	<romset name="lastsold" pcm="1" altname="Last Soldier, The (Korean release of The Last Blade)" publisher="SNK" year="1997" ram="1">
+		<file name="../lastblad/134-p1k.p1" index="4"/>
+		<file name="../lastblad/234-p2.sp2" index="6"/>
+		<file name="../lastblad/234-s1.s1" index="8"/>
+		<file name="../lastblad/234-c1.c1" index="64"/>
+		<file name="../lastblad/234-c2.c2" index="65"/>
+		<file name="../lastblad/234-c3.c3" index="96"/>
+		<file name="../lastblad/234-c4.c4" index="97"/>
+		<file name="../lastblad/234-c5.c5" index="128"/>
+		<file name="../lastblad/234-c6.c6" index="129"/>
+		<file name="../lastblad/234-m1.m1" index="9"/>
+		<file name="../lastblad/234-v1.v1" index="16"/>
+		<file name="../lastblad/234-v2.v2" index="24"/>
+		<file name="../lastblad/234-v3.v3" index="32"/>
+		<file name="../lastblad/234-v4.v4" index="40"/>
+	</romset>
+	<romset name="pulstar" pcm="1" altname="Pulstar" publisher="Aicom" year="1995" ram="1">
+		<file name="089-p1.p1" index="4"/>
+		<file name="089-p2.sp2" index="6"/>
+		<file name="089-s1.s1" index="8"/>
+		<file name="089-c1.c1" index="64"/>
+		<file name="089-c2.c2" index="65"/>
+		<file name="089-c3.c3" index="80"/>
+		<file name="089-c4.c4" index="81"/>
+		<file name="089-c5.c5" index="96"/>
+		<file name="089-c6.c6" index="97"/>
+		<file name="089-c7.c7" index="112"/>
+		<file name="089-c8.c8" index="113"/>
+		<file name="089-m1.m1" index="9"/>
+		<file name="089-v1.v1" index="16"/>
+		<file name="089-v2.v2" index="24"/>
+	</romset>
+	<romset name="rbff2" pcm="1" altname="Real Bout Fatal Fury 2 - The Newcomers (Set 1)" altnamej="Real Bout Garou Densetsu 2 - The Newcomers" publisher="SNK" year="1998" ram="1">
+		<file name="240-p1.p1" index="4"/>
+		<file name="240-p2.sp2" index="6"/>
+		<file name="240-s1.s1" index="8"/>
+		<file name="240-c1.c1" index="64"/>
+		<file name="240-c2.c2" index="65"/>
+		<file name="240-c3.c3" index="96"/>
+		<file name="240-c4.c4" index="97"/>
+		<file name="240-c5.c5" index="128"/>
+		<file name="240-c6.c6" index="129"/>
+		<file name="240-m1.m1" index="9"/>
+		<file name="240-v1.v1" index="16"/>
+		<file name="240-v2.v2" index="24"/>
+		<file name="240-v3.v3" index="32"/>
+		<file name="240-v4.v4" index="40"/>
+	</romset>
+	<romset name="rbff2h" pcm="1" altname="Real Bout Fatal Fury 2 - The Newcomers (Set 2)" altnamej="Real Bout Garou Densetsu 2 - The Newcomers" publisher="SNK" year="1998" ram="1">
+		<file name="../rbff2/240-pg1.p1" index="4"/>
+		<file name="../rbff2/240-p2.sp2" index="6"/>
+		<file name="../rbff2/240-s1.s1" index="8"/>
+		<file name="../rbff2/240-c1.c1" index="64"/>
+		<file name="../rbff2/240-c2.c2" index="65"/>
+		<file name="../rbff2/240-c3.c3" index="96"/>
+		<file name="../rbff2/240-c4.c4" index="97"/>
+		<file name="../rbff2/240-c5.c5" index="128"/>
+		<file name="../rbff2/240-c6.c6" index="129"/>
+		<file name="../rbff2/240-m1.m1" index="9"/>
+		<file name="../rbff2/240-v1.v1" index="16"/>
+		<file name="../rbff2/240-v2.v2" index="24"/>
+		<file name="../rbff2/240-v3.v3" index="32"/>
+		<file name="../rbff2/240-v4.v4" index="40"/>
+	</romset>
+	<romset name="rbff2k" pcm="1" altname="Real Bout Fatal Fury 2 - The Newcomers (Korean release)" altnamej="Real Bout Garou Densetsu 2 - The Newcomers" publisher="SNK" year="1998" ram="1">
+		<file name="../rbff2/140-p1k.p1" index="4"/>
+		<file name="../rbff2/240-p2.sp2" index="6"/>
+		<file name="../rbff2/240-s1.s1" index="8"/>
+		<file name="../rbff2/240-c1.c1" index="64"/>
+		<file name="../rbff2/240-c2.c2" index="65"/>
+		<file name="../rbff2/240-c3.c3" index="96"/>
+		<file name="../rbff2/240-c4.c4" index="97"/>
+		<file name="../rbff2/240-c5.c5" index="128"/>
+		<file name="../rbff2/240-c6.c6" index="129"/>
+		<file name="../rbff2/240-m1.m1" index="9"/>
+		<file name="../rbff2/240-v1.v1" index="16"/>
+		<file name="../rbff2/240-v2.v2" index="24"/>
+		<file name="../rbff2/240-v3.v3" index="32"/>
+		<file name="../rbff2/240-v4.v4" index="40"/>
+	</romset>
+	<romset name="shocktr2" pcm="1" altname="Shock Troopers - 2nd Squad" publisher="Saurus" year="1998" ram="1">
+		<file name="246-p1.p1" index="4"/>
+		<file name="246-p2.sp2" index="6"/>
+		<file name="246-s1.s1" index="8"/>
+		<file name="246-c1.c1" index="64"/>
+		<file name="246-c2.c2" index="65"/>
+		<file name="246-c3.c3" index="96"/>
+		<file name="246-c4.c4" index="97"/>
+		<file name="246-c5.c5" index="128"/>
+		<file name="246-c6.c6" index="129"/>
+		<file name="246-m1.m1" index="9"/>
+		<file name="246-v1.v1" index="16"/>
+		<file name="246-v2.v2" index="24"/>
+		<file name="246-v3.v3" index="32"/>
+	</romset>
+	<romset name="shocktro" pcm="1" altname="Shock Troopers (Set 1)" publisher="Saurus" year="1997" ram="1">
+		<file name="238-p1.p1" index="4"/>
+		<file name="238-p2.sp2" index="6"/>
+		<file name="238-s1.s1" index="8"/>
+		<file name="238-c1.c1" index="64"/>
+		<file name="238-c2.c2" index="65"/>
+		<file name="238-c3.c3" index="80"/>
+		<file name="238-c4.c4" index="81"/>
+		<file name="238-c5.c5" index="96"/>
+		<file name="238-c6.c6" index="97"/>
+		<file name="238-c7.c7" index="112"/>
+		<file name="238-c8.c8" index="113"/>
+		<file name="238-m1.m1" index="9"/>
+		<file name="238-v1.v1" index="16"/>
+		<file name="238-v2.v2" index="24"/>
+	</romset>
+	<romset name="shcktroa" pcm="1" altname="Shock Troopers (Set 2)" publisher="Saurus" year="1997" ram="1">
+		<file name="../shocktro/238-pg1.p1" index="4"/>
+		<file name="../shocktro/238-p2.sp2" index="6"/>
+		<file name="../shocktro/238-s1.s1" index="8"/>
+		<file name="../shocktro/238-c1.c1" index="64"/>
+		<file name="../shocktro/238-c2.c2" index="65"/>
+		<file name="../shocktro/238-c3.c3" index="80"/>
+		<file name="../shocktro/238-c4.c4" index="81"/>
+		<file name="../shocktro/238-c5.c5" index="96"/>
+		<file name="../shocktro/238-c6.c6" index="97"/>
+		<file name="../shocktro/238-c7.c7" index="112"/>
+		<file name="../shocktro/238-c8.c8" index="113"/>
+		<file name="../shocktro/238-m1.m1" index="9"/>
+		<file name="../shocktro/238-v1.v1" index="16"/>
+		<file name="../shocktro/238-v2.v2" index="24"/>
+	</romset>
+	<!-- ROMs requiring 96MB SDRAM (32MB+64MB) -->
+
+	<!-- ROMs requiring 128MB SDRAM (2x64MB) -->
+</romsets>

@@ -1,0 +1,68 @@
+<misterromdescription>
+    <name>Inferno (Williams)</name>
+    <region>World</region>
+    <homebrew>no</homebrew>
+    <bootleg>no</bootleg>
+    <version></version>
+    <alternative></alternative>
+    <platform>Williams 2nd Generation</platform>
+    <series></series>
+    <year>1984</year>
+    <manufacturer>Williams</manufacturer>
+    <category>Maze</category>
+
+    <setname>inferno</setname>
+
+    <mameversion>0226</mameversion>
+    <rbf>inferno</rbf>
+    <about></about>
+
+    <resolution>15kHz</resolution>
+    <rotation>horizontal</rotation>
+    <flip></flip>
+
+    <players>2</players>
+    <joystick>Double 8-way Joysticks</joystick>
+    <special_controls></special_controls>
+    <num_buttons>1</num_buttons>
+    <button_names></button_names>
+
+	<rom index="0" md5="none" type="merged|nonmerged" zip="inferno.zip">
+        <!-- inferno_bank_b -->
+        <part crc="103a5951" name="ic25.inf" />
+        <part crc="c04749a0" name="ic23.inf" />
+        <part crc="c405f853" name="ic21.inf" />
+        <part crc="ade7645a" name="ic19.inf" />
+
+        <!-- inferno_bank_c -->
+        <part crc="95bcf7b1" name="ic18.inf" />
+        <part crc="8bc4f935" name="ic16.inf" />
+        <part crc="a70508a7" name="ic14.inf" />
+        <part crc="7ffb87f9" name="ic12.inf" />
+
+        <!-- inferno_bank_d -->
+        <part crc="b4684139" name="ic17.inf" />
+        <part crc="128a6ad6" name="ic15.inf" />
+        <part crc="83a9e4d6" name="ic13.inf" />
+        <part crc="c2e9c909" name="ic11.inf" />
+
+        <!-- inferno_graph1 -->
+        <part crc="65a4ef79" name="ic57.inf"/>
+
+        <!-- inferno_graph2 -->
+        <part crc="4bb1c2a0" name="ic58.inf"/>
+
+        <!-- inferno_graph3 -->
+        <part crc="f3f7238f" name="ic41.inf"/>
+
+        <!-- inferno_sound -->
+        <part crc="4e3123b8" name="ic8.inf"/>
+
+        <!-- inferno_prog2 -->
+        <part crc="1a013185" name="ic9.inf"  />
+        <part crc="dbf64a36" name="ic10.inf" />
+
+        <!-- inferno_decoder -->
+        <part crc="0ea3f7fb" name="prom3" />
+	</rom>
+</misterromdescription>

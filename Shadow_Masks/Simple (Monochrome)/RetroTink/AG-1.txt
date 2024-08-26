@@ -1,0 +1,9 @@
+####
+# Name: AG-1
+# Author: Mike Chi (Converted by TrashUncle)
+# Type: CRT
+# Sub-Pixel Layout: Monochrome
+####
+v2
+3,1
+70f,70f,00c

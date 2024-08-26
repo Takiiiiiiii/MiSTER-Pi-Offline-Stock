@@ -1,0 +1,23 @@
+####
+# Name: PenTile YCMK [45 Degrees]
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: GBR
+####
+
+Resolution=0
+v2
+4,12
+02a,62a,32a,52a
+02a,62a,32a,52a
+02a,62a,32a,52a
+52a,02a,62a,32a
+52a,02a,62a,32a
+52a,02a,62a,32a
+32a,52a,02a,62a
+32a,52a,02a,62a
+32a,52a,02a,62a
+62a,32a,52a,02a
+62a,32a,52a,02a
+62a,32a,52a,02a

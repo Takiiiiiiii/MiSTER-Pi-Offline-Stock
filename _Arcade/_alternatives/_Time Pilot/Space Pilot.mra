@@ -1,0 +1,51 @@
+<misterromdescription>
+	<name>Space Pilot</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Time Pilot</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>bootleg</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>spaceplt</setname>
+	<parent>spaceplt</parent>
+	<mameversion>0218</mameversion>
+	<rbf>timepilot</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="4537481f5bcaea03efa511e9d1bdf612" zip="timeplt.zip|spaceplt.zip">
+		<part crc="ac8ca3ae" name="sp1"></part>
+		<part crc="1f0308ef" name="sp2"></part>
+		<part crc="90aeca50" name="sp3"></part>
+		<part crc="76caa8af" name="sp6"></part>
+		<part crc="3781ce7a" name="sp4"></part>
+		<part crc="e8ca87b9" name="tm5"></part>
+		<part crc="d66da813" name="tm7"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>spaceskr</name>
+	<mameversion>0245</mameversion>
+	<setname>spaceskr</setname>
+	<parent>spaceskr</parent>
+	<mratimestamp>202304140600</mratimestamp>
+	<year>1983</year>
+	<manufacturer>Taito</manufacturer>
+	<category>Mixed</category>
+	<rbf>TaitoSJ</rbf>
+	<rotation>horizontal</rotation>
+	<joystick>8-way</joystick>
+        <buttons default="A,B,Start,Select,L,R,X,Y" names="A,B,Start,Select,Coin,Coin,Service,Pause"/>
+	<switches default="00,00,FF,00,00,00,00,00">
+		<dip bits="11,12" name="Lives" ids="6,5,4,3"/>
+		<dip bits="13" name="Test Mode" ids="Off, On"/>
+		<dip bits="15" name="Cabinet" ids="Upright, Cocktail"/>
+		<dip bits="16,19" name="Coin A" ids="9C1C,8C1C,7C1C,6C1C,5C1C,4C1C,3C1C,2C1C,1C8C,1C7C,1C6C,1C5C,1C4C,1C3C,1C2C,1C1C"/>
+		<dip bits="20,23" name="Coin B" ids="9C1C,8C1C,7C1C,6C1C,5C1C,4C1C,3C1C,2C1C,1C8C,1C7C,1C6C,1C5C,1C4C,1C3C,1C2C,1C1C"/>		
+		<dip bits="37" name="Year Display" ids="Yes,No"/>		
+		<dip bits="38" name="Infinte Lives" ids="No,Yes"/>		
+		<dip bits="39" name="Coin Slots" ids="A and B,A only"/>		
+	</switches>		
+	<rom index="0" md5="none" zip="spaceskr.zip" type="merged">
+		<part crc="92345b05" name="eb01"/>
+		<part crc="a3e21420" name="eb02"/>
+		<part crc="a077c52f" name="eb03"/>
+		<part crc="440030cf" name="eb04"/>
+		<part crc="b0d396ab" name="eb05"/>
+		<part crc="371d2f7a" name="eb06"/>
+		<part crc="13e667c4" name="eb07"/>
+		<part crc="f2e84015" name="eb08"/>
+		<part crc="92345b05" name="eb01"/>
+		<part crc="a3e21420" name="eb02"/>
+		<part crc="a077c52f" name="eb03"/>
+		<part crc="440030cf" name="eb04"/>
+		<part crc="b0d396ab" name="eb05"/>
+		<part crc="371d2f7a" name="eb06"/>
+		<part crc="13e667c4" name="eb07"/>
+		<part crc="f2e84015" name="eb08"/>	
+		<part crc="77af540e" name="eb09"/>
+		<part crc="b10073de" name="eb10"/>
+		<part crc="c7954bd1" name="eb11"/>
+		<part crc="cd6c087b" name="eb12"/>
+		<part repeat="0x4000"> 00 </part>		
+		<part crc="192f6536" name="eb13"/>
+		<part crc="d04d0a21" name="eb14"/>
+		<part crc="88194305" name="eb15"/>
+		<part repeat="0x1000"> 00 </part>				
+		<part crc="b833b5ea" name="eb16.ic22"/>
+		<part repeat="0x02E9"> 00 </part>		
+    </rom>
+	<rom index="1">
+		<part>1</part>
+	</rom>			
+</misterromdescription>

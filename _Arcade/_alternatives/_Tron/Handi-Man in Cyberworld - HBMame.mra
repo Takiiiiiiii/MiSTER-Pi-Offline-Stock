@@ -1,0 +1,67 @@
+<misterromdescription>
+	<name>Handi-Man in Cyberworld</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Tron</alternative>
+	<platform>Midway MCR</platform>
+	<series></series>
+	<year>1998</year>
+	<manufacturer>Bobby Tribble</manufacturer>
+	<category>Maze</category>
+
+	<setname>handiman</setname>
+	<parent>handiman</parent>
+	<mameversion>0217</mameversion>
+	<rbf>mcr2</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,R,L,Start,Select,Y" names="Fire,-,-,-,Rotate Right,Rotate Left,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="F8,00">
+		<dip bits="0" ids="2,1" name="Coin Meters"></dip>
+		<dip bits="1" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="2" ids="Yes,No" name="Allow_Continue"></dip>
+		<dip bits="8" ids="Off,On" name="Service"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>1</part>
+		</rom>
+	<rom index="0" md5="84e3627567825a8ce63380f56f04f3c3" zip="/hbmame/tron.zip">
+		<part crc="5151770b" name="handiman/scpu_pga.d2"></part>
+		<part crc="8ddf8717" name="scpu_pgb.d3"></part>
+		<part crc="4241e3a0" name="scpu_pgc.d4"></part>
+		<part crc="035d2fe7" name="scpu_pgd.d5"></part>
+		<part crc="24c185d8" name="scpu_pge.d6"></part>
+		<part crc="38c4bbaf" name="scpu_pgf.d7"></part>
+		<part crc="765e6eba" name="ssi_0a.a7"></part>
+		<part crc="1b90ccdd" name="ssi_0b.a8"></part>
+		<part crc="3a4bc629" name="ssi_0c.a9"></part>
+		<part repeat="4096">00</part>
+		<part crc="1a9ed2f5" name="scpu_bgg.g3"></part>
+		<part crc="3220f974" name="scpu_bgh.g4"></part>
+		<part crc="8fb79ed7" name="handiman/handiman.e1"></part>
+		<part crc="c0b2b28e" name="handiman/handiman.d1"></part>
+		<part crc="ee776741" name="handiman/handiman.c1"></part>
+		<part crc="e17ec630" name="handiman/handiman.a1"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

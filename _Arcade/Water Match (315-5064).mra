@@ -1,0 +1,80 @@
+<misterromdescription>
+	<name>Water Match</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>315-5064</version>
+	<alternative></alternative>
+	<platform>Sega System 1</platform>
+	<series></series>
+	<year>1984</year>
+	<manufacturer>Sega</manufacturer>
+	<category>Sports</category>
+
+	<setname>wmatch</setname>
+	<parent>wmatch</parent>
+	<mameversion>0217</mameversion>
+	<rbf>segasys1</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls>twin stick</special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Y,B,X,L,Start,Select,R,C" names="RJoy Right,RJoy Left,RJoy Down,RJoy Up,Button,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches base="8" default="FF,7E">
+		<dip bits="8" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="9" ids="On,Off" name="Demo Sounds"></dip>
+		<dip bits="10,11" ids="Fastest,Faster,Fast,Normal" name="Time"></dip>
+		<dip bits="14" ids="Hard,Easy" name="Difficulty"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0E</part>
+		</rom>
+	<rom index="0" md5="efdba791a0e2297b5936ca7d645a3912" type="merged|nonmerged|split" zip="wmatch.zip">
+		<part crc="b6db4442" name="wm.129"></part>
+		<part crc="59a0a7a0" name="wm.130"></part>
+		<part crc="4cb3856a" name="wm.131"></part>
+		<part crc="e2e44b29" name="wm.132"></part>
+		<part crc="43a36445" name="wm.133"></part>
+		<part crc="5624794c" name="wm.134"></part>
+		<part crc="50d2afb7" name="wm.3"></part>
+		<part crc="50d2afb7" name="wm.3"></part>
+		<part crc="238ae0e5" name="wm.86"></part>
+		<part crc="a2f19170" name="wm.93"></part>
+		<part crc="238ae0e5" name="wm.86"></part>
+		<part crc="a2f19170" name="wm.93"></part>
+		<part crc="540f0bf3" name="wm.82"></part>
+		<part crc="6a01ff2a" name="wm.81"></part>
+		<part crc="fc3f0bd4" name="wm.80"></part>
+		<part crc="92c1e39e" name="wm.65"></part>
+		<part crc="aae6449b" name="wm.64"></part>
+		<part crc="c2ce9b93" name="wm.63"></part>
+		<part crc="648350b8" name="pr-5317.106"></part>
+		<part>
+88 a8 80 a0 a0 80 20 00 08 88 00 80 88 a8 80 a0
+20 00 a0 80 20 28 a0 a8 20 28 a0 a8 a0 80 20 00
+a8 28 88 08 a8 28 88 08 08 88 00 80 a8 28 88 08
+a8 28 88 08 20 28 a0 a8 a8 28 88 08 a8 28 88 08
+20 28 a0 a8 88 a8 80 a0 88 a8 80 a0 20 28 a0 a8
+20 28 a0 a8 a0 80 20 00 20 28 a0 a8 20 28 a0 a8
+20 00 a0 80 20 28 a0 a8 a8 28 88 08 a0 80 20 00
+20 28 a0 a8 20 28 a0 a8 a8 28 88 08 a8 28 88 08
+		</part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

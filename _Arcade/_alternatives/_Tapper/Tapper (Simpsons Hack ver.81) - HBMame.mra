@@ -1,0 +1,70 @@
+<misterromdescription>
+	<name>Tapper</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Simpsons, v81</version>
+	<alternative>Tapper</alternative>
+	<platform>Midway MCR3</platform>
+	<series></series>
+	<year>1983</year>
+	<manufacturer>Bally</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Action</category>
+
+	<setname>stapper1</setname>
+	<parent>tapper</parent>
+	<mameversion>0217</mameversion>
+	<rbf>mcr3</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R" names="Fill,-,-,-,-,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="FF 00">
+		<dip bits="2" ids="Off,On" name="Demo Sounds"></dip>
+		<dip bits="6" ids="Cocktail,Upright" name="Cabinet"></dip>
+		<dip bits="7" ids="1,2" name="Coin Meters"></dip>
+		<dip bits="8" ids="Off,On" name="Service"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>00</part>
+		</rom>
+	<rom index="0" md5="8c350ead5016ee83f08a178264b42afc" zip="/hbmame/tapper.zip">
+		<part crc="c915f608" name="stapper1/stapper1.pg0"></part>
+		<part crc="9d6a47f7" name="stapper/tappg1.bin"></part>
+		<part crc="3a1f8778" name="stapper/tappg2.bin"></part>
+		<part crc="dd4c785f" name="stapper1/stapper1.pg3"></part>
+		<part crc="0e8bb9d5" name="tapper_sound_snd_0_a7_12-7-83.a7"></part>
+		<part crc="0cf0e29b" name="tapper_sound_snd_1_a8_12-7-83.a8"></part>
+		<part crc="31eb6dc6" name="tapper_sound_snd_2_a9_12-7-83.a9"></part>
+		<part crc="01a9be6a" name="tapper_sound_snd_3_a10_12-7-83.a10"></part>
+		<part crc="29dd8e85" name="stapper/stapper.fg1"></part>
+		<part crc="a8ba850f" name="stapper/stapper.fg0"></part>
+		<part crc="3d9133e4" name="stapper/stapper.fg3"></part>
+		<part crc="9254d87c" name="stapper/stapper.fg2"></part>
+		<part crc="5ec2544f" name="stapper/stapper.fg5"></part>
+		<part crc="9b970c4b" name="stapper/stapper.fg4"></part>
+		<part crc="a2ef5c06" name="stapper/stapper.fg7"></part>
+		<part crc="1baca746" name="stapper/stapper.fg6"></part>
+		<part crc="1326da21" name="stapper/stapper.bg1"></part>
+		<part crc="539b93c3" name="stapper/stapper.bg0"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

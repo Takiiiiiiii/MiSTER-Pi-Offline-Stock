@@ -1,0 +1,52 @@
+<misterromdescription>
+	<name>Exerion (Taito)</name>
+	<mameversion>0245</mameversion>
+	<setname>exeriont</setname>
+	<parent>exerion</parent>
+	<mratimestamp>202211160616</mratimestamp>
+	<year>1983</year>
+	<manufacturer>Jaleco</manufacturer>
+	<category>Shooter</category>
+	<rbf>exerion</rbf>
+	<rotation>vertical (cw)</rotation>
+	<joystick>8-way</joystick>
+	<switches default="FF,0A,00">
+		<dip bits="8,10" name="Space Fighters" ids="1,2,3,4,5A,5B,5C,Free"/>
+		<dip bits="11,12" name="Bonus Score" ids="10000,20000,30000,40000"/>
+		<dip bits="13,14" name="Difficulty" ids="EASY,Hard,Harder,Hardest"/>
+		<dip bits="15" name="Cocktail" ids="No,Yes"/>
+		<dip bits="16,18" name="Credit" ids="1 Coin/1 Play,1 Coin/2 Play,1 Coin/3 Play,1 Coin/4 Play,2 Coin/1 Play,3 Coin/1 Play,4 Coin/1 Play,5 Coin/1 Play"/>
+	</switches>
+	<rom index="0" md5="none" zip="exerion.zip|exeriont.zip" type="merged|nonmerged">
+		<part crc="790595b8" name="exerion.03"/>
+		<part crc="d7abd0b9" name="exerion.04"/>
+		<part crc="5bb755cb" name="exerion.01"/>
+		<part crc="a7ecbb70" name="exerion.02"/>
+		<part crc="f0633a09" name="exerion.11"/>
+		<part crc="80312de0" name="exerion.10"/>
+		<part crc="32f6bff5" name="exerion.05"/>
+		<part crc="435a85a4" name="exerion.06"/>
+		<part crc="58b4dc1b" name="prom5.4p"/>
+		<part crc="fca18c2d" name="prom6.4s"/>
+		<patch offset="0x10244">FE</patch>
+		<patch offset="0x10245">05</patch>
+		<patch offset="0x104E6">C9</patch>
+		<patch offset="0x107F0">C9</patch>
+		<patch offset="0x128BC">C9</patch>		
+		<patch offset="0x14129">C9</patch>
+		<patch offset="0x14D4A">00</patch>
+		<patch offset="0x14D4B">00</patch>
+		<patch offset="0x14D4C">00</patch>
+		<patch offset="0x15BE8">C9</patch>
+		<patch offset="0x15F77">C9</patch>
+	</rom>
+	<rom index="3" md5="none">
+		<part>
+			00 00 00 00 00 FF 00 02 00 02 00 01 00 FF 00 00
+			00 00 65 FF 00 CA 00 00
+ 			00 00 67 00 00 28 00 00
+		</part>
+	</rom>
+	<rom index="4"></rom>
+	<nvram index="4" size="242"/>
+</misterromdescription>

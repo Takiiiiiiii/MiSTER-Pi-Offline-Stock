@@ -1,0 +1,78 @@
+<misterromdescription>
+	<name>Turbo Tag</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Prototype</version>
+	<alternative></alternative>
+	<platform>Midway MCR3</platform>
+	<series></series>
+	<year>1985</year>
+	<manufacturer>Bally</manufacturer>
+	<manufacturer2>Midway</manufacturer2>
+	<category>Arena</category>
+
+	<setname>turbotag</setname>
+	<parent>turbotag</parent>
+	<mameversion>0220</mameversion>
+	<rbf>mcr3scroll</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>1</players>
+	<joystick></joystick>
+	<special_controls>trackball</special_controls>
+	<num_buttons>4</num_buttons>
+	<buttons default="Y,L,B,A,R,X,Select" names="L-Button/Start1,L-Trigger,M-Button,R-Button/Start2,R-Trigger,Reverse,Coin"></buttons>
+
+	<switches default="FF 00">
+		<dip bits="1" ids="Off,On" name="Demo Sounds"></dip>
+		<dip bits="8" ids="Off,On" name="Service"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>1</part>
+		</rom>
+	<rom index="0" md5="ea404788ed5956a50c3c1a5858f5548b" zip="turbotag.zip">
+		<part crc="6110fd80" name="ttprog0.bin"></part>
+		<part crc="b0505e18" name="ttprog1.bin"></part>
+		<part crc="c4141237" name="ttprog2.bin"></part>
+		<part crc="af294c6e" name="ttprog3.bin"></part>
+		<part crc="8c5bc1a4" name="ttprog4.bin"></part>
+		<part crc="11e62fe4" name="ttprog5.bin"></part>
+		<part crc="11e62fe4" name="ttprog5.bin"></part>
+		<part repeat="8192">00</part>
+		<part crc="605d6c74" name="ttu17.bin"></part>
+		<part crc="bb25852c" name="ttu18.bin"></part>
+		<part crc="8ebb3302" name="ttu7.bin"></part>
+		<part crc="6bfcb22a" name="ttu8.bin"></part>
+		<interleave output="32">
+			<part crc="9d7e6ebc" name="ttfg1.bin"></part>
+			<part crc="ed69e1a8" name="ttfg0.bin"></part>
+			<part crc="74e21c1c" name="ttfg3.bin"></part>
+			<part crc="037ec6fc" name="ttfg2.bin"></part>
+			<part crc="8b718879" name="ttfg5.bin"></part>
+			<part crc="6fdb0c13" name="ttfg4.bin"></part>
+			<part crc="212019dc" name="ttfg7.bin"></part>
+			<part crc="4094e996" name="ttfg6.bin"></part>
+		</interleave>
+		<part crc="1cd2023f" name="ttbg0.bin"></part>
+		<part crc="784e84cd" name="ttbg1.bin"></part>
+		<part crc="da9d47d2" name="ttbg2.bin"></part>
+		<part crc="367e06a5" name="ttbg3.bin"></part>
+		<part crc="aa0b1471" name="ttan.bin"></part>
+		<patch offset="0x0B2C">18</patch>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="2048"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

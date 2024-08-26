@@ -1,0 +1,68 @@
+<misterromdescription>
+	<name>Satan's Hollow</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Tron Hardware</version>
+	<alternative>Tron</alternative>
+	<platform>Midway MCR3</platform>
+	<series></series>
+	<year>2004</year>
+	<manufacturer>Bally</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>shtron</setname>
+	<parent>shollow</parent>
+	<mameversion>0217</mameversion>
+	<rbf>mcr2</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,R,L,Start,Select,Y" names="Fire,-,-,-,Rotate Right,Rotate Left,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="F8,00">
+		<dip bits="0" ids="2,1" name="Coin Meters"></dip>
+		<dip bits="1" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="2" ids="Yes,No" name="Allow_Continue"></dip>
+		<dip bits="8" ids="Off,On" name="Service"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0</part>
+		</rom>
+	<rom index="0" md5="0899dc778b2f3eeb73d17d89863bbd7c" zip="/hbmame/shollow.zip">
+		<part crc="9aec754c" name="shtron/shtron.00"></part>
+		<part crc="b99f6ff8" name="sh-pro.01"></part>
+		<part crc="621ad715" name="shtron/shtron.02"></part>
+		<part crc="0a64afb9" name="sh-pro.03"></part>
+		<part crc="22fa9175" name="sh-pro.04"></part>
+		<part crc="1716e2bb" name="sh-pro.05"></part>
+		<part crc="9d815bb3" name="shtron/snd-0.a7"></part>
+		<part crc="9f253412" name="shtron/snd-1.a8"></part>
+		<part crc="7783d6c6" name="shtron/snd-2.a9"></part>
+		<part repeat="4096">00</part>
+		<part crc="3e2b333c" name="sh-bg.00"></part>
+		<part crc="d1d70cc4" name="sh-bg.01"></part>
+		<part crc="33f4554e" name="sh-fg.00"></part>
+		<part crc="ba1a38b4" name="sh-fg.01"></part>
+		<part crc="6b57f6da" name="sh-fg.02"></part>
+		<part crc="37ea9d07" name="sh-fg.03"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

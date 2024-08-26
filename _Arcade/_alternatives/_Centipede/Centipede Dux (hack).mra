@@ -1,0 +1,51 @@
+<misterromdescription>
+	<name>Centipede Dux</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Centipede</alternative>
+	<platform></platform>
+	<series>*pede</series>
+	<year>1989</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>centipdd</setname>
+	<parent>centiped</parent>
+	<mameversion>0220</mameversion>
+	<rbf>centipede</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>no</flip>
+
+	<players>1</players>
+	<joystick></joystick>
+	<special_controls>trackball</special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="88436c47501e254ab1e6703ac9743795" zip="centiped.zip|centipdd.zip">
+		<part crc="5ab0d9de" name="136001-307.d1"></part>
+		<part crc="4c07fd3e" name="136001-308.e1"></part>
+		<part crc="ff69b424" name="136001-309.fh1"></part>
+		<part crc="44e40fa4" name="136001-310.j1"></part>
+		<part crc="fee15594" name="dux-211.f7"></part>
+		<part crc="f980c777" name="dux-212.hj7"></part>
+		<part crc="6fa3093a" name="136001-213.p4"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

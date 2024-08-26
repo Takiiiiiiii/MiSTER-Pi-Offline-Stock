@@ -1,0 +1,52 @@
+<misterromdescription>
+	<name>Time Pilot</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Atari</version>
+	<alternative>Time Pilot</alternative>
+	<platform></platform>
+	<series>Time Pilot</series>
+	<year>1982</year>
+	<manufacturer>Konami</manufacturer>
+	<manufacturer>Atari</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>timeplta</setname>
+	<parent>timeplt</parent>
+	<mameversion>0218</mameversion>
+	<rbf>timepilot</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="5e9b4b26f0394c2321d01a30494ce700" zip="timeplt.zip|timeplta.zip">
+		<part crc="a4513b35" name="cd_e1.bin"></part>
+		<part crc="38b0c72a" name="cd_e2.bin"></part>
+		<part crc="83846870" name="cd_e3.bin"></part>
+		<part crc="c2507f40" name="tm6"></part>
+		<part crc="7e437c3e" name="tm4"></part>
+		<part crc="e8ca87b9" name="tm5"></part>
+		<part crc="d66da813" name="tm7"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

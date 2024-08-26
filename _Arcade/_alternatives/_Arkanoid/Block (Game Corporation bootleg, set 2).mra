@@ -1,0 +1,53 @@
+<misterromdescription>
+	<name>Block</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Game Corporation, Set 2</version>
+	<alternative>Arkanoid</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1986</year>
+	<manufacturer>Taito</manufacturer>
+	<manufacturer>Game Corporation</manufacturer>
+	<category>Ball and Paddle</category>
+
+	<setname>arkbloc2</setname>
+	<parent>arkanoid</parent>
+	<mameversion>0218</mameversion>
+	<rbf>arkanoid</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick></joystick>
+	<special_controls>spinner</special_controls>
+	<num_buttons>0</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="357bfac0675d946976a57e862efbceb8" zip="arkanoid.zip|arkbloc2.zip">
+		<part crc="5be667e1" name="block01.bin"></part>
+		<part crc="4f883ef1" name="block02.bin"></part>
+		<part crc="038b74ba" name="a75-03.rom"></part>
+		<part crc="71fae199" name="a75-04.rom"></part>
+		<part crc="c76374e2" name="a75-05.rom"></part>
+		<part crc="0af8b289" name="a75-07.bpr"></part>
+		<part crc="abb002fb" name="a75-08.bpr"></part>
+		<part crc="a7c6c277" name="a75-09.bpr"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,33 @@
+#Version
+v1
+
+#Original Filename
+#LPF 12khz 1st + AA.txt
+
+#Filter Description
+#LPF 12khz 1st Order + Ch 17khz 2nd Order
+
+#Sampling Frequency
+7056000
+
+#Base gain
+0.00000341845937817871
+
+#gain scale for X0
+3
+
+#gain scale for X1
+3
+
+#gain scale for X2
+1
+
+#gain scale for Y0
+-2.97385556459274447150
+
+#gain scale for Y1
+2.94810745230273330009
+
+#gain scale for Y2
+-0.97424942805759706665
+

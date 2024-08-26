@@ -1,0 +1,105 @@
+<misterromdescription>
+    <name>Fire Barrel (Japan)</name>
+    <mameversion>0245</mameversion>
+    <setname>firebarr</setname>
+    <parent>airass</parent>
+    <year>1993</year>
+    <manufacturer>Irem</manufacturer>
+    <category>Shooter</category>
+    <rbf>IremM107</rbf>
+    <rotation>vertical</rotation>
+
+    <joystick>8-way</joystick>
+    <num_buttons>2</num_buttons>
+    <buttons default="B,A,X,Start,Select" names="Gun/Missile,Bomb,Rapid Fire,-,-,-,Start,Coin,P2 Start,Pause"></buttons>
+    <switches default="00 00 00">
+        <dip bits="0,1" ids="3,4,5,2" name="Lives"></dip>
+
+        <dip bits="5" ids="Start,Any" name="Start Button"></dip>
+        <dip bits="6" ids="Off,On" name="Demo Sounds"></dip>
+        <dip bits="7" ids="Off,On" name="Service Mode"></dip>
+        <dip bits="8" ids="Off,On" name="Flip Screen"></dip>
+
+        <dip bits="12,15" ids="1C/1C,2C/1C,3C/1C,4C/1C,5C/1C,6C/1C,1C/2C,1C/3C,1C/4C,1C/5C,1C/6C,2C/3C,3C/2C,4C/3C,2S/1C,Free Play" name="Coin Mode"></dip>
+
+        <dip bits="18,19" ids="Off,Off,Button 1, Button 3" name="Rapid Fire"></dip>
+        <dip bits="20" ids="Off,On" name="Continuous Play"></dip>
+    </switches>
+
+    <rom index="0" zip="airass.zip|firebarr.zip" md5="None" address="0x30000000">
+        <!-- board type -->
+        <part>00</part>
+        
+        <!-- maincpu -->
+        <part>00 0c 00 00</part>
+        <interleave output="16">
+        	<part name="f4-a-h0-c.h0" crc="2aa5676e" map="10" />
+	        <part name="f4-a-l0-c.l0" crc="42f75d59" map="01" />
+        </interleave>
+        <interleave output="16">
+            <part name="f4-a-h1-c.h1" crc="bb7f6968" map="10" />
+	        <part name="f4-a-l1-c.l1" crc="9d57edd6" map="01" />
+        </interleave>
+
+        <!-- gfx1 tiles -->
+        <part>01 20 00 00</part>
+        <interleave output="16">
+            <part name="f4-c00.c00" crc="50cab384" map="10" />
+            <part name="f4-c10.c10" crc="330c6df2" map="01" />
+        </interleave>
+        <interleave output="16">
+            <part name="f4-c01.c01" crc="12a698c8" map="10" />
+            <part name="f4-c11.c11" crc="3f9add18" map="01" />
+        </interleave>
+
+        <!-- gfx2 wide sprites -->
+        <part>06 40 00 00</part>
+        <interleave output="64">
+            <part name="f4-000.000" crc="920deee9" map="00010000" />
+            <part name="f4-001.001" crc="e5725eaf" map="00000001" />
+            <part name="f4-010.010" crc="3505d185" map="00100000" />
+            <part name="f4-011.011" crc="1912682f" map="00000010" />
+            <part name="f4-020.020" crc="ec130b8e" map="01000000" />
+            <part name="f4-021.021" crc="8dd384dc" map="00000100" />
+            <part name="f4-030.030" crc="7e7b30cd" map="10000000" />
+            <part name="f4-031.031" crc="83ac56c5" map="00001000" />
+        </interleave>
+
+        <!-- soundcpu -->
+        <part>03 02 00 00</part>
+        <interleave output="16">
+	        <part name="f4-b-sh0-b.sh0" crc="30a8e232" map="10" />
+	        <part name="f4-b-sl0-b.sl0" crc="204b5f1f" map="01" />
+        </interleave>
+
+        <!-- soundcpu key -->
+        <part>04 00 01 00</part>
+        <part>
+        	5d 90 c6 90 90 90 2a 3a 90 90 90 86 90 22 90 f3
+            90 90 90 90 90 38 f7 42 04 90 90 1f 4b 90 90 58
+            57 2e 90 90 53 90 b9 90 90 90 90 90 20 55 90 3d
+            a0 90 90 0c 03 90 83 90 90 90 8a 00 90 aa 90 90
+            90 90 90 90 90 90 90 90 90 41 0a 26 8b 56 5e 90
+            90 74 90 90 90 90 06 90 90 89 5b c7 43 90 90 90
+            90 b6 90 3b 90 90 90 90 90 36 ea 80 90 90 90 5f
+            90 0f 90 90 90 46 90 90 3c 8e 90 a3 87 90 90 90
+            2b fb 47 0b 90 fc 02 90 90 90 90 90 90 90 72 2c
+            33 90 90 90 90 90 9d bd 90 b2 90 78 75 b8 90 90
+            90 90 90 90 cf 5a 88 90 90 90 c3 90 eb fa 90 32
+            90 90 90 52 b4 90 90 90 90 bc 90 90 90 b1 59 50
+            90 90 b5 90 08 a2 bf bb 1e 9c 90 73 90 d0 90 90
+            90 90 90 90 81 90 79 90 90 24 23 90 90 b0 07 ff
+            90 ba f6 51 90 90 90 fe 90 92 90 90 90 90 e9 90
+            90 90 90 90 90 90 e8 d2 90 18 90 90 90 d1 90 90
+        </part>
+
+        <!-- iremg20 -->
+        <part>05 08 00 00</part>
+   		<part name="f4-b-da0.da0" crc="7a493e2e" />
+
+        <!-- sprite table -->
+        <part>07 04 00 00</part>
+        <part name="f4-b-drh-.drh" crc="12001372" map="10" />
+        <part name="f4-b-drl-.drl" crc="08cb7533" map="01" />
+     </rom>
+</misterromdescription>

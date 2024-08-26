@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>S.O.S.</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>TIAMC1</platform>
+	<series></series>
+	<year>1988</year>
+	<manufacturer>Terminal</manufacturer>
+	<category>Platform</category>
+
+	<setname>sosterm</setname>
+	<parent>sosterm</parent>
+	<mameversion>0229</mameversion>
+	<rbf>tiamc1</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,B,Y" names="Button 1,Button 2,Coin/Start"></buttons>
+
+	<switches></switches>
+
+	<rom index="1">
+		<part>02</part>
+		</rom>
+	<rom index="0" md5="08623ac52b69dd6b9dfe527c204ea302" zip="sosterm.zip">
+		<part crc="A1C7F07A" name="00.2a"></part>
+		<part crc="788B4036" name="01.3a"></part>
+		<part crc="9506CF9B" name="02.5a"></part>
+		<part crc="5A0C14E1" name="03.6a"></part>
+		<part crc="D588081E" name="04.1g"></part>
+		<part crc="B44E7491" name="05.2g"></part>
+		<part crc="34DACDE6" name="06.3g"></part>
+		<part crc="9F6F8CDD" name="07.4g"></part>
+		<part crc="25E70DA4" name="08.5g"></part>
+		<part crc="22BC9997" name="10.7g"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

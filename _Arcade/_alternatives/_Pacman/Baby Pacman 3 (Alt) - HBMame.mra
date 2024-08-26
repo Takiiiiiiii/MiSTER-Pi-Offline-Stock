@@ -1,0 +1,66 @@
+<misterromdescription>
+	<name>Baby Pac-Man 3</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>Alt</version>
+	<alternative>Pac-Man</alternative>
+	<platform></platform>
+	<series>Pac-Man</series>
+	<year>1980</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Maze</category>
+
+	<setname>baby3</setname>
+	<parent>puckman</parent>
+	<mameversion>0217</mameversion>
+	<rbf>pacman</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>0</num_buttons>
+	<button_names></button_names>
+
+	<switches default="FF,FF,C9">
+		<dip bits="15" ids="Cocktail,Upright" name="Cabinet"></dip>
+		<dip bits="16,17" ids="2c/1cr,1c/1cr,1c/2cr,Free Play" name="Coinage" values="3,1,2,0"></dip>
+		<dip bits="18,19" ids="1,2,3,5" name="Lives"></dip>
+		<dip bits="20,21" ids="10000,15000,20000,None" name="Bonus Life After"></dip>
+		<dip bits="22" ids="Hard,Normal" name="Difficulty"></dip>
+		</switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="aeb1cb95a6d7547bdc49e26e7b207708" zip="/hbmame/puckman.zip">
+		<part crc="c1e6ab10" name="baby2/pacman.6e"></part>
+		<part crc="1a6fb2d4" name="baby2/pacman.6f"></part>
+		<part crc="bcdd1beb" name="baby2/pacman.6h"></part>
+		<part crc="6c0e22c8" name="baby3/baby3.6j"></part>
+		<part crc="c1e6ab10" name="baby2/pacman.6e"></part>
+		<part crc="1a6fb2d4" name="baby2/pacman.6f"></part>
+		<part crc="bcdd1beb" name="baby2/pacman.6h"></part>
+		<part crc="6c0e22c8" name="baby3/baby3.6j"></part>
+		<part crc="22174b65" name="baby3/baby3.5e"></part>
+		<part crc="b6d77a1e" name="baby2/baby2.5f"></part>
+		<part crc="b6d77a1e" name="baby2/baby2.5f"></part>
+		<part crc="b6d77a1e" name="baby2/baby2.5f"></part>
+		<part crc="a9cc86bf" name="82s126.1m"></part>
+		<part crc="3eb3a8e4" name="82s126.4a"></part>
+		<part crc="77245b66" name="82s126.3m"></part>
+		<part crc="2fc650bd" name="82s123.7f"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

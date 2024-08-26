@@ -1,0 +1,75 @@
+<misterromdescription>
+	<name>Slap Shooter</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Sega System E</platform>
+	<series></series>
+	<year>1986</year>
+	<manufacturer>Sega</manufacturer>
+	<category>Sports / Hockey</category>
+
+	<setname>slapshtr</setname>
+	<parent>slapshtr</parent>
+	<mameversion>0235</mameversion>
+	<rbf>SMS</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>8-way</joystick>
+	<buttons names="Pass/Button1,Shot/Button2,-,-,-,-,Coin,Start,Pause" default="A,B,X,Y,R,L,Select,Start" count="1"/>
+	
+	<switches base="24" default="FF,FF,FF">
+		<!-- SWA -->
+		<dip name="Coin A" bits="0,3" ids="1/1,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1"/>
+		<dip name="Coin B" bits="4,7" ids="1/1,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1"/>
+		<!-- SWB -->
+		<dip name="Unknown0" bits="8" ids="Off,On"/>
+		<dip name="Demo Sounds" bits="9" ids="On,Off"/>
+		<dip name="Unknown2" bits="10" ids="Off,On"/>
+		<dip name="Unknown3" bits="11" ids="Off,On"/>
+		<dip name="Unknown4" bits="12" ids="Off,On"/>
+		<dip name="Unknown5" bits="13" ids="Off,On"/>
+		<dip name="Unknown6" bits="14" ids="Off,On"/>
+		<dip name="Unknown7" bits="15" ids="Off,On"/>
+<!--
+		<dip name="Lives" bits="10,11" ids="2,5,4,3"/>
+		<dip name="Timer" bits="12,13" ids="90,80,70,60"/>
+		<dip name="Difficulty" bits="14,15" ids="Hardest,Hard,Easy,Normal"/>
+-->
+		<!-- SWC -->
+		<dip name="Service Toggle" bits="18" ids="On,Off"/>
+		<dip name="Service Mode" bits="19" ids="On,Off"/>
+	</switches>
+	
+	<rom index="0" zip="slapshtr.zip" type="merged" md5="56553344d411ac3dae69f2786e8218f0">
+		<!-- banks, size: 0x40000 -->
+		<part crc="61C938B6" name="epr-7352.ic5"/>
+		<part crc="8EE2951A" name="epr-7353.ic4"/>
+		<part crc="41482AA0" name="epr-7354.ic3"/>
+		<part crc="C67E1AEF" name="epr-7355.ic2"/>
+		<part crc="61C938B6" name="epr-7352.ic5"/>
+		<part crc="8EE2951A" name="epr-7353.ic4"/>
+		<part crc="41482AA0" name="epr-7354.ic3"/>
+		<part crc="C67E1AEF" name="epr-7355.ic2"/>
+
+		<!-- maincpu, size: 0x8000 -->
+		<part crc="894ADB04" name="epr-7351.ic7"/>
+	</rom>
+	<rom index="4">
+		<part>40</part>
+	</rom>
+<!--
+	<nvram index="4" size="3"/>
+-->
+
+	<remark></remark>
+
+	<mratimestamp>20210904000000</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,14 @@
+####
+# Name: Lukac & Plataniotis CFA CYCM (Cyan)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+4,4
+31d,62a,31d,52a
+31d,52a,31d,62a
+62a,31d,52a,31d
+52a,31d,62a,31d

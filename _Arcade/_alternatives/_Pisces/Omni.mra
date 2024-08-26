@@ -1,0 +1,61 @@
+<misterromdescription>
+	<name>Omni</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Pisces</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>bootleg</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>omni</setname>
+	<parent></parent>
+	<mameversion>0218</mameversion>
+	<rbf>galaxian</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="FF,1F,00">
+		<dip bits="14" ids="3,4" name="Lives"></dip>
+		<dip bits="15" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="16" ids="10000,20000" name="Bonus Life After"></dip>
+		<dip bits="17" ids="1c/1cr,2c/1cr" name="Coinage"></dip>
+		<dip bits="18" ids="Easy,Hard" name="Difficulty"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0B</part>
+		</rom>
+	<rom index="0" md5="3a91dc233425c9c4c640d60b36e4be01" zip="pisces.zip|omni.zip">
+		<part crc="a9b7acc6" name="omni1.7f"></part>
+		<part crc="6ade29b7" name="omni2.7j"></part>
+		<part crc="9e37bb24" name="omni3.7f"></part>
+		<part crc="9e37bb24" name="omni3.7f"></part>
+		<part crc="9503a23a" name="omni5b.l1"></part>
+		<part crc="0adfc3fe" name="omni6c.j22"></part>
+		<part crc="3e61f849" name="omni4a.j1"></part>
+		<part crc="7130e9eb" name="omni7d.l2"></part>
+		<part crc="57a45057" name="colour.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

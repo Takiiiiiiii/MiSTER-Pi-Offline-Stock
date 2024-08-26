@@ -1,0 +1,57 @@
+<misterromdescription>
+	<name>Pleiades</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Centuri</version>
+	<alternative>Pleiades</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Tehkan</manufacturer>
+	<manufacturer>Centuri</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>pleiadce</setname>
+	<parent>pleiads</parent>
+	<mameversion>0218</mameversion>
+	<rbf>pleiads</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="902681424345327ad18175bde6505592" zip="pleiads.zip|pleiadce.zip">
+		<part crc="711e2ba0" name="pleiades.47"></part>
+		<part crc="93a36943" name="pleiades.48"></part>
+		<part crc="87e700bb" name="ic47.bin"></part>
+		<part crc="5a9beba0" name="pleiades.50"></part>
+		<part crc="1d828719" name="pleiades.51"></part>
+		<part crc="f1a8a00d" name="ic50.bin"></part>
+		<part crc="037b319c" name="pleiades.53"></part>
+		<part crc="ca264c7c" name="pleiades.54"></part>
+		<part crc="8dbd3785" name="pleiades.45"></part>
+		<part crc="0db3e436" name="pleiades.44"></part>
+		<part crc="85866607" name="ic39.bin"></part>
+		<part crc="a841d511" name="ic40.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

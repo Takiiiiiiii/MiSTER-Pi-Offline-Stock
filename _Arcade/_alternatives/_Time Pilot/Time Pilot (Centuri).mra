@@ -1,0 +1,52 @@
+<misterromdescription>
+	<name>Time Pilot</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Centuri</version>
+	<alternative>Time Pilot</alternative>
+	<platform></platform>
+	<series>Time Pilot</series>
+	<year>1982</year>
+	<manufacturer>Konami</manufacturer>
+	<manufacturer>Centuri</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>timepltc</setname>
+	<parent>timeplt</parent>
+	<mameversion>0218</mameversion>
+	<rbf>timepilot</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="f4824c94d5ce8101be4964e117eadab9" zip="timeplt.zip|timepltc.zip">
+		<part crc="83ec72c2" name="cd1y"></part>
+		<part crc="0dcf5287" name="cd2y"></part>
+		<part crc="c789b912" name="cd3y"></part>
+		<part crc="c2507f40" name="tm6"></part>
+		<part crc="7e437c3e" name="tm4"></part>
+		<part crc="e8ca87b9" name="tm5"></part>
+		<part crc="d66da813" name="tm7"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

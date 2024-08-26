@@ -1,0 +1,170 @@
+<misterromdescription>
+	<name>Lode Runner</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Set 1</version>
+	<alternative></alternative>
+	<platform>Irem M62</platform>
+	<series>Lode Runner</series>
+	<year>1984</year>
+	<manufacturer>Irem</manufacturer>
+	<manufacturer2>Broderbund</manufacturer2>
+	<category>Platform - Climb</category>
+
+	<setname>ldrun</setname>
+	<parent>ldrun</parent>
+	<mameversion>0221</mameversion>
+	<rbf>iremm62</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches default="FF,FD">
+		<dip bits="0,1" name="Timer" ids="Fastest,Fast,Medium,Slow"></dip>
+		<dip bits="2,3" name="Lives" ids="5,4,2,3"></dip>
+        <dip bits="4,7" name="Coinage" ids="Free Play,1C/1C" values="0,15"></dip>
+		<dip bits="8" name="Flip Screen" ids="On,Off"></dip>
+		<dip bits="9" name="Cabinet" ids="Upright,Cocktail"></dip>
+		<dip bits="10" name="Coin Mode" ids="Mode 2,Mode 1"></dip>
+		<dip bits="11" name="Unknown" ids="On,Off"></dip>
+		<dip bits="12" name="Stop Mode (Cheat)" ids="On,Off"></dip>
+		<dip bits="13" name="Level Selection (Cheat)" ids="On,Off"></dip>
+		<dip bits="14" name="Invulnerability (Cheat)" ids="On,Off"></dip>
+		<dip bits="15" name="Service Mode" ids="On,Off"></dip>
+	</switches>
+
+	<rom index="1">
+		<part>00</part>
+	</rom>
+	<rom index="0" zip="ldrun.zip" md5="7e2ae6bb45bb342b6b2137d881530b0e">
+		<part crc="5d7e2a4d" name="lr-a-4e"/>
+		<part crc="96f20473" name="lr-a-4d"/>
+		<part crc="b041c4a9" name="lr-a-4b"/>
+		<part crc="645e42aa" name="lr-a-4a"/>
+		<part crc="5d7e2a4d" name="lr-a-4e"/>
+		<part crc="96f20473" name="lr-a-4d"/>
+		<part crc="b041c4a9" name="lr-a-4b"/>
+		<part crc="645e42aa" name="lr-a-4a"/>
+		<part crc="5d7e2a4d" name="lr-a-4e"/>
+		<part crc="96f20473" name="lr-a-4d"/>
+		<part crc="b041c4a9" name="lr-a-4b"/>
+		<part crc="645e42aa" name="lr-a-4a"/>
+		<part crc="5d7e2a4d" name="lr-a-4e"/>
+		<part crc="96f20473" name="lr-a-4d"/>
+		<part crc="b041c4a9" name="lr-a-4b"/>
+		<part crc="645e42aa" name="lr-a-4a"/>
+		<part crc="7a96accd" name="lr-a-3f"/>
+		<part crc="3f7f3939" name="lr-a-3h"/>
+		<part crc="7a96accd" name="lr-a-3f"/>
+		<part crc="3f7f3939" name="lr-a-3h"/>
+		<part crc="7a96accd" name="lr-a-3f"/>
+		<part crc="3f7f3939" name="lr-a-3h"/>
+		<part crc="7a96accd" name="lr-a-3f"/>
+		<part crc="3f7f3939" name="lr-a-3h"/>
+		<interleave output="32">
+			<part crc="24f9b58d" name="lr-e-2d" map="0001"/>
+			<part crc="43175e08" name="lr-e-2j" map="0010"/>
+			<part crc="e0317124" name="lr-e-2f" map="0100"/>
+			<part crc="e0317124" name="lr-e-2f" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="24f9b58d" name="lr-e-2d" map="0001"/>
+			<part crc="43175e08" name="lr-e-2j" map="0010"/>
+			<part crc="e0317124" name="lr-e-2f" map="0100"/>
+			<part crc="e0317124" name="lr-e-2f" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="24f9b58d" name="lr-e-2d" map="0001"/>
+			<part crc="43175e08" name="lr-e-2j" map="0010"/>
+			<part crc="e0317124" name="lr-e-2f" map="0100"/>
+			<part crc="e0317124" name="lr-e-2f" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="24f9b58d" name="lr-e-2d" map="0001"/>
+			<part crc="43175e08" name="lr-e-2j" map="0010"/>
+			<part crc="e0317124" name="lr-e-2f" map="0100"/>
+			<part crc="e0317124" name="lr-e-2f" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="8141403e" name="lr-b-4k" map="0001"/>
+			<part crc="55154154" name="lr-b-3n" map="0010"/>
+			<part crc="924e34d0" name="lr-b-4c" map="0100"/>
+			<part crc="924e34d0" name="lr-b-4c" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="8141403e" name="lr-b-4k" map="0001"/>
+			<part crc="55154154" name="lr-b-3n" map="0010"/>
+			<part crc="924e34d0" name="lr-b-4c" map="0100"/>
+			<part crc="924e34d0" name="lr-b-4c" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="8141403e" name="lr-b-4k" map="0001"/>
+			<part crc="55154154" name="lr-b-3n" map="0010"/>
+			<part crc="924e34d0" name="lr-b-4c" map="0100"/>
+			<part crc="924e34d0" name="lr-b-4c" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="8141403e" name="lr-b-4k" map="0001"/>
+			<part crc="55154154" name="lr-b-3n" map="0010"/>
+			<part crc="924e34d0" name="lr-b-4c" map="0100"/>
+			<part crc="924e34d0" name="lr-b-4c" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="8141403e" name="lr-b-4k" map="0001"/>
+			<part crc="55154154" name="lr-b-3n" map="0010"/>
+			<part crc="924e34d0" name="lr-b-4c" map="0100"/>
+			<part crc="924e34d0" name="lr-b-4c" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="8141403e" name="lr-b-4k" map="0001"/>
+			<part crc="55154154" name="lr-b-3n" map="0010"/>
+			<part crc="924e34d0" name="lr-b-4c" map="0100"/>
+			<part crc="924e34d0" name="lr-b-4c" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="8141403e" name="lr-b-4k" map="0001"/>
+			<part crc="55154154" name="lr-b-3n" map="0010"/>
+			<part crc="924e34d0" name="lr-b-4c" map="0100"/>
+			<part crc="924e34d0" name="lr-b-4c" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="8141403e" name="lr-b-4k" map="0001"/>
+			<part crc="55154154" name="lr-b-3n" map="0010"/>
+			<part crc="924e34d0" name="lr-b-4c" map="0100"/>
+			<part crc="924e34d0" name="lr-b-4c" map="1000"/>
+		</interleave>
+		<part repeat="0x10000">FF</part>
+		<part crc="4bae1c25" name="lr-b-1m"/>
+		<part crc="9cd3db94" name="lr-b-1n"/>
+		<part crc="08d8cf9a" name="lr-b-1l"/>
+		<part crc="53040416" name="lr-e-3m"/>
+		<part crc="67786037" name="lr-e-3l"/>
+		<part crc="5b716837" name="lr-e-3n"/>
+		<part repeat="0x300">FF</part>
+		<part crc="e01f69e2" name="lr-b-5p"/>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 00 FF FF 00 3F 00 02 00 02 00 01 00 FF 02 00
+		00 00 E5 E5 00 C8 01 04
+		00 00 E5 9A 00 03 04 40
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="203"/>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

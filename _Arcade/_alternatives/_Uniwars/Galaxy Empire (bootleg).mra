@@ -1,0 +1,66 @@
+<misterromdescription>
+	<name>Galaxy Empire</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version></version>
+	<alternative>UniWar S</alternative>
+	<platform></platform>
+	<series>Galaxian</series>
+	<year>1980</year>
+	<manufacturer>Taito do Brasil</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>galemp</setname>
+	<parent>galaxian</parent>
+	<mameversion>0218</mameversion>
+	<rbf>galaxian</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="1F,1F,00">
+		<dip bits="7" ids="Off,On" name="Service"></dip>
+		<dip bits="6" ids="Off,On" name="Test"></dip>
+		<dip bits="5" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="14,15" ids="1c/1cr,1c/2cr,2c/1cr,Free Play" name="Coinage" values="0,2,1,3"></dip>
+		<dip bits="16,17" ids="None,4000,5000,7000" name="Bonus Life After"></dip>
+		<dip bits="18" ids="3,5" name="Lives"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0C</part>
+		</rom>
+	<rom index="0" md5="167f93fd840ec514b6d20cd1cc0aac7e" zip="uniwars.zip|galemp.zip">
+		<part crc="d975af10" name="1"></part>
+		<part crc="b2ed14c3" name="2"></part>
+		<part crc="945f4160" name="3"></part>
+		<part crc="df7a13ea" name="4"></part>
+		<part crc="ff6128a2" name="5"></part>
+		<part crc="d915a389" name="6"></part>
+		<part crc="c9245346" name="7"></part>
+		<part crc="797d45c7" name="8"></part>
+		<part crc="30177b93" name="10"></part>
+		<part crc="c26132af" name="12"></part>
+		<part crc="7e8dcc13" name="9"></part>
+		<part crc="dcc2b33b" name="11"></part>
+		<part crc="6a0c7d87" name="l06_prom.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

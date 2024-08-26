@@ -1,0 +1,35 @@
+####
+# Name: JVC 001 (Generic)
+# Author: TrashUncle
+# Type: CRT
+# Genre: Realistic
+# Sub-Pixel Layout: Monochrome
+####
+v2
+1,1
+70f 
+
+Resolution=720
+v2
+4,2
+70f,70f,00c,00c
+00c,00c,70f,70f
+
+Resolution=1080
+v2
+6,5
+70f,70f,00c,00c,00c,00c
+70f,70f,00c,70f,70f,00c
+70f,70f,00c,70f,70f,00c
+70f,70f,00c,70f,70f,00c
+00c,00c,00c,70f,70f,00c
+
+Resolution=1440
+v2
+6,6
+70f,70f,00c,70f,70f,00c
+70f,70f,00c,70f,70f,00c
+70f,70f,00c,00c,00c,00c
+70f,70f,00c,70f,70f,00c
+70f,70f,00c,70f,70f,00c
+00c,00c,00c,70f,70f,00c

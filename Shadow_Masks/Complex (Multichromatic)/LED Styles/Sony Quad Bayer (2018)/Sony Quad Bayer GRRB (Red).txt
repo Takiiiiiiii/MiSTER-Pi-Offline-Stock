@@ -1,0 +1,14 @@
+####
+# Name: Sony Quad Bayer GRRB (Red)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+8,4
+41d,41d,12a,12a,22a,22a,41d,41d
+41d,41d,12a,12a,22a,22a,41d,41d
+22a,22a,41d,41d,41d,41d,12a,12a
+22a,22a,41d,41d,41d,41d,12a,12a

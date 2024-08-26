@@ -1,0 +1,62 @@
+<misterromdescription>
+	<name>Colony 7</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Set 1</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Taito</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>colony7</setname>
+	<parent>colony7</parent>
+	<mameversion>0216</mameversion>
+	<rbf>defender</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>no</flip>
+
+	<players>1</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>3</num_buttons>
+	<buttons names="Fire,Bomb,-,-,-,Start 1P,Start 2P,Coin,-,-,-,Pause" default="A,B,Start,Select,R,L"/>
+
+	<switches>
+		<dip bits="0" ids="2,3" name="Lives"></dip>
+		<dip bits="1" ids="20k/40k(30k/50k),30k/50k(40k/70k)" name="Bonus"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>1</part>
+		</rom>
+	<rom index="0" md5="cd627cb476ba4a4ab9192787f798dee0" zip="colony7.zip">
+		<part crc="7ee75ae5" name="cs03.bin"></part>
+		<part crc="c60b08cb" name="cs02.bin"></part>
+		<part crc="1bc97436" name="cs01.bin"></part>
+		<part crc="318b95af" name="cs06.bin"></part>
+		<part crc="d740faee" name="cs04.bin"></part>
+		<part crc="0b23638b" name="cs07.bin"></part>
+		<part crc="59e406a8" name="cs05.bin"></part>
+		<part crc="3bfde87a" name="cs08.bin" repeat="4"></part>
+		<part crc="25de5d85" name="cs10.bin"></part>
+		<part crc="c3f45f70" name="decoder.3"></part>
+		<part repeat="3072">00</part>
+		<part crc="6032293c" name="cs11.bin"></part>
+		<part crc="6032293c" name="cs11.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

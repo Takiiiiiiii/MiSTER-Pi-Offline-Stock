@@ -1,0 +1,83 @@
+<misterromdescription>
+	<name>Pitfall II</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>Unencrypted, Cheat</version>
+	<alternative>Pitfall II</alternative>
+	<platform>Sega System 1</platform>
+	<series>Pitfall</series>
+	<year>1985</year>
+	<manufacturer>Sega</manufacturer>
+	<category>Platform</category>
+
+	<setname>pitfall2u</setname>
+	<parent>pitfall2</parent>
+	<mameversion>0216</mameversion>
+	<rbf>segasys1</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,Start,Select,R,C" names="Jump,-,-,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,DE">
+		<dip bits="9,10" ids="Infinite,5,4,3" name="Lives"></dip>
+		<dip bits="11,12" ids="4,3,2,1" name="Starting Stage"></dip>
+		<dip bits="13" ids="Yes,No" name="Allow Continue"></dip>
+		<dip bits="14" ids="2 Minutes,3 Minutes" name="Time"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>04</part>
+		</rom>
+	<rom index="0" md5="5d980b519dcd328d21dc2c6ff941f0a0" type="merged|nonmerged|split" zip="pitfall2.zip">
+		<part crc="bcb47ed6" name="pitfall2u/epr-6623.116"></part>
+		<part crc="6e8b09c1" name="pitfall2u/epr-6624a.109"></part>
+		<part crc="dc5484ba" name="pitfall2u/epr-6625.96"></part>
+		<part crc="86bb9185" name="epr-6462.120"></part>
+		<part crc="86bb9185" name="epr-6462.120"></part>
+		<part crc="a5d96780" name="epr-6454a.117"></part>
+		<part crc="32ee64a1" name="epr-6455.05"></part>
+		<part crc="a5d96780" name="epr-6454a.117"></part>
+		<part crc="32ee64a1" name="epr-6455.05"></part>
+		<part crc="9f1711b9" name="epr-6474a.62"></part>
+		<part crc="e0f34a11" name="epr-6472a.64"></part>
+		<part crc="1439729f" name="epr-6470a.66"></part>
+		<part crc="8e53b8dd" name="epr-6473a.61"></part>
+		<part crc="d5bc805c" name="epr-6471a.63"></part>
+		<part crc="e4ac6921" name="epr-6469a.65"></part>
+		<part crc="648350b8" name="pr-5317.76"></part>
+		<part>
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+		</part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 00 00 00 00 FF 00 02 00 02 00 01 00 FF 00 00
+		00 00 D3 00 00 38 00 41
+		00 00 C0 00 00 04 00 00
+		</part>
+		</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="60"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

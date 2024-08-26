@@ -1,0 +1,79 @@
+<misterromdescription>
+	<name>T.N.K III (US)</name>
+	<mameversion>0193</mameversion>
+	<setname>tnk3</setname>
+	<mratimestamp>20240615</mratimestamp>
+	<year>1985</year>
+	<manufacturer>SNK</manufacturer>
+	<category>Shooter / Driving Vertical</category>
+	<rbf>TNKIII</rbf>
+	<about author="RndMnkIII" twitter="@RndMnkIII"></about>
+	<resolution>16.1785kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<players>2</players>
+	<joystick>8-way,Positional</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	
+
+    <!-- DSW1=9C, DSW2=F7 byte mas significativo a la derecha de la cadena -->
+	<!-- 1101_0111 1001_1100 -->
+	<switches default="FD,F7" base="16">
+		<!-- DSW1 -->
+		<dip bits="0"     name="No BG Collision (Cheat)" ids="Off,On" values="1,0"/>
+		<dip bits="1"     name="Cabinet" ids="Upright,Cocktail" values="0,1"/>
+		<dip bits="2"     name="Lives"   ids="3,5" values="1,0"/>
+		<dip bits="3,5" name="Coinage" ids="1Co/1Cr,1Co/1Cr,1Co/1Cr,1Co/2Cr,1Co/3Cr,2Co/1Cr,3Co/1Cr,Free Play" values="7,2,1,6,5,3,4,0"/>
+		<!-- DSW2 -->
+		<dip bits="9,10"  name="Difficulty"                 ids="Easy,Normal,Hard,Hardest" values="3,2,1,0"/>
+		<dip bits="11,12"    name="Game Mode"                ids="Demo Sounds Off,Demo Sounds On,Freeze,Infinite lives (Cheat)" values="3,2,0,1"/>
+		<dip bits="13"    name="Flip Screen" ids="Off,On" values="1,0"/>
+	    <dip bits="8,14,15"     name="Bonus Life"                 ids="20, 60,20k 60k 60k+,40k 90k,40k 90k 90k+,50k 120k,50k 120k 120k+,None,None" values="6,7,4,5,2,3,1,0"/>
+	</switches>
+
+	<rom index='0' md5="None" type='nonmerged' zip='tnk3.zip'>	
+		<!-- main cpu    0x00000-0x0bfff -->
+		<part crc="0d2a8ca9" name="p1.4e"/>
+		<part crc="0ae0a483" name="p2.4f"/>
+		<part crc="d16dd4db" name="p3.4h"/>
+		<part repeat="0x4000">FF</part>
+		<!-- sub cpu     0x10000-0x1bfff -->
+		<part crc="01b45a90" name="p4.2e"/>
+		<part crc="60db6667" name="p5.2f"/>
+		<part crc="4761fde7" name="p6.2h"/>
+		<part repeat="0x4000">FF</part>
+		<!-- audio cpu   0x20000-0x2bfff -->
+		<part crc="7bf0a517" name="p10.6f"/>
+		<part crc="0569ce27" name="p11.6d"/>
+		<part repeat="0x8000">FF</part>
+		<!-- TX tiles    0x30000-0x31fff -->
+		<part crc="1fd18c43" name="p14.1e"/>
+		<part repeat="0xE000">FF</part>
+		<!-- BG tiles    0x40000-0x47fff -->
+		<part crc="ff495a16" name="p12.3d"/>
+		<part crc="f8344843" name="p13.3c"/>
+		<part repeat="0x8000">FF</part>
+
+		<!-- SP16 tiles  0x50000-0x53fff -->
+		<part crc="06b92c88" name="p7.7h"/>
+        <part repeat="0xC000">FF</part>
+
+        <!-- SP16 tiles  0x60000-0x63fff -->
+		<part crc="63d0e2eb" name="p8.7f"/>
+        <part repeat="0xC000">FF</part>
+
+        <!-- SP16 tiles  0x70000-0x73fff -->
+		<part crc="872e3fac" name="p9.7e"/>
+        <part repeat="0xC000">FF</part>
+
+		<!-- PROMs       0x80000-0x80bff -->
+		<part crc="34c06bc6" name="2.5f"/>
+		<part crc="6d0ac66a" name="1.5g"/>
+		<part crc="4662b4c8" name="0.5h"/>
+	</rom>
+	<rom index="1">
+		<part>01</part>
+	</rom>
+	
+<buttons default="A,B,Start,C,L,R,X,Y" names="PUSH1,PUSH2,Start1,Coin,Rotate Left,Rotate Right,Service,Pause"></buttons>
+</misterromdescription>

@@ -1,0 +1,32 @@
+####
+# Name: Sony PVM (Generic)
+# Author: TrashUncle
+# Type: CRT
+# Genre: Realistic
+# Sub-Pixel Layout: RGB
+####
+v2
+3,4
+42a,72a,72a
+42a,22a,72a
+72a,22a,12a
+42a,72a,12a
+
+Resolution=1080
+v2
+3,5
+42a,72a,72a
+42a,22a,72a
+42a,22a,12a
+72a,22a,12a
+42a,72a,12a
+
+Resolution=1440
+v2
+3,6
+42a,72a,72a
+42a,22a,72a
+42a,22a,12a
+72a,22a,12a
+72a,72a,12a
+42a,72a,72a

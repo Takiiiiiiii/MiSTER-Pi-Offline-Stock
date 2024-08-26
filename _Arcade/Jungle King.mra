@@ -1,0 +1,62 @@
+<misterromdescription>
+	<name>Jungle King</name>
+	<mameversion>0245</mameversion>
+	<setname>junglek</setname>
+	<parent>junglek</parent>
+	<mratimestamp>202304140600</mratimestamp>
+	<year>1983</year>
+	<manufacturer>Taito</manufacturer>
+	<category>Platform</category>
+	<rbf>TaitoSJ</rbf>
+	<rotation>horizontal</rotation>
+	<joystick>8-way</joystick>
+        <buttons default="A,B,Start,Select,L,R,X,Y" names="A,B,Start,Select,Coin,Coin,Service,Pause"/>
+	<switches default="00,80,FF,00,00,00,00,00">
+		<dip bits="8,9" name="Clearing Bonus" ids="No Bonus,Time X 1,Time X 2,Time X 3"/>
+		<dip bits="11,12" name="Lives" ids="3,4,5,6"/>
+		<dip bits="13" name="Test Mode" ids="Off, On"/>
+		<dip bits="14" name="Flip Screen" ids="Off, On"/>
+		<dip bits="15" name="Cabinet" ids="Cocktail, Upright"/>
+		<dip bits="16,19" name="Coin A" ids="9C1C,8C1C,7C1C,6C1C,5C1C,4C1C,3C1C,2C1C,1C8C,1C7C,1C6C,1C5C,1C4C,1C3C,1C2C,1C1C"/>
+		<dip bits="20,23" name="Coin B" ids="9C1C,8C1C,7C1C,6C1C,5C1C,4C1C,3C1C,2C1C,1C8C,1C7C,1C6C,1C5C,1C4C,1C3C,1C2C,1C1C"/>		
+		<dip bits="32,33" name="Bonus King" ids="None,10000,20000,30000"/>
+		<dip bits="37" name="Year Display" ids="Yes,No"/>		
+		<dip bits="38" name="Free Game" ids="Normal Game,Free Game"/>		
+		<dip bits="39" name="Coin Slots" ids="A and B,A only"/>		
+	</switches>		
+	<rom index="0" md5="none" zip="junglek.zip" type="merged|nonmerged">
+		<part crc="45f55d30" name="kn21-1.bin"/>
+		<part crc="07cc9a21" name="kn22-1.bin"/>
+		<part crc="a20e5a48" name="kn43.bin"/>
+		<part crc="19ea7f83" name="kn24.bin"/>
+		<part crc="844365ea" name="kn25.bin"/>
+		<part crc="27a95fd5" name="kn46.bin"/>
+		<part crc="5c3199e0" name="kn47.bin"/>
+		<part crc="194a2d09" name="kn28.bin"/>
+		<part crc="45f55d30" name="kn21-1.bin"/>
+		<part crc="07cc9a21" name="kn22-1.bin"/>
+		<part crc="a20e5a48" name="kn43.bin"/>
+		<part crc="19ea7f83" name="kn24.bin"/>
+		<part crc="844365ea" name="kn25.bin"/>
+		<part crc="27a95fd5" name="kn46.bin"/>
+		<part repeat="0x1000"> 00 </part>
+		<part crc="1a9c0a26" name="kn60.bin"/>
+		<part crc="8f83c290" name="kn29.bin"/>
+		<part crc="89fd19f1" name="kn30.bin"/>
+		<part crc="70e8fc12" name="kn51.bin"/>
+		<part crc="bcbac1a3" name="kn52.bin"/>
+		<part crc="b946c87d" name="kn53.bin"/>
+		<part crc="320db2e1" name="kn34.bin"/>
+		<part crc="70aef58f" name="kn55.bin"/>
+		<part crc="932eb667" name="kn56.bin"/>
+		<part crc="dee7f5d4" name="kn37.bin"/>
+		<part crc="bffd3d21" name="kn38.bin"/>
+		<part crc="cee485fc" name="kn59-1.bin"/>
+		<part repeat="0x1000"> 00 </part>
+		<part crc="b833b5ea" name="eb16.22"/>
+		<part repeat="0x0F00"> 00 </part>
+    </rom>
+	<rom index="1">
+		<part>1</part>
+	</rom>			
+</misterromdescription>

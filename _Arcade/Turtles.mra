@@ -1,0 +1,70 @@
+<misterromdescription>
+	<name>Turtles</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Maze</category>
+
+	<setname>turtles</setname>
+	<parent>turtles</parent>
+	<mameversion>0209</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R,L" names="Fire,-,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FC,F1">
+		<dip bits="8,9" ids="3,4,5,126(cheat)" name="Lives"></dip>
+		<dip bits="17,18" ids="1c/1cr,1c/2cr,1c/3cr,1/4cr" name="Coinage"></dip>
+		<dip bits="19" ids="Upright,Cocktail" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0F</part>
+		</rom>
+	<rom index="0" md5="a18b7551597ed9b5ac528adffdb9b148" type="merged|nonmerged" zip="turtles.zip">
+		<part crc="ec5e61fb" name="turt_vid.2c"></part>
+		<part crc="fd10821e" name="turt_vid.2e"></part>
+		<part crc="ddcfc5fa" name="turt_vid.2f"></part>
+		<part crc="9e71696c" name="turt_vid.2h"></part>
+		<part crc="fcd49fef" name="turt_vid.2j"></part>
+		<part crc="fcd49fef" name="turt_vid.2j"></part>
+		<part crc="fcd49fef" name="turt_vid.2j"></part>
+		<part crc="fcd49fef" name="turt_vid.2j"></part>
+		<part crc="f0c30f9a" name="turt_snd.5c"></part>
+		<part crc="af5fc43c" name="turt_snd.5d"></part>
+		<part crc="c3ffd655" name="turt_vid.5f" repeat="4"></part>
+		<part crc="e5999d52" name="turt_vid.5h" repeat="4"></part>
+		<part crc="f3ef02dd" name="turtles.clr"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		04 00 00 00 00 FF 00 02 00 02 00 01 00 FF 02 00
+		00 00 82 00 00 1E 00 00
+		00 00 80 A8 00 03 00 00
+		00 00 93 40 00 01 00 00
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="34"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

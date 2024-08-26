@@ -1,0 +1,17 @@
+####
+# Name: RGB Arrow
+# Author: TrashUncle
+# Type: CRT
+# Genre: Realistic
+# Sub-Pixel Layout: RGB
+####
+
+Resolution=0
+v2
+5,6
+73d,43d,23d,13d,73d
+73d,73d,43d,23d,13d
+13d,73d,73d,43d,23d
+13d,73d,73d,43d,23d
+73d,73d,43d,23d,13d
+73d,43d,23d,13d,73d

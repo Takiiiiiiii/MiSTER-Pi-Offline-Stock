@@ -1,0 +1,50 @@
+<misterromdescription>
+	<name>Dominos</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1977</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Maze</category>
+
+	<setname>dominos</setname>
+	<parent>dominos</parent>
+	<mameversion>0220</mameversion>
+	<rbf>dominos</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (simultaneous)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>0</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="3573ac6efbd7ef650d8f53542538e074" zip="dominos.zip">
+		<part crc="738b4413" name="7352-02.d1"></part>
+		<part crc="c84e54e2" name="7438-02.e1"></part>
+		<part crc="4f42fdd6" name="7439-01.p4"></part>
+		<part crc="957dd8df" name="7440-01.r4"></part>
+		<part crc="b8094b4c" name="6400-01.m2"></part>
+		<part crc="857df8db" name="6401-01.e2"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

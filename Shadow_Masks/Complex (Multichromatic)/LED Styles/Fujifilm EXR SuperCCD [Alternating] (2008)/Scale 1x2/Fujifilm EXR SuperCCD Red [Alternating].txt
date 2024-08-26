@@ -1,0 +1,18 @@
+####
+# Name: Fujifilm EXR SuperCCD Red [Alternating]
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+2,8
+12a,41d
+12a,41d
+41d,12a
+41d,12a
+41d,22a
+41d,22a
+22a,41d
+22a,41d

@@ -1,0 +1,66 @@
+<misterromdescription>
+	<name>Mighty Monkey</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Scramble Hardware</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Bootleg</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>mimonscr</setname>
+	<parent>mimonkey</parent>
+	<mameversion>0209</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R,L" names="Shoot,Switch,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FC,D1">
+		<dip bits="8,9" ids="3,4,5,255(Cheat)" name="Lives"></dip>
+		<dip bits="17,18" ids="1c/1cr,2c/1cr,1c/2cr,3c/1cr" name="Coinage"></dip>
+		<dip bits="19" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="21" ids="Off,On" name="Infinite Lives"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>12</part>
+		</rom>
+	<rom index="0" md5="b4b49bd1d6a1b1a4e4d431fc79fc4268" type="merged" zip="mimonkey.zip">
+		<part crc="0399a0c4" name="mm1"></part>
+		<part crc="2c5e971e" name="mm2"></part>
+		<part crc="24ce1ce3" name="mm3"></part>
+		<part crc="c83fb639" name="mm4"></part>
+		<part crc="a9f12dfc" name="mm5"></part>
+		<part crc="e492a40c" name="mm6"></part>
+		<part crc="5339928d" name="mm7"></part>
+		<part crc="eee7a12e" name="mm8"></part>
+		<part crc="2d14c527" name="mm13.11d"></part>
+		<part crc="35ed0f96" name="mm14.10d"></part>
+		<part crc="9e0e9289" name="mm11.5f"></part>
+		<part crc="92085b0c" name="mm9.5f"></part>
+		<part crc="f73a8412" name="mm12.5h"></part>
+		<part crc="3828c9db" name="mm10.5h"></part>
+		<part crc="4e3caeab" name="82s123.6e"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

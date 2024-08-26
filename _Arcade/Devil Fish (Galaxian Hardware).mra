@@ -1,0 +1,65 @@
+<misterromdescription>
+	<name>Devil Fish</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Galaxian Hardware</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1984</year>
+	<manufacturer>Vision</manufacturer>
+	<manufacturer2>Artic</manufacturer2>
+	<category>Maze</category>
+
+	<setname>devilfsg</setname>
+	<parent>devilfish</parent>
+	<mameversion>0220</mameversion>
+	<rbf>galaxian</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<buttons default="A,Start,Select,R,L" names="Fire,Start 1P,Start 2P,Coin,-,Pause"></buttons>
+
+	<switches default="FF,5F,00">
+		<dip bits="14" ids="2c/1cr,1c/1cr" name="Coinage"></dip>
+		<dip bits="16" ids="10000,15000" name="Bonus Life After"></dip>
+		<dip bits="17" ids="Easy,Hard" name="Difficulty"></dip>
+		<dip bits="18" ids="4,5" name="Lives"></dip>
+		<dip bits="19" ids="Upright,Cocktail" name="Cabinet"></dip>
+	</switches>
+
+	<rom index="1">
+		<part>06</part>
+	</rom>
+	<rom index="0" md5="3af9bea33dc72c07afb13e17e588289d" zip="devilfsh.zip|devilfsg.zip">
+		<part crc="2ab19698" name="dfish1.7f"></part>
+		<part crc="4e77f097" name="dfish2.7h"></part>
+		<part crc="3f16a4c6" name="dfish3.7k"></part>
+		<part crc="11fc7e59" name="dfish4.7m"></part>
+		<part crc="ace6e31f" name="dfish5.1h"></part>
+		<part crc="d7a6c4c4" name="dfish6.1k"></part>
+		<part crc="4e3caeab" name="82s123.6e"></part>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 00 FF FF 00 FF 00 02 00 02 00 01 00 FF 02 00
+		00 00 40 a8 00 03 00 00
+		</part>
+	</rom>
+	<nvram index="4" size="3"/>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

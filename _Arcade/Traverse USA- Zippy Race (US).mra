@@ -1,0 +1,75 @@
+<misterromdescription>
+	<name>Traverse USA- Zippy Race</name>
+	<region>USA</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Irem M52</platform>
+	<series></series>
+	<year>1983</year>
+	<manufacturer>Irem</manufacturer>
+	<manufacturer2>Broderbund</manufacturer2>
+	<category>Racing</category>
+
+	<setname>travrusa</setname>
+	<parent>travrusa</parent>
+	<mameversion>0220</mameversion>
+	<rbf>traverseusa</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R" names="Gas,Brake,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="FF,FE,00">
+		<dip bits="0,1" ids="Max,Hi,Med,Low" name="Fuel Redcd on Collsn"></dip>
+		<dip bits="2" ids="Hi,Low" name="Fuel Consumption"></dip>
+		<dip bits="3" ids="Yes,No" name="Allow Continue"></dip>
+		<dip bits="4,7" ids="Free Play,Free Play,A 3C_1C / B 1C_6C,Not Used,1 Coin/7 Credits,A 2C_1C / B 1C_6C,1c/6cr,A 1C_1C / B 1C_6C,1c/5cr,Free Play,1c/4cr,A 3C_1C / B 1C_5C,1c/3cr,A 2C_1C / B 1C_5C,1c/2cr,A 1C_1C / B 1C_5C,Free Play,Not Used,A 3C_1C / B 1C_3C,Not Used,6 Coins/1 Credit,A 2C_1C / B 1C_3C,5 Coins/1 Credit,A 1C_1C / B 1C_3C,4 Coins/1 Credit,Free Play,3c/1cr,A 3C_1C / B 1C_2C,2c/1cr,A 2C_1C / B 1C_2C,1c/1cr,A 1C_1C / B 1C_2C" name="Coinage"></dip>
+		<dip bits="8" ids="On,Off" name="Flip Screen"></dip>
+		<dip bits="9" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="10" ids="Mode 2,Mode 1" name="Coin Mode"></dip>
+		<dip bits="11" ids="Km/H,M/H" name="Speed Type"></dip>
+		<dip bits="12" ids="On,Off" name="Stop Mode (Cheat)"></dip>
+		<dip bits="13" ids="Zippy Race,Traverse USA" name="Title"></dip>
+		<dip bits="14" ids="On,Off" name="Invulnerability (Cheat)"></dip>
+		<dip bits="15" ids="On,Off" name="Service Mode"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0</part>
+		</rom>
+	<rom index="0" md5="67d6330459d5180670c25842fc3d1d11" zip="travrusa.zip">
+		<part crc="be066c0a" name="zr1-0.m3"></part>
+		<part crc="145d6b34" name="zr1-5.l3"></part>
+		<part crc="e1b51383" name="zr1-6a.k3"></part>
+		<part crc="85cd1a51" name="zr1-7.j3"></part>
+		<part crc="a02ad8a0" name="mr10.1a"></part>
+		<part crc="a02ad8a0" name="mr10.1a"></part>
+		<part crc="aa8994dd" name="zippyrac.001"></part>
+		<part crc="3a046dd1" name="mr8.3c"></part>
+		<part crc="1cc3d3f4" name="mr9.3a"></part>
+		<part crc="3e2c7a6b" name="zr1-8.n3"></part>
+		<part crc="13be6a14" name="zr1-9.l3"></part>
+		<part crc="6fcc9fdb" name="zr1-10.k3"></part>
+		<part crc="c9724350" name="mmi6349.ij"></part>
+		<part crc="76062638" name="tbp24s10.3"></part>
+		<part crc="a1130007" name="tbp18s.2"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

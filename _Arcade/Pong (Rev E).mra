@@ -1,0 +1,43 @@
+<misterromdescription>
+	<name>Pong</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Rev E</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1972</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Ball and Paddle</category>
+
+	<setname>pong</setname>
+	<parent>pong</parent>
+	<mameversion></mameversion>
+	<rbf>pong</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (simultaneous)</players>
+	<joystick></joystick>
+	<special_controls>positional</special_controls>
+	<num_buttons>0</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0"></rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

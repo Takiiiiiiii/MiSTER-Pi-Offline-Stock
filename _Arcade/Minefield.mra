@@ -1,0 +1,72 @@
+<misterromdescription>
+	<name>Minefield</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1983</year>
+	<manufacturer>Stern</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>minefld</setname>
+	<parent>minefld</parent>
+	<mameversion>0209</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>1</players>
+	<joystick>8-way</joystick>
+	<special_controls>twin stick</special_controls>
+	<num_buttons>4</num_buttons>
+	<buttons default="A,B,X,Y,Start,Select,R,L" names="Shoot Right,Shoot Down,Shoot Up,Shoot Left,Start 1P/Rocket,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FC,FB">
+		<dip bits="1" ids="3,1" name="Starting Level"></dip>
+		<dip bits="8" ids="3,5" name="Lives"></dip>
+		<dip bits="9" ids="On,Off" name="Demo Sounds"></dip>
+		<dip bits="17" ids="1c/2cr,1c/1cr" name="Coinage"></dip>
+		<dip bits="18,19" ids="Hardest,Hard,Medium,Easy" name="Difficulty"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>10</part>
+		</rom>
+	<rom index="0" md5="abdade89b1dc1b3bec3b093686fa4e6d" type="merged|nonmerged" zip="minefld.zip">
+		<part crc="1367a035" name="ma22c"></part>
+		<part crc="68946d21" name="ma22e"></part>
+		<part crc="7663aee5" name="ma22f"></part>
+		<part crc="9787475d" name="ma22h"></part>
+		<part crc="2ceceb54" name="ma22j"></part>
+		<part crc="85138fc9" name="ma22l"></part>
+		<part crc="85138fc9" name="ma22l"></part>
+		<part crc="85138fc9" name="ma22l"></part>
+		<part crc="8bef736b" name="ma15c"></part>
+		<part crc="f67b3f97" name="ma15d"></part>
+		<part crc="8bef736b" name="ma15c"></part>
+		<part crc="f67b3f97" name="ma15d"></part>
+		<part crc="ed0dccb1" name="ma15h" repeat="4"></part>
+		<part crc="9f703006" name="ma15f" repeat="4"></part>
+		<part crc="1877368e" name="minefld.clr"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 07 FF FF 00 FF 00 02 00 02 00 01 00 FF 02 00
+		00 00 80 F3 00 3C 01 43
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="60"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

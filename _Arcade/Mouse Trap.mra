@@ -1,0 +1,49 @@
+<misterromdescription>
+	<name>Mouse Trap</name>
+	<mameversion>0245</mameversion>
+	<setname>mtrap</setname>
+	<parent>mtrap</parent>
+	<mratimestamp>202402011000</mratimestamp>
+	<year>1980</year>
+	<manufacturer>Exidy</manufacturer>
+	<category>Maze</category>
+	<rbf>Exidy2</rbf>
+	<rotation>horizontal</rotation>
+	<joystick>4-way</joystick>
+	<switches default="00,80,FF,00,00,00,00,00">
+		<dip bits="10" name="Extend" ids="Credited, Extended"/>
+		<dip bits="11,12" name="Coinage" ids="1 COIN 1 CREDIT,1 COIN 1 CREDIT,2 COIN 1 CREDIT,1 COIN 2 CREDIT"/>
+		<dip bits="13,14" name="Lives" ids="5,4,3,2"/>
+		<dip bits="15" name="Coin Type" ids="Pence,Quarters"/>
+	</switches>
+	<rom index="0" md5="none" zip="mtrap.zip|targ.zip|fax.zip" type="merged|nonmerged">
+		<part repeat="0xa000"> 00 </part>
+		<part crc="bd6c3eb5" name="mtl-5_11a.11a"/>
+		<part crc="75b0593e" name="mtl-5_10a.10a"/>
+		<part crc="28dd20ff" name="mtl-5_9a.9a"/>
+		<part crc="cc09f7a4" name="mtl-5_8a.8a"/>
+		<part crc="caafbb6d" name="mtl-5_7a.7a"/>
+		<part crc="d85e52ca" name="mtl-5_6a.6a"/>
+		<part repeat="0x2800"> 00 </part>
+		<part crc="dbe4ec02" name="mta_5a.5a"/>
+		<part crc="c00f0c05" name="mta_6a.6a"/>
+		<part crc="f3f16ca7" name="mta_7a.7a"/>
+		<part crc="c6e4d339" name="mtl_11d.11d"/>
+		<part crc="43b35bb7" name="vel5c-11.c5"/>
+		<part crc="e26f9053" name="hrl6d.d6"/>
+		<part crc="f76b4fcf" name="hrl14h.h14"/>
+	</rom>	
+	<rom index="1">
+		<part>10</part>
+	</rom>	
+	<rom index="2">
+		<part>37</part>
+	</rom>	
+	<rom index="3" md5="none">
+		<part>
+			59 00 00 00 00 FF 00 02 00 02 00 01 00 FF 02 00
+			00 00 03 80 00 23 00 48
+		</part>
+	</rom>
+	<nvram index="4" size="35"/>	
+</misterromdescription>

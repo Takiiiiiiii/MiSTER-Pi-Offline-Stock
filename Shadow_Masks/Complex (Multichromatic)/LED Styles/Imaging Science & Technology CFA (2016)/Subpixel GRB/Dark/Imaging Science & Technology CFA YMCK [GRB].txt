@@ -1,0 +1,16 @@
+####
+# Name: Imaging Science & Technology CFA YMCK
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: GRB
+####
+
+Resolution=0
+v2
+5,5
+02a,62a,32a,02a,52a
+02a,52a,02a,62a,32a
+62a,32a,02a,52a,02a
+52a,02a,62a,32a,02a
+32a,02a,52a,02a,62a

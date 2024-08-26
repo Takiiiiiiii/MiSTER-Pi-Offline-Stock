@@ -1,0 +1,75 @@
+<misterromdescription>
+	<name>Crater Raider</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Midway MCR3</platform>
+	<series></series>
+	<year>1984</year>
+	<manufacturer>Bally</manufacturer>
+	<manufacturer2>Midway</manufacturer2>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>crater</setname>
+	<parent>crater</parent>
+	<mameversion>0216</mameversion>
+	<rbf>mcr3scroll</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>2-way vertical</joystick>
+	<special_controls>tilt</special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Select,Start,R" names="Fire,Shield,-,-,Start 2P,Start 1P,Coin"></buttons>
+
+	<switches default="FF 00">
+		<dip bits="8" ids="Off,On" name="Service"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>2</part>
+		</rom>
+	<rom index="0" md5="3e955ef6ec3c456981e04117864fcc48" type="merged|nonmerged" zip="crater.zip">
+		<part crc="ad31f127" name="crcpu.6d"></part>
+		<part crc="3743c78f" name="crcpu.7d"></part>
+		<part crc="c95f9088" name="crcpu.8d"></part>
+		<part crc="a03c4b11" name="crcpu.9d"></part>
+		<part crc="44ae4cbd" name="crcpu.10d"></part>
+		<part repeat="0x4000">FF</part>
+		<part crc="fd666cb5" name="crsnd4.a7"></part>
+		<part crc="90bf2c4c" name="crsnd1.a8"></part>
+		<part crc="3b8deef1" name="crsnd2.a9"></part>
+		<part crc="05803453" name="crsnd3.a10"></part>
+		<part repeat="0x6000">00</part>
+		<interleave output="32">
+		<part crc="579a8e36" map="0001" name="crvid.a4"></part>
+		<part crc="2c2f5b29" map="0001" name="crvid.a3"></part>
+		<part crc="5bf954e0" map="0010" name="crvid.a6"></part>
+		<part crc="9bdec312" map="0010" name="crvid.a5"></part>
+		<part crc="4b913498" map="0100" name="crvid.a8"></part>
+		<part crc="9fa307d5" map="0100" name="crvid.a7"></part>
+		<part crc="7a22d6bc" map="1000" name="crvid.a10"></part>
+		<part crc="811f152d" map="1000" name="crvid.a9"></part>
+		</interleave>
+		<part crc="9d73504a" name="crcpu.3a"></part>
+		<part crc="42a47dff" name="crcpu.4a"></part>
+		<part crc="2fe4a6e1" name="crcpu.5a"></part>
+		<part crc="d0659042" name="crcpu.6a"></part>
+		<part crc="6fe53c8d" name="crcpu.10g"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="2048"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

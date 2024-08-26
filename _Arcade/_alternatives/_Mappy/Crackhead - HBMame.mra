@@ -1,0 +1,63 @@
+<misterromdescription>
+	<name>Crackhead</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Mappy</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1998</year>
+	<manufacturer>Namco</manufacturer>
+	<category>Maze</category>
+
+	<setname>crackhea</setname>
+	<parent></parent>
+	<mameversion>0217</mameversion>
+	<rbf>druaga</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R" names="Door,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches></switches>
+
+	<rom index="1">
+		<part>02</part>
+		</rom>
+	<rom index="0" md5="fe4f93b9f4a81b71b726adba8d2db1fd" zip="/hbmame/mappy.zip">
+		<part crc="52e6c708" name="mpx_3.1d"></part>
+		<part crc="52e6c708" name="mpx_3.1d"></part>
+		<part crc="a958a61c" name="mp1_2.1c"></part>
+		<part crc="203766d4" name="mpx_1.1b"></part>
+		<part crc="a263d078" name="crackhea/crackh3m.64"></part>
+		<part crc="a263d078" name="crackhea/crackh3m.64"></part>
+		<part crc="3758ceb2" name="crackhea/crackh3n.64"></part>
+		<part crc="3758ceb2" name="crackhea/crackh3n.64"></part>
+		<part crc="8182dd5b" name="mp1_4.1k"></part>
+		<part crc="912ffa7e" name="crackhea/crackh3b.32"></part>
+		<part crc="5396bd78" name="mp1-7.5k"></part>
+		<part crc="5396bd78" name="mp1-7.5k"></part>
+		<part crc="5396bd78" name="mp1-7.5k"></part>
+		<part crc="5396bd78" name="mp1-7.5k"></part>
+		<part crc="50765082" name="mp1-6.4c"></part>
+		<part crc="16a9166a" name="mp1-3.3m"></part>
+		<part crc="56531268" name="mp1-5.5b"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,12 @@
+####
+# Name: Kodak RGBW-3 RGBRK (Red)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+4,2
+41d,01d,22a,01d
+12a,01d,41d,01d

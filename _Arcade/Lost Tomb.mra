@@ -1,0 +1,70 @@
+<misterromdescription>
+	<name>Lost Tomb</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Stern</manufacturer>
+	<category>Maze</category>
+
+	<setname>losttomb</setname>
+	<parent>losttomb</parent>
+	<mameversion>0216</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>1</players>
+	<joystick>8-way</joystick>
+	<special_controls>twin stick</special_controls>
+	<num_buttons>4</num_buttons>
+	<buttons default="A,B,X,Y,Start,Select,R,L" names="Fire Right,Fire Down,Fire Up,Fire Left,Start 1P/Bomb,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FD,F3">
+		<dip bits="8,9" ids="Invulnerable,3,5,Free Play" name="Lives"></dip>
+		<dip bits="17,18" ids="1c/2cr,1c/1cr,1c/3cr,1c/4cr" name="Coinage"></dip>
+		<dip bits="19" ids="On,Off" name="Demo Sounds"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0B</part>
+		</rom>
+	<rom index="0" md5="7c80a19ed35478aa081af85d1c464345" type="merged|nonmerged" zip="losttomb.zip">
+		<part crc="d6176d2c" name="2c"></part>
+		<part crc="a5f55f4a" name="2e"></part>
+		<part crc="0169fa3c" name="2f"></part>
+		<part crc="054481b6" name="2h-easy"></part>
+		<part crc="249ee040" name="2j"></part>
+		<part crc="c7d2e608" name="2l"></part>
+		<part crc="bc4bc5b1" name="2m"></part>
+		<part crc="bc4bc5b1" name="2m"></part>
+		<part crc="b899be2a" name="5c"></part>
+		<part crc="6907af31" name="5d"></part>
+		<part crc="b899be2a" name="5c"></part>
+		<part crc="6907af31" name="5d"></part>
+		<part crc="5581de5f" name="5h" repeat="4"></part>
+		<part crc="61f137e7" name="5f" repeat="4"></part>
+		<part crc="1108b816" name="ltprom"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		02 FF FF FF 00 FF 00 04 00 04 00 01 00 FF 02 00
+		00 00 81 10 00 50 03 00
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="80"></nvram>
+
+	<remark>\n		prg    0000-7FFF\n		aud    8000-9FFF\n		obj0   A000-BFFF\n		obj1   C000-DFFF\n		col    E000-E01F\n</remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

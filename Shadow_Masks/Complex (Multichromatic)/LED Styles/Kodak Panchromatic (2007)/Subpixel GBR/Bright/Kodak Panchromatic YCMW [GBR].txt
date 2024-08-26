@@ -1,0 +1,13 @@
+####
+# Name: Kodak Panchromatic YCMW
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: GBR
+####
+
+Resolution=0
+v2
+2,2
+72a,62a
+32a,52a

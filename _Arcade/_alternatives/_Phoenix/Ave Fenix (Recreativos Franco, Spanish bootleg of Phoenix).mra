@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Ave Fenix</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Recreativos Franco, Spanish, Phoenix</version>
+	<alternative>Phoenix</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Recreativos Franco S.A.</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>avefenixrf</setname>
+	<parent>phoenix</parent>
+	<mameversion>0218</mameversion>
+	<rbf>phoenix</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="669c446f8abc8000a08bff09d833ebbb" zip="phoenix.zip|avefenixrf.zip">
+		<part crc="b04260e9" name="601-ic45.a1"></part>
+		<part crc="25a2e4bd" name="6002-ic46.a2"></part>
+		<part crc="cbbb8839" name="0003-ic47.a3"></part>
+		<part crc="4b7701b4" name="6004-ic48.a4"></part>
+		<part crc="1ab92ef9" name="6005-ic49.a5"></part>
+		<part crc="ac5e9ec1" name="0006-ic50.a6"></part>
+		<part crc="2eab35b4" name="6007-ic51.a7"></part>
+		<part crc="3719fc84" name="f008-ic52.a8"></part>
+		<part crc="3c7e623f" name="0011-ic23.d3"></part>
+		<part crc="59916d3b" name="0012-ic24.d4"></part>
+		<part crc="bb0525ed" name="0009-ic39.b3"></part>
+		<part crc="4178aa4f" name="0010-ic40.b4"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

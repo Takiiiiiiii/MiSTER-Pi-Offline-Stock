@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Berzerk</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>German Speech, Rev RC31</version>
+	<alternative>Berzerk</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Stern</manufacturer>
+	<category>Arena</category>
+
+	<setname>berzerkg</setname>
+	<parent>berzerk</parent>
+	<mameversion>0218</mameversion>
+	<rbf>berzerk</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="0019f07afdb9600e7c35c9a35428222f" zip="berzerk.zip|berzerkg.zip">
+		<part crc="19bb3aac" name="berzerk_rc32_1d.rom1.1d"></part>
+		<part crc="b0888ff7" name="berzerk_rc32g_3d.rom2.3d"></part>
+		<part crc="e23239a9" name="berzerk_rc32_5d.rom3.5d"></part>
+		<part crc="651b31b7" name="berzerk_rc32g_6d.rom4.6d"></part>
+		<part crc="8a403bba" name="berzerk_rc32g_5c.rom5.5c"></part>
+		<part crc="8a403bba" name="berzerk_rc32g_5c.rom5.5c"></part>
+		<part crc="8a403bba" name="berzerk_rc32g_5c.rom5.5c"></part>
+		<part crc="8a403bba" name="berzerk_rc32g_5c.rom5.5c"></part>
+		<part crc="77923a9e" name="berzerk_rc32_1c.rom0.1c"></part>
+		<part crc="77923a9e" name="berzerk_rc32_1c.rom0.1c"></part>
+		<part crc="fc1da15f" name="berzerk_rvog_1c.1c"></part>
+		<part crc="7f6808fb" name="berzerk_rvog_2c.2c"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="1024"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,67 @@
+<misterromdescription>
+	<name>Donkey Kong 3</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version></version>
+	<alternative>Donkey Kong 3</alternative>
+	<platform></platform>
+	<series>Donkey Kong</series>
+	<year>1984</year>
+	<manufacturer>Bootleg</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>dkong3b</setname>
+	<parent>dkong3</parent>
+	<mameversion>0217</mameversion>
+	<rbf>donkeykong</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R,L" names="Spray,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches></switches>
+
+	<rom index="1"><part>02</part></rom>
+	<rom index="0" md5="403f810061c5eda8651b5284af4b92ce" type="merged|nonmerged" zip="dkong3.zip|dkong3b.zip">
+		<!-- Main CPU 32k-->
+		<part crc="549979bc" name="dkong3b/5b.bin"></part>
+		<part crc="b9dcbae6" name="dkong3b/5c-2.bin"></part>
+		<part crc="5a61868f" name="dkong3b/5e-2.bin"></part>
+		<part crc="77a012d6" name="dkong3b/5c-1.bin"></part>
+		<part crc="745ed767" name="dkong3b/5e-1.bin"></part>
+		<!-- GFX1 8k-->
+		<part crc="3d1b87ce" name="dkong3b/3p.bin"></part>
+		<part crc="fed67d35" name="dkong3b/3n.bin"></part>
+		<!-- GFX2 16k-->
+		<part crc="8ffa1737" name="dk3v.7c"></part>
+		<part crc="9ac84686" name="dk3v.7d"></part>
+		<part crc="0c0af3fb" name="dk3v.7e"></part>
+		<part crc="55c58662" name="dk3v.7f"></part>
+		<!-- Sound CPU 4k-->
+		<part crc="715da5f8" name="dkong3b/3h.bin"></part>
+		<!-- LUTs -->
+		<part crc="66a77f40" name="dkc1-c.1c"></part>
+		<part crc="df54befc" name="dkc1-c.1d"></part>
+		<part crc="50e33434" name="dkc1-v.2n"></part>
+		<part repeat="2816">00</part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		
+		</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="241"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

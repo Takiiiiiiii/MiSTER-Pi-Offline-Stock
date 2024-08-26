@@ -1,0 +1,62 @@
+<misterromdescription>
+	<name>Kick</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Cocktail</version>
+	<alternative>Kick</alternative>
+	<platform>Midway MCR</platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Midway</manufacturer>
+	<category>Ball and Paddle</category>
+
+	<setname>kickc</setname>
+	<parent>kick</parent>
+	<mameversion>0218</mameversion>
+	<rbf>mcr1</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>1</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>0</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="efd979823f8c05dbd28b317f3e30fbb4" zip="kick.zip|kickc.zip">
+		<part crc="22fa42ed" name="1200-a.b3"></part>
+		<part crc="afaca819" name="1300-b.b4"></part>
+		<part crc="6054ee56" name="1400-c.b5"></part>
+		<part crc="263af0f3" name="1500-d.d4"></part>
+		<part crc="eaaa78a7" name="1600-e.d5"></part>
+		<part crc="c06c880f" name="1700-f.d6"></part>
+		<part repeat="0x2000">FF</part>
+		<part crc="9e35c02e" name="4200-a.a7"></part>
+		<part crc="ca2b7c28" name="4300-b.a8"></part>
+		<part crc="d1901551" name="4400-c.a9"></part>
+		<part crc="d36ddcdc" name="4500-d.a10"></part>
+		<part repeat="0x4000">FF</part>
+		<part crc="74b409d7" name="2600-a.1e"></part>
+		<part crc="78eda36c" name="2700-b.1d"></part>
+		<part crc="c93e0170" name="2800-c.1b"></part>
+		<part crc="91e59383" name="2900-d.1a"></part>
+		<part crc="acdae4f6" name="1000-g.g4"></part>
+		<part crc="dbb18c96" name="1100-h.g5"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark>GFX mirrored left to right</remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

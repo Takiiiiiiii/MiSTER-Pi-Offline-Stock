@@ -1,0 +1,12 @@
+####
+# Name: Yamanaka CFA RGRB (Red)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+4,2
+41d,22a,41d,12a
+41d,12a,41d,22a

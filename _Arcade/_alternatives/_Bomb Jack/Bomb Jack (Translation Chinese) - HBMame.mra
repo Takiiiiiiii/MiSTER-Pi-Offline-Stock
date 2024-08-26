@@ -1,0 +1,64 @@
+<misterromdescription>
+	<name>Bomb Jack</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>Chinese</version>
+	<alternative>Bomb Jack</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1984</year>
+	<manufacturer>Tehkan</manufacturer>
+	<category>Puzzle - Platform</category>
+
+	<setname>bombjacks01</setname>
+	<parent>bombjack</parent>
+	<mameversion>0217</mameversion>
+	<rbf>bombjack</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="16f815063434ef4b33808522b5ce65a9" zip="/hbmame/bombjack.zip">
+		<part crc="8407917d" name="01_h03t.bin"></part>
+		<part crc="398d4a02" name="02_p04t.bin"></part>
+		<part crc="398d4a02" name="02_p04t.bin"></part>
+		<part crc="dd7e96eb" name="bombjacks01/03_e08thc01.bin"></part>
+		<part crc="dd7e96eb" name="bombjacks01/03_e08thc01.bin"></part>
+		<part crc="7c06a2ac" name="bombjacks01/04_h08thc01.bin"></part>
+		<part crc="7c06a2ac" name="bombjacks01/04_h08thc01.bin"></part>
+		<part crc="d4e5be07" name="bombjacks01/05_k08thc01.bin"></part>
+		<part crc="d4e5be07" name="bombjacks01/05_k08thc01.bin"></part>
+		<part crc="51eebd89" name="06_l08t.bin"></part>
+		<part crc="9dd98e9d" name="07_n08t.bin"></part>
+		<part crc="3155ee7d" name="08_r08t.bin"></part>
+		<part crc="fe674884" name="bombjacks01/09_j01bhc01.bin"></part>
+		<part crc="52a1e5fb" name="10_l01b.bin"></part>
+		<part crc="b68a062a" name="11_m01b.bin"></part>
+		<part crc="ff6627cd" name="bombjacks01/12_n01bhc01.bin"></part>
+		<part crc="e8d84fa1" name="bombjacks01/13.1rhc01"></part>
+		<part crc="21c7d648" name="bombjacks01/14_j07bhc01.bin"></part>
+		<part crc="e53e8335" name="bombjacks01/15_l07bhc01.bin"></part>
+		<part crc="36317f2a" name="bombjacks01/16_m07bhc01.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

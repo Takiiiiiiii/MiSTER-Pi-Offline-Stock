@@ -1,0 +1,70 @@
+<misterromdescription>
+	<name>Moon War</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Stern</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>moonwar</setname>
+	<parent>moonwar</parent>
+	<mameversion>0216</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick></joystick>
+	<special_controls>spinner</special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,X,Y,Start,Select,R,L" names="Fire,Thrust,Shield,Hyperflip,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FC,F3">
+		<dip bits="8,9" ids="3,4,5,Free Play" name="Lives"></dip>
+		<dip bits="17,18" ids="1c/2cr,1c/1cr,1c/3cr,1c/4cr" name="Coinage"></dip>
+		<dip bits="19" ids="Upright,Cocktail" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>06</part>
+		</rom>
+	<rom index="0" md5="f7699f6acfae08f5870fa4d28239060a" type="merged|nonmerged" zip="moonwar.zip">
+		<part crc="7c11b4d9" name="mw2.2c"></part>
+		<part crc="1b6362be" name="mw2.2e"></part>
+		<part crc="4fd8ba4b" name="mw2.2f"></part>
+		<part crc="56879f0d" name="mw2.2h"></part>
+		<part crc="7c11b4d9" name="mw2.2c"></part>
+		<part crc="1b6362be" name="mw2.2e"></part>
+		<part crc="4fd8ba4b" name="mw2.2f"></part>
+		<part crc="56879f0d" name="mw2.2h"></part>
+		<part crc="c26231eb" name="moon_war_ii_ra20_5c.5c"></part>
+		<part crc="bb48a646" name="moon_war_ii_ra20_5d.5d"></part>
+		<part crc="c26231eb" name="moon_war_ii_ra20_5c.5c"></part>
+		<part crc="bb48a646" name="moon_war_ii_ra20_5d.5d"></part>
+		<part crc="a6ccc652" name="moon_war_ii_ra20_5h.5h" repeat="4"></part>
+		<part crc="c5fa1aa0" name="moon_war_ii_ra20_5f.5f" repeat="4"></part>
+		<part crc="99614c6c" name="moonwar_ii_color_6ea1.6e"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 07 FF FF 00 FF 00 02 00 02 00 01 00 FF 02 00
+		00 00 80 F2 00 3C 02 4C
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="60"></nvram>
+
+	<remark>\n		prg    0000-7FFF\n		aud    8000-9FFF\n		obj0   A000-BFFF\n		obj1   C000-DFFF\n		col    E000-E01F\n</remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

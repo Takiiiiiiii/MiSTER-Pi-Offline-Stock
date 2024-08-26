@@ -1,0 +1,61 @@
+<misterromdescription>
+	<name>Space Encounters</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Midway</manufacturer>
+	<category>Shooter - Vertical</category>
+
+	<setname>spcenctr</setname>
+	<parent>spcenctr</parent>
+	<mameversion>0226</mameversion>
+	<rbf>spaceinvaders</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick></joystick>
+	<special_controls>positional</special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R,L" names="Fire,-,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches></switches>
+
+	<rom index="1">
+		<part>09</part>
+	</rom>
+	<rom index="0" md5="none" zip="spcenctr.zip">
+		<part crc="7458b2db" name="m645h-4m33.h1"></part>
+		<part crc="1b873788" name="m645g-4m32.g1"></part>
+		<part crc="d4319c91" name="m645f-4m31.f1"></part>
+		<part crc="9b9a1a45" name="m645e-4m30.e1"></part>
+		<part crc="294d52ce" name="m645d-4m29.d1"></part>
+		<part crc="ce44c923" name="m645c-4m28.c1"></part>
+		<part crc="098070ab" name="m645b-4m27.b1"></part>
+		<part crc="7f1d1f44" name="m645a-4m26.a1"></part>
+		<part repeat="2048">FF</part>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 10 00 00 00 FF 00 02 00 02 00 01 00 FF 02 00
+		00 00 26 F0 00 02 0E 0E
+		00 00 20 2E 00 02 00 00
+		00 00 20 2B 00 02 00 00
+		</part>
+	</rom>
+
+	<nvram index="4" size="6"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

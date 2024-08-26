@@ -1,0 +1,63 @@
+<misterromdescription>
+	<name>Lucky Today</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Sigma</manufacturer>
+	<category>Gambling</category>
+
+	<setname>luctoday</setname>
+	<parent>luctoday</parent>
+	<mameversion>0220</mameversion>
+	<rbf>galaxian</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>yes</flip>
+
+	<players>1</players>
+	<joystick>2-way vertical</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="FF,1F,04">
+		<dip bits="16" ids="10000,15000" name="Bonus Life After"></dip>
+		<dip bits="18" ids="4,5" name="Lives"></dip>
+		<dip bits="19" ids="Upright,Cocktail" name="Cabinet"></dip>
+	</switches>
+
+	<rom index="1">
+		<part>11</part>
+	</rom>
+	<rom index="0" md5="7dd164c166c9346132ed34ae75e9e496" zip="luctoday.zip">
+		<part crc="59c389b9" name="ltprog1.bin"></part>
+		<part crc="ac3893b1" name="ltprog2.bin"></part>
+		<part crc="ac3893b1" name="ltprog2.bin"></part>
+		<part crc="ac3893b1" name="ltprog2.bin"></part>
+		<part crc="ac3893b1" name="ltprog2.bin"></part>
+		<part crc="ac3893b1" name="ltprog2.bin"></part>
+		<part crc="ac3893b1" name="ltprog2.bin"></part>
+		<part crc="ac3893b1" name="ltprog2.bin"></part>
+		<part crc="8cd73bdc" name="ltchar2.bin"></part>
+		<part crc="8cd73bdc" name="ltchar2.bin"></part>
+		<part crc="b5ba9946" name="ltchar1.bin"></part>
+		<part crc="b5ba9946" name="ltchar1.bin"></part>
+		<part crc="24652bc4" name="74s288.ch"></part>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

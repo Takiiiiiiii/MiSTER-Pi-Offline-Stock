@@ -1,0 +1,73 @@
+<misterromdescription>
+	<name>Mandinga</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Amidar, Artemi</version>
+	<alternative>Amidar</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Konami</manufacturer>
+	<manufacturer>Artemi</manufacturer>
+	<category>Maze</category>
+
+	<setname>mandinga</setname>
+	<parent>amidar</parent>
+	<mameversion>0218</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R" names="Jump,-,-,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="FF,FF,F1">
+		<dip bits="8,9" ids="255(Cheat),5,4,3" name="Lives"></dip>
+		<dip bits="17" ids="1c/1cr,2c/1cr" name="Coinage"></dip>
+		<dip bits="18" ids="30K 70K,50K 80K" name="Bonus Life"></dip>
+		<dip bits="19" ids="Upright,Cocktail" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>01</part>
+		</rom>
+	<rom index="0" md5="974940e42ef2a10485be5ff8cca2a8e2" zip="amidar.zip|mandinga.zip">
+		<part crc="ac6b2f96" name="1.bin"></part>
+		<part crc="4c64161e" name="2.bin"></part>
+		<part crc="2aaccf1a" name="3.bin"></part>
+		<part crc="29873461" name="4.bin"></part>
+		<part crc="a684578c" name="5.bin"></part>
+		<part crc="5382f7ed" name="6.bin"></part>
+		<part crc="1d7109e9" name="7.bin"></part>
+		<part crc="049855ad" name="8.bin"></part>
+		<part crc="ac6b2f96" name="1.bin"></part>
+		<part crc="4c64161e" name="2.bin"></part>
+		<part crc="2aaccf1a" name="3.bin"></part>
+		<part crc="29873461" name="4.bin"></part>
+		<part crc="a684578c" name="5.bin"></part>
+		<part crc="5382f7ed" name="6.bin"></part>
+		<part crc="1d7109e9" name="7.bin"></part>
+		<part crc="049855ad" name="8.bin"></part>
+		<part crc="8ca7b750" name="11.bin"></part>
+		<part crc="9b5bdc0a" name="12.bin"></part>
+		<part crc="3029f94f" name="10.bin" repeat="4"></part>
+		<part crc="09ed5818" name="9.bin" repeat="4"></part>
+		<part crc="4e3caeab" name="6e.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,58 @@
+<misterromdescription>
+	<name>Moon Quasar</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Galaxian Hardware</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Nichibutsu</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>moonqsr</setname>
+	<parent>moonqsr</parent>
+	<mameversion>0220</mameversion>
+	<rbf>galaxian</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<buttons default="A,Start,Select,R,B,L" names="Fire,Start 1P,Start 2P,Coin,Test,Pause"></buttons>
+
+	<switches default="DF,7F,04">
+		<dip bits="5" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="14,15" ids="Easy,Medium,Hard,Hardest" name="Difficulty"></dip>
+		<dip bits="16,17" ids="1C/1C,2C/1C,3C/1C,4C/1C" name="Coinage"></dip>
+	</switches>
+
+	<rom index="1">
+		<part>0F</part>
+	</rom>
+	<rom index="0" md5="none" zip="moonqsr.zip">
+		<part crc="132c13ec" name="mq1"></part>
+		<part crc="c8eb74f1" name="mq2"></part>
+		<part crc="33965a89" name="mq3"></part>
+		<part crc="a3861d17" name="mq4"></part>
+		<part crc="8bcf9c67" name="mq5"></part>
+		<part crc="5750cda9" name="mq6"></part>
+		<part crc="78d7fe5b" name="mq7"></part>
+		<part crc="4919eed5" name="mq8"></part>
+		<part crc="66eee0db" name="mqa"></part>
+		<part crc="a6db5b0d" name="mqc"></part>
+		<part crc="b55ec806" name="mqb"></part>
+		<part crc="9e7d0e13" name="mqd"></part>
+		<part crc="0b878b54" name="vid_e6.bin"></part>
+	</rom>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

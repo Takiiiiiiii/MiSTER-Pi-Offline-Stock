@@ -1,0 +1,52 @@
+<misterromdescription>
+	<name>Super Breakout</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Cocktail, Prototype</version>
+	<alternative>Super Breakout</alternative>
+	<platform></platform>
+	<series>Breakout</series>
+	<year>1978</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Ball and Paddle</category>
+
+	<setname>sbrkoutct</setname>
+	<parent>sbrkout</parent>
+	<mameversion>0218</mameversion>
+	<rbf>superbreakout</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>no</flip>
+
+	<players>1</players>
+	<joystick></joystick>
+	<special_controls>spinner</special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="0dda802fa50b1e7c87bcb5d7c2a6a3bf" zip="sbrkout.zip|sbrkoutct.zip">
+		<part crc="2da82521" name="034555-01.c1"></part>
+		<part crc="5a6497ae" name="034556-01.d11"></part>
+		<part crc="b6b3b07b" name="034557-01.ef1"></part>
+		<part crc="b6b3b07b" name="034557-01.ef1"></part>
+		<part crc="84368539" name="034559-01.r4"></part>
+		<part crc="cc0f81f2" name="034558-01.p4"></part>
+		<part crc="b8094b4c" name="006400.m2"></part>
+		<part crc="857df8db" name="006401.e2"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

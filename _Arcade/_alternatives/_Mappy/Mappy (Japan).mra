@@ -1,0 +1,63 @@
+<misterromdescription>
+	<name>Mappy</name>
+	<region>Japan</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Mappy</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1983</year>
+	<manufacturer>Namco</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>mappyj</setname>
+	<parent>mappy</parent>
+	<mameversion>0218</mameversion>
+	<rbf>druaga</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R" names="Door,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches></switches>
+
+	<rom index="1">
+		<part>02</part>
+		</rom>
+	<rom index="0" md5="a0bbac8f2ad70013e09e58d8121bc25e" zip="mappy.zip|mappyj.zip">
+		<part crc="db9d5ab5" name="mp1_3.1d"></part>
+		<part crc="db9d5ab5" name="mp1_3.1d"></part>
+		<part crc="a958a61c" name="mp1_2.1c"></part>
+		<part crc="77c0b492" name="mp1_1.1b"></part>
+		<part crc="f2d9647a" name="mp1_6.3m"></part>
+		<part crc="f2d9647a" name="mp1_6.3m"></part>
+		<part crc="757cf2b6" name="mp1_7.3n"></part>
+		<part crc="757cf2b6" name="mp1_7.3n"></part>
+		<part crc="8182dd5b" name="mp1_4.1k"></part>
+		<part crc="16498b9f" name="mp1_5.3b"></part>
+		<part crc="5396bd78" name="mp1-7.5k"></part>
+		<part crc="5396bd78" name="mp1-7.5k"></part>
+		<part crc="5396bd78" name="mp1-7.5k"></part>
+		<part crc="5396bd78" name="mp1-7.5k"></part>
+		<part crc="50765082" name="mp1-6.4c"></part>
+		<part crc="16a9166a" name="mp1-3.3m"></part>
+		<part crc="56531268" name="mp1-5.5b"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

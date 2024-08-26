@@ -1,0 +1,15 @@
+####
+# Name: Huawei Quad Bayer RGGB (Green) [Mirrored]
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+# Sub-Pixel Layout: RGB
+####
+
+Resolution=0
+v2
+4,4
+41d,42a,20e,21d
+42a,41d,21d,20e
+20e,21d,11d,12a
+21d,20e,12a,11d

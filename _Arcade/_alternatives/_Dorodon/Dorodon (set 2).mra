@@ -1,0 +1,51 @@
+<misterromdescription>
+	<name>Dorodon</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Set 2</version>
+	<alternative>Dorodon</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>UPL</manufacturer>
+	<category>Maze</category>
+
+	<setname>dorodon2</setname>
+	<parent>dorodon</parent>
+	<mameversion>0218</mameversion>
+	<rbf>dorodon</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>0</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="ce5ccd07ed22a891e541a69b176046bf" zip="dorodon.zip|dorodon2.zip">
+		<part crc="4d05d6f8" name="1.3fg"></part>
+		<part crc="27b43b09" name="2.3h"></part>
+		<part crc="38d2f295" name="3.3k"></part>
+		<part crc="54c04f58" name="5.3t"></part>
+		<part crc="1ebb6493" name="4.3r"></part>
+		<part crc="2a2d8b9c" name="6.6a"></part>
+		<part crc="d14f95fa" name="7.6bc"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,64 @@
+<misterromdescription>
+	<name>Strategy X</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Stern</version>
+	<alternative>Strategy X</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Konami</manufacturer>
+	<manufacturer>Stern</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>stratgys</setname>
+	<parent>stratgyx</parent>
+	<mameversion>0218</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>3</num_buttons>
+	<buttons default="A,L,R,Start,Select,Y" names="Fire,Turn Left,Turn Right,-,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="FF,FC,F1,FF">
+		<dip bits="8,9" ids="3,4,5,255(Cheat)" name="Lives"></dip>
+		<dip bits="17,18" ids="1c/1cr,1c/2cr,1c/3cr,1c/4cr" name="Coinage"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0E</part>
+		</rom>
+	<rom index="0" md5="1d1f4ca369ab83ec6907e6960c379f23" zip="stratgyx.zip|stratgys.zip">
+		<part crc="f2aaaf2b" name="2c.cpu"></part>
+		<part crc="5873fdc8" name="2e.cpu"></part>
+		<part crc="532d604f" name="2f.cpu"></part>
+		<part crc="82b1d95e" name="2h.cpu"></part>
+		<part crc="66e84cde" name="2j.cpu"></part>
+		<part crc="62b032d0" name="2l.cpu"></part>
+		<part crc="62b032d0" name="2l.cpu"></part>
+		<part crc="62b032d0" name="2l.cpu"></part>
+		<part crc="713a5db8" name="s1.bin"></part>
+		<part crc="46079411" name="s2.bin"></part>
+		<part crc="548e4635" name="5h.cpu" repeat="4"></part>
+		<part crc="f4aa5ddd" name="5f.cpu" repeat="4"></part>
+		<part crc="51a629e1" name="strategy.6e"></part>
+		<part crc="d95c0318" name="strategy.10k"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

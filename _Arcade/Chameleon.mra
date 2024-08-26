@@ -1,0 +1,83 @@
+<misterromdescription>
+	<name>Chameleon</name>
+	<region>USA</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1983</year>
+	<manufacturer>Jaleco</manufacturer>
+	<category>Platform</category>
+
+	<setname>chameleo</setname>
+	<mameversion>0234</mameversion>
+	<rbf>Chameleon</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons names="1P Start, A Button + 2P Start, Coin A, Coin B" default="Start,Select,A,B"></buttons>
+
+	<switches default="00,00">
+		<dip bits="0" name="Cabinet" ids="Cocktail,Upright"/>
+		<dip bits="1,2,3" name="CoinA" ids="1C_1C,2C_1C,1C_3C,1C_2C,1C_6C"/>
+		<dip bits="4,5" name="Lives" ids="3,?,Inf,5"/>
+		<dip bits="6" name="CoinB" ids="1C_1C,2C_1C"/>
+		<dip bits="7" name="Warm-Up Instructions" ids="No,Yes"/>
+		<dip bits="8" name="Warm-Up" ids="Yes,No"/>
+		<dip bits="9" name="Warm-Up Language" ids="English,German"/>
+		<dip bits="11" name="Demo Sounds" ids="Off,On"/>
+	</switches>
+
+	<rom index="0" zip="chameleo.zip" md5="none">
+
+		<!-- main cpu -->
+		<part name="chamel4.bin" crc="97379c47"/>
+		<part name="chamel5.bin" crc="0a2cadfd"/>
+		<part name="chamel6.bin" crc="b023c354"/>
+		<part name="chamel7.bin" crc="a5a03375"/>
+
+		<!-- audio cpu -->
+		<part name="chamel3.bin" crc="52eab9ec"/>
+		<part name="chamel2.bin" crc="81dcc49c"/>
+		<part name="chamel1.bin" crc="96031d3b"/>
+
+		<!-- gfx1 -->
+		<part name="chamel8.bin" crc="dc67916b" offset="4096" length="2048"/>
+		<part name="chamel8.bin" crc="dc67916b" offset="0"    length="2048"/>
+		<part name="chamel8.bin" crc="dc67916b" offset="6144" length="2048"/>
+		<part name="chamel8.bin" crc="dc67916b" offset="2048" length="2048"/>
+		<part name="chamel9.bin" crc="6b559bf1" offset="4096" length="2048"/>
+		<part name="chamel9.bin" crc="6b559bf1" offset="0"    length="2048"/>
+		<part name="chamel9.bin" crc="6b559bf1" offset="6144" length="2048"/>
+		<part name="chamel9.bin" crc="6b559bf1" offset="2048" length="2048"/>
+
+		<!-- proms -->
+		<part name="chambprm.bin" crc="e3ad76df"/>
+		<part name="chamaprm.bin" crc="c7063b54"/>
+
+	</rom>
+
+	<rom index="1">
+	</rom>
+
+	<rom index="2">
+	</rom>
+
+	<rom_3></rom_3>
+	<rom_4></rom_4>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>202108231828</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,21 @@
+#!/bin/sh
+
+if [ -f /media/fat/linux/uboot.img ]; then
+
+	echo ""
+	echo "Erasing u-boot saved environment"
+	dd if=/dev/zero of=/dev/mmcblk0 bs=512 seek=1 count=1
+	echo ""
+
+	if [ -b /dev/mmcblk0p3 ]; then
+		echo "Using old layout"
+		dd if=/media/fat/linux/uboot.img of=/dev/mmcblk0p3
+	else
+		echo "Using new layout"
+		dd if=/media/fat/linux/uboot.img of=/dev/mmcblk0p2
+	fi
+	
+	echo ""
+	echo "Done."
+	echo ""
+fi

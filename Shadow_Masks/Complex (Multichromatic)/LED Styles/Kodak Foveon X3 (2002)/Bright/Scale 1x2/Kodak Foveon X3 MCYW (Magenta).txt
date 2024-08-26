@@ -1,0 +1,18 @@
+####
+# Name: Kodak Foveon X3 MCYW (Magenta)
+# Author: Tonurics
+# Type: LED
+# Genre: Mosaic
+####
+
+Resolution=0
+v2
+4,8
+51d,71d,32a,71d
+51d,71d,32a,71d
+71d,51d,71d,32a
+71d,51d,71d,32a
+62a,71d,51d,71d
+62a,71d,51d,71d
+71d,62a,71d,51d
+71d,62a,71d,51d

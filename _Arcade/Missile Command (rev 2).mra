@@ -1,0 +1,35 @@
+<misterromdescription>
+	<name>Missile Command (rev 2)</name>
+	<mameversion>0240</mameversion>
+	<setname>missile2</setname>
+	<year>1980</year>
+	<rotation>horizontal</rotation>
+	<manufacturer>Atari Games</manufacturer>
+	<rbf>MissileCommand</rbf>
+	<switches default="00 00">
+		<dip bits="0,1" ids="English,French,German,Spanish" name="Language" values="0,1,2,3"></dip>
+		<dip bits="2,3" ids="1 Coin 1 Credit,2 Coins 1 Credit,Free Play,1 Coin 2 Credits" name="Coinage" values="0,1,2,3"></dip>
+		<dip bits="4,5" ids="4,5,6,7" name="Starting cities" values="1,2,0,3"></dip>
+		<dip bits="6,8" ids="8000,10000,12000,14000,15000,18000,20000,None" name="Bonus city at" values="6,0,1,2,3,4,5,7"></dip>
+		<dip bits="9" ids="Slow,Fast" name="Trackball speed" values="0,1"></dip>
+	</switches>
+	<rom index="0" zip="missile.zip|missile2.zip" md5="none">
+		<part crc="7a62ce6a" name="035820-02.h1"/>
+		<part crc="df3bd57f" name="035821-02.jk1"/>
+		<part crc="a1cd384a" name="035822-02.kl1"/>
+		<part crc="82e552bb" name="035823-02.ln1"/>
+		<part crc="606e42e0" name="035824-02.np1"/>
+		<part crc="f752eaeb" name="035825-02.r1"/>
+		<part crc="86a22140" name="035826-01.l6"/>
+	</rom>
+	<rom index="3" md5="none">
+		<part>
+		01 00 00 00 00 FF 00 02 00 02 00 01 00 FF 02 00
+		00 00 00 2C 00 30 47 00
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="48"></nvram>
+
+</misterromdescription>

@@ -1,0 +1,68 @@
+<misterromdescription>
+	<name>Le Bagnard</name>
+	<region>Spain</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Itisa</version>
+	<alternative>Bagman</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Valadon Automation</manufacturer>
+	<manufacturer>Itisa</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>bagnardi</setname>
+	<parent>bagnard</parent>
+	<mameversion>0218</mameversion>
+	<rbf>bagman</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches default="F6">
+		<dip bits="0,1" ids="5,4,3,2" name="Lives"></dip>
+		<dip bits="2" ids="2c/1cr,1c/1cr" name="Coinage"></dip>
+		<dip bits="3,4" ids="Hardest,Hard,Medium,Easy" name="Difficulty"></dip>
+		<dip bits="5" ids="French,English" name="Language"></dip>
+		<dip bits="6" ids="40000,30000" name="Bonus"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>00</part>
+		</rom>
+	<rom index="0" md5="6ab814c1630fcddae81f9b650e6e2de2" zip="bagman.zip|bagnardi.zip">
+		<part crc="e0156191" name="bagnardi_05.e9"></part>
+		<part crc="2e98c072" name="bagnardi_06.f9"></part>
+		<part crc="698f17b3" name="bagnardi_07.j9"></part>
+		<part crc="f212e287" name="bagnardi_08.k9"></part>
+		<part crc="4f0088ab" name="bagnardi_09.m9"></part>
+		<part crc="423c54be" name="bagnardi_10.n9"></part>
+		<part repeat="40960">00</part>
+		<part crc="4a0a6b55" name="bagnardi_02.e1"></part>
+		<part crc="060b044c" name="bagnardi_01.c1"></part>
+		<part crc="c680ef04" name="bagnardi_04.j1"></part>
+		<part crc="8043bc1a" name="bagnardi_03.f1"></part>
+		<part crc="2e0057ff" name="bagnardi_11.r9"></part>
+		<part crc="b2120edd" name="bagnardi_12.t9"></part>
+		<part crc="2a855523" name="p3.bin"></part>
+		<part crc="ae6f1019" name="r3.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

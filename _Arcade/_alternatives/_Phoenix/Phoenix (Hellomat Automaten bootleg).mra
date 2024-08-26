@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Phoenix</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Hellomat Automaten</version>
+	<alternative>Phoenix</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Amstar</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>phoenixha</setname>
+	<parent>phoenix</parent>
+	<mameversion>0218</mameversion>
+	<rbf>phoenix</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="a9fbd97edaba4fb36d0bad905dfb3118" zip="phoenix.zip|phoenixha.zip">
+		<part crc="5b8c55a8" name="ic45"></part>
+		<part crc="dbc942fa" name="ic46"></part>
+		<part crc="cbbb8839" name="ic47"></part>
+		<part crc="b2672265" name="ic48"></part>
+		<part crc="1a1ce0d0" name="ic49"></part>
+		<part crc="ac5e9ec1" name="ic50"></part>
+		<part crc="2eab35b4" name="ic51"></part>
+		<part crc="f3f10ac5" name="ic52"></part>
+		<part crc="3c7e623f" name="ic23"></part>
+		<part crc="59916d3b" name="ic24"></part>
+		<part crc="bb0525ed" name="ic39"></part>
+		<part crc="4178aa4f" name="ic40"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

@@ -1,0 +1,53 @@
+<misterromdescription>
+    <name>Psychic 5</name>
+    <mameversion>0193</mameversion>
+    <setname>psychic5</setname>
+    <mratimestamp>20230716</mratimestamp>
+    <year>1987</year>
+    <manufacturer>Jaleco</manufacturer>
+    <category>Action / Maze Vertical</category>
+    <rbf>Arcade-Psychic5</rbf>
+    <about author="Raki" twitter="@RCAVictorCo"></about>
+    <resolution>15.63kHz</resolution>
+    <rotation>Vertical(CCW)</rotation>
+    <players>1</players>
+    <joystick>4-way</joystick>
+    <special_controls></special_controls>
+    <num_buttons>2</num_buttons>
+    
+    <switches default="EF,FF">
+        <!-- DSW1 -->
+        <dip bits="3"           name="Difficulty"   ids="normal,hard"       values="1,0"/>
+        <dip bits="4"           name="Cabinet type" ids="cocktail,upright"  values="1,0"/>
+        <dip bits="5"           name="Demo sound"   ids="on,off"            values="1,0"/>
+        <dip bits="6,7"         name="Lives"        ids="2,3,4,5"           values="2,3,1,0"/>
+        <!-- DSW2 -->
+        <dip bits="8"           name="Invinciblity" ids="off,on"            values="1,0"/>
+        <dip bits="13,15"       name="Coinage A"    ids="5C1P,4C1P,3C1P,2C1P,1C4P,1C3P,1C2P,1C1P"/>
+        <dip bits="10,12"       name="Coinage B"    ids="5C1P,4C1P,3C1P,2C1P,1C4P,1C3P,1C2P,1C1P"/>
+    </switches>
+
+    <rom index='0' md5="None" type='nonmerged' zip='psychic5.zip'>
+        <!-- banked data    0x00000-0x0ffff -->
+        <part crc="2fa7e8c0" name="myp5e"/>
+        <!-- game program   0x10000-0x17fff -->
+        <part crc="1d40a8c7" name="myp5d"/>
+        <!-- dummy data     0x18000-0x1ffff -->
+        <part repeat="0x8000">00</part>
+        <!-- sprites        0x20000-0x3ffff -->
+        <part crc="7e3f87d4" name="p5b"/>
+        <part crc="8710fedb" name="p5c"/>
+        <!-- BG tiles       0x40000-0x5ffff -->
+        <part crc="617b074b" name="myp5g"/>
+        <part crc="a9dfbe67" name="myp5h"/>
+        <!-- FG tiles       0x60000-0x67fff -->
+        <part crc="04d7e21c" name="p5f"/>
+        <!-- sound program  0x68000-0x6ffff -->
+        <part crc="6efee094" name="myp5a" offset="0x0" length="0x8000"/>
+        <!-- PROMs          0x70000-0x705ff -->
+        <part crc="59e44236" name="my09.3t"/>
+        <part crc="6a7d13c0" name="my10.7l"/>
+    </rom>
+
+    <buttons default="A,B,Start,Select,R,L" names="Attack,Jump,Test,Service,Coin,Start"></buttons>
+</misterromdescription>

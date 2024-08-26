@@ -1,0 +1,114 @@
+<misterromdescription>
+	<name>Lode Runner III- Majin no Fukkatsu</name>
+	<region>Japan</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Lode Runner III</alternative>
+	<platform>Irem M62</platform>
+	<series>Lode Runner</series>
+	<year>1985</year>
+	<manufacturer>Irem</manufacturer>
+	<manufacturer>Broderbund</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>ldrun3j</setname>
+	<parent>ldrun3</parent>
+	<mameversion>0221</mameversion>
+	<rbf>iremm62</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches default="FF,FD">
+		<dip bits="0" ids="Fast,Slow" name="Timer"></dip>
+		<dip bits="1" ids="Low,High" name="Game Speed"></dip>
+		<dip bits="2,3" ids="5,4,2,3" name="Lives"></dip>
+		<dip bits="4,7" ids="1C/1P,2C/1P" name="Coinage" values="15,14"></dip>
+		<dip bits="8" ids="On,Off" name="Flip Screen"></dip>
+		<dip bits="9" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="10" ids="Mode 2,Mode 1" name="Coin Mode"></dip>
+		<dip bits="11" ids="On,Off" name="Unknown"></dip>
+		<dip bits="12" ids="On,Off" name="Stop Mode (Cheat)"></dip>
+		<dip bits="13" ids="On,Off" name="Level Selection (Cheat)"></dip>
+		<dip bits="14" ids="On,Off" name="Invulnerability (Cheat)"></dip>
+		<dip bits="15" ids="On,Off" name="Service Mode"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>02</part>
+		</rom>
+	<rom index="0" zip="ldrun3.zip|ldrun3j.zip" type="merged|nonmerged|split" md5="none">
+		<part crc="5b334e8e" name="ldrunj/lr3-a-4e"/>
+		<part crc="a84bc931" name="ldrunj/lr3-a-4d.a"/>
+		<part crc="be09031d" name="ldrunj/lr3-a-4b.a"/>
+		<part crc="be09031d" name="ldrunj/lr3-a-4b.a"/>
+		<part crc="5b334e8e" name="ldrunj/lr3-a-4e"/>
+		<part crc="a84bc931" name="ldrunj/lr3-a-4d.a"/>
+		<part crc="be09031d" name="ldrunj/lr3-a-4b.a"/>
+		<part crc="be09031d" name="ldrunj/lr3-a-4b.a"/>
+		<part crc="28be68cd" name="lr3-a-3d"/>
+		<part crc="cb7186b7" name="lr3-a-3f"/>
+		<part crc="28be68cd" name="lr3-a-3d"/>
+		<part crc="cb7186b7" name="lr3-a-3f"/>
+		<!-- GFX1 -->
+		<interleave output="32">
+			<part crc="f9b74dee" name="lr3-n-2a" map="0001"/>
+			<part crc="fef707ba" name="lr3-n-2c" map="0010"/>
+			<part crc="af3d27b9" name="lr3-n-2b" map="0100"/>
+			<part crc="af3d27b9" name="lr3-n-2b" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="f9b74dee" name="lr3-n-2a" map="0001"/>
+			<part crc="fef707ba" name="lr3-n-2c" map="0010"/>
+			<part crc="af3d27b9" name="lr3-n-2b" map="0100"/>
+			<part crc="af3d27b9" name="lr3-n-2b" map="1000"/>
+		</interleave>
+		<!-- GFX2 -->
+		<interleave output="32">
+			<part crc="63f070c7" name="ldrun/lr3-b-4k" map="0001"/>
+			<part crc="eab7ad91" name="ldrun/lr3-b-3n" map="0010"/>
+			<part crc="1a460a46" name="ldrun/lr3-b-4c" map="0100"/>
+			<part crc="1a460a46" name="ldrun/lr3-b-4c" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="63f070c7" name="ldrun/lr3-b-4k" map="0001"/>
+			<part crc="eab7ad91" name="ldrun/lr3-b-3n" map="0010"/>
+			<part crc="1a460a46" name="ldrun/lr3-b-4c" map="0100"/>
+			<part crc="1a460a46" name="ldrun/lr3-b-4c" map="1000"/>
+		</interleave>
+		<part repeat="0x10000">FF</part>
+		<part crc="f02d7167" name="lr3-b-1m"/>
+		<part crc="9e37f181" name="lr3-b-1n"/>
+		<part crc="5b11c41d" name="lr3-b-1l"/>
+		<part crc="e880b86b" name="lr3-n-2l"/>
+		<part crc="047ee051" name="lr3-n-2k"/>
+		<part crc="69ad8678" name="lr3-n-2m"/>
+		<part repeat="0x300">FF</part>
+		<part crc="e01f69e2" name="lr3-b-5p"/>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 00 FF FF 00 3F 00 02
+		00 02 00 01 00 FF 00 00
+		00 00 E6 BD 00 C8 00 05
+		00 00 E6 72 00 03 00 80
+		</part>
+	</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="203"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

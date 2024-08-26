@@ -1,0 +1,11 @@
+####
+# Name: CR Stripe (Cyan Red)
+# Author: Tonurics
+# Type: Other
+# Genre: Stripe
+####
+
+Resolution=0
+v2
+2,1
+33d,43d

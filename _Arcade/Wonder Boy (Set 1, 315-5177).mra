@@ -1,0 +1,92 @@
+<misterromdescription>
+	<name>Wonder Boy</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Set 1, 315-5177</version>
+	<alternative></alternative>
+	<platform>Sega System 1</platform>
+	<series></series>
+	<year>1986</year>
+	<manufacturer>Sega</manufacturer>
+	<category>Platform</category>
+
+	<setname>wboy</setname>
+	<parent>wboy</parent>
+	<mameversion>0217</mameversion>
+	<rbf>segasys1</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R,C" names="Act/Run,Jump,-,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,7E">
+		<dip bits="9" ids="On,Off" name="Demo Sound"></dip>
+		<dip bits="10,11" ids="Free Play,5,4,3" name="Lives"></dip>
+		<dip bits="12" ids="30k 120k 210k 300k,30k 100k 170k 240k" name="Extend"></dip>
+		<dip bits="13" ids="No,Yes" name="Allow Continue"></dip>
+		<dip bits="14" ids="Hard,Easy" name="Difficulty"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>00</part>
+		</rom>
+	<rom index="0" md5="807e48e44a0c5813b3b28f89a6f8a4ad" type="merged|nonmerged|split" zip="wboy.zip">
+		<part crc="130f4b70" name="epr-7489.116"></part>
+		<part crc="9e656733" name="epr-7490.109"></part>
+		<part crc="1f7d0efe" name="epr-7491.96"></part>
+		<part crc="78ae1e7b" name="epr-7498.120"></part>
+		<part crc="78ae1e7b" name="epr-7498.120"></part>
+		<part crc="c2891722" name="epr-7485.117"></part>
+		<part crc="2d3a421b" name="epr-7487.04"></part>
+		<part crc="8d622c50" name="epr-7486.110"></part>
+		<part crc="007c2f1b" name="epr-7488.05"></part>
+		<part crc="08d609ca" name="epr-7497.62"></part>
+		<part crc="6a0d2c2d" name="epr-7495.64"></part>
+		<part crc="89305df4" name="epr-7493.66"></part>
+		<part crc="6f61fdf1" name="epr-7496.61"></part>
+		<part crc="a8e281c7" name="epr-7494.63"></part>
+		<part crc="60f806b1" name="epr-7492.65"></part>
+		<part crc="648350b8" name="pr-5317.76"></part>
+		<part>
+04 54 51 15 40 44 01 51 55 10 44 41 05 55 50 14
+41 45 00 50 54 11 45 40 04 54 51 15 40 44 01 51
+55 10 44 41 05 55 50 14 41 45 00 50 54 11 45 40
+04 54 51 15 40 44 01 51 55 10 44 41 05 55 50 14
+04 54 51 15 40 44 01 51 55 10 44 41 05 55 50 14
+41 45 00 50 54 11 45 40 04 54 51 15 40 44 01 51
+55 10 44 41 05 55 50 14 41 45 00 50 54 11 45 40
+04 54 51 15 40 44 01 51 55 10 44 41 05 55 50 14
+00 00 00 00 01 01 01 01 01 02 02 02 02 02 03 03
+03 03 04 04 04 04 04 05 05 05 05 05 06 06 06 06
+06 07 07 07 07 07 08 08 08 08 09 09 09 09 09 0a
+0a 0a 0a 0a 0b 0b 0b 0b 0b 0c 0c 0c 0c 0c 0d 0d
+08 08 08 08 09 09 09 09 09 0a 0a 0a 0a 0a 0b 0b
+0b 0b 0c 0c 0c 0c 0c 0d 0d 0d 0d 0d 0e 0e 0e 0e
+0e 0f 0f 0f 0f 0f 10 10 10 10 11 11 11 11 11 12
+12 12 12 12 13 13 13 13 13 14 14 14 14 14 15 15
+		</part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 0F FF FF 00 FF 00 02 00 02 00 01 00 FF 00 00
+		00 00 C1 00 01 40 20 20
+		00 00 E8 56 00 0F 01 10
+		</part>
+		</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="335"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

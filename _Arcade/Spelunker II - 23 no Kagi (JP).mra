@@ -1,0 +1,118 @@
+<misterromdescription>
+	<name>Spelunker II - 23 no Kagi</name>
+	<region>Japan</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Irem M62</platform>
+	<series></series>
+	<year>1986</year>
+	<manufacturer>Irem</manufacturer>
+	<manufacturer2>Broderbund</manufacturer2>
+	<category>Platform - Climb</category>
+
+	<setname>spelunk2</setname>
+	<parent>spelunk2</parent>
+	<mameversion>0221</mameversion>
+	<rbf>iremm62</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+    <buttons names="Fire,Jump,Start 1P,Start 2P,Coin,Pause" default="A,B,Start,Select,R,L"/>
+
+	<switches default="FF,FD">
+		<dip bits="0,1" name="Energy Decrease" ids="Fastest,Fast,Medium,Slow"></dip>
+		<dip bits="2,3" name="Lives" ids="5,4,2,3"></dip>
+                <dip bits="4,7" name="Coinage" ids="Free Play,1C/1C" values="0,15"></dip>
+		<dip bits="8" name="Flip Screen" ids="On,Off"></dip>
+		<dip bits="9" name="Cabinet" ids="Upright,Cocktail"></dip>
+		<dip bits="10" name="Coin Mode" ids="Mode 2,Mode 1"></dip>
+		<dip bits="11" name="Allow Continue" ids="No,Yes"></dip>
+		<dip bits="12" name="Demo Sounds" ids="Off,On"></dip>
+		<dip bits="13" name="Freeze (Cheat)" ids="On,Off"></dip>
+		<dip bits="14" name="Invulnerability (Cheat)" ids="On,Off"></dip>
+		<dip bits="15" name="Service Mode" ids="On,Off"></dip>
+	</switches>
+	
+	<rom index="1">
+		<part>0A</part>
+	</rom>
+	<rom index="0" zip="spelunk2.zip" md5="2dc2ade5687e40ccf4677e50459b7e17">
+		<part crc="96c04bbb" name="sp2-a.4e"/>
+		<part crc="cb38c2ff" name="sp2-a.4d"/>
+		<part crc="7709a1fe" name="sp2-r.7b"/>
+		<part repeat="0x4000">FF</part>
+		<part crc="558837ea" name="sp2-r.7d"/>
+		<part crc="4b380162" name="sp2-r.7c"/>
+		<part repeat="0x8000">FF</part>
+		<part crc="839ec7e2" name="sp2-a.3d"/>
+		<part crc="ad3ce898" name="sp2-a.3f"/>
+		<interleave output="32">
+			<part crc="c19fa4c9" name="sp2-r.1d" map="0001"/>
+			<part crc="366604af" name="sp2-r.3b" map="0010"/>
+			<part crc="3a0c4d47" name="sp2-r.1b" map="0100"/>
+			<part crc="3a0c4d47" name="sp2-r.1b" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="6cb67a17" name="sp2-b.4k" map="0001"/>
+			<part crc="f59e8b76" name="sp2-b.3n" map="0010"/>
+			<part crc="1caf7013" name="sp2-b.4c" map="0100"/>
+			<part crc="1caf7013" name="sp2-b.4c" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="e4a1166f" name="sp2-b.4f" map="0001"/>
+			<part crc="fa65bac9" name="sp2-b.4n" map="0010"/>
+			<part crc="780a463b" name="sp2-b.4e" map="0100"/>
+			<part crc="780a463b" name="sp2-b.4e" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="6cb67a17" name="sp2-b.4k" map="0001"/>
+			<part crc="f59e8b76" name="sp2-b.3n" map="0010"/>
+			<part crc="1caf7013" name="sp2-b.4c" map="0100"/>
+			<part crc="1caf7013" name="sp2-b.4c" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="e4a1166f" name="sp2-b.4f" map="0001"/>
+			<part crc="fa65bac9" name="sp2-b.4n" map="0010"/>
+			<part crc="780a463b" name="sp2-b.4e" map="0100"/>
+			<part crc="780a463b" name="sp2-b.4e" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="fc138e13" name="sp2-r.4p" map="0001"/>
+			<part crc="e1368b61" name="sp2-r.4m" map="0010"/>
+			<part crc="6a4b2d8b" name="sp2-r.4l" map="0100"/>
+			<part crc="6a4b2d8b" name="sp2-r.4l" map="1000"/>
+		</interleave>
+		<part crc="906104c7" name="sp2-b.1m"/>
+		<part crc="5a564c06" name="sp2-b.1n"/>
+		<part crc="8f4a2e3c" name="sp2-b.1l"/>
+		<part crc="31c1bcdc" name="sp2-r.1k"/>
+		<part crc="1cf5987e" name="sp2-r.2k"/>
+		<part crc="1acbe2a5" name="sp2-r.2j"/>
+		<part repeat="0x200">FF</part>
+		<part crc="cd126f6a" name="sp2-b.5p"/>
+	</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+		00 00 FF FF 00 3F 00 02 00 02 00 01 00 FF 02 00
+		00 00 E0 66 00 64 99 3F
+		00 00 E0 4F 00 02 99 11
+		</part>
+	</rom>
+	<rom index="4"></rom>
+	
+	<nvram index="4" size="102"/>	
+
+	<remark></remark>
+
+	<mratimestamp>202106131043</mratimestamp>
+</misterromdescription>

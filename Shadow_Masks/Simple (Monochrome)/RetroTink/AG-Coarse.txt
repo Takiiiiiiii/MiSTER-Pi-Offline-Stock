@@ -1,0 +1,9 @@
+####
+# Name: AG-Coarse
+# Author: Mike Chi (Converted by TrashUncle)
+# Type: CRT
+# Sub-Pixel Layout: Monochrome
+####
+v2
+3,1
+70f,78f,00c

@@ -1,0 +1,52 @@
+<misterromdescription>
+	<name>Bump 'n' Jump</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>Reverse</version>
+	<alternative>Burning Rubber</alternative>
+	<platform></platform>
+	<series></series>
+	<year>2002</year>
+	<manufacturer>Data East</manufacturer>
+	<category>Racing</category>
+
+	<setname>bnjr</setname>
+	<parent>bnj</parent>
+	<mameversion>0217</mameversion>
+	<rbf>burningrubber</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="e2f26b8dc5b1e1acb0f1b4b915667c78" zip="/hbmame/brubber.zip">
+		<part crc="fb3a2cdd" name="bnjr/bnj12c.bin"></part>
+		<part crc="b88bc99e" name="bnjr/bnj12d.bin"></part>
+		<part crc="876cc672" name="bnjr/bnjr4e.bin"></part>
+		<part crc="e5e95e3f" name="bnjr/bnjr4f.bin"></part>
+		<part crc="570ffa46" name="bnjr/bnjr4h.bin"></part>
+		<part crc="9e523e4c" name="bnjr/bnjr10e.bin"></part>
+		<part crc="5cf10f28" name="bnjr/bnjr10f.bin"></part>
+		<part crc="8c02f662" name="bnj6c.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

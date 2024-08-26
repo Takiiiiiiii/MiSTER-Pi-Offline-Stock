@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Sponge Patrol</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Moon Patrol</alternative>
+	<platform>Irem M52</platform>
+	<series></series>
+	<year>2008</year>
+	<manufacturer>Irem</manufacturer>
+	<category>Shooter - Horizontal</category>
+
+	<setname>spatrol</setname>
+	<parent>mpatrol</parent>
+	<mameversion>0217</mameversion>
+	<rbf>moonpatrol</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="a57e34beb4084b75c0318a1cacde7c71" zip="/hbmame/mpatrol.zip">
+		<part crc="5873a860" name="mpa-1.3m"></part>
+		<part crc="f4b85974" name="mpa-2.3l"></part>
+		<part crc="2e1a598c" name="mpa-3.3k"></part>
+		<part crc="dd05b587" name="mpa-4.3j"></part>
+		<part crc="130709e8" name="spatrol/spatrol.3e"></part>
+		<part crc="1ac58abc" name="spatrol/spatrol.3f"></part>
+		<part crc="09e18f9a" name="spatrol/spatrol.3m"></part>
+		<part crc="36b1891e" name="spatrol/spatrol.3n"></part>
+		<part crc="091045ad" name="spatrol/spatrol.3h"></part>
+		<part crc="c7aa1fb0" name="mpe-2.3k"></part>
+		<part crc="49877023" name="spatrol/spatrol.3l"></part>
+		<part crc="561d3108" name="mp-s1.1a"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

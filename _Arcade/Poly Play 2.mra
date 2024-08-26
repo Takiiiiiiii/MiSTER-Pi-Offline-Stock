@@ -1,0 +1,53 @@
+<misterromdescription>
+	<name>Poly Play 2</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1985</year>
+	<manufacturer>VEB Polytechnik</manufacturer>
+	<category>Mixed</category>
+
+	<setname>polyplay2</setname>
+	<parent>polyplay2</parent>
+	<mameversion>0220</mameversion>
+	<rbf>polyplay</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,B" names="Button 1,Coin"></buttons>
+
+	<switches></switches>
+
+	<rom index="1">
+		<part>01</part>
+		</rom>
+	<rom index="0" md5="cfa0e2b01ec9109ddda57813a5d38c64" zip="polyplay2.zip">
+		<part crc="D728CA42" name="2_1.rom"></part>
+		<part crc="52316236" name="2_2.rom"></part>
+		<part crc="E199D303" name="2_3.rom"></part>
+		<part crc="1324C2E2" name="2_4.rom"></part>
+		<part crc="2E959FE9" name="2_5.rom"></part>
+		<part crc="85774542" name="2_6.rom"></part>
+		<part crc="4F028AF9" name="1_1.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

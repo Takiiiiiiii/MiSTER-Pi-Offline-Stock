@@ -1,0 +1,80 @@
+<misterromdescription>
+	<name>Defender</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Red Label</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>Williams</manufacturer>
+	<category>Shooter - Horizontal</category>
+
+	<setname>defender</setname>
+	<parent>defender</parent>
+	<mameversion>0218</mameversion>
+	<rbf>defender</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>2-way vertical</joystick>
+	<special_controls></special_controls>
+	<num_buttons>5</num_buttons>
+	<buttons names="Fire,Thrust,Smart Bomb,Hyperspace,Reverse,Start 1P,Start 2P,Coin,Advance,Auto Up,High Score Reset,Pause" default="A,B,X,Y,L,Start,Select,R"/>
+
+	<switches>
+		</switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="752a531ae38ffcf3be5c568d006bdf67" zip="defender.zip">
+		<part crc="c3e52d7e" name="defend.1"></part>
+		<part crc="9a72348b" name="defend.4"></part>
+		<part crc="89b75984" name="defend.2"></part>
+		<part crc="94f51e9b" name="defend.3"></part>
+		<part crc="6870e8a5" name="defend.9"></part>
+		<part crc="f1f88938" name="defend.12"></part>
+		<part crc="b649e306" name="defend.8"></part>
+		<part crc="9deaf6d9" name="defend.11"></part>
+		<part crc="339e092e" name="defend.7"></part>
+		<part crc="a543b167" name="defend.10"></part>
+		<part crc="65f4efd1" name="defend.6"></part>
+		<part crc="65f4efd1" name="defend.6"></part>
+		<part crc="8dd98da5" name="decoder.2"></part>
+		<part crc="c3f45f70" name="decoder.3"></part>
+		<part>
+00000000000000000000000000000000
+00000000000000000000000000000201
+02070004040502040A00010803010505
+030401040D000105090200040C040504
+04000104020805050004070404000102
+05020004030502040200010100030504
+0D050205030000080206050503050305
+020000060001000504040D0408000005
+0A000100000003000300010004000100
+01000000000000000501050001000500
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+		</part>
+		<part repeat="2816">00</part>
+		<part crc="fefd5b48" name="defend.snd"></part>
+		<part crc="fefd5b48" name="defend.snd"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="256"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

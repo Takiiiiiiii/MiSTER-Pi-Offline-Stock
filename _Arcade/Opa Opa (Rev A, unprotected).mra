@@ -1,0 +1,66 @@
+<misterromdescription>
+	<name>Opa Opa (Rev A, unprotected)</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>Sega System E</platform>
+	<series>Fantasy Zone</series>
+	<year>1987</year>
+	<manufacturer>Sega</manufacturer>
+	<category>Maze</category>
+
+	<setname>opaopan</setname>
+	<parent>opaopa</parent>
+	<mameversion>0235</mameversion>
+	<rbf>SMS</rbf>
+	<about></about>
+	
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>8-way</joystick>
+	<buttons names="Fire1/Button1,Button2,-,-,-,-,Coin,Start,Pause" default="A,B,R,Start,Select" count="2"/>
+	
+	<switches base="24" default="FF,FF,FF">
+		<!-- SWA -->
+		<dip name="Coin A" bits="0,3" ids="1/1,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1"/>
+		<dip name="Coin B" bits="4,7" ids="1/1,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1"/>
+		<!-- SWB -->
+		<dip name="Demo Sounds" bits="9" ids="Off,On"/>
+		<dip name="Lives" bits="10,11" ids="2,5,4,3"/>
+		<dip name="Bonus_Life" bits="12,13" ids="None,50k and 90k,25k, 45k and 70k,40k, 60k and 90k"/>
+		<dip name="Difficulty" bits="14,15" ids="Hardest,Hard,Easy,Normal"/>
+		<!-- SWC -->
+		<dip name="Service Toggle" bits="18" ids="On,Off"/>
+		<dip name="Service Mode" bits="19" ids="On,Off"/>
+	</switches>
+
+	<rom index="0" zip="opaopa.zip" type="merged" md5="ba808106e6351b3da18f529c8a81713c">
+		<!-- banks, size: 0x40000 -->
+		<part crc="15203A42" name="epr-11022.ic5"/>
+		<part crc="B4E83340" name="epr-11021.ic4"/>
+		<part crc="C51AAD27" name="epr-11020.ic3"/>
+		<part crc="BD0A6248" name="epr-11019.ic2"/>
+		<part crc="15203A42" name="epr-11022.ic5"/>
+		<part crc="B4E83340" name="epr-11021.ic4"/>
+		<part crc="C51AAD27" name="epr-11020.ic3"/>
+		<part crc="BD0A6248" name="epr-11019.ic2"/>
+
+		<!-- maincpu, size: 0x8000 -->
+		<part crc="101C5C6A" name="epr-11023a.ic7"/>
+	</rom>
+	<rom index="4">
+		<part>C0</part>
+	</rom>
+<!--
+	<nvram index="4" size="3"/>
+-->
+
+	<remark></remark>
+
+	<mratimestamp>20210904000000</mratimestamp>
+</misterromdescription>
