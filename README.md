@@ -1,5 +1,5 @@
 # MiSTER Pi / MiSTer FPGA Offline Stock Install
-This repository contains a complete snapshot installation of MiSTer FPGA. The default installation method for MiSTer software relies on many URLs that are blocked in certain countries. This distribution gets around those limitations by delivering a complete installation as a GitHub release.
+This repository contains a complete snapshot installation of MiSTer FPGA. The default installation method for MiSTer software relies on many URLs that are blocked in certain countries. This distribution bypasses those limitations by delivering a complete installation as a GitHub release.
 
 ## Installation 
 
@@ -10,14 +10,20 @@ This repository contains a complete snapshot installation of MiSTer FPGA. The de
 
 You can now add your ROMs to the '/games/' directory on the root of your card.
 
-## Extras
-
+## Update All
 If you want additional functionality, you can use Update All to install additional cores, files, and games. This script is not included in this distribution, but the installation instructions are provided here.
 
 1. Download [update_all.sh](https://github.com/theypsilon/Update_All_MiSTer/blob/master/update_all.sh) and put it inside the '/Scripts/' folder on the root of your SD card.
-2. Boot the system and press Escape on your keyboard to get to the System Settings menu.
+2. Boot the system and press Escape on your keyboard to access System Settings.
 3. Select Scripts -> Yes -> Update All, and use the menu to customize your installation.
 
+## Extras
+
+* [0MHz DOS Collection](https://archive.org/details/0mhz-dos) (Extract games to the root of SD) 
+* [AmigaVision Collection](https://archive.org/details/amigavision-2024)
+* [Commodore Collection](https://misterfpga.org/viewtopic.php?t=1540)
+* [MiSTer_OpenBOR](https://github.com/SumolX/MiSTer_OpenBOR) (Put OpenBOR_Install.sh in '/Scripts/' and execute to install. Download [OpenBOR Games](https://openborgames.com/category/games))
+* [Cave Story Port](https://archive.org/details/cave-story-mister-fpga)
 
 ## Credits
 
@@ -25,3 +31,5 @@ If you want additional functionality, you can use Update All to install addition
 * [MiSTer_Favorites](https://github.com/wizzomafizzo/MiSTer_Favorites)
 * [MiSTer Super Attract Mode](https://github.com/mrchrisster/MiSTer_SAM)
 * [Wallpaper_Collection](https://github.com/RGarciaLago/Wallpaper_Collection)
+
+
