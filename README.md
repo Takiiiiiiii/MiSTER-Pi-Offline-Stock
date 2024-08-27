@@ -5,10 +5,12 @@ This repository contains a complete snapshot installation of MiSTer FPGA. The de
 
 1. Download [MiSTer Fusion](https://github.com/MiSTer-devel/mr-fusion/releases/download/v2.9/mr-fusion-v2.9.img.zip) and [Rufus](https://github.com/pbatard/rufus/releases/tag/v4.5)
 2. With a 32GB SD card or greater connected to your PC, open Rufus and select the `mr-fusion-v2.9.img.zip` file, ensure your SD card is selected under `Device`, and then click start.
-3. Put the formatted SD card into your MiSTER and power it on. After the Mr-Fusion installation finishes, disconnect the power cable and put the card back in your computer. 
-4. Download the latest [Offline Stock Release](https://github.com/Takiiiiiiii/MiSTER-Pi-Offline-Stock/releases)
-5. Download [7-Zip](https://www.7-zip.org/) and use it to extract the .7z release to the root of your ExFAT SD card. Overwrite any files when prompted.
-6. After you insert your SD card into your MiSTER and power it on, you should be greeted with a menu that includes Arcade, Computer, Console, Other, and Utility.
+   
+   ![image](https://github.com/user-attachments/assets/786998c8-15b0-4328-9991-665215b213bd)
+4. Put the formatted SD card into your MiSTER and power it on. After the Mr-Fusion installation finishes, disconnect the power cable and put the card back in your computer. 
+5. Download the latest [Offline Stock Release](https://github.com/Takiiiiiiii/MiSTER-Pi-Offline-Stock/releases)
+6. Download [7-Zip](https://www.7-zip.org/) and use it to extract the .7z release to the root of your ExFAT SD card. Overwrite any files when prompted.
+7. After you insert your SD card into your MiSTER and power it on, you should be greeted with a menu that includes Arcade, Computer, Console, Other, and Utility.
 
 You can now add your ROMs to the `/games/` directory on the root of your card.
 
