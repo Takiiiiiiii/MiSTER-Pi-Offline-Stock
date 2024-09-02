@@ -26,7 +26,7 @@ If you want additional functionality, you can use Update All to install addition
 * [0MHz DOS Collection](https://archive.org/details/0mhz-dos) (Extract games to the root of SD) 
 * [AmigaVision Collection](https://archive.org/details/amigavision-2024)
 * [Commodore Collection](https://misterfpga.org/viewtopic.php?t=1540)
-* [MiSTer_OpenBOR](https://github.com/SumolX/MiSTer_OpenBOR) (Put OpenBOR_Install.sh in `/Scripts/` and execute to install. Download [OpenBOR Games](https://openborgames.com/category/games))
+* [MiSTer_OpenBOR]([https://github.com/SumolX/MiSTer_OpenBOR](https://github.com/SumolX/MiSTer_OpenBOR/tree/master/media/fat/Scripts)) (Put OpenBOR_Updater.sh in `/Scripts/` and execute to install. Download [OpenBOR Games](https://openborgames.com/category/games))
 * [Cave Story Port](https://archive.org/details/cave-story-mister-fpga)
 
 ## Credits
