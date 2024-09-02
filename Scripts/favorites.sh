@@ -15,9 +15,6 @@ import configparser
 
 FAVORITES_DEFAULT = "_@Favorites"
 FAVORITES_NAMES = {"fav"}
-CREATE_DEFAULT_FAVORITES = False
-SETUP_ARCADE = False
-COREPREFIX="_All/"
 
 SD_ROOT = "/media/fat"
 STARTUP_SCRIPT = "/media/fat/linux/user-startup.sh"
@@ -1176,8 +1173,6 @@ def add_favorite_workflow():
         # system rom, make mgl file
         rbf, mgl_def = mgl_from_file(file_type, name)
 
-        rbf=COREPREFIX+rbf
-
         if rbf is None or mgl_def is None:
             # this shouldn't really happen due to the contraints on the file picker
             raise Exception("Rom file type does not match any MGL definition")
@@ -1224,10 +1219,8 @@ if __name__ == "__main__":
     if len(sys.argv) == 2 and sys.argv[1] == "refresh":
         refresh_favorites()
     else:
-        if CREATE_DEFAULT_FAVORITES:
-            create_default_favorites()
-        if SETUP_ARCADE:
-            setup_arcade_files()
+        create_default_favorites()
+        setup_arcade_files()
         refresh_favorites()
 
         selection = display_main_menu()
