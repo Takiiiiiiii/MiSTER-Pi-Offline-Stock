@@ -1,0 +1,85 @@
+<misterromdescription>
+	<name>Grobda</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Old Ver. set 2</version>
+	<alternative>n/a</alternative>
+	<platform></platform>
+	<series></series>
+	<year>1984</year>
+	<manufacturer>Namco</manufacturer>
+	<category>Shooter - Multidirectional</category>
+
+	<setname>grobda3</setname>
+	<parent>grobda</parent>
+	<mameversion>0229</mameversion>
+	<rbf>druaga</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons names="Cannon Beam,Sealed,Start 1P,Start 2P,Coin" default="A,B,Start,Select,R"></buttons>
+	
+    <switches default="36,00,00"> 
+        <dip name="Service Mode 58XX" bits="0" ids="Off,On"/>
+        <dip name="Service Mode 56XX" bits="23" ids="Off,On"/>
+	<!-- Code ignores coinage settings -->
+        <!-- <dip name="Coin A" bits="1,3" ids="1/3,1/4,1/2,1/1,2/1,2/3,3/1,4/1"/> -->
+        <!-- <dip name="Coin B" bits="4,6" ids="1/3,1/4,1/2,1/1,2/1,2/3,3/1,4/1"/> -->
+	<dip name="Freeze" bits="7" ids="Off,On"/>
+        <dip name="Lives" bits="8,9" ids="3,1,2,5"/>
+	<dip name="Difficulty" bits="10,11" ids="Rank A,Rank B,Rank C,Rank D"/>
+	<dip name="Demo Sounds" bits="12" ids="On,Off"/>
+	<dip name="Level Select" bits="13" ids="On,Off"/>
+	<dip name="Bonus Life" bits="14,15" ids="10k,None,10k/30k,10K/50K/50K"/>
+        <dip name="Cabinet" bits="22" ids="Upright,Cocktail"/>
+    </switches>
+
+    <rom index="0" md5="None" zip="grobda.zip|grobda3.zip">
+        <!-- maincpu - starts at 0x0 -->
+        <part repeat="0x2000"> FF </part>
+        <part name="gr1-3.1d" crc="4ef4a7c1"/>
+        <part name="gr1-2.1c" crc="7dcc6e8e"/>
+        <part name="gr1-1.1b" crc="32d42f22"/>
+        <!-- gfx2 - starts at 0x9000 -->
+        <part name="gr1-5.3f" crc="eed43487"/>
+        <part name="gr1-6.3e" crc="cebb7362"/>
+        <part name="gr1-5.3f" crc="eed43487"/>
+        <part name="gr1-6.3e" crc="cebb7362"/>
+        <!-- sub - starts at 0x6000 -->
+        <part name="gr1-4.1k" crc="3fe78c08"/>
+        <!-- gfx1 - starts at 0x8000 -->
+        <part name="gr1-7.3c" crc="4ebfabfd"/>
+        <!-- proms - starts at 0xD100 -->
+        <part name="gr1-4.3l" crc="f1f2c234"/>
+        <part name="gr1-4.3l" crc="f1f2c234"/>
+        <part name="gr1-4.3l" crc="f1f2c234"/>
+        <part name="gr1-4.3l" crc="f1f2c234"/>
+        <part name="gr1-5.4e" crc="a0f66911"/>
+        <!-- namco - starts at 0xD000 -->
+        <part name="gr1-3.3m" crc="66eb1467"/>
+        <!-- proms - starts at 0xD100 -->
+        <part name="gr1-6.4c" crc="c65efa77"/>
+        <!-- Total 0xD320 bytes - 52 kBytes -->
+    </rom>
+    <rom index="1">
+        <part>06</part>
+    </rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+	
+    <!-- <nvram index="2" size="0"/> -->
+    
+	<remark></remark>
+
+	<mratimestamp>202106111641</mratimestamp>
+	
+</misterromdescription>

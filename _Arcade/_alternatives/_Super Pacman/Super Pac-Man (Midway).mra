@@ -1,0 +1,81 @@
+<misterromdescription>
+	<name>Super Pac-Man</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Namco (Bally Midway license)</manufacturer>
+	<category>Maze</category>
+
+	<setname>superpacm</setname>
+	<parent>superpac</parent>
+	<mameversion>0220</mameversion>
+	<rbf>druaga</rbf>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons names="Super Speed,-,Start 1P,Start 2P,Coin" default="A,Start,Select,R"/>
+
+	<switches default="00,00,00">
+		<dip bits="0,3" ids="0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F" name="Rank"></dip>
+		<dip bits="16,18" ids="1 Coin  1 Credit ,1 Coin  2 Credits,1 Coin  3 Credits,1 Coin  6 Credits,1 Coin  7 Credits,2 Coins 1 Credit ,2 Coins 3 Credits,3 Coins 1 Credit " name="Coin A"></dip>
+		<dip bits="4,5" ids="1 Coin  1 Credit ,1 Coin  2 Credits,2 Coins 1 Credit ,2 Coins 3 Credits" name="Coin B"></dip>
+		<dip bits="6" ids="On,Off" name="Demo Sounds"></dip>
+		<dip bits="7" ids="Off,On" name="Freeze"></dip>
+		<dip bits="22,23" ids="3,1,2,5" name="Lives"></dip>
+		<dip bits="19,21" ids="30k/100k,30k/80k,30k/120k,30k/80k/ev.80k,30k/100k/ev.100k,30k/120k/ev.120k,30k,No Bonus" name="Bonus Life"></dip>
+		<dip bits="15" ids="Off,On" name="Service Mode"></dip>
+		<!-- dip bits="14" name="Cabinet" ids="Upright,Cocktail"></dip -->
+		</switches>
+
+	<rom index="1">
+		<part>05</part>
+		</rom>
+	<rom index="0" md5="none" zip="superpac.zip|superpacm.zip">
+		<!-- main CPU -->
+		<part repeat="0x4000"> FF </part>
+		<part crc="1a38c30e" name="spc-2.1c"></part>
+		<part crc="730e95a9" name="spc-1.1b"></part>
+		<!-- GFX2 -->
+		<part crc="670a42f2" name="spv-2.3f"></part>
+		<part crc="670a42f2" name="spv-2.3f"></part>
+		<part crc="670a42f2" name="spv-2.3f"></part>
+		<part crc="670a42f2" name="spv-2.3f"></part>
+		<!-- sound CPU -->
+		<part repeat="0x1000"> FF </part>
+		<part crc="04445ddb" name="spc-3.1k"></part>
+		<!-- GFX1 -->
+		<part crc="78337e74" name="spv-1.3c"></part>
+		<part crc="d4d7026f" name="superpac.3l"></part>
+		<part crc="d4d7026f" name="superpac.3l"></part>
+		<part crc="d4d7026f" name="superpac.3l"></part>
+		<part crc="d4d7026f" name="superpac.3l"></part>
+		<part crc="1253c5c1" name="superpac.4e"></part>
+		<part crc="ad43688f" name="superpac.3m"></part>
+		<part crc="9ce22c46" name="superpac.4c"></part>
+		<!-- Skip ROM check fail -->
+		<patch offset="0x6133">12 12</patch>
+		<!-- Skip 2nd CPU feedback check fail -->
+		<patch offset="0x6151">7e e1 5c</patch>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

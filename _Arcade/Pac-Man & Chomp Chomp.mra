@@ -24,8 +24,8 @@
 	<players>2 (alternating)</players>
 	<joystick>4-way</joystick>
 	<special_controls></special_controls>
-	<num_buttons>0</num_buttons>
-	<button_names></button_names>
+	<num_buttons>1</num_buttons>
+	<buttons names="Zap,-,Start 1P,Start 2P,Coin" default="A,Start,Select,R"/>
 
 	<switches default="00,00,88">
 		<dip bits="2,3" ids="A,B,C,D" name="Rank"></dip>

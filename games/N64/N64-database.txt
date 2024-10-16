@@ -273,7 +273,7 @@ a53480ca15de32396a49587a206b655a ntsc|cic6102|cpak|rpak # Turok 3 - Shadow of Ob
 c0a8aa061465852b8405b07d2e717251 ntsc|cic6102 # Wide-Boy64 AGB (World) (v0.04c)
 64ef32cdf9622b1e5383077b8278ba55 ntsc|cic6102 # Wide-Boy64 CGB (World) (v1.02)
 5d300758c84c4ecdfb50b898dcc10d57 ntsc|cic6102 # Wildwaters (Prototype)
-14455acf3e51242c67141b39de6114fd ntsc|cic6102|flash128k|cpak|rpak # WWF No Mercy (Beta)
+14455acf3e51242c67141b39de6114fd ntsc|cic6102|flash128k|rpak|cpak # WWF No Mercy (Beta)
 3559b43d0f6c1b9595a24666f8cac1db ntsc|cic6102 # X'treme Roller (Proto)
 
 ; EverDrive 64 2023-05-15
@@ -370,7 +370,7 @@ e3ba6b290e50aedbf6b246914e866c0d ntsc|cic6102 # GameShark Pro V2.0 (Unl)
 ec2f6b709fd47d85f15f56c6de501839 ntsc|cic6102 # Mortal Kombat Trilogy
 7f757661ef3b8fe042c33fc8c9a85d2b ntsc|cic6102 # N64 Tristar BIOS
 afec3035542c724e61b6ca2eb9ea07e4 ntsc|cic6102 # N64DD IPLROM (Devkit Version)
-3724e5dc7ba6ecb8fedfd464bdb17702 ntsc|cic6105|eeprom2k|cpak|rpak|tpak # Perfect Dark (Debug Version)
+3724e5dc7ba6ecb8fedfd464bdb17702 ntsc|cic6105|eeprom2k|rpak|cpak|tpak # Perfect Dark (Debug Version)
 07378435947aaf9eb2982228842ef72d ntsc|cic6102 # Soncrap Intro by RedboX
 2a127857d51f66dc43cab6ea049d1d82 ntsc|cic6102 # 1964 Demo by Steb
 2629c0685505afedbf612f298fbdccf3 ntsc|cic6102 # 2 Blokes & An Armchair - Nintendo 64 Remix Remix by Tesko
@@ -850,6 +850,31 @@ f25ad011df54065768c3a3cabf41d4b3 ntsc|cic6102 # V64Jr Backup Tool by RedBoX (V0.
 7be963b99f2bec86caf00dab4f400533 ntsc|cic6102 # Cube Demo by MSFTUG (PD) [a1]
 7f308b5c67bd1313bad91cd2f24b4170 pal|cic7101 # Memory Manager by R. Bubba Magillicutty (V1.0b) (PD) (PAL)
 
+; N64 game patches to increase N64 Core compatibility
+; Source: https://misterfpga.org/viewtopic.php?t=8078
+a5ee8a6c34863e3d0eb8c06ae8668b30 pal|cic7101|rpak|p4:080d0000|p5:5f81bb9d|p1cab0:84020000 # Batman Beyond - Return of the Joker [Batman of the Future - Return of the Joker] (Europe) (En,Fr,De)
+a08676124b326b1035b202c83a97468f ntsc|cic6102|rpak|p5:6a8d2e60|pb45f:8c010000 # Batman Beyond - Return of the Joker (USA)
+997fd8f79cd6f3cd1c1c1fd21e358717 ntsc|cic6102|cpak|rpak|p4:42008400|p5:2b1d7193|p2778:6120e700 # Blues Brothers 2000 (USA)
+baaf237e71aa7526c9b2f01c08b68a53 pal|cic7105|flash128k|rpak|p4:85035a65|p5:a06de792|p28043:1f006315|p28047:1b008314|p2804a:1800c314|p2804d:15004004|p2804f:1300401c|p28056:0c006014|p2805c:03006014|p2805f:03004010 # Jet Force Gemini (Europe) (En,Fr,De,Es)
+ca28a3645fc7ad969ebd75c5d6506e7a ntsc|cic6105|flash128k|rpak|p4:9a005af5|p5:6f0b382b|p27f57:1f006315|p27f5b:1b008314|p27f5e:1800c314|p27f61:15004004|p27f63:1300401c|p27f6a:0c006014|p27f70:03006014|p27f73:03004010 # Jet Force Gemini [Star Twins] (Japan)
+772cc6eab2620d2d3cdc17bbc26c4f68 ntsc|cic6105|flash128k|rpak|p4:853f30b5|p5:2e13d8f9|p27fa7:1f006315|p27fab:1b008314|p27fae:1800c314|p27faf:021b0500|p27fb1:15004004|p27fb3:1300401c|p27fba:0c006014|p27fc0:03006014|p27fc3:03004010 # Jet Force Gemini (USA)
+8fad1e4fa7baf1443b7f21ad1947b429 pal|cic7101|eeprom512|cpak|p4:ec0400f2:t|p5:581e3409:t|p987:560220a9:t|pa1d:560240a9:t # Mario Kart 64 (Europe)
+2bb149a583fdefea96805f628fe42fd9 pal|cic7101|eeprom512|cpak|p4:e40500f2:t|p5:b028cc09:t|p987:760120a9:t|pa1d:760140a9:t # Mario Kart 64 (Europe) (Rev 1)
+bf964ceca78a13a82055ebda80b95cca ntsc|cic6102|eeprom512|cpak|p4:074e022e:t|p5:03efe32a:t|p987:06db20a9:t|pa1d:06db40a9:t # Mario Kart 64 (Japan)
+60535265bae43ddfcbdb0d71594b1693 ntsc|cic6102|eeprom512|cpak|p4:edb101fe:t|p5:138a788d:t|p987:eec820a9:t|pa1d:eec840a9:t # Mario Kart 64 (Japan) (Rev 1)
+3a67d9986f54eb282924fca4cd5f6dff ntsc|cic6102|eeprom512|cpak|p4:f91dc302:t|p5:fccb41ad:t|p98e:17800018:t|p98f:160120a9:t|pa24:17800018:t|pa25:160140a9:t # Mario Kart 64 (USA)
+d31a94a5685a21a932cc886d64cc9b21 pal|cic7101|rpak|p4:15794fc5|p5:8070926b|p64ce:c8ff0000|p64d5:1280043c|p64d6:08d4848c|p64d7:1980053c|p64d8:577f1abb|p64d9:1100309b|p64da:3200b5ab|p64db:0600b6ab|p64dc:2000172f|p64dd:2700b49f|p64de:2800b58f|p64df:2c00122f|p64e0:3000b78f|p64e1:b3ffe013|p64e2:5000bd27|p5ec31:3f000000 # Knife Edge - Nose Gunner (Europe)
+436ba873e9466aab237d9429348a5f70 ntsc|cic6102|rpak|p4:517e56c5|p5:206476e7|p6472:c8ff0000|p6479:1280043c|p647a:88d2848c|p647b:1980053c|p647c:f77d1abb|p647d:1100309b|p647e:3200b5ab|p647f:0600b6ab|p6480:2000172f|p6481:2700b49f|p6482:2800b58f|p6483:2c00122f|p6484:3000b78f|p6485:b3ffe013|p6486:5000bd27|p60185:2f000000 # Knife Edge - Nose Gunner (Japan)
+8043d829fcd4f8f72dd81e5c6dde916f ntsc|cic6102|rpak|p4:1c1d3645|p5:8a33a7a9|p648a:c8ff0000|p6491:1280043c|p6492:98d2848c|p6493:1980053c|p6494:3b7b1abb|p6495:1100309b|p6496:3200b5ab|p6497:0600b6ab|p6498:2000172f|p6499:2700b49f|p649a:2800b58f|p649b:2c00122f|p649c:3000b78f|p649d:b3ffe013|p649e:5000bd27|p5e8e0:1f000000 # Knife Edge - Nose Gunner (USA)
+b04957d052ef850c5edece69db7377b3 ntsc|cic6102|p4:984ea9fc|p5:f9d548ec|p7de9:9e38e013|p7ded:9a38e013|pb680:01008430|pb681:06008010|pb684:ff7f0e24|pb685:ffffce21|pb686:feffc015|pb688:0800e003 # Nintama Rantarou 64 Game Gallery (Japan)
+bbdc4c4f1c474298189312008a1768c4 ntsc|cic6102|cpak|rpak|p4:04f091fe|p5:3614d9de|pfe74:01008430|pfe75:06008010|pfe78:ff070224|pfe79:ffff4220|pfe7a:feff4014|pfe7c:0800e003|p10686:e5f7e013 # Polaris SnoCross (USA)
+b04f298721223a22e1150cebc712ee6a pal|cic7101|sram32k|rpak|p4:fbfb57a3|p5:1c71c65a|p277c:00100320|p277d:ffff6320|p277e:feff6014|p2780:0800e003|p399e:d5ede013 # Resident Evil 2 (Europe) (En,Fr)
+f77d70959222276491222f31ebff3bf1 ntsc|cic6102|sram32k|rpak|p4:baff5b7f|p5:967cdce6|p27a0:00100320|p27a1:ffff6320|p27a2:feff6014|p27a4:0800e003|p39c2:d5ede013 # Resident Evil 2 [Biohazard 2] (Japan)
+dd21150cbc21c05420304599ec57411c ntsc|cic6102|sram32k|rpak|p4:faff79ab|p5:cb4f8da7|p2784:00100320|p2785:ffff6320|p2786:feff6014|p2788:0800e003|p39a6:d5ede013 # Resident Evil 2 (USA)
+1add2c0217662b307cdfd876b35fbf7a ntsc|cic6102|sram32k|rpak|p4:82ffd961|p5:713a8c42|p2784:00100320|p2785:ffff6320|p2786:feff6014|p2788:0800e003|p39a6:d5ede013 # Resident Evil 2 (USA) (Rev 1)
+229089089661f517c863242d6bb77746 pal|cic7101|cpak|p4:f00fda66|p5:66611777|p146ec:00200324|p146ed:ffff6320|p146ee:feff6014|p146f0:0800e003|p14abe:21fce013|p14cbe:21fae013 # Rugrats in Paris - The Movie (Europe)
+207efe58c7c221dbdfff285ab80126c1 ntsc|cic6102|cpak|p4:c9dd9d84|p5:d9c1a7b4|p146b8:00200324|p146b9:ffff6320|p146ba:feff6014|p146bc:0800e003|p14a8e:2dfce013|p14c8e:2dfae013 # Rugrats in Paris - The Movie (USA)
+
 ; Cart-IDs
 ID:BPY___ eeprom512 # Pyoro 64
 ID:CDZ___ sram96k|rpak # Dezaemon 3D
@@ -882,7 +907,7 @@ ID:NAB___ eeprom512|rpak|cpak # Air Boarder 64
 ID:NAC___ cpak|rpak # Army Men - Air Combat
 ID:NAD___ eeprom512 # Worms Armageddon
 ID:NAF___ flash128k|cpak|rtc # Doubutsu no Mori [Animal Forest]
-ID:NAG___ eeprom512|cpak # AeroGauge
+ID:NAG___ eeprom512 # AeroGauge
 ID:NAH___ cpak|rpak # Asteroids Hyper 64
 ID:NAI___ cpak # Midway's Greatest Arcade Hits Volume 1
 ID:NAL___ sram32k|rpak # Super Smash Bros. [Nintendo All-Star! Dairantou Smash Brothers]
@@ -950,14 +975,14 @@ ID:NDA___ flash128k|cpak # Derby Stallion 64
 ID:NDC___ cpak|rpak # SD Hiryuu no Ken Densetsu
 ID:NDE___ cpak|rpak # Destruction Derby 64
 ID:NDF___ rpak # Dance Dance Revolution - Disney Dancing Museum
-ID:NDH___ cpak # Duel Heroes
+ID:NDH___ cpak # Dual Heroes
 ID:NDKJ__ eeprom512 # Space Dynamites
 ID:NDK___ # Dark Rift [Space Dynamites]
 ID:NDM___ cpak # Doom 64
 ID:NDN___ cpak|rpak # Duke Nukem 64
 ID:NDO___ eeprom2k|rpak # Donkey Kong 64
 ID:NDP___ flash128k|rpak # Dinosaur Planet
-ID:NDQ___ eeprom512|cpak # Disney's Donald Duck - Goin' Quackers [Quack Attack]
+ID:NDQ___ cpak # Disney's Donald Duck - Goin' Quackers [Quack Attack]
 ID:NDR___ eeprom512 # Doraemon: Nobita to 3tsu no Seireiseki
 ID:NDS___ cpak # J.League Dynamite Soccer 64
 ID:NDT___ cpak|rpak # South Park
@@ -1029,7 +1054,7 @@ ID:NHT___ cpak|rpak # Hydro Thunder
 ID:NHV___ cpak|rpak # Hybrid Heaven
 ID:NHW___ cpak|rpak # Hot Wheels Turbo Racing
 ID:NHX___ cpak # Hexen
-ID:NHY___ sram32k|rpak|cpak # Hybrid Heaven
+ID:NHY___ cpak|rpak # Hybrid Heaven
 ID:NIB___ sram32k|rpak # Itoi Shigesato no Bass Tsuri No. 1 Kettei Ban!
 ID:NIC___ eeprom512|rpak # Indy Racing 2000
 ID:NIJ___ eeprom512|rpak # Indiana Jones and the Infernal Machine
@@ -1067,7 +1092,7 @@ ID:_LB___ eeprom512|rpak # Mario Party
 ID:NLC___ cpak|rpak # Automobili Lamborghini [Super Speed Race 64]
 ID:NLG___ cpak|rpak # LEGO Racers
 ID:NLL___ eeprom512|rpak # Last Legion UX
-ID:NLR___ eeprom512|rpak # Lode Runner 3-D
+ID:NLR___ eeprom512|rpak # Lode Runner 3D
 ID:NM3___ rpak # Monster Truck Madness 64
 ID:NM4___ cpak|rpak # Mortal Kombat 4
 ID:NM6___ flash128k|rpak # Mega Man 64
@@ -1079,7 +1104,7 @@ ID:NMD___ cpak|rpak # Madden Football 2000
 ID:NME___ # Mace - The Dark Age
 ID:NMF___ sram32k|rpak|tpak # Mario Golf 64
 ID:NMGD__ cpak|rpak # Racing Simulation 2
-ID:NMG___ eeprom512|rpak|cpak # Monaco Grand Prix [Racing Simulation 2]
+ID:NMG___ cpak|rpak # Monaco Grand Prix [Racing Simulation 2]
 ID:NMH___ # Mahjong Hourouki Classic
 ID:NMI___ eeprom512|rpak # Mission: Impossible
 ID:NMJ___ cpak # Mahjong 64
@@ -1175,7 +1200,7 @@ ID:NRV___ cpak|rpak # Re-Volt
 ID:NRW___ cpak|rpak # Turok: Rage Wars
 ID:NRX___ cpak # Robotron 64
 ID:NRZ___ eeprom2k|rpak # Ridge Racer 64
-ID:NS2___ cpak # Simcity 2000
+ID:NS2___ cpak # Sim City 2000
 ID:NS3___ eeprom512|cpak # AI Shougi 3
 ID:NS4___ sram32k|cpak|tpak # Super Robot Taisen 64
 ID:NS6___ eeprom512|rpak # Star Soldier: Vanishing Earth
@@ -1206,7 +1231,7 @@ ID:NSY___ cpak # Scooby-Doo! - Classic Creep Capers
 ID:NSZ___ cpak|rpak # NFL Blitz - Special Edition
 ID:NT2___ cpak|rpak # Turok 2 - Seeds of Evil [Violence Killer - Turok New Generation]
 ID:NT3___ sram32k|cpak # Shin Nihon Pro Wrestling - Toukon Road 2 - The Next Generation
-ID:NT4___ cpak|rpak # CyberTiger
+ID:NT4___ cpak|rpak # CyberTiger 2000
 ID:NT6___ eeprom512 # Tetris 64
 ID:NT9___ flash128k # Tigger's Honey Hunt
 ID:NTA___ cpak|rpak # Disney's Tarzan
@@ -1220,7 +1245,7 @@ ID:NTI___ cpak|rpak # WWF: Attitude
 ID:NTJ___ eeprom512|rpak # Tom & Jerry in Fists of Fury
 ID:NTK___ cpak|rpak # Turok 3 - Shadow of Oblivion
 ID:NTM___ eeprom512 # Mischief Makers [Yuke Yuke!! Trouble Makers]
-ID:NTN___ eeprom512 # All Star Tennis '99
+ID:NTN___ eeprom512 # All-Star Tennis '99
 ID:NTO___ cpak # Shin Nihon Pro Wrestling - Toukon Road - Brave Spirits
 ID:NTP___ eeprom512 # Tetrisphere
 ID:NTQ___ cpak|rpak # Tony Hawk's Pro Skater 2
@@ -1262,7 +1287,7 @@ ID:NWM___ cpak|rpak # WCW: Mayhem
 ID:NWN___ cpak|rpak # WCW vs. nWo - World Tour
 ID:NWO___ cpak|rpak # World Driver Championship
 ID:NWP___ cpak|rpak # Wipeout 64
-ID:NWQ___ eeprom512|rpak|cpak # Rally Challenge 2000
+ID:NWQ___ cpak|rpak # Rally Challenge 2000
 ID:NWR_02 eeprom512|rpak|cpak # Wave Race 64 Shindou Edition
 ID:NWR___ eeprom512|cpak # Wave Race 64
 ID:NWS___ cpak # International Superstar Soccer '98 [Jikkyo World Soccer - World Cup France '98]
@@ -1284,8 +1309,8 @@ ID:NY2___ cpak # Rayman 2 - The Great Escape
 ID:NYK___ eeprom512|rpak # Yakouchuu II: Satsujin Kouro
 ID:NYP___ cpak|rpak # Paperboy
 ID:NYS___ eeprom2k|rpak # Yoshi's Story
-ID:NYWJ__ cpak # Bokujou Monogatari 2
-ID:NYW___ sram32k|cpak # Harvest Moon 64 [Bokujou Monogatari 2]
+ID:NYWJ__ sram32k|cpak # Bokujou Monogatari 2 [Harvest Moon 64]
+ID:NYW___ sram32k # Harvest Moon 64
 ID:_ZL___ sram32k|rpak # Legend of Zelda: Ocarina of Time [Zelda no Densetsu - Toki no Ocarina]
 ID:NZO___ cpak|rpak # Battlezone - Rise of the Black Dogs
 ID:NZS___ flash128k|rpak # Legend of Zelda: Majora's Mask [Zelda no Densetsu - Mujura no Kamen]

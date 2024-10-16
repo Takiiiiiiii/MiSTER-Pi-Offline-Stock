@@ -7,9 +7,8 @@
 	<alternative></alternative>
 	<platform></platform>
 	<series>Pac-Man</series>
-	<year>1980</year>
-	<manufacturer>Namco</manufacturer>
-	<manufacturer>Midway</manufacturer>
+	<year>1982</year>
+	<manufacturer>Namco (Midway license)</manufacturer>
 	<category>Maze</category>
 
 	<setname>pacplus</setname>
@@ -36,26 +35,27 @@
 		<dip bits="22" ids="Hard,Normal" name="Difficulty"></dip>
 		</switches>
 
-	<rom index="1"></rom>
-	<rom index="0" md5="6a625a1db73a3f4158e1e3f6356ec9aa" zip="/hbmame/puckman.zip">
-		<part crc="c1e6ab10" name="baby2/pacman.6e"></part>
-		<part crc="1a6fb2d4" name="baby2/pacman.6f"></part>
-		<part crc="bcdd1beb" name="baby2/pacman.6h"></part>
-		<part crc="817d94e3" name="chtpac/pacman.6j"></part>
-		<part crc="c1e6ab10" name="baby2/pacman.6e"></part>
-		<part crc="1a6fb2d4" name="baby2/pacman.6f"></part>
-		<part crc="bcdd1beb" name="baby2/pacman.6h"></part>
-		<part crc="817d94e3" name="chtpac/pacman.6j"></part>
-		<part crc="f2561d07" name="pacfnt/pacfnt.5e"></part>
-		<part crc="958fedf9" name="chtpac/pacman.5f"></part>
-		<part crc="958fedf9" name="chtpac/pacman.5f"></part>
-		<part crc="958fedf9" name="chtpac/pacman.5f"></part>
-		<part crc="a9cc86bf" name="82s126.1m"></part>
-		<part crc="3eb3a8e4" name="82s126.4a"></part>
-		<part crc="77245b66" name="82s126.3m"></part>
-		<part crc="2fc650bd" name="82s123.7f"></part>
-		</rom>
-	<rom index="2"></rom>
+	<rom index="1">
+		<part>01</part>
+	</rom>
+	<rom index="0" zip="pacplus.zip" md5="52bf3257fe2f8ef6f3366565ac2d1740">
+		<part crc="d611ef68" name="pacplus.6e"/>
+		<part crc="c7207556" name="pacplus.6f"/>
+		<part crc="ae379430" name="pacplus.6h"/>
+		<part crc="5a6dff7b" name="pacplus.6j"/>
+		<part crc="d611ef68" name="pacplus.6e"/>
+		<part crc="c7207556" name="pacplus.6f"/>
+		<part crc="ae379430" name="pacplus.6h"/>
+		<part crc="5a6dff7b" name="pacplus.6j"/>
+		<part crc="022c35da" name="pacplus.5e"/>
+		<part crc="4de65cdd" name="pacplus.5f"/>
+		<part crc="022c35da" name="pacplus.5e"/>
+		<part crc="4de65cdd" name="pacplus.5f"/>
+		<part crc="a9cc86bf" name="82s126.1m"/>
+		<part crc="e271a166" name="pacplus.4a"/>
+		<part crc="77245b66" name="82s126.3m"/>
+		<part crc="063dd53a" name="pacplus.7f"/>
+	</rom>
 	<rom index="3" md5="none">
 		<part>
 		00 00 00 00 00 FF 00 02 00 02 00 01 00 FF 02 00
@@ -65,7 +65,6 @@
 		</part>
 	</rom>
 	<rom index="4"></rom>
-
 	<nvram index="4" size="11"/>
 
 	<remark></remark>

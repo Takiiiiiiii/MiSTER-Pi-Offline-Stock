@@ -6,12 +6,12 @@
     <year>1987</year>
     <manufacturer>Jaleco</manufacturer>
     <category>Action / Maze Vertical</category>
-    <rbf>Arcade-Psychic5</rbf>
+    <rbf>Psychic5</rbf>
     <about author="Raki" twitter="@RCAVictorCo"></about>
     <resolution>15.63kHz</resolution>
-    <rotation>Vertical(CCW)</rotation>
+    <rotation>vertical(ccw)</rotation>
     <players>1</players>
-    <joystick>4-way</joystick>
+    <joystick>8-way</joystick>
     <special_controls></special_controls>
     <num_buttons>2</num_buttons>
     

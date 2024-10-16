@@ -30,7 +30,6 @@ If you want additional functionality, you can use Update All to install addition
 
 ## Credits
 
-* [Sorg](https://www.patreon.com/FPGAMiSTer)
 * [Mr-Fusion](https://github.com/MiSTer-devel/mr-fusion)
 * [MiSTer_Favorites](https://github.com/wizzomafizzo/MiSTer_Favorites)
 * [MiSTer Super Attract Mode](https://github.com/mrchrisster/MiSTer_SAM)

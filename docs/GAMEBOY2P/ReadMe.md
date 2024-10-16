@@ -22,9 +22,16 @@ Saves created contain savegames for both players.
 
 For compatibility, all saves are 256Kbyte in size, 128 KByte for each player.
 
-Saves can be copied from singleplayer, but only player 1 will have a savegame then.
+Saves can be copied from singleplayer, but only player 1 will have a savegame then. "Dupe Save to GB 2" option can be used to load singleplayer savegames for both players.
 
 Saves can be copied to singleplayer, but when saved in singleplayer, the second player savegame is lost.
+
+# Loading different games
+The option "Rom for second GB" can be used to load two different games. First load the game for Player 1 with the option off, then activate the option and load another game for player 2. Both GBs will reset on loading the second game.
+
+Loading the game for player 2 with both "Rom for second GB" and "Dupe Save to GB 2" options enabled can be used to load a singleplayer save for player 2 only.
+
+Saving when playing two different roms will create a combined savegame with the gamename of the second loaded game, which can be loaded again with the same load order next time.
 
 # Video Output
 Output resolution is 320x144 pixel, which both screen placed next to each other horizontally.

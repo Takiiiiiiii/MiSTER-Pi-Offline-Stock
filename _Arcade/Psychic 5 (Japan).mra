@@ -6,12 +6,12 @@
     <year>1987</year>
     <manufacturer>Jaleco</manufacturer>
     <category>Action / Maze Vertical</category>
-    <rbf>Arcade-Psychic5</rbf>
+    <rbf>Psychic5</rbf>
     <about author="Raki" twitter="@RCAVictorCo"></about>
     <resolution>15.63kHz</resolution>
-    <rotation>Vertical(CCW)</rotation>
+    <rotation>vertical(ccw)</rotation>
     <players>1</players>
-    <joystick>4-way</joystick>
+    <joystick>8-way</joystick>
     <special_controls></special_controls>
     <num_buttons>2</num_buttons>
     
@@ -29,21 +29,21 @@
 
     <rom index='0' md5="None" type='nonmerged' zip='psychic5j.zip|psychic5.zip'>
         <!-- banked data    0x00000-0x0ffff -->
-        <part crc="72298f34" name="p5e"/>
+        <part crc="72298f34" name="5.7c"/>
         <!-- game program   0x10000-0x17fff -->
-        <part crc="90259249" name="p5d"/>
+        <part crc="90259249" name="4.7a"/>
         <!-- dummy data     0x18000-0x1ffff -->
         <part repeat="0x8000">00</part>
         <!-- sprites        0x20000-0x3ffff -->
-        <part crc="7e3f87d4" name="p5b"/>
-        <part crc="8710fedb" name="p5c"/>
+        <part crc="7e3f87d4" name="2.4p"/>
+        <part crc="8710fedb" name="3.4r"/>
         <!-- BG tiles       0x40000-0x5ffff -->
-        <part crc="f9262f32" name="p5g"/>
-        <part crc="c411171a" name="p5h"/>
+        <part crc="f9262f32" name="7.2k"/>
+        <part crc="c411171a" name="8.2m"/>
         <!-- FG tiles       0x60000-0x67fff -->
-        <part crc="04d7e21c" name="p5f"/>
+        <part crc="04d7e21c" name="6.5f"/>
         <!-- sound program  0x68000-0x6ffff -->
-        <part crc="50060ecd" name="p5a" offset="0x0" length="0x8000"/>
+        <part crc="6efee094" name="1.2b" offset="0x0" length="0x8000"/>
         <!-- PROMs          0x70000-0x705ff -->
         <part crc="59e44236" name="my09.3t"/>
         <part crc="6a7d13c0" name="my10.7l"/>

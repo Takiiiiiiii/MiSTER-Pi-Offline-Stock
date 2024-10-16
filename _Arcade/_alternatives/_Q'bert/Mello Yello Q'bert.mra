@@ -1,0 +1,68 @@
+<misterromdescription>
+	<name>Mello Yello Q*bert</name>
+	<region>USA</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Gottlieb</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>myqbert</setname>
+	<parent>qbert</parent>
+	<mameversion>0198</mameversion>
+	<rbf>qbert</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way diagonal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>0</num_buttons>
+	<buttons default="A,Start,Select,R" names="Service Select,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="01">
+		<dip bits="0" ids="On,Off" name="Demo Sounds"></dip>
+		<dip bits="1" ids="Off,On" name="Kicker"></dip>
+		<dip bits="2" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="3" ids="Off,On" name="Demo Mode"></dip>
+		<dip bits="4" ids="Off,On" name="Free Play"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0</part>
+		</rom>
+	<rom index="0" md5="none" zip="qbert.zip|myqbert.zip">
+		<part crc="7a9ba824" name="qb-bg0.bin"></part>
+		<part crc="22e5b891" name="qb-bg1.bin"></part>
+		<part crc="12a90cb2" name="mqb-rom0.bin"></part>
+		<part crc="11f0a4e4" name="mqb-rom1.bin"></part>
+		<part crc="6860f957" name="mqb-rom2.bin"></part>
+		<part repeat="16384">00</part>
+		<part crc="abc71bdd" name="mqb-fg0.bin"></part>
+		<part crc="abc71bdd" name="mqb-fg0.bin"></part>
+		<part crc="05343ae6" name="mqb-fg1.bin"></part>
+		<part crc="05343ae6" name="mqb-fg1.bin"></part>
+		<part crc="823f1e57" name="mqb-fg2.bin"></part>
+		<part crc="823f1e57" name="mqb-fg2.bin"></part>
+		<part crc="8b5d0852" name="mqb-fg3.bin"></part>
+		<part crc="8b5d0852" name="mqb-fg3.bin"></part>
+		<part crc="495ffcd2" name="mqb-snd1.bin"></part>
+		<part crc="9bbaa945" name="mqb-snd2.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>
